@@ -156,7 +156,7 @@ def train_model(language, language_code):
         evaluation_strategy="epoch",
         num_train_epochs=10,
         fp16=torch.cuda.is_available(),
-        save_strategy="steps",
+        save_strategy="epoch",
         save_steps=400,
         eval_steps=400,
         logging_steps=100,
@@ -165,7 +165,6 @@ def train_model(language, language_code):
         warmup_steps=500,
         logging_dir=BASE_DIR / "logs",
         load_best_model_at_end=True,
-        logging_steps=100,
         push_to_hub=False,
         report_to="none"
     )
@@ -180,7 +179,7 @@ def train_model(language, language_code):
         tokenizer=processor.feature_extractor,
     )
 
-    trainer.train()
+    trainer.train(resume_from_checkpoint=True if (BASE_DIR / f"model/{language_code}_wav2vec2/checkpoint").exists() else None)
 
 if __name__ == "__main__":
     parser = arparse.ArgumentParser(
