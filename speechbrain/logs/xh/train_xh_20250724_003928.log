@@ -1,0 +1,16 @@
+2025-07-24 00:39:28,324 - INFO - Starting training for xh...
+2025-07-24 00:39:28,341 - DEBUG - Registered checkpoint save hook for _save
+2025-07-24 00:39:28,341 - DEBUG - Registered checkpoint load hook for _recover
+2025-07-24 00:39:28,344 - INFO - Tokenizer is already trained.
+2025-07-24 00:39:28,345 - INFO - ==== Loading Tokenizer ===
+2025-07-24 00:39:28,345 - INFO - Tokenizer path: D:\Model-Finetuning\speechbrain\model\xhosa_speechbrain\1024_unigram.model
+2025-07-24 00:39:28,345 - INFO - Tokenizer vocab_size: 1024
+2025-07-24 00:39:28,345 - INFO - Tokenizer type: unigram
+2025-07-24 00:39:28,580 - INFO - Run option max_grad_norm from hparams is used
+2025-07-24 00:39:28,582 - INFO - Gradscaler enabled: `False`
+2025-07-24 00:39:28,583 - INFO - Using training precision: `--precision=fp32`
+2025-07-24 00:39:28,583 - INFO - Using evaluation precision: `--eval_precision=fp32`
+2025-07-24 00:39:28,584 - INFO - ASRBrain Model Statistics:
+* Total Number of Trainable Parameters: 45.2M
+* Total Number of Parameters: 45.2M
+* Trainable Parameters represent 100.0000% of the total size.

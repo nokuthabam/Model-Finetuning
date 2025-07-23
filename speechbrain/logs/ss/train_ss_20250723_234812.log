@@ -1,0 +1,18 @@
+2025-07-23 23:48:12,784 - INFO - Starting training for ss...
+2025-07-23 23:48:12,796 - DEBUG - Registered checkpoint save hook for _save
+2025-07-23 23:48:12,796 - DEBUG - Registered checkpoint load hook for _recover
+2025-07-23 23:48:12,800 - INFO - Tokenizer is already trained.
+2025-07-23 23:48:12,800 - INFO - ==== Loading Tokenizer ===
+2025-07-23 23:48:12,800 - INFO - Tokenizer path: D:\Model-Finetuning\speechbrain\model\siswati_speechbrain\1024_unigram.model
+2025-07-23 23:48:12,800 - INFO - Tokenizer vocab_size: 1024
+2025-07-23 23:48:12,800 - INFO - Tokenizer type: unigram
+2025-07-23 23:48:12,976 - INFO - Run option max_grad_norm from hparams is used
+2025-07-23 23:48:12,978 - INFO - Gradscaler enabled: `False`
+2025-07-23 23:48:12,979 - INFO - Using training precision: `--precision=fp32`
+2025-07-23 23:48:12,979 - INFO - Using evaluation precision: `--eval_precision=fp32`
+2025-07-23 23:48:12,980 - INFO - ASRBrain Model Statistics:
+* Total Number of Trainable Parameters: 45.2M
+* Total Number of Parameters: 45.2M
+* Trainable Parameters represent 100.0000% of the total size.
+2025-07-23 23:48:14,001 - INFO - Would load a checkpoint here, but none found yet.
+2025-07-23 23:48:14,002 - INFO - Going into epoch 1

@@ -5,33 +5,17 @@ log_file: !ref <output_folder>/logs/train_log.txt
 results_folder: !ref results/<lang_id>_transformer/
 train_csv: !ref <train_csv_file>
 valid_csv: !ref <valid_csv_file>
+wer_output_dir: !ref <results_folder>/wer.txt
 
 # Modules
 modules: None
-  # encoder: !new:speechbrain.lobes.models.transformer.TransformerASR.Encoder
-  #   input_size: 80
-  #   d_model: !ref <emb_size>
-  #   nhead: !ref <nhead>
-  #   num_layers: !ref <num_layers>
-  #   d_ffn: !ref <hidden_size>
-  #   dropout: !ref <dropout>
-  # decoder: !new:speechbrain.lobes.models.transformer.TransformerASR.Decoder
-  #   d_model: !ref <emb_size>
-  #   nhead: !ref <nhead>
-  #   num_layers: !ref <num_layers>
-  #   d_ffn: !ref <hidden_size>
-  #   dropout: !ref <dropout>
-  #   vocab_size: !ref <output_neurons>
-  # ctc_lin: !new:torch.nn.Linear
-  #   in_features: !ref <emb_size>
-  #   out_features: !ref <output_neurons>
 
 
 
 # Tokenizer & LM
 text_file: !ref manifests/<lang_id>_text.txt
 tokenizer_file: !ref <output_folder>/tokenizer.ckpt
-lm_model_path: null  # Optional: you can point to a trained LM if you have one
+lm_model_path: null  
 
 
 # Audio & Features
@@ -48,7 +32,7 @@ nhead: 8
 dropout: 0.1
 
 # Training
-number_of_epochs: 10
+number_of_epochs: 1
 batch_size: 8
 gradient_accumulation: 2
 lr: 1.0

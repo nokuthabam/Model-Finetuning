@@ -1,0 +1,7 @@
+2025-07-24 00:35:47,967 - INFO - Starting inference for siswati at 2025-07-24 00:35:47
+2025-07-24 00:35:47,967 - INFO - Loading model from D:\Model-Finetuning\wav2vec2\model\ssw_wav2vec2
+2025-07-24 00:35:51,588 - INFO - Model loaded successfully for ssw
+2025-07-24 00:35:51,590 - INFO - Running inference for siswati
+2025-07-24 00:35:51,603 - INFO - Loaded 4736 entries from D:\Model-Finetuning\wav2vec2\data\siswati_unseen.json
+2025-07-24 00:42:13,830 - INFO - Inference results saved to D:\Model-Finetuning\wav2vec2\error_analysis\siswati_inference_results.json
+2025-07-24 00:42:13,834 - INFO - Inference completed for siswati. Results saved to D:\Model-Finetuning\wav2vec2\error_analysis\ssw_inference_results.json.

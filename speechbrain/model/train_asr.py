@@ -131,6 +131,7 @@ def load_hparams(language_code):
         "valid_csv_file": str(MANIFEST_DIR / f"{lang_name}_test.csv"),
         "output_root": str(MODEL_SAVE_DIR / f"{lang_name}_speechbrain"),
         "text_file": str(MANIFEST_DIR / f"{lang_name}_text.txt"),
+        "wer_output_dir": str(RESULTS_DIR / f"{lang_name}_wer.txt"),
     }
     with open(yaml_file, 'r') as file:
         hparams = load_hyperpyyaml(file, overrides=overrides)
@@ -186,8 +187,12 @@ class ASRBrain(Brain):
         loss = self.modules.ctc_loss(preds, tokens, input_lens, token_lens)
 
         if stage != Stage.TRAIN:
-            predicted_words = self.hparams.tokenizer.decode_ids(torch.argmax(preds, dim=-1))
-            target_words = self.hparams.tokenizer.decode_ids(tokens)
+            pred_ids = torch.argmax(preds, dim=-1)
+            tokens = tokens.transpose(0, 1)  # [batch, time]
+
+            pred_lens = torch.full(size=(pred_ids.shape[0],), fill_value=pred_ids.shape[1], dtype=torch.int32)
+            predicted_words = [self.hparams.tokenizer(seq[:length].tolist(), task="decode_from_list") for seq, length in zip(pred_ids, pred_lens)]
+            target_words = [self.hparams.tokenizer(seq[:length].tolist(), task="decode_from_list") for seq, length in zip(tokens, token_lens)]
             self.error_stats.append(batch.id, predicted_words, target_words)
         return loss
     
@@ -198,16 +203,13 @@ class ASRBrain(Brain):
 
     def on_stage_end(self, stage, stage_loss, epoch=None):
         if stage != Stage.TRAIN:
-            wer = self.error_stats.compute_wer()
-            self.hparams.train_logger.log_stats(
-                stats_meta={"epoch": epoch},
-                train_stats={"loss": stage_loss},
-                valid_stats={"wer": wer}
-            )
-            with open(self.hparas["wer_output_dir"], "a") as f:
-                f.write(f"{stage.name} WER: {wer:.4f}\n")
+            stats = self.error_stats.summarize()
+            wer = stats["WER"] if "WER" in stats else None
+            print(f"{stage.name} - Epoch {epoch} - Loss: {stage_loss:.4f} - WER: {wer:.4f}" if wer is not None else f"{stage.name} - Epoch {epoch} - Loss: {stage_loss:.4f}")
 
-
+            if wer is not None:
+                with open(self.hparams.wer_output_dir, "a") as f:
+                    f.write(f"{stage.name} Epoch: {epoch} WER: {wer:.4f}, stage_loss: {stage_loss:.4f}\n")
 
 
 def train_model(language_code):
@@ -279,10 +281,19 @@ def train_model(language_code):
     "ctc_loss": torch.nn.CTCLoss(blank=tokenizer.sp.piece_to_id("<blank>"), zero_infinity=True),
     }
 
+    # Load the data
+    full_train_data = load_data_csv(hparams["train_csv_file"])
+    full_test_data = load_data_csv(hparams["valid_csv_file"])
 
-    hparams["train_data"] = load_data_csv(hparams["train_csv"])
-    hparams["test_data"] = load_data_csv(hparams["valid_csv"]
-    )
+    LIMIT_TRAIN = 2500
+    LIMIT_TEST = 500
+    # Limiting to speed up training for testing purposes
+    limited_train_data = {k: full_train_data[k] for k in list(full_train_data)[:LIMIT_TRAIN]}
+    limited_test_data = {k: full_test_data[k] for k in list(full_test_data)[:LIMIT_TEST]}
+
+    hparams["train_data"] = limited_train_data
+    hparams["test_data"] = limited_test_data
+
     # Convert the data to DynamicItemDataset
     train_dataset = DynamicItemDataset(hparams["train_data"], output_keys=["id", "wav", "tokens", "tokens_bos", "tokens_eos"])
     valid_dataset = DynamicItemDataset(hparams["test_data"], output_keys=["id", "wav", "tokens", "tokens_bos", "tokens_eos"])
@@ -299,7 +310,7 @@ def train_model(language_code):
     valid_dataset.set_output_keys(["id", "sig", "tokens", "tokens_bos", "tokens_eos"])
 
     # Store into hparams
-    hparams["train_data"] = train_dataset
+    hparams["train_data"] = train_dataset # Limit to 10
     hparams["test_data"] = valid_dataset
 
     hparams["train_loader"] = SaveableDataLoader(
@@ -312,7 +323,7 @@ def train_model(language_code):
         dataset=hparams["test_data"],
         batch_size=hparams["batch_size"],
     )
-
+    # Initialize the ASR brain
     asr_brain = ASRBrain(
         modules=hparams["modules"],
         opt_class=hparams["opt_class"],
@@ -323,14 +334,32 @@ def train_model(language_code):
         )
     )
 
+
+    asr_brain.on_stage_start(Stage.TRAIN)
+
+    # Add recoverable modules to the checkpointer
+    asr_brain.checkpointer.add_recoverable("encoder", asr_brain.modules.encoder)
+    asr_brain.checkpointer.add_recoverable("decoder", asr_brain.modules.decoder)
+    asr_brain.checkpointer.add_recoverable("ctc_lin", asr_brain.modules.ctc_lin)
+    asr_brain.checkpointer.add_recoverable("embedding", asr_brain.modules.embedding)
+    
+    # Initialize the optimizer
+    optimizer = hparams["opt_class"](asr_brain.modules.parameters())
+    asr_brain.optimizer = optimizer
+    asr_brain.checkpointer.add_recoverable("optimizer", optimizer)
+
+    # Run the training
     asr_brain.tokenizer = tokenizer
     asr_brain.fit(
         asr_brain.hparams.epoch_counter,
         hparams["train_data"],
-        hparams["test_data"]
+        hparams["test_data"],
+        
     )
 
-    logger.info(f"Training completed for {language_code}. Model saved to {hparams['output_dir']}")
+    # Save the final model
+    asr_brain.checkpointer.save_checkpoint()
+    logger.info(f"Training completed for {language_code}. Model saved to {hparams['output_root']}")
 
 
 if __name__ == "__main__":

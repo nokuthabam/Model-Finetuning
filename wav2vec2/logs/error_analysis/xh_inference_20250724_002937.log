@@ -1,0 +1,7 @@
+2025-07-24 00:29:37,943 - INFO - Starting inference for xhosa at 2025-07-24 00:29:37
+2025-07-24 00:29:37,943 - INFO - Loading model from D:\Model-Finetuning\wav2vec2\model\xh_wav2vec2
+2025-07-24 00:29:41,570 - INFO - Model loaded successfully for xh
+2025-07-24 00:29:41,570 - INFO - Running inference for xhosa
+2025-07-24 00:29:41,582 - INFO - Loaded 5140 entries from D:\Model-Finetuning\wav2vec2\data\xhosa_unseen.json
+2025-07-24 00:35:43,416 - INFO - Inference results saved to D:\Model-Finetuning\wav2vec2\error_analysis\xhosa_inference_results.json
+2025-07-24 00:35:43,418 - INFO - Inference completed for xhosa. Results saved to D:\Model-Finetuning\wav2vec2\error_analysis\xh_inference_results.json.

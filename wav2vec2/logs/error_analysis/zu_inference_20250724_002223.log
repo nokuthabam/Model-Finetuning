@@ -1,0 +1,7 @@
+2025-07-24 00:22:23,586 - INFO - Starting inference for zulu at 2025-07-24 00:22:23
+2025-07-24 00:22:23,586 - INFO - Loading model from D:\Model-Finetuning\wav2vec2\model\zu_wav2vec2
+2025-07-24 00:22:25,097 - INFO - Model loaded successfully for zu
+2025-07-24 00:22:25,097 - INFO - Running inference for zulu
+2025-07-24 00:22:25,108 - INFO - Loaded 4683 entries from D:\Model-Finetuning\wav2vec2\data\zulu_unseen.json
+2025-07-24 00:29:32,479 - INFO - Inference results saved to D:\Model-Finetuning\wav2vec2\error_analysis\zulu_inference_results.json
+2025-07-24 00:29:32,484 - INFO - Inference completed for zulu. Results saved to D:\Model-Finetuning\wav2vec2\error_analysis\zu_inference_results.json.

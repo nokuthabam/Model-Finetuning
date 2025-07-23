@@ -131,12 +131,13 @@ def speech_file_to_array_fn(batch):
     """
     Load audio files and convert them to arrays.
     """
-    waveform, sample_rate = torchaudio.load(batch["audio_path"])
+    waveform, sample_rate = torchaudio.load(batch["audio_path"]) # Load audio file 
     if sample_rate != 16000:
-        waveform = torchaudio.transforms.Resample(orig_freq=sample_rate, new_freq=16000)(waveform)
+        waveform = torchaudio.transforms.Resample(orig_freq=sample_rate, new_freq=16000)(waveform) # Convert to 16kHz
         sample_rate = 16000
-    batch["speech"] = waveform.squeeze().numpy()
-    batch["sampling_rate"] = sample_rate
+    batch["speech"] = waveform.squeeze().numpy() # Convert to 1D array
+    # Ensure the audio is mono
+    batch["sampling_rate"] = sample_rate 
     return batch
 
 
