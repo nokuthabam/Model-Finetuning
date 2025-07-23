@@ -1,3 +1,13 @@
 # ignore data folders
 audio/
 clips/
+# ignore model files
+nbl_wav2vec2/
+nr_whisper/
+xh_wav2vec2/
+xh_whisper/
+zu_wav2vec2/
+zu_whisper/
+ssw_wav2vec2/
+ss_whisper/
+

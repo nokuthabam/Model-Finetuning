@@ -12,12 +12,34 @@ from transformers import (
 )
 import evaluate
 import argparse as arparse
+import logging
+from datetime import datetime
+
+
+
 
 MODEL_NAME = "jonatasgrosman/wav2vec2-large-xlsr-53-english"
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
 
 processor = None 
+
+def setup_logging(language_code):
+    """
+    Set up logging configuration.
+    """
+    log_dir = BASE_DIR / "logs"
+    log_dir.mkdir(parents=True, exist_ok=True)
+    log_file = log_dir / f"train_{language_code}_{datetime.now().strftime('%Y%m%d_%H%M%S')}_wav2vec2.log"
+    logging.basicConfig(
+        level =logging.INFO,
+        format="%(asctime)s - %(levelname)s - %(message)s",
+        handlers=[
+            logging.FileHandler(log_file),
+            logging.StreamHandler()
+        ]
+    )
+    return logging.getLogger(__name__)
 
 
 class DataCollatorCTCWithPadding:
@@ -61,7 +83,7 @@ def load_jsonl_dataset(train_file, test_file):
     return DatasetDict({"train": train_dataset, "test": test_dataset})
 
 
-def load_and_merge(language_code):
+def load_and_merge(logger, language_code):
     if language_code == "zu":
         language = "zulu"
     elif language_code == "xh":
@@ -70,6 +92,9 @@ def load_and_merge(language_code):
         language = "siswati"
     elif language_code == "nbl":
         language = "ndebele"
+    else:
+        logger.error(f"Unsupported language code: {language_code}")
+        raise ValueError(f"Unsupported language code: {language_code}")
     # Lwazi
     lwazi_train = DATA_DIR / f"{language}_train.json"
     lwazi_test = DATA_DIR / f"{language}_test.json"
@@ -79,13 +104,15 @@ def load_and_merge(language_code):
     has_cv = cv_train.exists()
 
     print(f"Loading datasets for {language}...")
+    logger.info(f"Loading datasets for {language_code}...")
     lwazi_ds = load_jsonl_dataset(str(lwazi_train), str(lwazi_test))
 
     if has_cv:
         cv_ds = load_dataset("json", data_files={"train": str(cv_train)})
+        logger.info(f"Loaded Common Voice dataset for {language_code}.")
         print(f"Loaded Common Voice dataset for {language_code}.")
 
-        #Ensure age is a string and remove non-numeric characters
+        # Ensure age is a string and remove non-numeric characters
         cv_ds["train"] = cv_ds["train"].cast_column(
             "age", Value("string")
         )
@@ -95,6 +122,7 @@ def load_and_merge(language_code):
         merged_train_ds = concatenate_datasets([lwazi_ds["train"], cv_ds["train"]])
         return DatasetDict({"train": merged_train_ds, "test": lwazi_ds["test"]})
     else:
+        logger.info(f"No Common Voice dataset found for {language_code}. Using Lwazi only.")
         print(f"No Common Voice dataset found for {language_code}. Using Lwazi only.")
         return lwazi_ds
 
@@ -126,39 +154,45 @@ def compute_metrics(pred):
     """
     Compute the accuracy of the model predictions.
     """
-    pred_ids = torch.argmax(pred.predictions, dim=-1)
+    pred_ids = torch.from_numpy(pred.predictions).argmax(axis=-1)
+    label_ids = torch.from_numpy(pred.label_ids)
     pred_str = processor.batch_decode(pred_ids)
     label_str = processor.batch_decode(pred.label_ids, group_tokens=False)
     wer_metric = evaluate.load("wer")
+    # logger.info(f"Computed WER: {wer_metric.compute(predictions=pred_str, references=label_str)}")
     return {"wer": wer_metric.compute(predictions=pred_str, references=label_str)}
 
 
-def train_model(language, language_code):
+def train_model(language, language_code, logger):
     """
     Train the Wav2Vec2 model for the specified language.
     """
     global processor
     processor = Wav2Vec2Processor.from_pretrained(BASE_DIR/ "model/processor")
 
-    dataset = load_and_merge(language_code)
+    dataset = load_and_merge(logger, language_code)
     dataset = dataset.map(speech_file_to_array_fn)
     dataset = dataset.map(prepare_dataset)
+    dataset["train"] = dataset["train"].select(range(1000))  # Limit to 1000 samples for quick training
+    dataset["test"] = dataset["test"].select(range(100))  # Limit to 100 samples for quick evaluation
 
     model = Wav2Vec2ForCTC.from_pretrained(MODEL_NAME,
                                            vocab_size =len(processor.tokenizer),
                                            ignore_mismatched_sizes=True
                                            )
-
+    output_dir = BASE_DIR / f"model/{language_code}_wav2vec2"
+    output_dir.mkdir(parents=True, exist_ok=True)
     training_args = TrainingArguments(
-        output_dir=BASE_DIR / f"model/{language_code}_wav2vec2",
+        output_dir=output_dir,
         group_by_length=True,
-        per_device_train_batch_size=8,
+        per_device_train_batch_size=2,
         evaluation_strategy="epoch",
-        num_train_epochs=10,
-        fp16=torch.cuda.is_available(),
+        num_train_epochs=1,
+        fp16=False,
+        use_cpu=True,  # 
         save_strategy="epoch",
-        save_steps=400,
-        eval_steps=400,
+        save_steps=100,
+        eval_steps=100,
         logging_steps=100,
         learning_rate=1e-4,
         save_total_limit=2,
@@ -179,7 +213,34 @@ def train_model(language, language_code):
         tokenizer=processor.feature_extractor,
     )
 
-    trainer.train(resume_from_checkpoint=True if (BASE_DIR / f"model/{language_code}_wav2vec2/checkpoint").exists() else None)
+    checkpoints = [check for check in output_dir.glob("checkpoint-*") if check.is_dir()]
+    latest_checkpoint = None
+    if checkpoints:
+        latest_checkpoint = str(sorted(checkpoints, key=lambda x: int(x.name.split("-")[1]))[-1])
+        logger.info(f"Resuming from checkpoint: {latest_checkpoint}")
+
+    trainer.train(resume_from_checkpoint=latest_checkpoint)
+
+    logger.info("Training completed.")
+
+    # === Save the model and processor ===
+    logger.info("Saving model and processor...")
+    model.save_pretrained(output_dir)
+    processor.save_pretrained(output_dir)
+    logger.info(f"Model and processor saved to {output_dir}")
+
+
+    # === Evaluate the model ===
+    logger.info("Evaluating the model...")
+    metrics = trainer.evaluate()
+    logger.info(f"Evaluation results: {metrics}")
+    # Compute WER
+    metrics_path = BASE_DIR / f"results/{language_code}_wav2vec2/metrics.json"
+    metrics_path.parent.mkdir(parents=True, exist_ok=True)
+    with open(metrics_path, "w") as f:
+        json.dump(metrics, f, indent=4)
+    logger.info(f"Metrics saved to {metrics_path}")
+
 
 if __name__ == "__main__":
     parser = arparse.ArgumentParser(
@@ -187,5 +248,7 @@ if __name__ == "__main__":
     parser.add_argument("--language", type=str, required=True, 
                         help="Language to train the model on  (e.g., 'zu', 'xh', 'ssw', 'nbl')")
     args = parser.parse_args()
-    train_model(args.language, args.language)
-    print(f"Training completed for {args.language} language.")
+    logger = setup_logging(args.language)
+    logger.info(f"Starting training for {args.language} language.")
+    train_model(args.language, args.language, logger)
+    logger.info(f"Training completed for {args.language} language.")

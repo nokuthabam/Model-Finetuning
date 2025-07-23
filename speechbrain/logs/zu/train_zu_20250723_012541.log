@@ -1,0 +1,8 @@
+2025-07-23 01:25:41,811 - INFO - Starting training for zu...
+2025-07-23 01:25:41,824 - DEBUG - Registered checkpoint save hook for _save
+2025-07-23 01:25:41,825 - DEBUG - Registered checkpoint load hook for _recover
+2025-07-23 01:25:41,826 - INFO - Tokenizer is already trained.
+2025-07-23 01:25:41,826 - INFO - ==== Loading Tokenizer ===
+2025-07-23 01:25:41,826 - INFO - Tokenizer path: D:\Model-Finetuning\speechbrain\model\zulu_speechbrain\1024_unigram.model
+2025-07-23 01:25:41,827 - INFO - Tokenizer vocab_size: 1024
+2025-07-23 01:25:41,827 - INFO - Tokenizer type: unigram

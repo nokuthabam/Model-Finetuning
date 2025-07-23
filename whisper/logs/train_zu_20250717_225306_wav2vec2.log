@@ -1,0 +1,9 @@
+2025-07-17 22:53:06,914 - INFO - Starting training for language: zu
+2025-07-17 22:53:06,914 - INFO - Loading processor and model for zu...
+2025-07-17 22:53:09,408 - INFO - Loading dataset...
+2025-07-17 22:53:09,415 - INFO - Loading dataset for zulu from D:\Model-Finetuning\whisper\data\zulu_train.json and D:\Model-Finetuning\whisper\data\zulu_test.json
+2025-07-17 22:53:11,038 - INFO - Casting audio column and preparing dataset...
+2025-07-17 22:54:16,796 - INFO - Dataset loaded and prepared.
+2025-07-17 22:54:16,797 - INFO - Output directory set to D:\Model-Finetuning\whisper\whisper_model\zu
+2025-07-17 22:54:16,813 - INFO - Sanity check: printing one training batch
+2025-07-17 22:54:16,975 - ERROR - An error occurred during training: 'NoneType' object has no attribute 'tokenizer'

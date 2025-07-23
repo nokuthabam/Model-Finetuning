@@ -1,0 +1,4 @@
+2025-07-17 22:06:11,196 - INFO - Starting training for language: zu
+2025-07-17 22:06:11,196 - INFO - Loading processor and model for zu...
+2025-07-17 22:06:11,498 - ERROR - An error occurred during training: turbo is not a local folder and is not a valid model identifier listed on 'https://huggingface.co/models'
+If this is a private repository, make sure to pass a token having permission to this repo either by logging in with `huggingface-cli login` or by passing `token=<your_token>`

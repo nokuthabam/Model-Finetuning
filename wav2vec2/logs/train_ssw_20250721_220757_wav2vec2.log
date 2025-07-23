@@ -1,0 +1,11 @@
+2025-07-21 22:07:57,337 - INFO - Starting training for ssw language.
+2025-07-21 22:07:57,349 - INFO - Loading datasets for ssw...
+2025-07-21 22:07:58,972 - INFO - No Common Voice dataset found for ssw. Using Lwazi only.
+2025-07-21 22:12:50,073 - INFO - Resuming from checkpoint: D:\Model-Finetuning\wav2vec2\model\ssw_wav2vec2\checkpoint-500
+2025-07-21 22:14:03,132 - INFO - Training completed.
+2025-07-21 22:14:03,132 - INFO - Saving model and processor...
+2025-07-21 22:14:07,063 - INFO - Model and processor saved to D:\Model-Finetuning\wav2vec2\model\ssw_wav2vec2
+2025-07-21 22:14:07,063 - INFO - Evaluating the model...
+2025-07-21 22:16:44,712 - INFO - Evaluation results: {'eval_loss': 1.837135672569275, 'eval_wer': 4.802955665024631, 'eval_runtime': 157.6497, 'eval_samples_per_second': 0.634, 'eval_steps_per_second': 0.082, 'epoch': 1.0}
+2025-07-21 22:16:44,920 - INFO - Metrics saved to D:\Model-Finetuning\wav2vec2\results\ssw_wav2vec2\metrics.json
+2025-07-21 22:16:44,925 - INFO - Training completed for ssw language.

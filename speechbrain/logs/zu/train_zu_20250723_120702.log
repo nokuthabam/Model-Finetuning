@@ -1,0 +1,18 @@
+2025-07-23 12:07:02,398 - INFO - Starting training for zu...
+2025-07-23 12:07:02,409 - DEBUG - Registered checkpoint save hook for _save
+2025-07-23 12:07:02,409 - DEBUG - Registered checkpoint load hook for _recover
+2025-07-23 12:07:02,411 - INFO - Tokenizer is already trained.
+2025-07-23 12:07:02,411 - INFO - ==== Loading Tokenizer ===
+2025-07-23 12:07:02,411 - INFO - Tokenizer path: D:\Model-Finetuning\speechbrain\model\zulu_speechbrain\1024_unigram.model
+2025-07-23 12:07:02,411 - INFO - Tokenizer vocab_size: 1024
+2025-07-23 12:07:02,412 - INFO - Tokenizer type: unigram
+2025-07-23 12:07:02,590 - INFO - Run option max_grad_norm from hparams is used
+2025-07-23 12:07:02,592 - INFO - Gradscaler enabled: `False`
+2025-07-23 12:07:02,593 - INFO - Using training precision: `--precision=fp32`
+2025-07-23 12:07:02,593 - INFO - Using evaluation precision: `--eval_precision=fp32`
+2025-07-23 12:07:02,593 - INFO - ASRBrain Model Statistics:
+* Total Number of Trainable Parameters: 45.2M
+* Total Number of Parameters: 45.2M
+* Trainable Parameters represent 100.0000% of the total size.
+2025-07-23 12:07:03,543 - INFO - Would load a checkpoint here, but none found yet.
+2025-07-23 12:07:03,543 - INFO - Going into epoch 1

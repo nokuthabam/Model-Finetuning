@@ -1,0 +1,585 @@
+ID,wav,duration,spk_id,age,transcript
+siswati_154_22_0,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_154\siswati_154_22.wav,3.41,siswati_154,45,nani nitawafihlela njengoba sikolwa khona
+siswati_006_28_1,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_006\siswati_006_28.wav,2.9,siswati_006,45,sigcawu ku sesi kuseshibhini
+siswati_006_18_2,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_006\siswati_006_18.wav,13.75,siswati_006,45,[s] lamalunga enyulwa [s] babambi babambimsuka babe bavel bavelonkhe kutemfundvo nekucecesha [s] labaphawuliwe
+siswati_125_25_3,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_125\siswati_125_25.wav,8.44,siswati_125,40,umphumela wekufundza umfundzi uyakhona kutfola [n] kuhlela nekusebentisa lwati ngetingcikitsi letehlukene
+siswati_079_16_4,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_079\siswati_079_16.wav,8.34,siswati_079,38,umcondvo wekucala nalowo lojwayelekile wekutsi lemphambosi ikhomba kwenta [n] [n] ngekuyeketsisa nekunganaki
+siswati_036_04_5,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_036\siswati_036_04.wav,1.19,siswati_036,29,ngikhuluma kumakhalekhikhini
+siswati_158_03_6,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_158\siswati_158_03.wav,1.34,siswati_158,21,[n] ngimdvuna
+siswati_133_18_7,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_133\siswati_133_18.wav,10.21,siswati_133,38,hulumende uchubekile wakha [n] imitfolamphilo [s] lesitfupha etindzaweni [s] tasemakhaya
+siswati_086_02_8,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_086\siswati_086_02.wav,2.78,siswati_086,39,emashumi lamatsatfu nemfica
+siswati_051_09_9,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_051\siswati_051_09.wav,1.12,siswati_051,27,enaspoti
+siswati_051_22_10,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_051\siswati_051_22.wav,8.88,siswati_051,27,sabito sekukhomba sibhalwa sihlanganiswe kanje [n] lomfana wakabhocoza uganiwe [n]
+siswati_047_11_11,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_047\siswati_047_11.wav,6.16,siswati_047,42,e k a h [n] l e
+siswati_090_13_12,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_090\siswati_090_13.wav,12.17,siswati_090,22,licandza sikhombisa sihlanu sikhombisa inkhotsa sitfupha kunye inkhotsa sikhombisa kun [n]
+siswati_060_02_13,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_060\siswati_060_02.wav,4.4,siswati_060,35,ngineminyaka le lelishumi nakutsatfu nanhlanu
+siswati_126_02_14,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_126\siswati_126_02.wav,3.43,siswati_126,36,[n] lengemashumi lamatsatfu nesitfupha
+siswati_043_16_15,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_043\siswati_043_16.wav,7.41,siswati_043,20,emathayela emafasitelo [n] iminyango semende [s] nemapulango kudulile
+siswati_152_04_16,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_152\siswati_152_04.wav,1.32,siswati_152,20,kumakhalekhikhini
+siswati_075_21_17,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_075\siswati_075_21.wav,7.61,siswati_075,23,uma utawuhlangana ne [n] nemoto nesidududu noma nelibhayisikili uya uyakubona
+siswati_156_21_18,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_156\siswati_156_21.wav,14.24,siswati_156,Not Available,shengatsi bantfu labahlakaniphile [n] ngula ngulabanemali kakhulu ngobe labate timali ababonakali [n] kuya embili
+siswati_078_20_19,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_078\siswati_078_20.wav,11.02,siswati_078,27,sitfombe jikelele semsebenti wemfundzi [n] akumelanga siph siphanjaniswe ne [n] nephothifoliyo
+siswati_051_06_20,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_051\siswati_051_06.wav,4.49,siswati_051,27,lishumi nemfica impala nineteen eighty one
+siswati_152_25_21,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_152\siswati_152_25.wav,5.0,siswati_152,20,cela bafundzi badvwebe [s] mkhulu lo lontweza
+siswati_154_01_22,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_154\siswati_154_01.wav,1.0,siswati_154,45,isiswati
+siswati_147_19_23,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_147\siswati_147_19.wav,4.29,siswati_147,73,lokufundvwa kwemisindvo yenkhulumo kubitwa ngekutsi yiaccoutic nephonetics
+siswati_082_02_24,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_082\siswati_082_02.wav,1.32,siswati_082,33,shumi lamatsatfu nakutsatfu
+siswati_055_13_25,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_055\siswati_055_13.wav,8.44,siswati_055,40,licandza kutsatfu kutsatfu sihlanu kune kubili sikhombisa siphohlongo kunye licandza
+siswati_052_12_26,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_052\siswati_052_12.wav,2.98,siswati_052,29,[n] [um] [n] mhla titimbili ingongoni
+siswati_036_30_27,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_036\siswati_036_30.wav,6.99,siswati_036,29,wevakala ndlovu atsi kutfolakele inja ifile eceleni kwemgwaco ibulewe yi
+siswati_153_09_28,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_153\siswati_153_09.wav,8.57,siswati_153,Not Available,[s] litiko letikul letekulima iriphabliki yeningizimu afrika
+siswati_129_09_29,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_129\siswati_129_09.wav,0.97,siswati_129,23,bhabtini
+siswati_081_17_30,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_081\siswati_081_17.wav,9.31,siswati_081,30,loku kufaka ekhatsi leto tihlahla netilwane [n] letisengakavunjululwa kutelwati lwabososayensi
+siswati_085_07_31,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_085\siswati_085_07.wav,0.82,siswati_085,45,yebo
+siswati_195_17_32,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_195\siswati_195_17.wav,7.3,siswati_195,33,uma utawuhlangana nemoto nesidududu noma nelibhayisikili uyakubona
+siswati_169_24_33,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_169\siswati_169_24.wav,7.99,siswati_169,36,yena utawujatjuliswa kutsi uneligalaji netinsimbi nome konkhe [n] loku kungasebenti
+siswati_105_30_34,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_105\siswati_105_30.wav,12.92,siswati_105,29,emabhukwini lakhuluma et edrama ubitwa ngekutsi ngugosa noma umdlali lomcoka noma [n] ummeleli
+siswati_006_07_35,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_006\siswati_006_07.wav,0.92,siswati_006,45,[n] yebo ngishadi
+siswati_024_14_36,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_024\siswati_024_14.wav,7.33,siswati_024,52,sikhungo sentfutfuko yetekuphatsa [s] saseningizimu afrika iriphabliki yaseningizimu afrik
+siswati_081_27_37,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_081\siswati_081_27.wav,5.43,siswati_081,30,angiboni kutsi bungehla nasingalala singakayi kamhlohlo
+siswati_008_11_38,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_008\siswati_008_11.wav,7.65,siswati_008,44,[um] n g [n] [s] u w [n] o n [n] a [n]
+siswati_162_10_39,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_162\siswati_162_10.wav,5.57,siswati_162,Not Available,emaminitsi lalishum lalishumi nesihlanu kwendlule insimbi yemfica
+siswati_030_26_40,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_030\siswati_030_26.wav,11.49,siswati_030,52,siphetfo [n] kungumkhuba lomuhle kutetayeta kukwati kuma embili kwalabanye wetfule inkhulumo loyilungisile
+siswati_166_09_41,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_166\siswati_166_09.wav,1.67,siswati_166,28,kwanyalo ngihlala [n] e naspoti
+siswati_021_07_42,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_021\siswati_021_07.wav,0.74,siswati_021,46,yebo
+siswati_039_11_43,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_039\siswati_039_11.wav,5.61,siswati_039,60,t e k u f u n d z i s s a
+siswati_152_22_44,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_152\siswati_152_22.wav,19.3,siswati_152,20,bafundzi besikolo lesincane [s] sasezulwini beba bebaka bebakadze beba [s] be baphakadze bova bavakashele [s] em [n] l emilwa emli [s] emlilwane [n] ngalesitsanu emini
+siswati_040_10_45,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_040\siswati_040_10.wav,1.88,siswati_040,48,[s] insimbi yesiphohlongo enhloko
+siswati_100_18_46,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_100\siswati_100_18.wav,9.77,siswati_100,36,shiselweni nediso hlatsi yinjabuliso leya kahlatsi [n] hhafuphasi leveni
+siswati_011_19_47,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_011\siswati_011_19.wav,9.76,siswati_011,24,ingcikitsi yalomphumela kutsi bafundzi bagogodze emakhono abo ekusebentisa i aljebra
+siswati_068_30_48,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_068\siswati_068_30.wav,7.56,siswati_068,26,kuyaye kutsi njalo kusihlwa [n] tenyukele etulu [n] [s] tisuku tisuka e [n] endo
+siswati_069_10_49,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_069\siswati_069_10.wav,2.49,siswati_069,40,[n] insimbi yelishumi nakubili enhloko
+siswati_120_22_50,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_120\siswati_120_22.wav,9.24,siswati_120,33,kungako nje umbhali wephrozi angasisebentisi sigci futsi uyakugwema kofaka imisindvo nesigci sebunkondlo
+siswati_109_28_51,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_109\siswati_109_28.wav,9.95,siswati_109,55,[s] sitfo [s] senkhulumo sibhalwa sodvwa kanje umuntfu sewucale luhambo [n] loludze lwekuya embabane
+siswati_023_03_52,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_023\siswati_023_03.wav,1.05,siswati_023,20,ngimsikati
+siswati_175_14_53,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_175\siswati_175_14.wav,7.49,siswati_175,19,luphiko lwemalingena lwaseningizimu afrika [n] iriphabliki yen yen ye yeningizimu afrika
+siswati_166_29_54,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_166\siswati_166_29.wav,11.35,siswati_166,28,tokoloshi udla i udla [n] gazi yambuzi na nagazi yabo [n] hhayi kudla [n] ngane zaba zabona
+siswati_171_09_55,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_171\siswati_171_09.wav,1.15,siswati_171,Not Available,[n] enaspoti
+siswati_149_05_56,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_149\siswati_149_05.wav,13.3,siswati_149,47,kubili licashati kubili licashati kubili sikhala [n] kunye [um] likhulu nemashumi lasihlanu nakubili
+siswati_057_25_57,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_057\siswati_057_25.wav,12.32,siswati_057,25,sengivile ngemzala logwaja kutsi umsila [n] wami uta [n] nawe [s]
+siswati_153_04_58,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_153\siswati_153_04.wav,1.6,siswati_153,Not Available,angikashadi
+siswati_106_16_59,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_106\siswati_106_16.wav,9.02,siswati_106,26,emabito lahlongotwe ngetakhi lapha satiso lesifinyetiwe sitsatsa indzawo [n] [s] yelibito leliphongotwe ngesakhi
+siswati_062_20_60,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_062\siswati_062_20.wav,8.07,siswati_062,42,[s] kungakonje kungumsebenti lomkhulu [s] kumceceshi nemeluleki wedrama
+siswati_099_17_61,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_099\siswati_099_17.wav,5.47,siswati_099,33,akumnandzi nje mbango [n] utsintsa lizulu ngetandla
+siswati_144_11_62,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_144\siswati_144_11.wav,8.47,siswati_144,24,l e [n] f a n e l e [n] k [s] i [n] l e
+siswati_023_29_63,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_023\siswati_023_29.wav,7.52,siswati_023,20,lwatsi nelufosana lebelus sele lwamtsatfwa yi yihhontji
+siswati_088_07_64,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_088\siswati_088_07.wav,1.1,siswati_088,40,[n] angishadile
+siswati_126_06_65,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_126\siswati_126_06.wav,5.97,siswati_126,36,tingemashumi lamatfatfu nakunye inyanga ingongoni
+siswati_115_27_66,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_115\siswati_115_27.wav,15.29,siswati_115,43,kuhlazisa [s] emasotja nelive lawo bese iwenta abe nelicala lwekujeziswa [n] njengetigebengu temphi
+siswati_142_14_67,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_142\siswati_142_14.wav,4.67,siswati_142,53,[um] litiko letemfundvo iriphabliki yeningizimu [n] afrika
+siswati_085_21_68,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_085\siswati_085_21.wav,10.11,siswati_085,45,[n] intfo lengiyoyikhuluma naye asale [n] sewungungcoli umugcobisa [n] libovu utokwati leku le kukhuluma
+siswati_112_29_69,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_112\siswati_112_29.wav,5.01,siswati_112,27,nanangu umfana [n] asecadzini [s] kwami lapha
+siswati_131_04_70,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_131\siswati_131_04.wav,1.36,siswati_131,38,ngikhuluma elucingweni
+siswati_044_15_71,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_044\siswati_044_15.wav,13.75,siswati_044,35,[s] kubaba lugogo nawuva indzaba [s] lenje kuhaha lugogo [s] kutsi [n] awu kepha naye sitfunjwe [n] [s] yimphi yini
+siswati_157_06_72,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_157\siswati_157_06.wav,4.63,siswati_157,35,shumi nesiphohlongo [n] enyangeni yengongoni
+siswati_149_17_73,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_149\siswati_149_17.wav,5.36,siswati_149,47,bekangetfuswa lutfo lapha [n] atibhalele khona
+siswati_078_19_74,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_078\siswati_078_19.wav,8.56,siswati_078,27,ngikhuluma nje ndvunankhulu sewuni sewunikwe sicu nguhulumende wen wenigeria
+siswati_110_19_75,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_110\siswati_110_19.wav,11.02,siswati_110,37,kuniketa bafundzi umbiko lowakhako [s] macondzana nenchubo yabo [s] kurekhoda imiphumela yebafundzi
+siswati_045_07_76,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_045\siswati_045_07.wav,1.84,siswati_045,45,[n] yebo ngishadile
+siswati_119_05_77,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_119\siswati_119_05.wav,9.16,siswati_119,30,kunye ngci kunye ngci kunye ngci [n] likhulu nemashumi lamabili nakunye
+siswati_076_06_78,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_076\siswati_076_06.wav,4.74,siswati_076,23,emashumi lamabili na nesihlanu enyangeni ya yengci
+siswati_145_24_79,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_145\siswati_145_24.wav,7.07,siswati_145,30,ngubani ligama lesuphamakethe lenkhulu kamanzini kulesifundza
+siswati_083_29_80,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_083\siswati_083_29.wav,6.41,siswati_083,26,sikolo sakitsi [n] nobe siyibhale [n] phasi encwadzini
+siswati_076_02_81,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_076\siswati_076_02.wav,1.36,siswati_076,23,emashumi lamabili nakutsatfu
+siswati_098_25_82,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_098\siswati_098_25.wav,8.59,siswati_098,23,lapha kufe bonkhe bonkhe letik letinkopolo tife tonkhana singaga singabuyela sibe njani
+siswati_036_03_83,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_036\siswati_036_03.wav,0.56,siswati_036,29,ngimsikati
+siswati_066_28_84,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_066\siswati_066_28.wav,4.91,siswati_066,23,mhlawumbe lomuntfu utsetfwe yinzuzu nje kwati bani
+siswati_128_13_85,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_128\siswati_128_13.wav,23.84,siswati_128,32,licandza [um] sikhombisa [um] sikhombisa [um] sikhombisa kutsatfu sihlanu [um] kutsatfu sitfupha kubili kunye
+siswati_012_16_86,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_012\siswati_012_16.wav,8.94,siswati_012,28,[s] avuka nje [n] uyobasa sitofu [s] semalahle khona atobeka [n] emanti ekugeza khona atoya kamlumbi
+siswati_164_20_87,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_164\siswati_164_20.wav,8.98,siswati_164,47,sitfo senkhulumo sibhalwa sodvwa ngalendlela [n] umuntfu sewucale luhambo loludze [n] lwekuya embabane
+siswati_134_04_88,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_134\siswati_134_04.wav,1.95,siswati_134,49,ngikhuluma elucingweni
+siswati_110_10_89,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_110\siswati_110_10.wav,3.62,siswati_110,37,emaminitsi lalishumi nesihlanu kwendlule insimbi yesibili
+siswati_173_07_90,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_173\siswati_173_07.wav,0.82,siswati_173,31,yebo
+siswati_195_12_91,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_195\siswati_195_12.wav,4.67,siswati_195,33,kunye emashumi lamatsatfu inhlaba [n]
+siswati_046_29_92,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_046\siswati_046_29.wav,12.21,siswati_046,45,bekukhona bofokisi neba [um] nebabaseshi laba labembetse [s] timphahla nje tesilumbi baphacuta sikilidi ebandla lesikhulu
+siswati_093_06_93,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_093\siswati_093_06.wav,5.63,siswati_093,53,ngitalwe mhla tilishumi [n] enyangeni yalweti nineteen fifty five
+siswati_115_02_94,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_115\siswati_115_02.wav,2.62,siswati_115,43,emashumi lamane nama nakutsatfu
+siswati_037_13_95,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_037\siswati_037_13.wav,14.55,siswati_037,40,[um] ngu zero kubili kutsatfu [um] [n] siphohlongo siphohlongo sihlanu kune [um] sihlanu inkhotsa [um] kune
+siswati_186_30_96,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_186\siswati_186_30.wav,5.79,siswati_186,Not Available,[s] sibhikivaze kantsi [s] ku kunje kudliwa tintsaba tasejozi
+siswati_156_19_97,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_156\siswati_156_19.wav,13.03,siswati_156,Not Available,kuhlali lizisa emasotja [n] nelive [n] lawo bese lenta abe nelicala lwekujeziswa [n] njengetigebengu temphi
+siswati_166_15_98,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_166\siswati_166_15.wav,8.14,siswati_166,28,umbutfo wetemphi [n] ngiwo wodvwa [s] umbutfo wetemphi losemtsetfweni iriphab eriphabhulikhi
+siswati_145_09_99,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_145\siswati_145_09.wav,2.3,siswati_145,30,ngihlala endzaweni [s] yasematsulu
+siswati_149_30_100,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_149\siswati_149_30.wav,6.85,siswati_149,47,intfo kutsi ngetsemba nje kutsi ngingahle ngibone sibhikivane ngitemtjela kutsi sengimganile
+siswati_041_16_101,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_041\siswati_041_16.wav,5.35,siswati_041,22,[n] [s] engstrand udzinga sandla lesinge [s] lesingamhola
+siswati_082_29_102,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_082\siswati_082_29.wav,9.29,siswati_082,33,kuyaye kutsi njalo kusihlwa tenyukele etulu tisuka endonda
+siswati_067_07_103,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_067\siswati_067_07.wav,1.07,siswati_067,24,[n] angikashadi
+siswati_167_26_104,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_167\siswati_167_26.wav,6.39,siswati_167,20,beyivama kucaphela kutsi sivalo nem mafasitelo avaleke [n] ngci
+siswati_105_20_105,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_105\siswati_105_20.wav,13.72,siswati_105,29,nayo leyo ndzaba ngiyishiya kini madvodza kutsi nilifune nilitfole likhambi lekujot lekujojotela
+siswati_154_23_106,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_154\siswati_154_23.wav,8.52,siswati_154,45,lamalunga enyulwa [n] [um] [n] babambimsuka bavelonkhe kutemfundvo nekucecesha labaphawuliwe
+siswati_095_29_107,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_095\siswati_095_29.wav,9.09,siswati_095,43,kimi litiya lingumdvudvuti imfudvumalo kanye nebungani beliciniso
+siswati_059_18_108,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_059\siswati_059_18.wav,5.03,siswati_059,31,nanangu umfana [s] ase [n] asecadzini kwami lapha
+siswati_032_09_109,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_032\siswati_032_09.wav,1.23,siswati_032,30,kanyamazane
+siswati_098_13_110,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_098\siswati_098_13.wav,10.91,siswati_098,23,licandza sitfupha siphohlongo licandza kwekucala kwesitsatfu kwesitsatfu kwesine kwesihlanu kwesibili
+siswati_101_06_111,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_101\siswati_101_06.wav,12.64,siswati_101,Not Available,[s] mashumi lasihlanu nesikhombisa umnyaka [n] inyanga [n] [um] lweti
+siswati_172_29_112,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_172\siswati_172_29.wav,11.41,siswati_172,41,umukhwa [n] sewuyangena [n] entsanyeni yalomake ngobe nengati seyiphuma kakhulu
+siswati_107_26_113,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_107\siswati_107_26.wav,10.03,siswati_107,41,emshweni wekucala ungumnikati ungumnikati welibhayisikili [s] emshweni wesibili [n] litinyo lasipho lelakhishwa ngudokodela
+siswati_079_25_114,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_079\siswati_079_25.wav,8.98,siswati_079,38,lokungetulu kunefenisha loyidzingako empeleni tsine sengeta kweneliseka kumtsengi kulomnikelo losipesheli
+siswati_144_16_115,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_144\siswati_144_16.wav,11.09,siswati_144,24,[n] atsi nakefika emfuleni [s] longamkhulu [n] kakhulu nje ambone lomfana [n] ngesheya [s] l ngesheya lomkulu [n] [s] lomful fa lomfula
+siswati_066_17_116,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_066\siswati_066_17.wav,6.75,siswati_066,23,[n] lwabiwomali lwelive lonkhe lwetifundza nelwabomasipala
+siswati_080_24_117,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_080\siswati_080_24.wav,3.29,siswati_080,Not Available,umfati wamalume uyahl uyahlonipha
+siswati_159_28_118,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_159\siswati_159_28.wav,14.48,siswati_159,28,[s] loku kufaka ekhatsi leto tihlahla netilwane letisengakavunjululwa kule [n] sorry kutelwati lwabososayensi
+siswati_064_08_119,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_064\siswati_064_08.wav,1.86,siswati_064,43,e middleburg ebuchabelo
+siswati_004_12_120,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_004\siswati_004_12.wav,4.02,siswati_004,32,lishumi nakubili lweti
+siswati_017_22_121,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_017\siswati_017_22.wav,5.37,siswati_017,24,letinye titfombe tebantfu labangcunu letatigcwele tipikili wonkhe umtimba
+siswati_049_22_122,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_049\siswati_049_22.wav,7.05,siswati_049,19,uyeyisa kodvwa vele wena ros rosta [n] utangifundza lamhlanje
+siswati_173_01_123,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_173\siswati_173_01.wav,0.84,siswati_173,31,[n] siswati
+siswati_191_07_124,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_191\siswati_191_07.wav,0.71,siswati_191,25,cha
+siswati_182_05_125,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_182\siswati_182_05.wav,9.13,siswati_182,33,kunye licashata kunye licashata kubili sikhala kunye siphohlongo sitfupha
+siswati_009_23_126,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_009\siswati_009_23.wav,5.55,siswati_009,21,lomunye utsandza ku [n] kugwamandza tinfto kantsi lomunye uyamesaba umkakhe
+siswati_097_04_127,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_097\siswati_097_04.wav,0.77,siswati_097,35,ecingweni [n]
+siswati_127_23_128,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_127\siswati_127_23.wav,10.29,siswati_127,36,uma utawuhlangana nemoto [n] nesidududu noma nelibhayisikili [n] uyakubona
+siswati_108_09_129,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_108\siswati_108_09.wav,1.16,siswati_108,55,kabhokweni
+siswati_128_06_130,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_128\siswati_128_06.wav,4.09,siswati_128,32,tisikhombisa enyangeni ingongoni
+siswati_157_22_131,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_157\siswati_157_22.wav,2.25,siswati_157,35,[s] bantfwana bami bayadlala
+siswati_014_03_132,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_014\siswati_014_03.wav,0.58,siswati_014,29,ngimdvuna
+siswati_006_08_133,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_006\siswati_006_08.wav,1.07,siswati_006,45,elukwatini
+siswati_077_28_134,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_077\siswati_077_28.wav,6.17,siswati_077,35,kungakonje kungumsebenti lomkhulu kumceceshi nemeluleki wedrama
+siswati_185_09_135,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_185\siswati_185_09.wav,0.92,siswati_185,36,[n] enaspoti
+siswati_176_12_136,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_176\siswati_176_12.wav,3.06,siswati_176,Not Available,lishumi nesikhombisa lweti
+siswati_165_15_137,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_165\siswati_165_15.wav,11.72,siswati_165,24,kufanele kwekutsi sibati [n] l sibati labafana [s] lesitawubatfuma lapha e ephalamende kwekutsi baf bafana labanjani
+siswati_170_04_138,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_170\siswati_170_04.wav,1.55,siswati_170,43,[n] ngikhulume cingweni
+siswati_131_13_139,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_131\siswati_131_13.wav,13.95,siswati_131,38,licandza licandza kune kubili siphohlongo kunye [um] dvwi kunye licandza kune [um] dvwi kunye
+siswati_140_29_140,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_140\siswati_140_29.wav,7.65,siswati_140,44,titsi natiyilondvolota lemali atsi nacoshiwe umuntfu bese idliwa ngulenkapani
+siswati_130_28_141,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_130\siswati_130_28.wav,6.93,siswati_130,32,lochalachala weva buhlungu kakhul [n] wefikelwa ngumona lowengca kwak lowakuca
+siswati_165_23_142,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_165\siswati_165_23.wav,6.27,siswati_165,24,kepha nakho o umupha intfo lomunye utawukwemukela nje abonge
+siswati_011_08_143,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_011\siswati_011_08.wav,1.08,siswati_011,24,enaspoti
+siswati_059_01_144,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_059\siswati_059_01.wav,1.13,siswati_059,31,[s] siswati
+siswati_062_18_145,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_062\siswati_062_18.wav,4.15,siswati_062,42,atsatse ligadze [n] [s] ayijikijekele lenyoni
+siswati_107_02_146,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_107\siswati_107_02.wav,1.21,siswati_107,41,fourty one [n]
+siswati_134_09_147,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_134\siswati_134_09.wav,1.26,siswati_134,49,ngihlala epitoli
+siswati_025_30_148,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_025\siswati_025_30.wav,12.77,siswati_025,29,siphetfo kungumkhuba lomuhle kuteyelana [n] kukwati kuma [n] embili kwalabanye wetfu inkhulumo loyilungisile
+siswati_088_12_149,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_088\siswati_088_12.wav,2.06,siswati_088,40,tilishumi kubimbidvwane
+siswati_105_08_150,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_105\siswati_105_08.wav,1.14,siswati_105,29,e bushbuckridge
+siswati_161_08_151,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_161\siswati_161_08.wav,2.01,siswati_161,40,[um] eningizimu [n] afrika
+siswati_160_30_152,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_160\siswati_160_30.wav,18.02,siswati_160,34,utsite nas nasakhuphulhup nasakhuphukela em emgcobaneni bantfu laba lababesemasimini las la kuk la kukhanya le kukhanya bha [n] emphumalanga
+siswati_063_25_153,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_063\siswati_063_25.wav,9.62,siswati_063,47,imiphumela yetinkhulumo tenu itawubaluleka kakhulu ekuncendzeni [n] balirni betilimo emhlabeni wonkhe
+siswati_155_02_154,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_155\siswati_155_02.wav,2.27,siswati_155,37,emashumi lamatsatfu nesikhombisa
+siswati_026_13_155,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_026\siswati_026_13.wav,14.15,siswati_026,22,[n] kute kunye kune kune sikhombisa kune kune kute sikhombisa siphohlongo sitfupha
+siswati_050_06_156,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_050\siswati_050_06.wav,3.39,siswati_050,23,[um] elangeni lesitfupha enyangeni [s] yengci
+siswati_028_08_157,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_028\siswati_028_08.wav,1.01,siswati_028,32,angasha
+siswati_070_18_158,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_070\siswati_070_18.wav,5.33,siswati_070,52,umnaketfu utsatse intfombi lenhle
+siswati_005_13_159,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_005\siswati_005_13.wav,14.14,siswati_005,43,licandza [s] kubili kubili sitfupha licandza licandza licandza [n] kutsatfu licandza sihlanu
+siswati_194_27_160,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_194\siswati_194_27.wav,14.29,siswati_194,50,wangiphendvula watsi asidzingi inkhosi kutsi lamanti avulwe lena emadamini kute sitfutfukise lendzawo
+siswati_126_19_161,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_126\siswati_126_19.wav,7.63,siswati_126,36,kukhona tinkapane tashukela emhlume e big bend nasesimunye
+siswati_026_04_162,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_026\siswati_026_04.wav,1.48,siswati_026,22,ngikhuluma [n] ecingweni
+siswati_028_03_163,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_028\siswati_028_03.wav,0.69,siswati_028,32,[n] sikati
+siswati_062_23_164,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_062\siswati_062_23.wav,5.62,siswati_062,42,[n] ubone kutsi cha yonkhe intfo iphetfwe ngudragon [s] kepha [n] kukini
+siswati_160_15_165,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_160\siswati_160_15.wav,10.31,siswati_160,34,[n] kwatsi lapho sebadli sebadlile wabuta [n] msolwa [n] kutsi letimvu let let leti le tentiwa yini ti tingadli
+siswati_020_24_166,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_020\siswati_020_24.wav,7.42,siswati_020,Not Available,gwinya ke sibone [s] kutsi yonkhe [n] imitfombo lengahlumisa lomhlaba [s] ikhweshela [n] emuva
+siswati_046_20_167,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_046\siswati_046_20.wav,9.55,siswati_046,45,angilitfolanga litfuba lekunibonga nonkhe [s] kodwva kulomcimbi njengoba s sengilapha ngiyabonga kini nonkhe
+siswati_160_13_168,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_160\siswati_160_13.wav,12.06,siswati_160,34,licandza licandza sitfupha sikhombisa kubili sitfupha sikhombisa kutsatfu [n] kunye kunye
+siswati_167_20_169,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_167\siswati_167_20.wav,5.87,siswati_167,20,nakasho utsi umchili umchilitele [n] lokweyana kwakhe
+siswati_161_21_170,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_161\siswati_161_21.wav,19.22,siswati_161,40,bahlangana baka bahlangana bakagama bahlanganela ngasem mtfolamphilo wasenumbi [n] lebewusandza kwakhiwa nguhulumende
+siswati_007_19_171,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_007\siswati_007_19.wav,7.18,siswati_007,44,emanti alelidamu atawuba lusito lolukhulu [n] ekulinyweni kwemoba esimunye
+siswati_026_22_172,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_026\siswati_026_22.wav,18.48,siswati_026,22,[s] [n] bosicinis bos bos bosicinisom mfutwa [n] laba bo laba bongwaca [n] labacala ngangwaca lodubulako bese ulandzelwa ngungwaca longumfwa longumfutfwa
+siswati_019_14_173,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_019\siswati_019_14.wav,8.19,siswati_019,23,litiko leteku lete letentfutfuko yebantfu iri iriphabliki yeningizimu afrika
+siswati_101_08_174,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_101\siswati_101_08.wav,2.0,siswati_101,Not Available,ngatalelwa ebhabtini [n]
+siswati_128_22_175,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_128\siswati_128_22.wav,17.44,siswati_128,32,kubaba lugogo nawuva indzaba lenje kuhaha lugogo kutsi awu ke awu kepha naye sitfunjwe yi yimphi yini
+siswati_195_04_176,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_195\siswati_195_04.wav,2.08,siswati_195,33,[n] kumakhalekhikhini
+siswati_041_06_177,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_041\siswati_041_06.wav,1.15,siswati_041,22,angikashadi
+siswati_126_16_178,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_126\siswati_126_16.wav,9.48,siswati_126,36,dvukudvuku kungena vitsika nelibhayisikili etfuke nakabona emadvodza agcoke silumbi langawati
+siswati_030_18_179,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_030\siswati_030_18.wav,9.47,siswati_030,52,ukhaliphile etibalweni nase nas nakusayensi akevani netemlandvo [s] nebhayil nebhayoloji
+siswati_141_26_180,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_141\siswati_141_26.wav,11.08,siswati_141,43,[n] sihlalo uma engamele angeke abe [n] nelivoti lelingum umnca umncalajucu kepha livoti leletayelekile
+siswati_006_19_181,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_006\siswati_006_19.wav,8.87,siswati_006,45,yatsi [s] abayewubita emachegu talukati emadvodza bafati bafana nemantfombatana
+siswati_066_07_182,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_066\siswati_066_07.wav,0.9,siswati_066,23,cha
+siswati_160_14_183,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_160\siswati_160_14.wav,4.65,siswati_160,34,litiko [n] letekuvikela iriphabliki yeningizimu [n] afrika
+siswati_015_20_184,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_015\siswati_015_20.wav,7.17,siswati_015,52,letinye titfombe tebantfu labangcunu letatigcwele [n] tipi wonkhe umtimba
+siswati_079_07_185,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_079\siswati_079_07.wav,1.52,siswati_079,38,[s] cha angikashadi [n]
+siswati_186_13_186,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_186\siswati_186_13.wav,9.52,siswati_186,Not Available,licandza kunye kutsatfu sishiyagalombili licandza kutsatfu sikhombisa sishiyagalombili sitfupha licandza
+siswati_064_16_187,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_064\siswati_064_16.wav,9.37,siswati_064,43,ekugcineni kwatsi gilikidzi lijaha lelihle livunule emajobo lamahle [n] langazange a sabonwe kulendzawo
+siswati_186_07_188,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_186\siswati_186_07.wav,1.52,siswati_186,Not Available,[n] yebo [s] ngishadile
+siswati_046_03_189,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_046\siswati_046_03.wav,0.99,siswati_046,45,ngimdvuna
+siswati_003_21_190,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_003\siswati_003_21.wav,16.82,siswati_003,20,sicu sebuniyo singu singaba nob singaba nobe nguluphi ligama ngaphandle kwe kwesabitocobo sabito sekubala sibanjalo nesen
+siswati_037_17_191,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_037\siswati_037_17.wav,14.29,siswati_037,40,kepha wonkhe umhlaba uyati kutsi oe umhlaba loyi lesiwunyatselako nguyena mnini waho wakokonkhe longaveta konkhe
+siswati_101_20_192,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_101\siswati_101_20.wav,3.52,siswati_101,Not Available,uyowuhlolwa tifundvo takhe tekugcina
+siswati_115_28_193,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_115\siswati_115_28.wav,18.76,siswati_115,43,kutikhetsela imphilo lephatselene nebulili [n] kuneluvelomiva futsi [n] kufuna ucaphele [n] lusi lusu lusikomphilo lwemma lwemmango
+siswati_008_23_194,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_008\siswati_008_23.wav,10.88,siswati_008,44,ngelweti nobe [s] ngenkhosi lencane [s] kungesikhatsi bemanti bahamba bayokukha emanti elwandle emaputo
+siswati_075_23_195,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_075\siswati_075_23.wav,7.14,siswati_075,23,tinsim [n] tehluke tinsimu tehluke kanjani nete kwensumansumane
+siswati_018_25_196,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_018\siswati_018_25.wav,4.73,siswati_018,29,umhloli ubhala tindzaba letimbili ngasikhatsi sinye
+siswati_083_15_197,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_083\siswati_083_15.wav,5.99,siswati_083,26,[n] kepha nakhona umupha intfo lomunye utawukwemukela nje [n] abonge
+siswati_071_02_198,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_071\siswati_071_02.wav,2.82,siswati_071,42,nginemashumi lamane [n] [s] nakubili
+siswati_073_29_199,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_073\siswati_073_29.wav,16.46,siswati_073,21,entsambama [n] a asacedzile kubusa futsi nel nelilanga [n] seliyawashona wase uyasivusa le lesi lesingusolinye [n]
+siswati_051_15_200,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_051\siswati_051_15.wav,3.67,siswati_051,27,asubukisise yerobert emakhasini lalandzelako
+siswati_055_22_201,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_055\siswati_055_22.wav,2.98,siswati_055,40,lenhle [n] uyatsandza kugijima
+siswati_104_10_202,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_104\siswati_104_10.wav,2.4,siswati_104,25,igabence insimbi yesibili
+siswati_015_07_203,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_015\siswati_015_07.wav,1.35,siswati_015,52,yebo [n] ngishadile
+siswati_022_04_204,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_022\siswati_022_04.wav,1.44,siswati_022,46,[s] nyalo ngikhuluma egcingwen [n]
+siswati_184_14_205,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_184\siswati_184_14.wav,6.01,siswati_184,19,[s] libandla letekuphepha nekuvikeleka iriphabliki [s] yeningizimu afrika
+siswati_030_30_206,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_030\siswati_030_30.wav,10.03,siswati_030,52,[n] sibhikivane [s] eyi uyati kodvwa udlala kabi mani sulumane ungetfuka sowulimete nje
+siswati_169_25_207,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_169\siswati_169_25.wav,4.47,siswati_169,36,sihlanu setindlu tesintfu [n] tishe taphela nya
+siswati_097_25_208,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_097\siswati_097_25.wav,6.62,siswati_097,35,manje lomlingiswa uyinkinga yena ngekwakhe ngobe tintfo atisamhambeli kahle njengobe adzakiwe nje
+siswati_117_17_209,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_117\siswati_117_17.wav,11.89,siswati_117,49,sifundvo kusetjentiswa kwelulwimi taga [n] singeniso indzaba yetaga ayisi ayiyinsha nakancane etindlebeni ten
+siswati_110_01_210,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_110\siswati_110_01.wav,0.69,siswati_110,37,swati [n]
+siswati_117_29_211,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_117\siswati_117_29.wav,6.1,siswati_117,49,titsi [n] natiyilondvolota lemali atsi nacoshiwe [n] umuntfu em bese idliwa [n] ngulenkapa
+siswati_185_28_212,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_185\siswati_185_28.wav,8.23,siswati_185,36,[n] kungase kwenteke [n] aje kutsi thishela angahlangana nebantfwana bodvwana [n] zwi
+siswati_003_20_213,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_003\siswati_003_20.wav,11.64,siswati_003,20,loku akusho kutsi kulicini kepha kwentelwa kutsi sitokwesaba kweca umlilo kute sivikeleke
+siswati_105_17_214,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_105\siswati_105_17.wav,11.32,siswati_105,29,kube umlingiswa ngamunye abeke [n] umbono wakhe khashane bese kungena labanye bamphem ba bamphendvule
+siswati_178_28_215,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_178\siswati_178_28.wav,8.87,siswati_178,40,mbazwana [n] ufuna kuganwa ngusenze senzekile lamtsandza ngenhlitiyo yakhe yonkhe
+siswati_076_18_216,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_076\siswati_076_18.wav,7.56,siswati_076,23,itsi imphilo isemnandzi isenjalo bese kufa labatali babo bobabili engotini yemoti
+siswati_059_03_217,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_059\siswati_059_03.wav,1.3,siswati_059,31,ngimsikati [n]
+siswati_035_25_218,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_035\siswati_035_25.wav,7.25,siswati_035,13,nika tizatfu letibangela kutsi imidlalo yedrama yehlukaniswe ngetinkhundla
+siswati_059_26_219,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_059\siswati_059_26.wav,27.66,siswati_059,31,nato letimbongi [n] tibhala ngebantfu tilwane tilwanyaka katane lutsandvo [um] lutsandvo [s] [s] [n] la langweni yo yo yo [n] lutsandvo kafaka yo tikolo emanyuvesi netibhedlela
+siswati_076_29_220,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_076\siswati_076_29.wav,5.65,siswati_076,23,sitawuke sitsi kuhlolahlola loku lesi [um] [n] kulesifundvo
+siswati_180_19_221,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_180\siswati_180_19.wav,5.75,siswati_180,45,abasitifundziswa bobabili nje bojabulane [n] nalokwemfatana kwakhe
+siswati_014_18_222,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_014\siswati_014_18.wav,12.78,siswati_014,29,yekucala [s] ngulendzaba lokhulu kukhulu kutsi [n] yesibil yesibili kube ngulencane levumela nalena yekucala
+siswati_137_11_223,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_137\siswati_137_11.wav,4.91,siswati_137,18,ngu a [um] na t na e
+siswati_189_15_224,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_189\siswati_189_15.wav,5.25,siswati_189,20-30,[n] hhohhe nkhosi yami [s] ingabe kantsi mine ngangenewa yini
+siswati_028_06_225,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_028\siswati_028_06.wav,5.01,siswati_028,32,se mashumi [n] lamabili nes [n] nesiphohlongo
+siswati_090_04_226,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_090\siswati_090_04.wav,2.2,siswati_090,22,[n] ngikhuluma kumakhalek [n] ekhikhin
+siswati_147_28_227,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_147\siswati_147_28.wav,3.95,siswati_147,73,[n] lenhle [n] uyatsandza kugijima
+siswati_193_05_228,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_193\siswati_193_05.wav,4.79,siswati_193,Not Available,tinsuku titine kundlovulenkulu
+siswati_008_29_229,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_008\siswati_008_29.wav,5.26,siswati_008,44,[n] sengiyavula lendlu njengoba [n] ngiteyivula [n] lamuhla
+siswati_073_20_230,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_073\siswati_073_20.wav,18.56,siswati_073,21,lemitsetfomgomo itawubitwa ngemitsetfomgomo yemi mitimba [n] [s] yavele ya [n] [s] yavelonkhe yemazing [n]
+siswati_082_05_231,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_082\siswati_082_05.wav,8.21,siswati_082,33,ok kunye cashata kunye cashata kubili layini siphohlongo kubili
+siswati_155_17_232,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_155\siswati_155_17.wav,13.96,siswati_155,37,nato letimbongi tibhala ngebantfu tilwane tinya tilwanyakatane [n] lutsandvo kafaka tik tikolo [n] emanyuvesi netibhedlel
+siswati_075_25_233,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_075\siswati_075_25.wav,8.87,siswati_075,23,uma sewucedzile buta bafundzi imibuto utawubona kutsi bavile loku bewubatekela kona
+siswati_001_24_234,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_001\siswati_001_24.wav,8.14,siswati_001,22,no noko bamtsatsa befika bamfaka ekut ek emkhunjini
+siswati_180_15_235,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_180\siswati_180_15.wav,12.07,siswati_180,45,[n] liviki lif sifundvo [n] kusetjentiswa kwelulwimi taga singeniso [n] indzaba yetaga ayi ayi ayiyinsha nakancane etindlebeni tenu
+siswati_082_08_236,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_082\siswati_082_08.wav,1.18,siswati_082,33,e komatipoort
+siswati_077_12_237,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_077\siswati_077_12.wav,2.12,siswati_077,35,[n] amashumi lamabili nakune inhlaba
+siswati_082_10_238,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_082\siswati_082_10.wav,5.43,siswati_082,33,emaminitsi lalishumi nakuhlanu kungekashayi insimbi yemfica
+siswati_026_21_239,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_026\siswati_026_21.wav,16.79,siswati_026,22,[s] [n] umcondvo wekucala nalowo lojwayelekile wekutsi [s] lemphambosi ikhomba kwenta ngeku [s] ngekuyeketsis ngekuyeketsisa nekunganaki
+siswati_122_06_240,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_122\siswati_122_06.wav,4.29,siswati_122,23,shumi lamabili nesitfupha enyangeni [n] yenhlaba
+siswati_001_15_241,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_001\siswati_001_15.wav,9.4,siswati_001,22,ute ufise nagogo wakho kutsi a awufuni kutsi [n] achamuke emkhatsini [n] webantfu
+siswati_171_16_242,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_171\siswati_171_16.wav,3.18,siswati_171,Not Available,cela bafundzi badvwebe mkhulu lontweza
+siswati_086_04_243,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_086\siswati_086_04.wav,1.56,siswati_086,39,no ngikhuluma ecingweni
+siswati_077_20_244,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_077\siswati_077_20.wav,6.15,siswati_077,35,wotsi ngimane ngiyotsengela sibhikivane emafeti lapha emakethe
+siswati_053_07_245,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_053\siswati_053_07.wav,1.08,siswati_053,27,cha angikashad
+siswati_028_05_246,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_028\siswati_028_05.wav,4.93,siswati_028,32,kunye lichashata kubili lichashata kubili
+siswati_184_17_247,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_184\siswati_184_17.wav,8.59,siswati_184,19,sigcino tsangalembiba [s] watidzikela watsatsa imbita wangenela indlela leya [n] emfuleni
+siswati_037_02_248,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_037\siswati_037_02.wav,1.89,siswati_037,40,lemashumi lamane
+siswati_158_15_249,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_158\siswati_158_15.wav,5.28,siswati_158,21,[n] kulamalangana nitawuva emsakatweni kutsi ngitse kwentekani kumuntfu lonemali
+siswati_112_01_250,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_112\siswati_112_01.wav,0.85,siswati_112,27,siswati
+siswati_115_15_251,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_115\siswati_115_15.wav,16.46,siswati_115,43,nyalo ngoba sif si sikutfolile lebesikufuna sitawuhlala phansi yini sico sigoce tandla siphumule
+siswati_064_19_252,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_064\siswati_064_19.wav,6.91,siswati_064,43,uma utawuhlangana nemoto nesidududu [n] noma nelibhayisikili uyakubona
+siswati_112_26_253,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_112\siswati_112_26.wav,10.5,siswati_112,27,sidlubuladledle sakitsi sakalobamba siya siyabapha bantfu siyabadlubutisa
+siswati_019_22_254,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_019\siswati_019_22.wav,13.07,siswati_019,23,[n] incenye letaku [s] letakucocwa ngayo sikhatsi sekubhebhetela [n] lentfutfu le lentfutfuva emdlalweni [n]
+siswati_003_06_255,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_003\siswati_003_06.wav,6.73,siswati_003,20,mhla [n] mhla tingemashumi lamabili nakune enyangeni yenyoni
+siswati_048_23_256,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_048\siswati_048_23.wav,2.03,siswati_048,Not Available,umntfwana wabani wena
+siswati_065_08_257,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_065\siswati_065_08.wav,0.63,siswati_065,Not Available,[n] pretoria
+siswati_054_29_258,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_054\siswati_054_29.wav,5.58,siswati_054,49,[n] mbizo mamba nakunene lagagadlele umntfwana wakhe
+siswati_102_03_259,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_102\siswati_102_03.wav,1.11,siswati_102,37,[n] ngimsikat
+siswati_095_05_260,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_095\siswati_095_05.wav,7.85,siswati_095,43,[n] kubili ngci [s] kubili ngci kubili emashumi layimfica nesitfupha
+siswati_141_17_261,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_141\siswati_141_17.wav,12.12,siswati_141,43,[n] siphetfo kungumkhuba lomuhle yeng [n] kutetayeta [n] kukwat kukwati kuma embili kwalabanye [n] wetfule inkhulumo loyilungisile
+siswati_061_20_262,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_061\siswati_061_20.wav,8.15,siswati_061,43,[n] kusukela ngesikhatsi emave eafrika atfola mazibuse akhombise kwehluleka kutfutfukisa [n] bantfu bawo [n]
+siswati_072_24_263,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_072\siswati_072_24.wav,10.42,siswati_072,45,sihlalo uma engamele angeke abe nelivoti lelingum mncamlajucu kepha livoti leletayelekile
+siswati_104_19_264,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_104\siswati_104_19.wav,6.11,siswati_104,25,besitewubingelela tihambi letifike neb nase nebasemtini
+siswati_089_12_265,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_089\siswati_089_12.wav,1.43,siswati_089,24,inhlaba [n]
+siswati_078_08_266,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_078\siswati_078_08.wav,2.35,siswati_078,27,ngatalelwa endzaweni yase mpumalanga
+siswati_181_22_267,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_181\siswati_181_22.wav,13.41,siswati_181,19,nakhona sekumatima u ungena nawulukha [n] langelibhayisikili utfwale nge ng ngencola uye le [n] ungatidvumisa
+siswati_137_22_268,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_137\siswati_137_22.wav,9.83,siswati_137,18,kwentekani kumuntfu uma simkhah uma simkhahlabeta nobe simtem [n] simtsetsisa
+siswati_081_28_269,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_081\siswati_081_28.wav,5.67,siswati_081,30,sibhikivane kantsi kunje kudliwa tintsaba tasejozi
+siswati_040_09_270,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_040\siswati_040_09.wav,1.68,siswati_040,48,[s] ngihlala e nelspruit edrobheni
+siswati_150_18_271,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_150\siswati_150_18.wav,7.94,siswati_150,18,bacelwe ngamunye ngababili [n] nangeticheme bawafundze ba basho netinchazelo tawo
+siswati_016_16_272,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_016\siswati_016_16.wav,12.95,siswati_016,38,tintsambo le teliphimbo ti tintsalile tintsam tintsambo phimbo timise tacina kutsi umoya utivevetelisa
+siswati_095_12_273,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_095\siswati_095_12.wav,3.06,siswati_095,43,titintsatfu kubhimbidvwane [n]
+siswati_191_25_274,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_191\siswati_191_25.wav,7.25,siswati_191,25,cijimphi [n] cha ngiyakuvela mngani wami uhambe emanyeveni elidolofiya mbamba mba
+siswati_037_24_275,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_037\siswati_037_24.wav,13.29,siswati_037,40,kuyaye kutsi njalo kusihlwa tenyukele etulu tisuka endvo [n] endonda
+siswati_078_18_276,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_078\siswati_078_18.wav,5.41,siswati_078,27,[n] sihlanu setindlu tesintfu tishe taphela nya
+siswati_170_09_277,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_170\siswati_170_09.wav,2.79,siswati_170,43,ngihlala enaspoti [n] kamagugu
+siswati_182_14_278,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_182\siswati_182_14.wav,3.75,siswati_182,33,lihhovisi lebungameli iriphabliki yeningizimu afri [n]
+siswati_046_02_279,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_046\siswati_046_02.wav,0.9,siswati_046,45,fourty five
+siswati_165_19_280,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_165\siswati_165_19.wav,5.72,siswati_165,24,besitewubingelela tihambi letifike nebasemtini
+siswati_187_15_281,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_187\siswati_187_15.wav,5.45,siswati_187,40,sidlubuladledle [n] sakitsi sakalobamba siyabapha bantfu siyabadlu
+siswati_096_17_282,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_096\siswati_096_17.wav,8.99,siswati_096,32,angilitfolanga litfuba lekunibonga nonkhe kodwva kulomcimbi njengoba sengilapha ngiyabonga kini [n] nonkhe
+siswati_116_06_283,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_116\siswati_116_06.wav,4.92,siswati_116,62,mhla tilishumi enyangeni yekucala
+siswati_007_01_284,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_007\siswati_007_01.wav,0.97,siswati_007,44,siswati
+siswati_017_27_285,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_017\siswati_017_27.wav,8.16,siswati_017,24,nangabe tigameko kutsi tenteka epulazini nobe edolobheni kwenele kusho kutsi tenteka kuphi kuphela
+siswati_195_27_286,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_195\siswati_195_27.wav,5.96,siswati_195,33,lelitsambo batsi bodokotela kuncono lijutjwe angeke aphile
+siswati_056_26_287,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_056\siswati_056_26.wav,5.39,siswati_056,46,hhohhe nkhosi yami [n] ingabe kantsi mine ngangenewa yini
+siswati_113_01_288,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_113\siswati_113_01.wav,0.79,siswati_113,Not Available,siswati
+siswati_076_11_289,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_076\siswati_076_11.wav,0.5,siswati_076,23,[n] kwenta
+siswati_020_14_290,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_020\siswati_020_14.wav,6.11,siswati_020,Not Available,litiko lema letemabhizinisi ahulumende iriphabliki yeningizimu afrik
+siswati_196_24_291,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_196\siswati_196_24.wav,9.79,siswati_196,34,sicu sebuniyo singaba nobe nguliphi ligama ngaphandle kwesabitocobo [n] sabito sekubala sibanjalo nesento
+siswati_009_19_292,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_009\siswati_009_19.wav,6.4,siswati_009,21,emanti aleli alelidamu atawuba [n] lusito lolukhulu ekulinyweni kwemoba esimunye
+siswati_010_09_293,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_010\siswati_010_09.wav,1.14,siswati_010,26,[n] e barberton [n]
+siswati_106_24_294,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_106\siswati_106_24.wav,10.04,siswati_106,26,yipha yiphakeni tindvuna temphi yiphakeni imphi tinkhalo [n] akugcame sifuba nem netimphondvo [n] tayo
+siswati_068_10_295,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_068\siswati_068_10.wav,2.79,siswati_068,26,[n] insimbi yesitfupha enhloko
+siswati_125_21_296,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_125\siswati_125_21.wav,5.64,siswati_125,40,lingakefiki lilanga lekuvota wonkhewonkhe lomvumelako umtsetfo uyawuvota
+siswati_145_11_297,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_145\siswati_145_11.wav,2.94,siswati_145,30,[n] nasetinkholelweni
+siswati_147_03_298,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_147\siswati_147_03.wav,0.85,siswati_147,73,[n] ngimdvuna
+siswati_120_25_299,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_120\siswati_120_25.wav,8.09,siswati_120,33,bahlangana bakagama bahlanganela ngasemtfolamphilo wasenumbi [n] lebewusandza kwakhiwa nguhulumende
+siswati_169_06_300,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_169\siswati_169_06.wav,1.34,siswati_169,36,ngendlovulencane
+siswati_012_21_301,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_012\siswati_012_21.wav,8.76,siswati_012,28,sihulahula semfokati samutsi ngci ngesandla sinye samphakamisela etulu [n] sam muhha [s] samuhhanklata phasi
+siswati_091_19_302,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_091\siswati_091_19.wav,6.27,siswati_091,29,lona luswane lwakhe [s] lwaluluhle luyimpontolozana
+siswati_038_18_303,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_038\siswati_038_18.wav,10.72,siswati_038,42,kungako nje umbhali wephrozi angasisebentisi sigci futsi uyakugwema [n] kufaka i imisindvo nesigci [n] sebunkondlo
+siswati_037_01_304,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_037\siswati_037_01.wav,1.25,siswati_037,40,siswati
+siswati_050_23_305,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_050\siswati_050_23.wav,4.03,siswati_050,23,[s] sitawuke sitsi kuhlolahlola lo loku kulesifundvo
+siswati_184_03_306,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_184\siswati_184_03.wav,1.09,siswati_184,19,[n] ngimsikati
+siswati_023_24_307,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_023\siswati_023_24.wav,11.76,siswati_023,20,lemitse [n] lemitsetfomgomo itawubitwa nge ngemitsetfomgomo yem yemitimba yavelonkhe yeningiz ye yemazinga
+siswati_001_16_308,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_001\siswati_001_16.wav,10.07,siswati_001,22,kufute nihlolisane nibonisane kutsi kunguko kunguko yini nome akusiko na
+siswati_192_15_309,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_192\siswati_192_15.wav,9.61,siswati_192,20,[s] bafundzi besikolwa lesincane sasezulwini bebakadze bavakashele emlilwane ngalesitsatfu emini
+siswati_107_23_310,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_107\siswati_107_23.wav,9.94,siswati_107,41,[n] [s] lapha kufe [n] bonkhe bo bonkhe bonkhe bonkhe letinkopolo tife [n] tonkhana singa singabuyela sibe [n] njani
+siswati_182_06_311,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_182\siswati_182_06.wav,4.89,siswati_182,33,mhla tingemashumi lamabili nakunye enyangen enyangeni yengci
+siswati_021_06_312,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_021\siswati_021_06.wav,5.18,siswati_021,46,leshumi nesishiyagalolunye ngenyanga ya [n] february
+siswati_048_17_313,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_048\siswati_048_17.wav,27.09,siswati_048,Not Available,lokubukwako emaba [n] emabalave emapulani emagrafu emashadi emadayagramu titfombe loku kube lakho emabhuku emabhuku
+siswati_048_08_314,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_048\siswati_048_08.wav,1.65,siswati_048,Not Available,ngatalelwa [n] emashishini
+siswati_108_22_315,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_108\siswati_108_22.wav,11.11,siswati_108,55,tintsambo teliphimbo tintsalile tintsambophimbo timiswe [n] tacina kutsi umoya [s] utivevetelisa
+siswati_168_11_316,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_168\siswati_168_11.wav,13.15,siswati_168,18,k u [n] t [n] s a [n] [n] t f w a
+siswati_125_14_317,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_125\siswati_125_14.wav,5.02,siswati_125,40,litiko letekulima iriphabliki yeningizimu afrika
+siswati_121_05_318,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_121\siswati_121_05.wav,6.36,siswati_121,17,kunye licashata kubili licashata kunye sikhala kunye kubili kutsatf
+siswati_122_18_319,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_122\siswati_122_18.wav,5.44,siswati_122,23,[s] besitewubingelela tihambi letifike nebasebenti
+siswati_019_05_320,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_019\siswati_019_05.wav,9.38,siswati_019,23,kunye [n] cashati kubili cashati kunye [um] [n] [s] lishumi na nane
+siswati_113_03_321,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_113\siswati_113_03.wav,1.02,siswati_113,Not Available,ngimsikati
+siswati_125_19_322,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_125\siswati_125_19.wav,4.21,siswati_125,40,nawe wena mashikila kusondzela nje ngiyamjuba lomfat
+siswati_180_10_323,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_180\siswati_180_10.wav,3.84,siswati_180,45,emaminitsi lalishumi nesihlanu kwendlule insimbi yesine
+siswati_121_08_324,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_121\siswati_121_08.wav,0.8,siswati_121,17,enaas [n]
+siswati_137_18_325,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_137\siswati_137_18.wav,5.05,siswati_137,18,kumnandzi ku kuya esi esontfweni namake
+siswati_108_18_326,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_108\siswati_108_18.wav,11.82,siswati_108,55,bacelwa bagijimise emehlo endzabeni babone kutsi [n] akhona yini lamanye emagama ekupela labawabonako lapho
+siswati_067_09_327,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_067\siswati_067_09.wav,1.47,siswati_067,24,[n] ebapthini
+siswati_040_30_328,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_040\siswati_040_30.wav,6.61,siswati_040,48,[s] simangele [n] kantsi vele bowucinisile mnaketfu kutsi [n] [s] nacijimphi ubambe lijoyina
+siswati_188_26_329,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_188\siswati_188_26.wav,3.72,siswati_188,52,asubukisise yerobert emakhasini lalandzelako [n]
+siswati_135_16_330,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_135\siswati_135_16.wav,14.17,siswati_135,22,bacelwe ngamunye [s] ngababili nangeticheme bafundze basho [n] basho netinchazelo tawo
+siswati_084_05_331,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_084\siswati_084_05.wav,11.24,siswati_084,27,kunye [n] lichashata kubili lichashata kubili o dvwi siphohlongo nakune
+siswati_024_01_332,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_024\siswati_024_01.wav,0.88,siswati_024,52,[n] [s] siswati
+siswati_115_13_333,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_115\siswati_115_13.wav,15.95,siswati_115,43,licandza [n] kubili sitfupha siphohlongo kubili e kune kunye kune licandza kunye
+siswati_105_29_334,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_105\siswati_105_29.wav,7.23,siswati_105,29,nawe wena mashikila kusondzela nje ngiyamjuba lomfati
+siswati_163_08_335,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_163\siswati_163_08.wav,1.48,siswati_163,39,entfonjeni
+siswati_145_02_336,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_145\siswati_145_02.wav,1.7,siswati_145,30,unemashumi lamatsatfu
+siswati_063_19_337,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_063\siswati_063_19.wav,6.48,siswati_063,47,kungakonje kungumsebenti lomkhulu kumceceshi nemeluleki wedrama
+siswati_170_05_338,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_170\siswati_170_05.wav,9.81,siswati_170,43,[um] [n] kubili yikhoma kunye yikhoma kubili yidash kunye yinkomba kune
+siswati_001_09_339,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_001\siswati_001_09.wav,1.95,siswati_001,22,ngihlala e naspoti
+siswati_075_22_340,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_075\siswati_075_22.wav,11.93,siswati_075,23,yazuba inja yekhwela etikwakhe naye watidzela wagucuka ngesagila wagucuka ngesagila [n] sahlala enhloko yenja
+siswati_190_17_341,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_190\siswati_190_17.wav,6.23,siswati_190,30,[n] tabuyela emuva tijabule tijabule tibhedvukile njengaletinye tilwane
+siswati_139_26_342,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_139\siswati_139_26.wav,12.06,siswati_139,36,kungumcondvo wekucala nalowo lojwayelekile wekutsi lemphambosi ikhomba kwenta ngekuyen kentsisa [n] nekunganaki
+siswati_160_02_343,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_160\siswati_160_02.wav,2.14,siswati_160,34,lishumi nakutsatfu [n] nakunye
+siswati_165_07_344,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_165\siswati_165_07.wav,1.49,siswati_165,24,cha angikashadang
+siswati_038_25_345,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_038\siswati_038_25.wav,6.88,siswati_038,42,nika [n] tizatfu letibangela kutsi imidlalo yedrama yehlukaniswe [n] [n] [s] ngetinkhundla
+siswati_008_20_346,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_008\siswati_008_20.wav,13.19,siswati_008,44,[n] emabito [n] [s] lahlongotwa n ngetakhi lapho sabito [s] ne [n] lesifinye lesifinyetiwe sitsandza indzawo [n] yelibito leliphokotwe ngesikhats
+siswati_040_20_347,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_040\siswati_040_20.wav,5.71,siswati_040,48,sitawucacisa ngetibonelo letimbalwa [s] [n] umfana ushaye jamludi luphondvo
+siswati_135_17_348,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_135\siswati_135_17.wav,5.75,siswati_135,22,nanso lapha kufike kun kunyundzele khona dvu
+siswati_040_05_349,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_040\siswati_040_05.wav,4.03,siswati_040,48,[s] [n] kubili licashati kubili licashati kubili [s] emashumi lamane
+siswati_136_25_350,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_136\siswati_136_25.wav,3.94,siswati_136,39,lomfana bekasolo enyusana [n] nelibhuluko lakhe
+siswati_189_02_351,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_189\siswati_189_02.wav,2.8,siswati_189,20-30,lengemashumi lamabili [n] naku
+siswati_014_11_352,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_014\siswati_014_11.wav,7.72,siswati_014,29,t [n] i n d l e l a
+siswati_002_04_353,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_002\siswati_002_04.wav,0.87,siswati_002,34,elucingweni
+siswati_013_13_354,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_013\siswati_013_13.wav,16.25,siswati_013,42,licandza kubili kubili siphohlongo [n] sitfupha sitfupha inkhomba inkhomba sihlanu sitfupha
+siswati_002_15_355,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_002\siswati_002_15.wav,2.55,siswati_002,34,ungumntfwana [n] ngempela usipho
+siswati_027_28_356,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_027\siswati_027_28.wav,12.45,siswati_027,Not Available,tibonelo temathuluzi e emataki umklamo wemaphepha ekusebentela emajenali nemaphepha ekufundza ngekubuka
+siswati_155_19_357,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_155\siswati_155_19.wav,8.04,siswati_155,37,simangele kantsi vele bowucinisile mnaketfu kutsi nacijimphi ubambe lijoyina
+siswati_076_17_358,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_076\siswati_076_17.wav,10.59,siswati_076,23,noko tinyenti ti tintfosimo letinga [n] letingagcini nga ala loku logucuka abe ngu ele
+siswati_077_09_359,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_077\siswati_077_09.wav,1.02,siswati_077,35,[s] kanyamazane
+siswati_157_03_360,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_157\siswati_157_03.wav,0.92,siswati_157,35,[n] ngimsikati [n]
+siswati_045_10_361,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_045\siswati_045_10.wav,6.88,siswati_045,45,emaminitsi lalishumi nesihlanu ishayile insimbi yelishumi nakubili
+siswati_097_21_362,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_097\siswati_097_21.wav,7.76,siswati_097,35,lalela mbali [n] senele kungena emshadweni wena uyaphela kancane kancane nyalo sewunga sewungangenyalis
+siswati_011_25_363,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_011\siswati_011_25.wav,11.2,siswati_011,24,yena [n] utawujatjuliswa kutsi uneligalaji netinsimbi nome konkhe kuloku [n] kungasebenti
+siswati_099_02_364,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_099\siswati_099_02.wav,2.01,siswati_099,33,lamashumi lamatsatfu [n] nakutsatfu
+siswati_080_16_365,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_080\siswati_080_16.wav,3.82,siswati_080,Not Available,umfati sibili ubonakala ngekutsandza bakakhe
+siswati_171_03_366,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_171\siswati_171_03.wav,1.13,siswati_171,Not Available,ngimsikati
+siswati_089_17_367,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_089\siswati_089_17.wav,3.54,siswati_089,24,nani [n] [s] nitawafihlela njengobe sikolwa [n] khona
+siswati_040_25_368,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_040\siswati_040_25.wav,7.94,siswati_040,48,[s] yebabe uke wamuva yini wena zanele [s] atsi uyofuna [s] umsebenti [n] ngoba kungasamtjeli [s] kuphungula lisaka lemphuphu
+siswati_195_11_369,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_195\siswati_195_11.wav,14.2,siswati_195,33,l a b a n [n] a n e
+siswati_069_29_370,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_069\siswati_069_29.wav,10.98,siswati_069,40,kwase kw kwase [n] ukwa emphini [s] kwatfunywa emajalimane libutfo [s] lemajalimane
+siswati_050_26_371,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_050\siswati_050_26.wav,9.21,siswati_050,23,nato letimbongi tibhala ngebantfu [n] tilwane tilwanyakatane [s] lutsandvo [n] kafaka tikolo [n] emanyuvesi netibhedlela
+siswati_166_23_372,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_166\siswati_166_23.wav,10.56,siswati_166,28,[n] entsambama ngemgcibelo ndu [n] ndumiso upheka kudla kwa kwantsambama afunte nemntfwana
+siswati_053_03_373,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_053\siswati_053_03.wav,1.02,siswati_053,27,[n] ngimdvuna
+siswati_026_09_374,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_026\siswati_026_09.wav,2.98,siswati_026,22,ngihlala [n] [um] kanyamazane
+siswati_168_24_375,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_168\siswati_168_24.wav,19.01,siswati_168,18,tibonelo [n] temathuluzi [n] emataki umklamo [n] wemaphepha ekusebentela [s] emajenali nemaphepha ekufundza [n] ngekubuka
+siswati_146_25_376,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_146\siswati_146_25.wav,3.8,siswati_146,56,stevens asalinge kuchaza yonkhe imisebenti layentako
+siswati_147_05_377,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_147\siswati_147_05.wav,6.35,siswati_147,73,kubili kunye kubili kunye [n] sihlanu licandza
+siswati_084_08_378,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_084\siswati_084_08.wav,1.79,siswati_084,27,ngatalelwa la empumalang
+siswati_119_09_379,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_119\siswati_119_09.wav,1.47,siswati_119,30,ngihlala emangweni
+siswati_065_15_380,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_065\siswati_065_15.wav,8.09,siswati_065,Not Available,angilitfolanga litfuba lekunibonga nonkhe kodwva kulomcimbi njengoba sengilapha ngiyabonga ngiyabonga kini nonkhe
+siswati_111_27_381,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_111\siswati_111_27.wav,5.91,siswati_111,22,nanangu umfana [n] asecadzini kwam [n] lapha
+siswati_053_29_382,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_053\siswati_053_29.wav,9.21,siswati_053,27,ngempela ke sesimnandzi ngobe [n] sesikhuluma siseveni [n] letfu kute [n] lotawuphindze asicocodze [n]
+siswati_091_27_383,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_091\siswati_091_27.wav,7.26,siswati_091,29,umlente [s] welibhuluko wanganhlanye bewugcushwe [n] ekhatsi esokisini
+siswati_051_28_384,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_051\siswati_051_28.wav,5.79,siswati_051,27,gwinya ke sibone kutsi yonkhe imitfombo lengahlumisa lomhlaba ikhweshela emuva
+siswati_141_05_385,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_141\siswati_141_05.wav,7.04,siswati_141,43,ok kubili [n] kubili kunye kunye [n] kune kutsatfu
+siswati_048_18_386,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_048\siswati_048_18.wav,12.03,siswati_048,Not Available,sihlanu setindlu tesitfu tish tishe taphela nya
+siswati_047_25_387,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_047\siswati_047_25.wav,6.76,siswati_047,42,kunebalimi labangakuhlanyeli konkhe losekubalwe ngetulu tibhidvo [s] kuphela
+siswati_187_13_388,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_187\siswati_187_13.wav,8.17,siswati_187,40,sitfupha kubili [n] sikhombisa [n] [n] kuhlanu kuhlanu sitfupha kub [n] [s] kune
+siswati_042_20_389,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_042\siswati_042_20.wav,5.7,siswati_042,28,iwubone umehluko indvuna ibonakale seyijuluka yodvwan
+siswati_044_20_390,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_044\siswati_044_20.wav,16.32,siswati_044,35,ngikhuluma nje [n] ndvunankhulu wasenikwe oh ndvunankhulu nkhulu sewusinikiwe sicu [n] nguhulumende wening wenigeria [n]
+siswati_187_11_391,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_187\siswati_187_11.wav,8.32,siswati_187,40,[s] [n] l [s] o m k h a k h a
+siswati_011_24_392,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_011\siswati_011_24.wav,23.48,siswati_011,24,bosici bosicinisamfutfwa laba [n] bongwaca labacala nga ngangwaca lodubulako bese ulandzelwa ngungwaca longumfutfwa
+siswati_172_19_393,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_172\siswati_172_19.wav,6.42,siswati_172,41,umholi [n] ubhala tindzaba letimbili ngasikhatsi sinye
+siswati_045_03_394,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_045\siswati_045_03.wav,1.01,siswati_045,45,mdvuna
+siswati_076_10_395,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_076\siswati_076_10.wav,1.46,siswati_076,23,[s] insimbi yekucala enhloko
+siswati_103_24_396,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_103\siswati_103_24.wav,6.55,siswati_103,36,nani kepha nje niyafundziswa nifundziswa kutsi yini umsebenti webuphoyisa
+siswati_021_19_397,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_021\siswati_021_19.wav,12.95,siswati_021,46,ingcikitsi yalomphumela kutsi [n] bafundzi bagogodze emakhono [n] abo [s] ekusebentiseni [n] i aljebra
+siswati_089_08_398,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_089\siswati_089_08.wav,2.1,siswati_089,24,ngatalelwa e steenbok
+siswati_072_07_399,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_072\siswati_072_07.wav,1.46,siswati_072,45,yebo ngishadile
+siswati_064_11_400,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_064\siswati_064_11.wav,7.24,siswati_064,43,l i [n] h h a s h i
+siswati_092_18_401,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_092\siswati_092_18.wav,8.47,siswati_092,57,awu nakunjalo ngisho kutsi bekufanele bothishela bayonconcotsa egalaji kutsi [n] ewumadvodza kani kunjanina
+siswati_122_14_402,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_122\siswati_122_14.wav,6.12,siswati_122,23,litiko letekuchumana [s] iriphabliki [n] yeningizimu afrika
+siswati_073_10_403,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_073\siswati_073_10.wav,6.51,siswati_073,21,emaminitsi lalishumi nesihlanu kwendlula insimbi yemfica
+siswati_132_01_404,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_132\siswati_132_01.wav,0.96,siswati_132,37,swati
+siswati_049_01_405,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_049\siswati_049_01.wav,0.47,siswati_049,19,[n] siswat
+siswati_048_04_406,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_048\siswati_048_04.wav,0.63,siswati_048,Not Available,khuluma ek
+siswati_021_30_407,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_021\siswati_021_30.wav,7.54,siswati_021,46,sitawucacisa ngetibonelo letimbalwa umfana ushaye jamludi luphon
+siswati_183_25_408,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_183\siswati_183_25.wav,4.34,siswati_183,18,wubabatse uyamemeta nanimkhokhe [n] kuchamuka
+siswati_052_23_409,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_052\siswati_052_23.wav,5.72,siswati_052,29,[s] nanso lapha [n] [s] kufike kunyundzele [s] khona dvu
+siswati_115_12_410,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_115\siswati_115_12.wav,3.47,siswati_115,43,[s] ngulwesine [n] indlovulenkhulu
+siswati_024_30_411,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_024\siswati_024_30.wav,3.61,siswati_024,52,lenhle [s] uyatsandza kugijim
+siswati_014_20_412,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_014\siswati_014_20.wav,6.25,siswati_014,29,wotsi ngimane ngiyotsengela [s] sibhikivane emafeti lapha emakethe
+siswati_098_07_413,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_098\siswati_098_07.wav,1.06,siswati_098,23,angikashadi
+siswati_160_29_414,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_160\siswati_160_29.wav,10.61,siswati_160,34,kukhicitwa kwekudla kulelivi kulelive akuf akukefiki esigabeni [n] lesenelisako
+siswati_052_22_415,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_052\siswati_052_22.wav,15.48,siswati_052,29,[s] [n] kwatise phela kutsing [s] alufakwa [n] nakuyo i ocean blues [s] inetinhlobo tonkhe futsi [n] idvume [n] ngekuguculela
+siswati_090_27_416,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_090\siswati_090_27.wav,6.09,siswati_090,22,nanso lapha kufike [n] kunyu [n] kunyundzele khona dvu
+siswati_162_26_417,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_162\siswati_162_26.wav,9.36,siswati_162,Not Available,bacelwa ngamunye ngababili nangeticheme bawafundze basho netinchazelo tawo
+siswati_172_10_418,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_172\siswati_172_10.wav,2.41,siswati_172,41,igabence insimbi yesibili
+siswati_040_23_419,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_040\siswati_040_23.wav,9.02,siswati_040,48,kepha [s] ng [n] ngalengekumtekeni ngesiswati [n] kushaywa tinkhomo [s] kutsiwe ufohle umuti wemuntfu
+siswati_148_28_420,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_148\siswati_148_28.wav,13.66,siswati_148,46,lokungetulu kunefenisha loyidzingako empeleni tsine sengeta se kweneliseka kumtsengi kulomnikelo [n] losipesheli
+siswati_132_16_421,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_132\siswati_132_16.wav,4.6,siswati_132,37,angiboni kutsi bungehla nasingalala singakayi [n] kamhlohlo
+siswati_091_03_422,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_091\siswati_091_03.wav,0.95,siswati_091,29,[n] ngimsikat
+siswati_194_21_423,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_194\siswati_194_21.wav,14.41,siswati_194,50,bamise en bamise endleleni ubute imibuto njengekutsi ugcetjelwa ngubani umbhedze ndumiso
+siswati_081_22_424,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_081\siswati_081_22.wav,12.7,siswati_081,30,sihlalo uma engamele engamele angeke abe nelivoti lelingumncamla mlajucu kepha livoti leletayelekile
+siswati_178_06_425,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_178\siswati_178_06.wav,1.79,siswati_178,40,nineteen [n] sixty eight
+siswati_162_21_426,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_162\siswati_162_21.wav,7.85,siswati_162,Not Available,imvumelwanosicalo lapha imisindvo levumelanako iba sekucaleni
+siswati_089_21_427,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_089\siswati_089_21.wav,5.62,siswati_089,24,[n] ngitsite ngisahambahamba [s] ngeva tigi nekukhehleta kwetikhi
+siswati_138_06_428,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_138\siswati_138_06.wav,6.33,siswati_138,25,[n] tilishumi enyangeni yendlovana eminyakeni lelishumi nemfica nelishumi nesiphohlongo
+siswati_167_14_429,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_167\siswati_167_14.wav,6.41,siswati_167,20,luphiko lwetebunhloli lwavelonkhe iriphabliki yeningizimu afrika
+siswati_008_30_430,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_008\siswati_008_30.wav,19.75,siswati_008,44,[n] kepha [s] kufanele sibe [s] nebucinisa [s] bo baloku [n] gaz lok balokungazuzwa [n] [s] ngaloku ngalokunge kwanzuza yikha [n] ik ikharikh ikharikhula
+siswati_095_27_431,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_095\siswati_095_27.wav,8.93,siswati_095,43,avuka nje uyobasa sitofu [n] semalahle khona atobeka emanti ekugeza khona atoya kamlumbi
+siswati_140_20_432,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_140\siswati_140_20.wav,7.64,siswati_140,44,nika tizatfu letibangela kutsi imidlalo yedrama yehlukaniswe ngetinkhundla
+siswati_043_01_433,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_043\siswati_043_01.wav,0.81,siswati_043,20,[n] siswati
+siswati_010_27_434,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_010\siswati_010_27.wav,8.75,siswati_010,26,[s] ucoca konkhe lala lalakhuluma ngako [s] nje wetama kufeza injongo yakhe [s] [n] ngendzaba leyo
+siswati_057_24_435,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_057\siswati_057_24.wav,9.24,siswati_057,25,ukhona yini [n] umlamuli nobe umcabanisi kulomdlalo
+siswati_087_24_436,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_087\siswati_087_24.wav,11.76,siswati_087,38,ngimi sitsandvwa sakho doro dorothi [n] phumi sisi ngiyabonga [n] kakhulu ngcamane [s] sewungisitile
+siswati_139_29_437,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_139\siswati_139_29.wav,9.37,siswati_139,36,umlente welibhuluko wanganhlanye bewugcushwe ekhatsi [n] esokisini
+siswati_003_04_438,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_003\siswati_003_04.wav,1.24,siswati_003,20,u [n] makhalekhikhini
+siswati_037_22_439,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_037\siswati_037_22.wav,16.51,siswati_037,40,tintfo tendzawo titsikameta umumo wemimango kantsi aticashelwa letintfo nekutsi [n] tingalungiswa njani
+siswati_055_02_440,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_055\siswati_055_02.wav,1.69,siswati_055,40,[n] ingemashumi lamane
+siswati_175_03_441,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_175\siswati_175_03.wav,1.15,siswati_175,19,ngimsikati
+siswati_018_21_442,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_018\siswati_018_21.wav,7.01,siswati_018,29,lomunye utsandza kugwamandza tinfto kantsi lomunye u uyamesaba umkakhe
+siswati_045_16_443,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_045\siswati_045_16.wav,9.98,siswati_045,45,umyalo nome [n] sincumo lesikhishwe yinkantolo sibopha wonkhe umuntfu netintfo tembuso lesisebenta kuto
+siswati_048_19_444,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_048\siswati_048_19.wav,24.81,siswati_048,Not Available,umuva [n] asayamnyala asayamlaya kutsi abe caphela abe caphela kutsi uhlalaphi i iga ingani phela uneluvalo lekutsi angase abe nelifu [n] neliwutsi nelitfuli
+siswati_003_25_445,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_003\siswati_003_25.wav,8.09,siswati_003,20,akamudze nje mbango uni utsintsa lizulu [n] ngetandla
+siswati_122_08_446,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_122\siswati_122_08.wav,1.36,siswati_122,23,[s] embuzini
+siswati_085_15_447,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_085\siswati_085_15.wav,9.64,siswati_085,45,lomklamo lophets [n] lophatselene nelulwimi wasungulwa litiko [n] letekuchumana [s] kutfutfukisa lulwimi nemagugu [n] kumawebsite
+siswati_113_15_448,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_113\siswati_113_15.wav,10.73,siswati_113,Not Available,etinhlelweni tekugege tekugegisa kungena kwemoya kugcugcutela kuha kuhamuka kwemswakama
+siswati_126_23_449,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_126\siswati_126_23.wav,9.47,siswati_126,36,kusukela ngesikhatsi emave eafrika atfola mazibuse akhombise [n] kwehluleka kutfutfukisa bantfu bawo
+siswati_166_19_450,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_166\siswati_166_19.wav,6.36,siswati_166,28,lwabiwomali lwelive lonkhe [s] lwetifundza nelwabomasipala
+siswati_078_27_451,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_078\siswati_078_27.wav,10.09,siswati_078,27,sabito sekukhomba sibhalwa sihlanganiswe kanje lomfana wakabhocoza uganiwe
+siswati_148_18_452,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_148\siswati_148_18.wav,8.81,siswati_148,46,uma utawuhlangana [n] nemoto nesidududu noma nelibhayisikili uyakubona
+siswati_012_03_453,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_012\siswati_012_03.wav,0.9,siswati_012,28,[n] ngimsikati
+siswati_027_22_454,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_027\siswati_027_22.wav,8.87,siswati_027,Not Available,sabito sekukhomba sibhalwa sihlanganiswe kanje lomfana wakabhocoza uganiwe
+siswati_159_10_455,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_159\siswati_159_10.wav,3.61,siswati_159,28,[n] i igabence insimbi yelishumi nakunye
+siswati_044_06_456,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_044\siswati_044_06.wav,5.31,siswati_044,35,[n] kune [s] [um] nyanga ya [um] yesitsatfu
+siswati_144_02_457,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_144\siswati_144_02.wav,2.21,siswati_144,24,lab mashumi lamabili [n] nakune
+siswati_193_14_458,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_193\siswati_193_14.wav,6.74,siswati_193,Not Available,umtsetfo wemafemu longuwona usebenta nyalo udzinga kushintjwa
+siswati_137_19_459,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_137\siswati_137_19.wav,13.24,siswati_137,18,lihumusho lenkhulumo y yenkhosi emidve em emgidvweni welusuku lwesibhimbi lwe [n] lwenkhosi
+siswati_072_13_460,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_072\siswati_072_13.wav,9.88,siswati_072,45,licandza siphohlongo [n] sikhombisa siphohlongo kubili kubili kune kuhlanu kutsatfu kubili
+siswati_148_15_461,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_148\siswati_148_15.wav,4.35,siswati_148,46,lomfana bekasolo enyusana nelibhuluko lakhe
+siswati_167_18_462,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_167\siswati_167_18.wav,11.07,siswati_167,20,siphetfo kum kungumkhuba lomuhle kutetayeta kukwati kuma embili [n] kwalabanye wetfule inkhulumo [n] loyilungisile
+siswati_061_30_463,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_061\siswati_061_30.wav,10.95,siswati_061,43,phela sekushayelwe tinhlambi [s] letatiwako tasepitoli kutsiwa tisendleleni tita [n] ngendiza
+siswati_009_07_464,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_009\siswati_009_07.wav,1.4,siswati_009,21,cha ngisengakashadi
+siswati_051_21_465,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_051\siswati_051_21.wav,6.4,siswati_051,27,kungase kwenteke anje kutsi thisha thishela angahlangana nebantfwana [n] bobod bodvwana zwi
+siswati_097_17_466,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_097\siswati_097_17.wav,3.87,siswati_097,35,lona luswane lwakhe lwaluluhle luyimpontolozana
+siswati_190_01_467,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_190\siswati_190_01.wav,0.94,siswati_190,30,siswati
+siswati_119_17_468,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_119\siswati_119_17.wav,9.34,siswati_119,30,ngulowo nalowo muntfu ubuka lomunye loseceleni kutsi utiphatsa ngebuwula nobe ngebuntfu na
+siswati_058_21_469,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_058\siswati_058_21.wav,8.22,siswati_058,26,[n] sitfombe jikelele [n] semsebenti [n] [n] wemfundzi akumelanga siphanjaniswe [n] nephothifoliyo
+siswati_051_17_470,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_051\siswati_051_17.wav,3.9,siswati_051,27,wubabatse uyamemeta nanimkhokhe kuchamuka
+siswati_013_11_471,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_013\siswati_013_11.wav,16.92,siswati_013,42,[n] a s e [n] t j e n t i s [n] w a
+siswati_186_22_472,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_186\siswati_186_22.wav,6.03,siswati_186,Not Available,emanti afanele ahlantwe kute kufe [s] emagciwane
+siswati_050_18_473,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_050\siswati_050_18.wav,3.33,siswati_050,23,[s] ukhona yini umlamuli nome umcabanisi kulomdlalo
+siswati_097_05_474,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_097\siswati_097_05.wav,6.24,siswati_097,35,kunye ngci kunye ngci kubili khipha emashumi layimfica nesiphohlong
+siswati_018_29_475,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_018\siswati_018_29.wav,6.99,siswati_018,29,nani kepha nje niyafundziswa nifundziswa kutsi yini umsebenti webuphoyisa
+siswati_026_05_476,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_026\siswati_026_05.wav,5.62,siswati_026,22,[s] kunye lichashati kunye lichashati kubili sikhala
+siswati_167_11_477,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_167\siswati_167_11.wav,8.74,siswati_167,20,l a s a t f u t f u k a
+siswati_132_29_478,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_132\siswati_132_29.wav,9.27,siswati_132,37,kepha wonkhe umhlaba uyati kutsi umhlaba loyi siwunyatse lesiwunyatselako [n] nguyena mnini wako konkhe lokungaveta [n] konkhe
+siswati_184_05_479,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_184\siswati_184_05.wav,12.3,siswati_184,19,[n] kunye licashata kubili licashata kubili dash [s] kunye siphohlongo siphohlongo
+siswati_027_11_480,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_027\siswati_027_11.wav,1.02,siswati_027,Not Available,a
+siswati_027_15_481,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_027\siswati_027_15.wav,6.75,siswati_027,Not Available,kulotita nemlidlwana lebonakala njengetinkhanyeti letisemhlaben [n]
+siswati_159_26_482,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_159\siswati_159_26.wav,8.09,siswati_159,28,[s] sitawucacisa ngetibonelo letimbalwa [n] umfana ushaye [s] [n] jamludi luphondvo
+siswati_115_11_483,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_115\siswati_115_11.wav,16.32,siswati_115,43,ngu l [n] e [n] m i [n] b h a l o
+siswati_123_13_484,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_123\siswati_123_13.wav,10.21,siswati_123,35,[n] candza licandza kunye [n] licandza [um] sitfupha [s] kuhlanu sikhombisa [n] siphohlongo [um] kune [n] siphohlong
+siswati_121_29_485,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_121\siswati_121_29.wav,8.37,siswati_121,17,kukhona umehluko lomkhulu lokufanele siwupha [n] awule emkhatsini wemphambosi yekwentela neyekwentiwa
+siswati_116_15_486,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_116\siswati_116_15.wav,15.95,siswati_116,62,loku kufaka ekhatsi let leto tihlahla netilwane letisengakavunjululwa kutelwati lwabososayensi
+siswati_031_14_487,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_031\siswati_031_14.wav,6.26,siswati_031,42,litiko letekuhweba netimboni iriphabliki yeningizimu afrika
+siswati_011_15_488,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_011\siswati_011_15.wav,8.87,siswati_011,24,[n] simangele kantsi vele bowucinisile mnaketfu kutsi nacijimphi ubambe lijoyina
+siswati_112_07_489,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_112\siswati_112_07.wav,1.5,siswati_112,27,[n] yebo ngishadile
+siswati_129_16_490,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_129\siswati_129_16.wav,5.97,siswati_129,23,ube uyacwila nesihlahla sicwile ubatse nesihlahla sijike
+siswati_085_03_491,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_085\siswati_085_03.wav,0.95,siswati_085,45,[n] ngimdvuna
+siswati_180_02_492,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_180\siswati_180_02.wav,2.33,siswati_180,45,lishumi la nakunye nesihlanu
+siswati_072_21_493,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_072\siswati_072_21.wav,11.95,siswati_072,45,emshweni wekucala [n] ungumung ungumnikati welibhayisikili emshweni wesibili litinyo lasipho [n] lelakhishwa ngudokodela
+siswati_163_27_494,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_163\siswati_163_27.wav,13.47,siswati_163,39,kuniketa bafundzi [n] umbiko lowakhako [n] macondzana nenchubo yabo kurekhoda [um] imiphumela yebafundzi
+siswati_159_03_495,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_159\siswati_159_03.wav,1.22,siswati_159,28,ngimsikati
+siswati_024_23_496,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_024\siswati_024_23.wav,13.15,siswati_024,52,bafundzisi kufanele babike kubatali njalo ekupheleni kwethemu [n] base basebentise emakhad emakhadi [s] mbiko lahlelekile
+siswati_005_30_497,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_005\siswati_005_30.wav,6.61,siswati_005,43,emanti afanele ahlantwe kute kufe emagciwane
+siswati_141_14_498,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_141\siswati_141_14.wav,4.68,siswati_141,43,litiko letemphilo [n] iriphabliki yeningizimu afrika
+siswati_038_14_499,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_038\siswati_038_14.wav,9.85,siswati_038,42,luphiko lwemisebenti yemaphoyisa aseningizimu afrika iriphabliki yeningizimu afrika
+siswati_179_20_500,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_179\siswati_179_20.wav,9.24,siswati_179,39,cha [s] lizinga lalomdlalo lekudvundvubala [n] lefika ngemphumelelo lenkhu ngemphumelelo lenkhulu
+siswati_010_20_501,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_010\siswati_010_20.wav,9.78,siswati_010,26,[n] [s] ngiyakubona mank mankunzini ucabanga kutsi ngemaphoyisa lawa laf lefika ngelibhayisikili wacela empunzini
+siswati_016_04_502,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_016\siswati_016_04.wav,0.93,siswati_016,38,[n] ecingweni
+siswati_171_15_503,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_171\siswati_171_15.wav,3.4,siswati_171,Not Available,nanso lapho kufike kunyundzele khona dvu
+siswati_173_27_504,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_173\siswati_173_27.wav,5.63,siswati_173,31,umbutfo wetemphi ngiwo ngiwo wodvwa umbutfo wetemphi losemtsetfweni eriphabhulikhi
+siswati_172_07_505,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_172\siswati_172_07.wav,1.91,siswati_172,41,[um] bengishadile
+siswati_191_27_506,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_191\siswati_191_27.wav,5.23,siswati_191,25,nidzimate nicambe nayefika nje nine sengima laphaya
+siswati_010_26_507,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_010\siswati_010_26.wav,6.46,siswati_010,26,timphawu [s] tekubhala nayi [n] imisho setilungisiwe libito lami nginguvukile shongwe
+siswati_145_07_508,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_145\siswati_145_07.wav,0.68,siswati_145,30,cha
+siswati_058_30_509,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_058\siswati_058_30.wav,9.66,siswati_058,26,[n] tinsimu [s] tehluke kanjani [s] etikwen [n] etikwensimu ya [n] etikwensimu masinyane
+siswati_088_16_510,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_088\siswati_088_16.wav,4.99,siswati_088,40,lona luswane lwakhe lwaluluhle luyimpontolozana
+siswati_056_30_511,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_056\siswati_056_30.wav,7.63,siswati_056,46,ewu [n] mane ubatsang ubatsengele nankha emaswidi bantfwana [n] batawulibala lapha [s] emaswidini
+siswati_192_22_512,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_192\siswati_192_22.wav,6.85,siswati_192,20,[s] lona lona loluswane lwakhe [s] lwa lwalulunse l luyimbot b luyimpontolozana
+siswati_060_30_513,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_060\siswati_060_30.wav,4.39,siswati_060,35,bekangetfuswa lutfo [n] lapha atibhalele khona
+siswati_136_05_514,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_136\siswati_136_05.wav,10.71,siswati_136,39,kunye [n] licashata [n] kunye licashata kubili dvwi [n] likhulu nemashum lamatsatfu [s] nesiphohlong
+siswati_182_23_515,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_182\siswati_182_23.wav,9.51,siswati_182,33,ku sibitelo [n] nika bafundzi litfuba lekubitelana emagama lasekucaleni endzabeni bebayifundza
+siswati_151_13_516,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_151\siswati_151_13.wav,12.35,siswati_151,27,[n] lite [n] kubili [n] sine [n] kubili kutsatfu [n] kune [n] kune kubili kune kunye
+siswati_154_27_517,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_154\siswati_154_27.wav,1.94,siswati_154,45,bantfwana bami bayadlala
+siswati_079_10_518,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_079\siswati_079_10.wav,2.64,siswati_079,38,igabence insimbi yelishumi nakunye
+siswati_101_28_519,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_101\siswati_101_28.wav,10.73,siswati_101,Not Available,ukhaliphile etibalweni nakusayensi akevani nete [n] awu akevani netemlandvo [n] nebha ne nebhayoloji
+siswati_183_03_520,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_183\siswati_183_03.wav,1.01,siswati_183,18,ngimsikati
+siswati_046_08_521,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_046\siswati_046_08.wav,0.95,siswati_046,45,empumalanga
+siswati_075_29_522,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_075\siswati_075_29.wav,12.28,siswati_075,23,konkhe [n] loku kufika enhlitiyweni yamahlasela lose [n] aphelel aphelelwa aphelelwa [n] live kulendzawo be bekavusa ngetikhwepha
+siswati_100_02_523,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_100\siswati_100_02.wav,1.94,siswati_100,36,emashumi lamatsatfu [n] nesitfupha
+siswati_126_25_524,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_126\siswati_126_25.wav,13.21,siswati_126,36,[n] loku kufaka ekhatsi leto tihlahla netilwane le letisengakavunjululwa kule kutelwati [n] lwabososayensi
+siswati_060_22_525,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_060\siswati_060_22.wav,11.63,siswati_060,35,siyajabula [s] kubona imiphumela [n] yemitamo yekulungisa simo [n] setembusave eafrika [s] [n] laseningizimu
+siswati_196_19_526,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_196\siswati_196_19.wav,5.63,siswati_196,34,sengivile ngemzala logwaj logwaja kutsi umsila wami uta nawe
+siswati_026_06_527,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_026\siswati_026_06.wav,1.46,siswati_026,22,hlanu
+siswati_185_01_528,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_185\siswati_185_01.wav,0.85,siswati_185,36,siswati
+siswati_066_27_529,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_066\siswati_066_27.wav,8.13,siswati_066,23,yatsi abayewubita emachegu talukati emadvodza bafati bafana nemantfombatana
+siswati_154_26_530,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_154\siswati_154_26.wav,5.7,siswati_154,45,kulotita nemlidlwana lebonakala njengetinkhanyeti letisemhlabeni
+siswati_013_21_531,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_013\siswati_013_21.wav,5.89,siswati_013,42,phela sekushayelwe tinhlambi letatiwako tasepitoli kutsiwa tisendleleni tita ngendiza
+siswati_116_19_532,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_116\siswati_116_19.wav,5.97,siswati_116,62,ngitsakase kakhulu [n] impela kuva kutsi benihleti kahle
+siswati_015_03_533,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_015\siswati_015_03.wav,1.18,siswati_015,52,ngimsikati
+siswati_079_28_534,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_079\siswati_079_28.wav,6.77,siswati_079,38,siyajabula kubona imiphumela yemitamo [n] yekulungisa simo setembusave eafrika leseningizimu
+siswati_196_21_535,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_196\siswati_196_21.wav,7.87,siswati_196,34,intfo kutsi ngetsemba nje kutsi ngingahle ngibone sibhikivane ngitomtjela kutsi sengimganile
+siswati_134_11_536,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_134\siswati_134_11.wav,4.9,siswati_134,49,h o w u
+siswati_060_12_537,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_060\siswati_060_12.wav,3.19,siswati_060,35,[s] sishiyagalolunye inhlaba
+siswati_005_05_538,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_005\siswati_005_05.wav,9.48,siswati_005,43,kubili [s] cashati [n] ku kunye cashati [s] dvwi sihlanu
+siswati_004_13_539,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_004\siswati_004_13.wav,15.99,siswati_004,32,licandza siphohlongo kubili kutsatfu licandza siphohlongo inkhotsa sitfupha licandza siphohlongo
+siswati_184_09_540,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_184\siswati_184_09.wav,2.68,siswati_184,19,e clau clau [s] lidolobha [n] lasenaspoti
+siswati_058_22_541,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_058\siswati_058_22.wav,8.53,siswati_058,26,kulotita nemlidlwana n lebonakala njengetinkhanyeti letisemhlabeni
+siswati_075_24_542,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_075\siswati_075_24.wav,10.33,siswati_075,23,wotsi ngimane ngiyotsengela sibhi [n] sibhikivane emafeti lapha emakethe
+siswati_089_23_543,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_089\siswati_089_23.wav,10.76,siswati_089,24,asubukisise elobothi elobothi emkhatsini emkha emkhatsi emkha emkhas eka emkhatsini lalindz [um] lalandzelako
+siswati_105_02_544,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_105\siswati_105_02.wav,3.2,siswati_105,29,mashumi lamabili la la nem nemfica
+siswati_059_15_545,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_059\siswati_059_15.wav,10.67,siswati_059,31,ngulowo nalowo muntfu ubuka [n] lomunye loseceleni kutsi utiphatsa ngebuwula n nobe ngebuntfu na
+siswati_005_16_546,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_005\siswati_005_16.wav,12.26,siswati_005,43,kwengeta lapho [n] [s] umhlaba uyindzawo [n] legucugucukako [s] ngekwepolitiki temvelo [s] kanye [n] netethekhinoloji
+siswati_037_21_547,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_037\siswati_037_21.wav,7.75,siswati_037,40,lomunye utsandza kugwamandza tinfto kantsi lomunye uyamesaba umkakhe
+siswati_045_09_548,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_045\siswati_045_09.wav,1.61,siswati_045,45,kanyamazane
+siswati_172_03_549,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_172\siswati_172_03.wav,0.89,siswati_172,41,ngimsikati
+siswati_074_13_550,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_074\siswati_074_13.wav,10.66,siswati_074,28,licandza siphohlongo kune sikhombisa siphohlongo sitfupha kune licandza sitfupha sihlanu
+siswati_067_14_551,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_067\siswati_067_14.wav,6.65,siswati_067,24,[s] luphiko lwetemshoshaphasi lwaseningizimu afrika [s] iriphabliki yeningizimu afri
+siswati_111_18_552,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_111\siswati_111_18.wav,12.19,siswati_111,22,[n] sibitelo nika bafundzi [n] litfuba lekubitelana emagama lasekucaleni endzabeni bebayifundza
+siswati_103_03_553,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_103\siswati_103_03.wav,1.09,siswati_103,36,ngimsikati
+siswati_043_29_554,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_043\siswati_043_29.wav,12.46,siswati_043,20,ngita kuwe ngiyakhasa ngiyatotoba [n] [n] emadvolo [s] ayagedzetela [n] ngita kuwe ngiyatidvonsa livi lami liyahoshota
+siswati_111_03_555,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_111\siswati_111_03.wav,1.05,siswati_111,22,ngimdvuna
+siswati_074_17_556,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_074\siswati_074_17.wav,9.22,siswati_074,28,sigcino tsanga tsangalembiba watidzikela watsatsa imbita wangenela indlela leya emfuleni
+siswati_058_19_557,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_058\siswati_058_19.wav,8.96,siswati_058,26,ngihambe ngahamba ngaze ngefika [n] ebaleni lapho [n] ngahlangana nebantfu [n] labanyenti
+siswati_148_02_558,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_148\siswati_148_02.wav,1.75,siswati_148,46,mashumi lamane nesitfupha
+siswati_142_10_559,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_142\siswati_142_10.wav,6.27,siswati_142,53,[n] emaminitsi lalishumi nakuhlanu [s] se kungakashayi insimbi yesikhombisa [n]
+siswati_163_29_560,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_163\siswati_163_29.wav,10.1,siswati_163,39,mbazwana ufuna kuganwa ngusenzekile lamtsandza ngenhlitiyo yakhe yonkhe
+siswati_068_28_561,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_068\siswati_068_28.wav,13.79,siswati_068,26,[n] manje lomlinga lomlingiswa [n] [s] uyinkinga yena ngekwakhe ngoba tintfo ati atisahamb atisamhambeli kahle njengobe [n] edz adzakiwe nje
+siswati_085_01_562,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_085\siswati_085_01.wav,0.84,siswati_085,45,[n] siswati
+siswati_171_30_563,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_171\siswati_171_30.wav,6.27,siswati_171,Not Available,emathayela emafasitelo iminyango [n] semende nemapulango
+siswati_033_16_564,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_033\siswati_033_16.wav,6.26,siswati_033,18,umukhwa sewuyangena entsanyeni yalomake ngobe nengati [n] seyiphuma kakhulu
+siswati_190_13_565,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_190\siswati_190_13.wav,8.7,siswati_190,30,licandza sikhombisa sikhombisa [n] kune kunye kubili kutfatfu [n] kunye sikhombisa
+siswati_013_20_566,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_013\siswati_013_20.wav,4.13,siswati_013,42,nasoyitfolile iyinkhulu ngulapho uluphuya wengcela
+siswati_139_04_567,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_139\siswati_139_04.wav,1.05,siswati_139,36,elucingweni
+siswati_182_17_568,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_182\siswati_182_17.wav,6.5,siswati_182,33,[s] kunebalimi labangakuhlanyeli konkhe losekubalwe ngetulu [s] tibhidvo kuphela
+siswati_149_26_569,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_149\siswati_149_26.wav,5.41,siswati_149,47,[s] ngitsite ngisahambahamba ngeva tigi [s] nekukhehleta [n] kwetikhiya
+siswati_005_02_570,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_005\siswati_005_02.wav,3.14,siswati_005,43,ngineminyaka lengamashumi lamane nakutsatfu
+siswati_044_13_571,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_044\siswati_044_13.wav,9.38,siswati_044,35,[s] licandza sikhombisa sikhombisa kubili kutsatfu sitfupha kutsatfu kunye sikhombisa kutsa
+siswati_049_24_572,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_049\siswati_049_24.wav,2.26,siswati_049,19,[n] batali betfu bayasebenta
+siswati_014_28_573,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_014\siswati_014_28.wav,16.65,siswati_014,29,kufanele [n] kwekutsi sibati sibati labaf fana [n] lesitawuha lesitawubatfuma lapho emalamente lapha ephalamende kwekutsi bafana labanjani
+siswati_072_17_574,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_072\siswati_072_17.wav,8.46,siswati_072,45,emanti alelidamu atawuba lusito lelikhulu ekulinyweni kwema s kwema kwemoba esimunye
+siswati_082_06_575,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_082\siswati_082_06.wav,3.76,siswati_082,33,mabasa lusuku siphohlongo
+siswati_185_06_576,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_185\siswati_185_06.wav,2.06,siswati_185,36,lishumi nesihlanu ingci
+siswati_034_11_577,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_034\siswati_034_11.wav,7.85,siswati_034,26,ngina m e [s] n ngina [s] t ngina i ngina w then ngina a
+siswati_151_08_578,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_151\siswati_151_08.wav,2.97,siswati_151,27,ngatalelwa e kabhoweni
+siswati_139_06_579,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_139\siswati_139_06.wav,3.42,siswati_139,36,[um] lusuku lwesihlanu [s] inyanga yemphala
+siswati_183_28_580,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_183\siswati_183_28.wav,7.76,siswati_183,18,kunebalimi labangaka labangakuhlanyeli konkhe losekubalwe ngetulu tibhidvo kuphela
+siswati_112_11_581,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_112\siswati_112_11.wav,7.12,siswati_112,27,i t s a t s a
+siswati_021_12_582,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_021\siswati_021_12.wav,2.21,siswati_021,46,lishumi nesikhombisa [n] imbala
+siswati_009_08_583,D:\Model-Finetuning\wav2vec2\data\ASR.Lwazi.Ssw.1.0\audio\siswati_009\siswati_009_08.wav,1.45,siswati_009,21,ngatalelwa eswatini

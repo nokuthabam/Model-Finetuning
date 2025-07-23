@@ -1,0 +1,11 @@
+2025-07-22 23:06:50,245 - INFO - Starting transcript generation script.
+2025-07-22 23:06:50,245 - INFO - Processing Lwazi file for zulu.
+2025-07-22 23:06:50,255 - INFO - Processing Common Voice file for zulu.
+2025-07-22 23:06:50,288 - INFO - Transcripts for zulu written to text file.
+2025-07-22 23:06:50,288 - INFO - Processing Lwazi file for xhosa.
+2025-07-22 23:06:50,300 - INFO - Processing Common Voice file for xhosa.
+2025-07-22 23:06:50,335 - INFO - Transcripts for xhosa written to text file.
+2025-07-22 23:06:50,335 - INFO - Processing Lwazi file for siswati.
+2025-07-22 23:06:50,384 - INFO - Transcripts for siswati written to text file.
+2025-07-22 23:06:50,384 - INFO - Processing Lwazi file for ndebele.
+2025-07-22 23:06:50,436 - INFO - Transcripts for ndebele written to text file.

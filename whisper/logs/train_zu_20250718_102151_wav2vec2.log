@@ -1,0 +1,11 @@
+2025-07-18 10:21:51,393 - INFO - Starting training for language: zu
+2025-07-18 10:21:51,395 - INFO - Loading processor and model for zu...
+2025-07-18 10:21:54,118 - INFO - Loading dataset...
+2025-07-18 10:21:54,118 - INFO - Loading Lwazi dataset for zulu from D:\Model-Finetuning\whisper\data\zulu_train.json and D:\Model-Finetuning\whisper\data\zulu_test.json
+2025-07-18 10:21:55,785 - INFO - Loading Common Voice dataset for zulu from D:\Model-Finetuning\whisper\data\commonvoice_zu_train.json
+2025-07-18 10:21:56,579 - INFO - Combined dataset size: 5240 training examples
+2025-07-18 10:21:56,579 - INFO - Casting audio column and preparing dataset...
+2025-07-18 10:22:53,254 - INFO - Dataset loaded and prepared.
+2025-07-18 10:22:53,254 - INFO - Output directory set to D:\Model-Finetuning\whisper\whisper_model\zu
+2025-07-18 10:22:53,275 - INFO - Sanity check: printing one training batch
+2025-07-18 10:22:53,450 - ERROR - An error occurred during training: expected Tensor as element 0 in argument 0, but got list

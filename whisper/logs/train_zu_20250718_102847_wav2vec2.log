@@ -1,0 +1,16 @@
+2025-07-18 10:28:47,532 - INFO - Starting training for language: zu
+2025-07-18 10:28:47,532 - INFO - Loading processor and model for zu...
+2025-07-18 10:28:51,033 - INFO - Loading dataset...
+2025-07-18 10:28:51,038 - INFO - Loading Lwazi dataset for zulu from D:\Model-Finetuning\whisper\data\zulu_train.json and D:\Model-Finetuning\whisper\data\zulu_test.json
+2025-07-18 10:28:52,764 - INFO - Loading Common Voice dataset for zulu from D:\Model-Finetuning\whisper\data\commonvoice_zu_train.json
+2025-07-18 10:28:53,543 - INFO - Combined dataset size: 5240 training examples
+2025-07-18 10:28:53,543 - INFO - Casting audio column and preparing dataset...
+2025-07-18 10:29:49,554 - INFO - Dataset loaded and prepared.
+2025-07-18 10:29:49,555 - INFO - Output directory set to D:\Model-Finetuning\whisper\whisper_model\zu
+2025-07-18 10:29:49,569 - INFO - Sanity check: printing one training batch
+2025-07-18 10:29:49,743 - INFO - Example 0 input_features type: <class 'list'>, shape: None
+2025-07-18 10:29:49,743 - INFO - Example 1 input_features type: <class 'list'>, shape: None
+2025-07-18 10:29:49,777 - INFO - input_features: shape torch.Size([2, 80, 3000])
+2025-07-18 10:29:49,782 - INFO - labels: shape torch.Size([2, 47])
+2025-07-18 10:29:49,782 - INFO - Starting training...
+2025-07-18 10:30:27,011 - INFO - Training completed.

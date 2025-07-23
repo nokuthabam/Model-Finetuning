@@ -1,0 +1,16 @@
+2025-07-23 00:36:49,782 - INFO - Starting training for zu...
+2025-07-23 00:36:49,793 - DEBUG - Registered checkpoint save hook for _save
+2025-07-23 00:36:49,794 - DEBUG - Registered checkpoint load hook for _recover
+2025-07-23 00:36:49,795 - INFO - Tokenizer is already trained.
+2025-07-23 00:36:49,796 - INFO - ==== Loading Tokenizer ===
+2025-07-23 00:36:49,796 - INFO - Tokenizer path: D:\Model-Finetuning\speechbrain\model\zulu_speechbrain\1024_unigram.model
+2025-07-23 00:36:49,796 - INFO - Tokenizer vocab_size: 1024
+2025-07-23 00:36:49,796 - INFO - Tokenizer type: unigram
+2025-07-23 00:36:49,972 - INFO - Run option max_grad_norm from hparams is used
+2025-07-23 00:36:49,974 - INFO - Gradscaler enabled: `False`
+2025-07-23 00:36:49,974 - INFO - Using training precision: `--precision=fp32`
+2025-07-23 00:36:49,974 - INFO - Using evaluation precision: `--eval_precision=fp32`
+2025-07-23 00:36:49,975 - INFO - ASRBrain Model Statistics:
+* Total Number of Trainable Parameters: 44.7M
+* Total Number of Parameters: 44.7M
+* Trainable Parameters represent 100.0000% of the total size.

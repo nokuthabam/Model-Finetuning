@@ -1,0 +1,9 @@
+2025-07-17 23:09:50,783 - INFO - Starting training for language: zu
+2025-07-17 23:09:50,783 - INFO - Loading processor and model for zu...
+2025-07-17 23:09:53,245 - INFO - Loading dataset...
+2025-07-17 23:09:53,245 - INFO - Loading dataset for zulu from D:\Model-Finetuning\whisper\data\zulu_train.json and D:\Model-Finetuning\whisper\data\zulu_test.json
+2025-07-17 23:09:54,983 - INFO - Casting audio column and preparing dataset...
+2025-07-17 23:11:01,516 - INFO - Dataset loaded and prepared.
+2025-07-17 23:11:01,516 - INFO - Output directory set to D:\Model-Finetuning\whisper\whisper_model\zu
+2025-07-17 23:11:01,533 - INFO - Sanity check: printing one training batch
+2025-07-17 23:11:01,713 - ERROR - An error occurred during training: expected Tensor as element 0 in argument 0, but got list
