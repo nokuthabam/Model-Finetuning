@@ -1,0 +1,4 @@
+2025-07-24 22:12:47,337 - INFO - Loading inference results for siswati from D:\Model-Finetuning\whisper\error_analysis\siswati_inference_results.json
+2025-07-24 22:12:47,343 - INFO - Error analysis report saved to D:\Model-Finetuning\whisper\results\error_analysis\siswati_error_analysis_report.json
+2025-07-24 22:12:47,343 - INFO - Top 10 phoneme substitutions: [(('i', 'e'), 13), (('e', 'a'), 11), (('i', 'a'), 9), (('a', 'i'), 8), (('s', 'l'), 8), (('h', 'i'), 7), (('o', 'i'), 6), (('e', 'o'), 6), (('a', 'e'), 6), (('e', 'i'), 6)]
+2025-07-24 22:12:47,343 - INFO - WER: 0.9709844559585492, CER: 0.9058879542929694

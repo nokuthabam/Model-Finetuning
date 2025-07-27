@@ -1,0 +1,4 @@
+2025-07-24 22:07:52,990 - INFO - Loading inference results for zulu from D:\Model-Finetuning\whisper\error_analysis\zulu_inference_results.json
+2025-07-24 22:07:52,998 - INFO - Error analysis report saved to D:\Model-Finetuning\whisper\results\error_analysis\zulu_error_analysis_report.json
+2025-07-24 22:07:52,999 - INFO - Top 10 phoneme substitutions: [(('a', 'i'), 6), (('o', 'y'), 6), (('a', 'k'), 5), (('s', 'i'), 5), (('e', 'l'), 5), (('a', 's'), 4), (('z', 'y'), 4), (('k', 'a'), 4), (('n', 'o'), 4), (('l', 'i'), 4)]
+2025-07-24 22:07:52,999 - INFO - WER: 0.9943977591036415, CER: 0.9756629131856157

@@ -1,0 +1,3 @@
+2025-07-24 17:09:08,175 - INFO - Loading model from D:\Model-Finetuning\whisper\model\xh_whisper
+2025-07-24 17:09:11,228 - INFO - Model loaded successfully for xh
+2025-07-24 17:09:11,243 - INFO - Running inference for xhosa on 5140 audio files

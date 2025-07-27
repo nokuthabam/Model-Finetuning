@@ -1,0 +1,5 @@
+2025-07-24 15:46:22,032 - INFO - Loading model from D:\Model-Finetuning\whisper\model\zu_whisper
+2025-07-24 15:46:23,213 - INFO - Model loaded successfully for zu
+2025-07-24 15:46:23,218 - INFO - Running inference for zulu on 4683 audio files
+2025-07-24 17:09:02,486 - INFO - Error analysis report saved to D:\Model-Finetuning\whisper\error_analysis\zulu_inference_results.json
+2025-07-24 17:09:02,532 - ERROR - An error occurred: name 'analyze_file' is not defined

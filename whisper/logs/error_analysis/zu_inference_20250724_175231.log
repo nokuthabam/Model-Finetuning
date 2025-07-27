@@ -1,0 +1,5 @@
+2025-07-24 17:52:31,762 - INFO - Loading model from D:\Model-Finetuning\whisper\model\zu_whisper
+2025-07-24 17:52:34,827 - INFO - Model loaded successfully for zu
+2025-07-24 17:52:34,840 - INFO - Running inference for zulu on 4683 audio files
+2025-07-24 17:52:36,711 - INFO - Transcribed D:/Model-Finetuning/wav2vec2/data/ASR.Lwazi.Zul.1.0/audio/isizulu_177/isizulu_177_01.wav: <|startoftranscript|>
+2025-07-24 17:52:36,716 - INFO - Error analysis report saved to D:\Model-Finetuning\whisper\error_analysis\zulu_inference_results.json

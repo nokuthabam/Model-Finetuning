@@ -1,0 +1,4 @@
+{"audio_path": "D:\\Model-Finetuning\\wav2vec2\\data\\ASR.Lwazi.Zul.1.0\\audio\\isizulu_160\\isizulu_160_20.wav", "reference": "norebeka waphakamisa amehlo akhe esembonile u isaka wehla [n] ekamelweni", "hypothesis": "n o b k h a k a m s a m o k s e m b o n l sh k sh a k a m l n"}
+{"audio_path": "D:\\Model-Finetuning\\wav2vec2\\data\\ASR.Lwazi.Zul.1.0\\audio\\isizulu_160\\isizulu_160_09.wav", "reference": "yihora lesishagalombili ezimpondweni", "hypothesis": "o l sha a l o m b l s m b o n t n"}
+{"audio_path": "D:\\Model-Finetuning\\wav2vec2\\data\\ASR.Lwazi.Zul.1.0\\audio\\isizulu_160\\isizulu_160_13.wav", "reference": "umnyango wezemfundo", "hypothesis": "m a ma s m u n t"}
+{"audio_path": "D:\\Model-Finetuning\\wav2vec2\\data\\ASR.Lwazi.Zul.1.0\\audio\\isizulu_160\\isizulu_160_07.wav", "reference": "seven september", "hypothesis": "s n s t m"}
