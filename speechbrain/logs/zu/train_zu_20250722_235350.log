@@ -1,8 +1,0 @@
-2025-07-22 23:53:51,000 - INFO - Starting training for zu...
-2025-07-22 23:53:51,011 - INFO - Tokenizer is already trained.
-2025-07-22 23:53:51,011 - INFO - ==== Loading Tokenizer ===
-2025-07-22 23:53:51,012 - INFO - Tokenizer path: D:\Model-Finetuning\speechbrain\model\zulu_speechbrain\1024_unigram.model
-2025-07-22 23:53:51,012 - INFO - Tokenizer vocab_size: 1024
-2025-07-22 23:53:51,012 - INFO - Tokenizer type: unigram
-2025-07-22 23:53:51,015 - INFO - Fetch hyperparams.yaml: Fetching from HuggingFace Hub 'speechbrain/asr-transformer-transformerlm-librispeech' if not cached
-2025-07-22 23:53:51,365 - DEBUG - Fetch: Local file found, creating symlink 'C:\Users\nokno\.cache\huggingface\hub\models--speechbrain--asr-transformer-transformerlm-librispeech\snapshots\bcf56f762f37877912578f8800bc2a4f5171e5e5\hyperparams.yaml' -> 'D:\Model-Finetuning\speechbrain\model\zulu_speechbrain\hyperparams.yaml'

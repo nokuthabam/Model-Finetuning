@@ -1,6 +1,0 @@
-2025-07-23 00:23:47,115 - INFO - Starting training for zu...
-2025-07-23 00:23:47,127 - INFO - Tokenizer is already trained.
-2025-07-23 00:23:47,127 - INFO - ==== Loading Tokenizer ===
-2025-07-23 00:23:47,127 - INFO - Tokenizer path: D:\Model-Finetuning\speechbrain\model\zulu_speechbrain\1024_unigram.model
-2025-07-23 00:23:47,127 - INFO - Tokenizer vocab_size: 1024
-2025-07-23 00:23:47,127 - INFO - Tokenizer type: unigram
