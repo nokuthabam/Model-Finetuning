@@ -37,11 +37,11 @@ male_wer = [wer_results[lang]["male"] for lang in langs]
 female_wer = [wer_results[lang]["female"] for lang in langs]
 
 # Define colours
-orange_light = "#FFA500"
-orange_dark = "#FF8C00"
+blue = "#1f77b4"
+green = "#2ca02c"
 plt.figure(figsize=(10, 6))
-plt.bar(index, male_wer, bar_width, label="Male", color=orange_light)
-plt.bar([i + bar_width for i in index], female_wer, bar_width, label="Female", color=orange_dark)
+plt.bar(index, male_wer, bar_width, label="Male", color=blue)
+plt.bar([i + bar_width for i in index], female_wer, bar_width, label="Female", color=green)
 plt.xlabel("Languages")
 plt.ylabel("Word Error Rate (WER)")
 plt.title("Word Error Rate by Gender and Language - Whisper")
@@ -57,8 +57,8 @@ male_cer = [cer_results[lang]["male"] for lang in langs]
 female_cer = [cer_results[lang]["female"] for lang in langs]
 
 plt.figure(figsize=(10, 6))
-plt.bar(index, male_cer, bar_width, label="Male", color=orange_light)
-plt.bar([i + bar_width for i in index], female_cer, bar_width, label="Female", color=orange_dark)
+plt.bar(index, male_cer, bar_width, label="Male", color=blue)
+plt.bar([i + bar_width for i in index], female_cer, bar_width, label="Female", color=green)
 plt.xlabel("Languages")
 plt.ylabel("Character Error Rate (CER)")
 plt.title("Character Error Rate by Gender and Language - Whisper")
