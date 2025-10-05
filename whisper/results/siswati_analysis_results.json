@@ -1,0 +1,34 @@
+{
+  "siswati_results": {
+    "wer": 0.9803624232314808,
+    "cer": 0.9458729346311772
+  },
+  "siswati_nguni_multilingual_nr_ss_whisper_results": {
+    "wer": 0.9903316317906764,
+    "cer": 0.9494620960123922
+  },
+  "siswati_nguni_multilingual_xh_nr_ss_whisper_results": {
+    "wer": 0.9950306114335692,
+    "cer": 0.9554022405636773
+  },
+  "siswati_nguni_multilingual_xh_ss_whisper_results": {
+    "wer": 0.9942949547218629,
+    "cer": 0.9544088530997218
+  },
+  "siswati_nguni_multilingual_zu_nr_ss_whisper_results": {
+    "wer": 0.9916007194244605,
+    "cer": 0.9428603332121271
+  },
+  "siswati_nguni_multilingual_zu_ss_whisper_results": {
+    "wer": 0.9999839036796189,
+    "cer": 0.9709065523522803
+  },
+  "siswati_nguni_multilingual_zu_xh_nr_ss_whisper_results": {
+    "wer": 0.9896099898023974,
+    "cer": 0.9425264258973794
+  },
+  "siswati_nguni_multilingual_zu_xh_ss_whisper_results": {
+    "wer": 0.9914640842609694,
+    "cer": 0.9497345924939913
+  }
+}

@@ -1,0 +1,12 @@
+2025-09-10 18:26:46,006 - INFO - Starting training for ['zu', 'xh'] languages.
+2025-09-10 18:26:46,023 - INFO - Using GPU: NVIDIA GeForce RTX 3050 6GB Laptop GPU
+2025-09-10 18:26:46,025 - INFO - Loading ['zu', 'xh'] datasets...
+2025-09-10 18:26:48,476 - INFO - Loading ['zu', 'xh'] datasets...
+2025-09-10 18:26:56,503 - INFO - Multilingual training on: zu, xh
+2025-09-10 18:26:57,023 - INFO - Resuming from checkpoint: D:\Model-Finetuning\wav2vec2\model\nguni_multilingual_zu_xh_wav2vec2\checkpoint-500
+2025-09-10 18:28:31,631 - WARNING - Checkpoint resume failed, starting from scratch: Weights only load failed. This file can still be loaded, to do so you have two options, [1mdo those steps only if you trust the source of the checkpoint[0m. 
+	(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+	(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.
+	WeightsUnpickler error: Unsupported global: GLOBAL numpy.ndarray was not an allowed global by default. Please use `torch.serialization.add_safe_globals([numpy.ndarray])` or the `torch.serialization.safe_globals([numpy.ndarray])` context manager to allowlist this global if you trust this class/function.
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.

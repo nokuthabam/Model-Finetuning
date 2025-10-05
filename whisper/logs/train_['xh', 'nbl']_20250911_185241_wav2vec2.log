@@ -1,0 +1,6 @@
+2025-09-11 18:52:41,468 - INFO - Starting training for multilingual setup: xh, nbl
+2025-09-11 18:52:41,469 - INFO - Loading processor and model for ['xh', 'nbl']...
+2025-09-11 18:52:43,763 - INFO - Using GPU: NVIDIA GeForce RTX 3050 6GB Laptop GPU
+2025-09-11 18:52:46,144 - INFO - Loaded 5627 training samples for xhosa (Lwazi + CV)
+2025-09-11 18:52:46,145 - ERROR - Dataset files for nbl not found.
+2025-09-11 18:52:46,145 - ERROR - An error occurred during training: Dataset files for nbl not found.

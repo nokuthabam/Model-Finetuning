@@ -1,0 +1,34 @@
+2025-09-13 10:32:23,952 - INFO - Loaded 500 samples for zulu
+2025-09-13 10:32:23,956 - INFO - Found 8 Whisper models for zu: ['nguni_multilingual_zu_nr_ss_whisper', 'nguni_multilingual_zu_nr_whisper', 'nguni_multilingual_zu_ss_whisper', 'nguni_multilingual_zu_xh_nr_ss_whisper', 'nguni_multilingual_zu_xh_nr_whisper', 'nguni_multilingual_zu_xh_ss_whisper', 'nguni_multilingual_zu_xh_whisper', 'zu_whisper']
+2025-09-13 10:32:23,956 - INFO - Processing with model: nguni_multilingual_zu_nr_ss_whisper
+2025-09-13 10:32:23,956 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_zu_nr_ss_whisper
+2025-09-13 10:32:26,994 - INFO - Model loaded successfully from nguni_multilingual_zu_nr_ss_whisper
+2025-09-13 10:58:09,087 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\zulu_nguni_multilingual_zu_nr_ss_whisper_results.json
+2025-09-13 10:58:09,091 - INFO - Processing with model: nguni_multilingual_zu_nr_whisper
+2025-09-13 10:58:09,091 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_zu_nr_whisper
+2025-09-13 10:58:12,658 - INFO - Model loaded successfully from nguni_multilingual_zu_nr_whisper
+2025-09-13 11:19:38,774 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\zulu_nguni_multilingual_zu_nr_whisper_results.json
+2025-09-13 11:19:38,775 - INFO - Processing with model: nguni_multilingual_zu_ss_whisper
+2025-09-13 11:19:38,775 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_zu_ss_whisper
+2025-09-13 11:19:41,989 - INFO - Model loaded successfully from nguni_multilingual_zu_ss_whisper
+2025-09-13 12:02:41,149 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\zulu_nguni_multilingual_zu_ss_whisper_results.json
+2025-09-13 12:02:41,152 - INFO - Processing with model: nguni_multilingual_zu_xh_nr_ss_whisper
+2025-09-13 12:02:41,153 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_zu_xh_nr_ss_whisper
+2025-09-13 12:02:44,574 - INFO - Model loaded successfully from nguni_multilingual_zu_xh_nr_ss_whisper
+2025-09-13 12:32:04,805 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\zulu_nguni_multilingual_zu_xh_nr_ss_whisper_results.json
+2025-09-13 12:32:04,807 - INFO - Processing with model: nguni_multilingual_zu_xh_nr_whisper
+2025-09-13 12:32:04,808 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_zu_xh_nr_whisper
+2025-09-13 12:32:08,660 - INFO - Model loaded successfully from nguni_multilingual_zu_xh_nr_whisper
+2025-09-13 12:59:41,053 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\zulu_nguni_multilingual_zu_xh_nr_whisper_results.json
+2025-09-13 12:59:41,053 - INFO - Processing with model: nguni_multilingual_zu_xh_ss_whisper
+2025-09-13 12:59:41,053 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_zu_xh_ss_whisper
+2025-09-13 12:59:44,108 - INFO - Model loaded successfully from nguni_multilingual_zu_xh_ss_whisper
+2025-09-13 13:34:36,683 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\zulu_nguni_multilingual_zu_xh_ss_whisper_results.json
+2025-09-13 13:34:36,684 - INFO - Processing with model: nguni_multilingual_zu_xh_whisper
+2025-09-13 13:34:36,685 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_zu_xh_whisper
+2025-09-13 13:34:39,998 - INFO - Model loaded successfully from nguni_multilingual_zu_xh_whisper
+2025-09-13 13:53:24,190 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\zulu_nguni_multilingual_zu_xh_whisper_results.json
+2025-09-13 13:53:24,191 - INFO - Processing with model: zu_whisper
+2025-09-13 13:53:24,192 - INFO - Loading model from D:\Model-Finetuning\whisper\model\zu_whisper
+2025-09-13 13:53:28,142 - INFO - Model loaded successfully from zu_whisper
+2025-09-13 14:18:01,898 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\zulu_zu_whisper_results.json

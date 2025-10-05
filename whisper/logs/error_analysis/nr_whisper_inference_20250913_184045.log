@@ -1,0 +1,34 @@
+2025-09-13 18:40:45,776 - INFO - Loaded 500 samples for ndebele
+2025-09-13 18:40:45,781 - INFO - Found 8 Whisper models for nr: ['nguni_multilingual_nr_ss_whisper', 'nguni_multilingual_xh_nr_ss_whisper', 'nguni_multilingual_xh_nr_whisper', 'nguni_multilingual_zu_nr_ss_whisper', 'nguni_multilingual_zu_nr_whisper', 'nguni_multilingual_zu_xh_nr_ss_whisper', 'nguni_multilingual_zu_xh_nr_whisper', 'nr_whisper']
+2025-09-13 18:40:45,782 - INFO - Processing with model: nguni_multilingual_nr_ss_whisper
+2025-09-13 18:40:45,782 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_nr_ss_whisper
+2025-09-13 18:40:48,848 - INFO - Model loaded successfully from nguni_multilingual_nr_ss_whisper
+2025-09-13 19:15:27,747 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\ndebele_nguni_multilingual_nr_ss_whisper_results.json
+2025-09-13 19:15:27,749 - INFO - Processing with model: nguni_multilingual_xh_nr_ss_whisper
+2025-09-13 19:15:27,749 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_xh_nr_ss_whisper
+2025-09-13 19:15:31,153 - INFO - Model loaded successfully from nguni_multilingual_xh_nr_ss_whisper
+2025-09-13 19:53:43,260 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\ndebele_nguni_multilingual_xh_nr_ss_whisper_results.json
+2025-09-13 19:53:43,260 - INFO - Processing with model: nguni_multilingual_xh_nr_whisper
+2025-09-13 19:53:43,260 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_xh_nr_whisper
+2025-09-13 19:53:46,307 - INFO - Model loaded successfully from nguni_multilingual_xh_nr_whisper
+2025-09-13 20:30:46,445 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\ndebele_nguni_multilingual_xh_nr_whisper_results.json
+2025-09-13 20:30:46,445 - INFO - Processing with model: nguni_multilingual_zu_nr_ss_whisper
+2025-09-13 20:30:46,445 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_zu_nr_ss_whisper
+2025-09-13 20:30:49,482 - INFO - Model loaded successfully from nguni_multilingual_zu_nr_ss_whisper
+2025-09-13 20:58:49,726 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\ndebele_nguni_multilingual_zu_nr_ss_whisper_results.json
+2025-09-13 20:58:49,727 - INFO - Processing with model: nguni_multilingual_zu_nr_whisper
+2025-09-13 20:58:49,727 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_zu_nr_whisper
+2025-09-13 20:58:52,753 - INFO - Model loaded successfully from nguni_multilingual_zu_nr_whisper
+2025-09-13 21:18:01,919 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\ndebele_nguni_multilingual_zu_nr_whisper_results.json
+2025-09-13 21:18:01,919 - INFO - Processing with model: nguni_multilingual_zu_xh_nr_ss_whisper
+2025-09-13 21:18:01,919 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_zu_xh_nr_ss_whisper
+2025-09-13 21:18:04,941 - INFO - Model loaded successfully from nguni_multilingual_zu_xh_nr_ss_whisper
+2025-09-13 21:48:14,300 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\ndebele_nguni_multilingual_zu_xh_nr_ss_whisper_results.json
+2025-09-13 21:48:14,300 - INFO - Processing with model: nguni_multilingual_zu_xh_nr_whisper
+2025-09-13 21:48:14,300 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_zu_xh_nr_whisper
+2025-09-13 21:48:17,363 - INFO - Model loaded successfully from nguni_multilingual_zu_xh_nr_whisper
+2025-09-13 22:16:49,130 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\ndebele_nguni_multilingual_zu_xh_nr_whisper_results.json
+2025-09-13 22:16:49,131 - INFO - Processing with model: nr_whisper
+2025-09-13 22:16:49,131 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nr_whisper
+2025-09-13 22:16:52,588 - INFO - Model loaded successfully from nr_whisper
+2025-09-13 22:45:12,380 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\ndebele_nr_whisper_results.json

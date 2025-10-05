@@ -1,0 +1,6 @@
+2025-09-11 18:58:30,354 - INFO - Starting training for multilingual setup: zu, nbl, ssw
+2025-09-11 18:58:30,355 - INFO - Loading processor and model for ['zu', 'nbl', 'ssw']...
+2025-09-11 18:58:33,195 - INFO - Using GPU: NVIDIA GeForce RTX 3050 6GB Laptop GPU
+2025-09-11 18:58:35,549 - INFO - Loaded 5240 training samples for zulu (Lwazi + CV)
+2025-09-11 18:58:35,550 - ERROR - Dataset files for nbl not found.
+2025-09-11 18:58:35,550 - ERROR - An error occurred during training: Dataset files for nbl not found.

@@ -1,0 +1,5 @@
+2025-09-16 21:12:31,391 - INFO - Starting training for zu language.
+2025-09-16 21:12:31,405 - INFO - Using GPU: NVIDIA GeForce RTX 3050 6GB Laptop GPU
+2025-09-16 21:12:31,407 - INFO - Loading datasets for zu...
+2025-09-16 21:12:33,857 - INFO - Loaded Common Voice dataset for zu.
+2025-09-16 21:16:38,408 - INFO - Resuming from checkpoint: D:\Model-Finetuning\wav2vec2\model\zu_wav2vec2\checkpoint-500

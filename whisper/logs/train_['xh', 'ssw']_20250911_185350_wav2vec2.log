@@ -1,0 +1,6 @@
+2025-09-11 18:53:50,458 - INFO - Starting training for multilingual setup: xh, ssw
+2025-09-11 18:53:50,459 - INFO - Loading processor and model for ['xh', 'ssw']...
+2025-09-11 18:53:52,843 - INFO - Using GPU: NVIDIA GeForce RTX 3050 6GB Laptop GPU
+2025-09-11 18:53:55,203 - INFO - Loaded 5627 training samples for xhosa (Lwazi + CV)
+2025-09-11 18:53:55,204 - ERROR - Dataset files for ssw not found.
+2025-09-11 18:53:55,204 - ERROR - An error occurred during training: Dataset files for ssw not found.

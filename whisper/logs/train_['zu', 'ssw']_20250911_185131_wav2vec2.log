@@ -1,0 +1,6 @@
+2025-09-11 18:51:31,571 - INFO - Starting training for multilingual setup: zu, ssw
+2025-09-11 18:51:31,572 - INFO - Loading processor and model for ['zu', 'ssw']...
+2025-09-11 18:51:34,471 - INFO - Using GPU: NVIDIA GeForce RTX 3050 6GB Laptop GPU
+2025-09-11 18:51:36,900 - INFO - Loaded 5240 training samples for zulu (Lwazi + CV)
+2025-09-11 18:51:36,900 - ERROR - Dataset files for ssw not found.
+2025-09-11 18:51:36,901 - ERROR - An error occurred during training: Dataset files for ssw not found.

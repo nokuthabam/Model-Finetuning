@@ -1,0 +1,25 @@
+2025-09-12 22:57:45,871 - INFO - Starting inference for ndebele at 2025-09-12 22:57:45
+2025-09-12 22:57:45,872 - INFO - Found 7 multilingual models for nbl: ['nguni_multilingual_zu_xh_nbl_ssw_wav2vec2', 'nguni_multilingual_zu_xh_nbl_wav2vec2', 'nguni_multilingual_zu_nbl_wav2vec2', 'nguni_multilingual_nbl_ssw_wav2vec2', 'nguni_multilingual_xh_nbl_wav2vec2', 'nguni_multilingual_zu_nbl_ssw_wav2vec2', 'nguni_multilingual_xh_nbl_ssw_wav2vec2']
+2025-09-12 22:57:45,881 - INFO - Loaded 4911 entries from D:\Model-Finetuning\wav2vec2\data\ndebele_unseen.json
+2025-09-12 22:57:45,881 - INFO - Loading model from D:\Model-Finetuning\wav2vec2\model\nguni_multilingual_zu_xh_nbl_ssw_wav2vec2
+2025-09-12 22:57:49,528 - INFO - Model loaded successfully for nguni_multilingual_zu_xh_nbl_ssw_wav2vec2
+2025-09-12 22:58:35,740 - INFO - Saved results to D:\Model-Finetuning\wav2vec2\error_analysis\ndebele_nguni_multilingual_zu_xh_nbl_ssw_wav2vec2_inference.json
+2025-09-12 22:58:35,740 - INFO - Loading model from D:\Model-Finetuning\wav2vec2\model\nguni_multilingual_zu_xh_nbl_wav2vec2
+2025-09-12 22:58:39,566 - INFO - Model loaded successfully for nguni_multilingual_zu_xh_nbl_wav2vec2
+2025-09-12 22:59:23,080 - INFO - Saved results to D:\Model-Finetuning\wav2vec2\error_analysis\ndebele_nguni_multilingual_zu_xh_nbl_wav2vec2_inference.json
+2025-09-12 22:59:23,081 - INFO - Loading model from D:\Model-Finetuning\wav2vec2\model\nguni_multilingual_zu_nbl_wav2vec2
+2025-09-12 22:59:26,849 - INFO - Model loaded successfully for nguni_multilingual_zu_nbl_wav2vec2
+2025-09-12 23:00:10,604 - INFO - Saved results to D:\Model-Finetuning\wav2vec2\error_analysis\ndebele_nguni_multilingual_zu_nbl_wav2vec2_inference.json
+2025-09-12 23:00:10,605 - INFO - Loading model from D:\Model-Finetuning\wav2vec2\model\nguni_multilingual_nbl_ssw_wav2vec2
+2025-09-12 23:00:14,324 - INFO - Model loaded successfully for nguni_multilingual_nbl_ssw_wav2vec2
+2025-09-12 23:00:58,317 - INFO - Saved results to D:\Model-Finetuning\wav2vec2\error_analysis\ndebele_nguni_multilingual_nbl_ssw_wav2vec2_inference.json
+2025-09-12 23:00:58,318 - INFO - Loading model from D:\Model-Finetuning\wav2vec2\model\nguni_multilingual_xh_nbl_wav2vec2
+2025-09-12 23:01:01,999 - INFO - Model loaded successfully for nguni_multilingual_xh_nbl_wav2vec2
+2025-09-12 23:01:46,309 - INFO - Saved results to D:\Model-Finetuning\wav2vec2\error_analysis\ndebele_nguni_multilingual_xh_nbl_wav2vec2_inference.json
+2025-09-12 23:01:46,310 - INFO - Loading model from D:\Model-Finetuning\wav2vec2\model\nguni_multilingual_zu_nbl_ssw_wav2vec2
+2025-09-12 23:01:49,955 - INFO - Model loaded successfully for nguni_multilingual_zu_nbl_ssw_wav2vec2
+2025-09-12 23:02:34,293 - INFO - Saved results to D:\Model-Finetuning\wav2vec2\error_analysis\ndebele_nguni_multilingual_zu_nbl_ssw_wav2vec2_inference.json
+2025-09-12 23:02:34,293 - INFO - Loading model from D:\Model-Finetuning\wav2vec2\model\nguni_multilingual_xh_nbl_ssw_wav2vec2
+2025-09-12 23:02:37,843 - INFO - Model loaded successfully for nguni_multilingual_xh_nbl_ssw_wav2vec2
+2025-09-12 23:03:22,505 - INFO - Saved results to D:\Model-Finetuning\wav2vec2\error_analysis\ndebele_nguni_multilingual_xh_nbl_ssw_wav2vec2_inference.json
+2025-09-12 23:03:22,508 - INFO - Inference completed for ndebele. Results saved to D:\Model-Finetuning\wav2vec2\error_analysis\nbl_inference_results.json.

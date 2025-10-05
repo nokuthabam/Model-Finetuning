@@ -1,0 +1,6 @@
+2025-09-10 18:44:22,599 - INFO - Starting training for ['zu', 'xh'] languages.
+2025-09-10 18:44:22,611 - INFO - Using GPU: NVIDIA GeForce RTX 3050 6GB Laptop GPU
+2025-09-10 18:44:22,612 - INFO - Loading ['zu', 'xh'] datasets...
+2025-09-10 18:44:25,046 - INFO - Loading ['zu', 'xh'] datasets...
+2025-09-10 18:53:14,828 - INFO - Multilingual training on: zu, xh
+2025-09-10 18:53:15,345 - INFO - Resuming from checkpoint: D:\Model-Finetuning\wav2vec2\model\nguni_multilingual_zu_xh_wav2vec2\checkpoint-500

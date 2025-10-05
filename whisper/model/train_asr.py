@@ -139,8 +139,16 @@ def train_model(args, logger):
     model = WhisperForConditionalGeneration.from_pretrained(MODEL_NAME)
     model.config.forced_decoder_ids = processor.get_decoder_prompt_ids(language="sw", task="transcribe")
     model.config.suppress_tokens = []
-
-    logger.info("Loading dataset...")
+    # === Device Check ===
+    if torch.cuda.is_available():
+        device = torch.device("cuda")
+        logger.info(f"Using GPU: {torch.cuda.get_device_name(0)}")
+        print(f"✅ GPU available. Using: {torch.cuda.get_device_name(0)}")
+    else:
+        device = torch.device("cpu")
+        logger.warning("⚠️ GPU not available. Using CPU instead.")
+        print("⚠️ GPU not available. Using CPU instead.")
+        logger.info("Loading dataset...")
     ds = load_json_dataset(args.language, logger)
     ds = cast_and_prepare_dataset(ds, processor, logger)
     ds["train"] = ds["train"].select(range(1000))  # Limit to 1000 samples for quick training
@@ -163,7 +171,8 @@ def train_model(args, logger):
         predict_with_generate=True,
         generation_max_length=225,
         fp16=torch.cuda.is_available(),
-        report_to="none"
+        report_to="none",
+        no_cuda=False #
     )
     whisper_data_collator_trainer = make_collator(processor)
     trainer = Seq2SeqTrainer(

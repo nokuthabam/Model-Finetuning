@@ -14,9 +14,8 @@ import evaluate
 import argparse as arparse
 import logging
 from datetime import datetime
-
-
-
+from torch.serialization import safe_globals
+import numpy as np
 
 MODEL_NAME = "jonatasgrosman/wav2vec2-large-xlsr-53-english"
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -170,12 +169,20 @@ def train_model(language, language_code, logger):
     """
     global processor
     processor = Wav2Vec2Processor.from_pretrained(BASE_DIR/ "model/processor")
-
+    # === Device Check ===
+    if torch.cuda.is_available():
+        device = torch.device("cuda")
+        logger.info(f"Using GPU: {torch.cuda.get_device_name(0)}")
+        print(f"✅ GPU available. Using: {torch.cuda.get_device_name(0)}")
+    else:
+        device = torch.device("cpu")
+        logger.warning("⚠️ GPU not available. Using CPU instead.")
+        print("⚠️ GPU not available. Using CPU instead.")
     dataset = load_and_merge(logger, language_code)
     dataset = dataset.map(speech_file_to_array_fn)
     dataset = dataset.map(prepare_dataset)
-    dataset["train"] = dataset["train"].select(range(1000))  # Limit to 1000 samples for quick training
-    dataset["test"] = dataset["test"].select(range(100))  # Limit to 100 samples for quick evaluation
+    dataset["train"] = dataset["train"].select(range(1250))  # Limit to 1000 samples for quick training
+    dataset["test"] = dataset["test"].select(range(250))  # Limit to 100 samples for quick evaluation
 
     model = Wav2Vec2ForCTC.from_pretrained(MODEL_NAME,
                                            vocab_size =len(processor.tokenizer),
@@ -186,11 +193,11 @@ def train_model(language, language_code, logger):
     training_args = TrainingArguments(
         output_dir=output_dir,
         group_by_length=True,
-        per_device_train_batch_size=2,
+        per_device_train_batch_size=1,
         evaluation_strategy="epoch",
         num_train_epochs=1,
-        fp16=False,
-        use_cpu=True,  # 
+        fp16=torch.cuda.is_available(),
+        # use_cpu=False,  # 
         save_strategy="epoch",
         save_steps=100,
         eval_steps=100,
@@ -220,7 +227,9 @@ def train_model(language, language_code, logger):
         latest_checkpoint = str(sorted(checkpoints, key=lambda x: int(x.name.split("-")[1]))[-1])
         logger.info(f"Resuming from checkpoint: {latest_checkpoint}")
 
-    trainer.train(resume_from_checkpoint=latest_checkpoint)
+    # >>> Fix for PyTorch 2.6 pickle error when resuming
+    with safe_globals([np.ndarray, np.float64, np.int64]):
+        trainer.train(resume_from_checkpoint=latest_checkpoint)
 
     logger.info("Training completed.")
 

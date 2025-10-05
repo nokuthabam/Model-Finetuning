@@ -1,0 +1,7 @@
+2025-09-11 17:18:29,161 - INFO - Starting training for multilingual setup: zu, xh
+2025-09-11 17:18:29,161 - INFO - Loading processor and model for ['zu', 'xh']...
+2025-09-11 17:18:31,754 - INFO - Using GPU: NVIDIA GeForce RTX 3050 6GB Laptop GPU
+2025-09-11 17:18:34,282 - INFO - Loaded 5240 training samples for zulu (Lwazi + CV)
+2025-09-11 17:18:36,754 - INFO - Loaded 5627 training samples for xhosa (Lwazi + CV)
+2025-09-11 17:18:36,757 - INFO - Casting audio column and preparing dataset...
+2025-09-11 17:18:37,524 - ERROR - An error occurred during training: Numba needs NumPy 2.2 or less. Got NumPy 2.3.

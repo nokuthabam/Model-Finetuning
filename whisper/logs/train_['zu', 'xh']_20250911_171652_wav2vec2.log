@@ -1,0 +1,2 @@
+2025-09-11 17:16:52,112 - INFO - Starting training for multilingual setup: zu, xh
+2025-09-11 17:16:52,112 - ERROR - An error occurred during training: 'Namespace' object has no attribute 'language'

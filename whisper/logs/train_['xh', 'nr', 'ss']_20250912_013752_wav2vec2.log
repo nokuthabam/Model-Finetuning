@@ -1,0 +1,7 @@
+2025-09-12 01:37:52,604 - INFO - Starting training for multilingual setup: xh, nr, ss
+2025-09-12 01:37:52,604 - INFO - Loading processor and model for ['xh', 'nr', 'ss']...
+2025-09-12 01:37:54,961 - INFO - Using GPU: NVIDIA GeForce RTX 3050 6GB Laptop GPU
+2025-09-12 01:37:57,384 - INFO - Loaded 5627 training samples for xhosa (Lwazi + CV)
+2025-09-12 01:37:58,941 - INFO - Loaded 5411 training samples for ndebele (Lwazi only)
+2025-09-12 01:37:58,941 - ERROR - Dataset files for swati not found.
+2025-09-12 01:37:58,941 - ERROR - An error occurred during training: Dataset files for swati not found.

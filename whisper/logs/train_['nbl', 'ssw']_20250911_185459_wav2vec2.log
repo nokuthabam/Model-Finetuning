@@ -1,0 +1,5 @@
+2025-09-11 18:54:59,487 - INFO - Starting training for multilingual setup: nbl, ssw
+2025-09-11 18:54:59,487 - INFO - Loading processor and model for ['nbl', 'ssw']...
+2025-09-11 18:55:01,876 - INFO - Using GPU: NVIDIA GeForce RTX 3050 6GB Laptop GPU
+2025-09-11 18:55:01,876 - ERROR - Dataset files for nbl not found.
+2025-09-11 18:55:01,877 - ERROR - An error occurred during training: Dataset files for nbl not found.

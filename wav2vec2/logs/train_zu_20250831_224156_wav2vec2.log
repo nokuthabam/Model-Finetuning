@@ -1,0 +1,12 @@
+2025-08-31 22:41:57,031 - INFO - Starting training for zu language.
+2025-08-31 22:41:57,053 - INFO - Using GPU: NVIDIA GeForce RTX 3050 6GB Laptop GPU
+2025-08-31 22:41:57,053 - INFO - Loading datasets for zu...
+2025-08-31 22:42:01,705 - INFO - Loaded Common Voice dataset for zu.
+2025-08-31 22:42:06,561 - INFO - Resuming from checkpoint: D:\Model-Finetuning\wav2vec2\model\zu_wav2vec2\checkpoint-500
+2025-08-31 22:43:21,599 - INFO - Training completed.
+2025-08-31 22:43:21,599 - INFO - Saving model and processor...
+2025-08-31 22:43:26,992 - INFO - Model and processor saved to D:\Model-Finetuning\wav2vec2\model\zu_wav2vec2
+2025-08-31 22:43:26,992 - INFO - Evaluating the model...
+2025-08-31 22:44:20,354 - INFO - Evaluation results: {'eval_loss': 1.873570203781128, 'eval_wer': 2.759601706970128, 'eval_runtime': 53.3592, 'eval_samples_per_second': 1.874, 'eval_steps_per_second': 0.244, 'epoch': 1.0}
+2025-08-31 22:44:20,362 - INFO - Metrics saved to D:\Model-Finetuning\wav2vec2\results\zu_wav2vec2\metrics.json
+2025-08-31 22:44:20,370 - INFO - Training completed for zu language.

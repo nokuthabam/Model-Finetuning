@@ -1,0 +1,25 @@
+2025-09-12 23:04:27,735 - INFO - Starting inference for siswati at 2025-09-12 23:04:27
+2025-09-12 23:04:27,736 - INFO - Found 7 multilingual models for ssw: ['nguni_multilingual_zu_xh_nbl_ssw_wav2vec2', 'nguni_multilingual_zu_ssw_wav2vec2', 'nguni_multilingual_xh_ssw_wav2vec2', 'nguni_multilingual_nbl_ssw_wav2vec2', 'nguni_multilingual_zu_xh_ssw_wav2vec2', 'nguni_multilingual_zu_nbl_ssw_wav2vec2', 'nguni_multilingual_xh_nbl_ssw_wav2vec2']
+2025-09-12 23:04:27,744 - INFO - Loaded 4736 entries from D:\Model-Finetuning\wav2vec2\data\siswati_unseen.json
+2025-09-12 23:04:27,744 - INFO - Loading model from D:\Model-Finetuning\wav2vec2\model\nguni_multilingual_zu_xh_nbl_ssw_wav2vec2
+2025-09-12 23:04:31,285 - INFO - Model loaded successfully for nguni_multilingual_zu_xh_nbl_ssw_wav2vec2
+2025-09-12 23:05:16,268 - INFO - Saved results to D:\Model-Finetuning\wav2vec2\error_analysis\siswati_nguni_multilingual_zu_xh_nbl_ssw_wav2vec2_inference.json
+2025-09-12 23:05:16,269 - INFO - Loading model from D:\Model-Finetuning\wav2vec2\model\nguni_multilingual_zu_ssw_wav2vec2
+2025-09-12 23:05:19,845 - INFO - Model loaded successfully for nguni_multilingual_zu_ssw_wav2vec2
+2025-09-12 23:06:02,848 - INFO - Saved results to D:\Model-Finetuning\wav2vec2\error_analysis\siswati_nguni_multilingual_zu_ssw_wav2vec2_inference.json
+2025-09-12 23:06:02,849 - INFO - Loading model from D:\Model-Finetuning\wav2vec2\model\nguni_multilingual_xh_ssw_wav2vec2
+2025-09-12 23:06:06,480 - INFO - Model loaded successfully for nguni_multilingual_xh_ssw_wav2vec2
+2025-09-12 23:06:49,943 - INFO - Saved results to D:\Model-Finetuning\wav2vec2\error_analysis\siswati_nguni_multilingual_xh_ssw_wav2vec2_inference.json
+2025-09-12 23:06:49,944 - INFO - Loading model from D:\Model-Finetuning\wav2vec2\model\nguni_multilingual_nbl_ssw_wav2vec2
+2025-09-12 23:06:53,504 - INFO - Model loaded successfully for nguni_multilingual_nbl_ssw_wav2vec2
+2025-09-12 23:07:37,165 - INFO - Saved results to D:\Model-Finetuning\wav2vec2\error_analysis\siswati_nguni_multilingual_nbl_ssw_wav2vec2_inference.json
+2025-09-12 23:07:37,165 - INFO - Loading model from D:\Model-Finetuning\wav2vec2\model\nguni_multilingual_zu_xh_ssw_wav2vec2
+2025-09-12 23:07:40,727 - INFO - Model loaded successfully for nguni_multilingual_zu_xh_ssw_wav2vec2
+2025-09-12 23:08:24,560 - INFO - Saved results to D:\Model-Finetuning\wav2vec2\error_analysis\siswati_nguni_multilingual_zu_xh_ssw_wav2vec2_inference.json
+2025-09-12 23:08:24,560 - INFO - Loading model from D:\Model-Finetuning\wav2vec2\model\nguni_multilingual_zu_nbl_ssw_wav2vec2
+2025-09-12 23:08:28,124 - INFO - Model loaded successfully for nguni_multilingual_zu_nbl_ssw_wav2vec2
+2025-09-12 23:09:12,146 - INFO - Saved results to D:\Model-Finetuning\wav2vec2\error_analysis\siswati_nguni_multilingual_zu_nbl_ssw_wav2vec2_inference.json
+2025-09-12 23:09:12,146 - INFO - Loading model from D:\Model-Finetuning\wav2vec2\model\nguni_multilingual_xh_nbl_ssw_wav2vec2
+2025-09-12 23:09:15,694 - INFO - Model loaded successfully for nguni_multilingual_xh_nbl_ssw_wav2vec2
+2025-09-12 23:09:59,506 - INFO - Saved results to D:\Model-Finetuning\wav2vec2\error_analysis\siswati_nguni_multilingual_xh_nbl_ssw_wav2vec2_inference.json
+2025-09-12 23:09:59,507 - INFO - Inference completed for siswati. Results saved to D:\Model-Finetuning\wav2vec2\error_analysis\ssw_inference_results.json.

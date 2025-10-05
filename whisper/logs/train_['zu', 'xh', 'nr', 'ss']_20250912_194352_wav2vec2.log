@@ -1,0 +1,16 @@
+2025-09-12 19:43:52,736 - INFO - Starting training for multilingual setup: zu, xh, nr, ss
+2025-09-12 19:43:52,736 - INFO - Loading processor and model for ['zu', 'xh', 'nr', 'ss']...
+2025-09-12 19:43:55,840 - INFO - Using GPU: NVIDIA GeForce RTX 3050 6GB Laptop GPU
+2025-09-12 19:43:58,269 - INFO - Loaded 5240 training samples for zulu (Lwazi + CV)
+2025-09-12 19:44:00,657 - INFO - Loaded 5627 training samples for xhosa (Lwazi + CV)
+2025-09-12 19:44:02,229 - INFO - Loaded 5411 training samples for ndebele (Lwazi only)
+2025-09-12 19:44:03,819 - INFO - Loaded 5254 training samples for siswati (Lwazi only)
+2025-09-12 19:44:03,823 - INFO - Casting audio column and preparing dataset...
+2025-09-12 19:48:58,923 - INFO - Dataset loaded and prepared.
+2025-09-12 19:48:58,934 - INFO - Output directory set to D:\Model-Finetuning\whisper\model\nguni_multilingual_zu_xh_nr_ss_whisper
+2025-09-12 19:49:02,189 - INFO - Starting training...
+2025-09-12 20:34:07,072 - INFO - Training completed.
+2025-09-12 20:34:07,075 - INFO - Saving model and processor...
+2025-09-12 20:34:11,174 - INFO - Model and processor saved to D:\Model-Finetuning\whisper\model\nguni_multilingual_zu_xh_nr_ss_whisper
+2025-09-12 20:34:11,174 - INFO - Evaluating the model...
+2025-09-12 20:54:57,709 - INFO - Metrics saved to D:\Model-Finetuning\whisper\results\['zu', 'xh', 'nr', 'ss']_whisper\metrics.json
