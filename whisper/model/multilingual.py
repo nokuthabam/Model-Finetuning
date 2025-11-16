@@ -152,8 +152,8 @@ def train_model(args, logger):
         logger.info("Loading dataset...")
     ds = load_json_dataset(args.languages, logger)
     ds = cast_and_prepare_dataset(ds, processor, logger)
-    ds["train"] = ds["train"].select(range(2000))  # Limit to 2000 samples for quick training
-    ds["test"] = ds["test"].select(range(500))  # Limit to 500 samples for quick evaluation
+    ds["train"] = ds["train"].select(range(1000))  # Limit to 2000 samples for quick training
+    ds["test"] = ds["test"].select(range(100))  # Limit to 500 samples for quick evaluation
 
     logger.info("Dataset loaded and prepared.")
 

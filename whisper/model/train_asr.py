@@ -50,7 +50,7 @@ def setup_logging(language_code):
     """
     log_dir = BASE_DIR / "logs"
     log_dir.mkdir(parents=True, exist_ok=True)
-    log_file = log_dir / f"train_{language_code}_{datetime.now().strftime('%Y%m%d_%H%M%S')}_wav2vec2.log"
+    log_file = log_dir / f"train_{language_code}_{datetime.now().strftime('%Y%m%d_%H%M%S')}_whisper.log"
     logging.basicConfig(
         level=logging.INFO,
         format="%(asctime)s - %(levelname)s - %(message)s",
@@ -151,8 +151,8 @@ def train_model(args, logger):
         logger.info("Loading dataset...")
     ds = load_json_dataset(args.language, logger)
     ds = cast_and_prepare_dataset(ds, processor, logger)
-    ds["train"] = ds["train"].select(range(1000))  # Limit to 1000 samples for quick training
-    ds["test"] = ds["test"].select(range(100))  # Limit to 100 samples for quick evaluation
+    ds["train"] = ds["train"].select(range(2500))  # Limit to 1000 samples for quick training
+    ds["test"] = ds["test"].select(range(500))  # Limit to 100 samples for quick evaluation
 
     logger.info("Dataset loaded and prepared.")
 

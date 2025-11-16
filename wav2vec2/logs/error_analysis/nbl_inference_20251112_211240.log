@@ -1,0 +1,7 @@
+2025-11-12 21:12:40,078 - INFO - Starting inference for ndebele at 2025-11-12 21:12:40
+2025-11-12 21:12:40,079 - INFO - Loading model from D:\Model-Finetuning\wav2vec2\model\nbl_wav2vec2
+2025-11-12 21:12:44,003 - INFO - Model loaded successfully for nbl
+2025-11-12 21:12:44,005 - INFO - Running inference for ndebele
+2025-11-12 21:12:44,805 - INFO - Loaded 4911 entries from D:\Model-Finetuning\wav2vec2\data\ndebele_unseen.json
+2025-11-12 21:15:26,980 - INFO - Inference results saved to D:\Model-Finetuning\wav2vec2\error_analysis\ndebele_inference_results.json
+2025-11-12 21:15:26,981 - INFO - Inference completed for ndebele. Results saved to D:\Model-Finetuning\wav2vec2\error_analysis\nbl_inference_results.json.

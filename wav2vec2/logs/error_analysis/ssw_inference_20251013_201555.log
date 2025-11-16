@@ -1,0 +1,5 @@
+2025-10-13 20:15:55,334 - INFO - Starting inference for siswati at 2025-10-13 20:15:55
+2025-10-13 20:15:55,336 - INFO - Loading model from D:\Model-Finetuning\wav2vec2\model\ssw_wav2vec2
+2025-10-13 20:15:55,744 - INFO - Model loaded successfully for ssw
+2025-10-13 20:15:55,744 - INFO - Running inference for siswati
+2025-10-13 20:16:01,641 - INFO - Loaded 4736 entries from D:\Model-Finetuning\wav2vec2\data\siswati_unseen.json

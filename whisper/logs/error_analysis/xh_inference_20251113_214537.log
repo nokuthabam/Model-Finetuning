@@ -1,0 +1,2 @@
+2025-11-13 21:45:37,230 - INFO - Loading model from D:\Model-Finetuning\whisper\model\xh_whisper
+2025-11-13 21:45:37,236 - ERROR - An error occurred: D:\Model-Finetuning\whisper\model\xh_whisper does not appear to have a file named preprocessor_config.json. Checkout 'https://huggingface.co/D:\Model-Finetuning\whisper\model\xh_whisper/main' for available files.

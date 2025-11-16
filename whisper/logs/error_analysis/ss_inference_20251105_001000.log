@@ -1,0 +1,57 @@
+2025-11-05 00:10:00,977 - INFO - Loading model from D:\Model-Finetuning\whisper\model\ss_whisper
+2025-11-05 00:10:01,456 - INFO - Model loaded successfully for ss
+2025-11-05 00:10:06,059 - INFO - WhisperForConditionalGeneration(
+  (model): WhisperModel(
+    (encoder): WhisperEncoder(
+      (conv1): Conv1d(80, 768, kernel_size=(3,), stride=(1,), padding=(1,))
+      (conv2): Conv1d(768, 768, kernel_size=(3,), stride=(2,), padding=(1,))
+      (embed_positions): Embedding(1500, 768)
+      (layers): ModuleList(
+        (0-11): 12 x WhisperEncoderLayer(
+          (self_attn): WhisperAttention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=False)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+          )
+          (self_attn_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (activation_fn): GELUActivation()
+          (fc1): Linear(in_features=768, out_features=3072, bias=True)
+          (fc2): Linear(in_features=3072, out_features=768, bias=True)
+          (final_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        )
+      )
+      (layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+    )
+    (decoder): WhisperDecoder(
+      (embed_tokens): Embedding(51865, 768, padding_idx=50257)
+      (embed_positions): WhisperPositionalEmbedding(448, 768)
+      (layers): ModuleList(
+        (0-11): 12 x WhisperDecoderLayer(
+          (self_attn): WhisperAttention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=False)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+          )
+          (activation_fn): GELUActivation()
+          (self_attn_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (encoder_attn): WhisperAttention(
+            (k_proj): Linear(in_features=768, out_features=768, bias=False)
+            (v_proj): Linear(in_features=768, out_features=768, bias=True)
+            (q_proj): Linear(in_features=768, out_features=768, bias=True)
+            (out_proj): Linear(in_features=768, out_features=768, bias=True)
+          )
+          (encoder_attn_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+          (fc1): Linear(in_features=768, out_features=3072, bias=True)
+          (fc2): Linear(in_features=3072, out_features=768, bias=True)
+          (final_layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        )
+      )
+      (layer_norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+    )
+  )
+  (proj_out): Linear(in_features=768, out_features=51865, bias=False)
+)
+2025-11-05 00:10:06,070 - INFO - Running inference for siswati on 10 audio files
+2025-11-05 00:10:56,807 - INFO - Error analysis report saved to D:\Model-Finetuning\whisper\error_analysis\siswati_inference_results.json

@@ -1,451 +1,2304 @@
 {
   "language": "zulu",
   "metrics": {
-    "wer": 1.00709830070983,
-    "cer": 0.8141780256092523
+    "wer": 0.4924726277372263,
+    "cer": 0.11175036422561176
   },
   "phoneme_substitutions": [
     {
       "substitution": "a → n",
-      "count": 212
+      "count": 447
     },
     {
-      "substitution": "a → t",
-      "count": 184
+      "substitution": "n → a",
+      "count": 406
     },
     {
       "substitution": "i → n",
-      "count": 167
+      "count": 336
     },
     {
-      "substitution": "e → n",
-      "count": 153
+      "substitution": "l → a",
+      "count": 314
     },
     {
-      "substitution": "a → m",
-      "count": 152
-    },
-    {
-      "substitution": "a → h",
-      "count": 131
+      "substitution": "n → e",
+      "count": 307
     },
     {
       "substitution": "a → l",
-      "count": 129
+      "count": 298
     },
     {
-      "substitution": "a → s",
-      "count": 128
+      "substitution": "n → i",
+      "count": 297
     },
     {
-      "substitution": "i → a",
-      "count": 122
+      "substitution": "m → a",
+      "count": 294
     },
     {
-      "substitution": "e → a",
-      "count": 121
+      "substitution": "a → k",
+      "count": 287
+    },
+    {
+      "substitution": "e → n",
+      "count": 287
     }
   ],
   "examples": [
     {
-      "reference": "ngikhuluma  isizu",
-      "hypothesis": "o l na th",
+      "reference": "ngikhuluma isizu",
+      "hypothesis": "ngikhuluma isil",
       "subs": {
-        "n → o": 1,
-        "g → l": 1,
-        "i → n": 1,
-        "k → a": 1,
-        "h → t": 1,
-        "u → h": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "ngikhuluma",
-            "o"
-          ],
-          [
-            "isizu",
-            "l"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": " isizulu",
-      "hypothesis": "n",
-      "subs": {
-        "i → n": 1
+        "z → l": 1
       },
       "morphological_errors": {
         "misaligned": false,
         "errors": [
           [
-            "isizulu",
-            "n"
+            "isizu",
+            "isil"
           ]
         ]
       }
     },
     {
-      "reference": "y i  z w a ",
-      "hypothesis": "t",
+      "reference": "y i z w a",
+      "hypothesis": "y i z bulw a",
       "subs": {
-        "y → t": 1
+        "w → b": 1,
+        "a → u": 1
       },
       "morphological_errors": {
-        "misaligned": true,
+        "misaligned": false,
         "errors": [
           [
-            "y",
-            "t"
+            "w",
+            "bulw"
           ]
         ]
       }
     },
     {
       "reference": "hhawu uqinisile nyoni yobusuku mexwayisi",
-      "hypothesis": "u t n s l n o n u sh m h s",
+      "hypothesis": "hawu uqinisile nyoni yekusuku magxwayisi",
       "subs": {
-        "h → u": 1,
-        "h → t": 1,
-        "a → n": 1,
-        "w → s": 1,
-        "u → l": 1,
-        "u → n": 1,
-        "q → o": 1,
+        "h → a": 1,
+        "a → w": 1,
+        "w → u": 1,
+        "u → q": 1,
+        "q → i": 1,
         "i → n": 1,
-        "n → u": 1,
+        "n → i": 2,
         "i → s": 1,
-        "s → h": 1,
-        "i → m": 1,
-        "l → h": 1,
-        "e → s": 1
+        "s → i": 1,
+        "i → l": 1,
+        "l → e": 1,
+        "e → n": 1,
+        "n → y": 1,
+        "y → o": 1,
+        "o → n": 1,
+        "i → y": 1,
+        "y → e": 1,
+        "o → k": 1,
+        "b → u": 1,
+        "u → s": 1,
+        "s → u": 1,
+        "u → k": 1,
+        "k → u": 1,
+        "u → m": 1,
+        "m → a": 1,
+        "e → g": 1
       },
       "morphological_errors": {
-        "misaligned": true,
+        "misaligned": false,
         "errors": [
           [
             "hhawu",
-            "u"
-          ],
-          [
-            "uqinisile",
-            "t"
-          ],
-          [
-            "nyoni",
-            "n"
+            "hawu"
           ],
           [
             "yobusuku",
-            "s"
+            "yekusuku"
           ],
           [
             "mexwayisi",
-            "l"
+            "magxwayisi"
           ]
         ]
       }
     },
     {
-      "reference": "ngihlala lapha e rustenburg ",
-      "hypothesis": "m sh a l l b a s th e n b n",
+      "reference": "ngihlala lapha e rustenburg",
+      "hypothesis": "ngihlala lapha erasteenburk",
       "subs": {
-        "n → m": 1,
-        "g → s": 1,
-        "i → h": 1,
-        "h → a": 1,
-        "a → l": 1,
-        "l → b": 1,
-        "l → s": 1,
-        "a → t": 1,
-        "p → h": 1,
-        "h → e": 1,
-        "a → n": 1,
-        "e → b": 1,
-        "r → n": 1
+        "u → a": 1,
+        "n → e": 1,
+        "b → n": 1,
+        "u → b": 1,
+        "r → u": 1,
+        "g → r": 1
       },
       "morphological_errors": {
         "misaligned": true,
         "errors": [
           [
-            "ngihlala",
-            "m"
-          ],
-          [
-            "lapha",
-            "sh"
-          ],
-          [
             "e",
-            "a"
-          ],
-          [
-            "rustenburg",
-            "l"
+            "erasteenburk"
           ]
         ]
       }
     },
     {
-      "reference": "baneqiniso lokuthi umumathe  wonke aphezulu",
-      "hypothesis": "a n k n s a l o u th m m u th n h s u n",
+      "reference": "baneqiniso lokuthi umumathe wonke aphezulu",
+      "hypothesis": "anegqiniso lokuthi uma muthewonke aphezulu",
       "subs": {
         "b → a": 1,
         "a → n": 1,
-        "n → k": 1,
-        "e → n": 1,
-        "q → s": 1,
-        "i → a": 1,
-        "n → l": 1,
-        "i → o": 1,
-        "s → u": 1,
-        "o → t": 1,
-        "l → h": 1,
-        "o → m": 1,
-        "k → m": 1,
-        "i → n": 1,
-        "u → h": 1,
-        "m → s": 1,
-        "m → n": 1
+        "n → e": 1,
+        "e → g": 1,
+        "u → a": 1,
+        "a → u": 1
       },
       "morphological_errors": {
-        "misaligned": true,
+        "misaligned": false,
         "errors": [
           [
             "baneqiniso",
-            "a"
-          ],
-          [
-            "lokuthi",
-            "n"
+            "anegqiniso"
           ],
           [
             "umumathe",
-            "k"
+            "uma"
           ],
           [
             "wonke",
-            "n"
-          ],
-          [
-            "aphezulu",
-            "s"
+            "muthewonke"
           ]
         ]
       }
     },
     {
-      "reference": " cha",
-      "hypothesis": "k a b",
-      "subs": {
-        "c → k": 1,
-        "h → a": 1,
-        "a → b": 1
-      },
+      "reference": "cha",
+      "hypothesis": "chaba",
+      "subs": {},
       "morphological_errors": {
-        "misaligned": true,
+        "misaligned": false,
         "errors": [
           [
             "cha",
-            "k"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": " kuthiwa nguwe kanye  mfundisi ofunekayo",
-      "hypothesis": "u th a n k a n m u n t t o u n k a m",
-      "subs": {
-        "k → u": 1,
-        "u → t": 1,
-        "t → h": 1,
-        "h → a": 1,
-        "i → n": 1,
-        "w → k": 1,
-        "g → m": 1,
-        "w → n": 1,
-        "e → t": 1,
-        "k → t": 1,
-        "a → o": 1,
-        "n → u": 1,
-        "y → n": 1,
-        "e → k": 1,
-        "m → a": 1,
-        "f → m": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "kuthiwa",
-            "u"
-          ],
-          [
-            "nguwe",
-            "th"
-          ],
-          [
-            "kanye",
-            "a"
-          ],
-          [
-            "mfundisi",
-            "n"
-          ],
-          [
-            "ofunekayo",
-            "k"
+            "chaba"
           ]
         ]
       }
     },
     {
       "reference": "wayethi nje chokochoko abese eyeka",
-      "hypothesis": "th n o t b s k",
+      "hypothesis": "wayethi nje choko choko abese yeka",
       "subs": {
-        "w → t": 1,
-        "a → h": 1,
-        "y → n": 1,
-        "e → o": 1,
-        "h → b": 1,
-        "i → s": 1,
-        "n → k": 1
+        "e → y": 1,
+        "y → e": 1,
+        "e → k": 1,
+        "k → a": 1
       },
       "morphological_errors": {
         "misaligned": true,
         "errors": [
           [
-            "wayethi",
-            "th"
-          ],
-          [
-            "nje",
-            "n"
-          ],
-          [
             "chokochoko",
-            "o"
+            "choko"
           ],
           [
             "abese",
-            "t"
+            "choko"
           ],
           [
             "eyeka",
-            "b"
+            "abese"
           ]
         ]
       }
     },
     {
       "reference": "amashumi amathathu umasingane",
-      "hypothesis": "ma h u ma th th u b a s n a",
+      "hypothesis": "amashumi amathathu kumasingani",
       "subs": {
+        "u → k": 1,
+        "m → u": 1,
         "a → m": 1,
-        "m → a": 1,
-        "a → h": 1,
-        "s → u": 1,
-        "h → m": 1,
-        "u → a": 1,
-        "m → t": 1,
-        "i → h": 1,
-        "a → t": 1,
-        "m → h": 1,
-        "a → u": 1,
-        "t → b": 1,
-        "h → a": 2,
-        "a → s": 1,
-        "t → n": 1
+        "s → a": 1,
+        "i → s": 1,
+        "n → i": 1,
+        "g → n": 1,
+        "a → g": 1,
+        "n → a": 1,
+        "e → n": 1
       },
       "morphological_errors": {
-        "misaligned": true,
+        "misaligned": false,
         "errors": [
           [
-            "amashumi",
-            "ma"
-          ],
-          [
-            "amathathu",
-            "h"
-          ],
-          [
             "umasingane",
-            "u"
+            "kumasingani"
           ]
         ]
       }
     },
     {
-      "reference": "ucingo  olujwayelekile",
-      "hypothesis": "k na th a n",
+      "reference": "ucingo olujwayelekile",
+      "hypothesis": "icingo oujwayeleke",
       "subs": {
-        "u → k": 1,
-        "c → n": 1,
-        "i → a": 1,
-        "n → t": 1,
-        "g → h": 1,
-        "o → a": 1,
-        "o → n": 1
+        "u → i": 1,
+        "l → u": 1,
+        "u → j": 1,
+        "j → w": 1,
+        "w → a": 1,
+        "a → y": 1,
+        "y → e": 1,
+        "e → l": 1,
+        "l → e": 1,
+        "e → k": 1,
+        "k → e": 1
       },
       "morphological_errors": {
-        "misaligned": true,
+        "misaligned": false,
         "errors": [
           [
             "ucingo",
-            "k"
+            "icingo"
           ],
           [
             "olujwayelekile",
-            "na"
+            "oujwayeleke"
           ]
         ]
       }
     },
     {
       "reference": "yishumi nesithupha umandulo",
-      "hypothesis": "sh u m na sh u h m a n t o l",
+      "hypothesis": "yishumi nesithupha umandula",
       "subs": {
-        "y → s": 1,
-        "i → h": 1,
-        "s → u": 1,
-        "h → m": 1,
-        "u → n": 1,
-        "m → a": 1,
-        "i → s": 1,
-        "n → h": 1,
-        "e → u": 1,
-        "s → h": 1,
-        "i → m": 1,
-        "t → a": 1,
-        "h → n": 1,
-        "u → t": 1,
-        "p → o": 1,
-        "h → l": 1
+        "o → a": 1
       },
       "morphological_errors": {
-        "misaligned": true,
+        "misaligned": false,
         "errors": [
           [
-            "yishumi",
-            "sh"
-          ],
-          [
-            "nesithupha",
-            "u"
-          ],
-          [
             "umandulo",
-            "m"
+            "umandula"
           ]
         ]
       }
     },
     {
-      "reference": " cha",
-      "hypothesis": "t",
+      "reference": "engamashumi amabili nesishagalombili",
+      "hypothesis": "engamashumi amabili nesishiagalombili",
+      "subs": {
+        "a → i": 1,
+        "g → a": 1,
+        "a → g": 1,
+        "l → a": 1,
+        "o → l": 1,
+        "m → o": 1,
+        "b → m": 1,
+        "i → b": 1,
+        "l → i": 1,
+        "i → l": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "nesishagalombili",
+            "nesishiagalombili"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "amashumi ayisihlanu nantathu",
+      "hypothesis": "emashumi ayeshlan nentatu",
+      "subs": {
+        "a → e": 1,
+        "i → e": 1,
+        "i → h": 1,
+        "h → l": 1,
+        "l → a": 1,
+        "a → n": 1,
+        "u → e": 1,
+        "a → t": 1,
+        "n → a": 1,
+        "a → u": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "amashumi",
+            "emashumi"
+          ],
+          [
+            "ayisihlanu",
+            "ayeshlan"
+          ],
+          [
+            "nantathu",
+            "nentatu"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "isizu",
+      "hypothesis": "ngo usizutu",
+      "subs": {
+        "i → n": 1,
+        "s → g": 1,
+        "i → o": 1,
+        "z → u": 1,
+        "u → s": 1
+      },
+      "morphological_errors": {
+        "misaligned": true,
+        "errors": [
+          [
+            "isizu",
+            "ngo"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "fazan",
+      "hypothesis": "fiza",
+      "subs": {
+        "a → i": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "fazan",
+            "fiza"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "amashum amathathu uzibandlela",
+      "hypothesis": "amashumi amathathu zibandle",
+      "subs": {
+        "a → i": 1,
+        "m → a": 1,
+        "a → m": 1,
+        "t → a": 2,
+        "h → t": 2,
+        "a → h": 1,
+        "u → h": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "amashum",
+            "amashumi"
+          ],
+          [
+            "uzibandlela",
+            "zibandle"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "kwazulu natal",
+      "hypothesis": "kwazulu natala nge",
+      "subs": {},
+      "morphological_errors": {
+        "misaligned": true,
+        "errors": [
+          [
+            "natal",
+            "natala"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "basuka e abrona bamisa eziyongabheri",
+      "hypothesis": "asuka e abhrona bamista eziyongaberi",
+      "subs": {
+        "b → a": 2,
+        "a → s": 1,
+        "s → u": 1,
+        "u → k": 1,
+        "k → a": 1,
+        "a → e": 1,
+        "e → a": 2,
+        "a → b": 1,
+        "b → h": 1,
+        "a → t": 1,
+        "z → e": 1,
+        "i → z": 1,
+        "y → i": 1,
+        "o → y": 1,
+        "n → o": 1,
+        "g → n": 1,
+        "a → g": 1,
+        "h → b": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "basuka",
+            "asuka"
+          ],
+          [
+            "abrona",
+            "abhrona"
+          ],
+          [
+            "bamisa",
+            "bamista"
+          ],
+          [
+            "eziyongabheri",
+            "eziyongaberi"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "cha angishadanga",
+      "hypothesis": "cha ngishada",
+      "subs": {
+        "a → n": 1,
+        "n → g": 1,
+        "g → i": 1,
+        "i → s": 1,
+        "s → h": 1,
+        "h → a": 1,
+        "a → d": 1,
+        "d → a": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "angishadanga",
+            "ngishada"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "e gauteng",
+      "hypothesis": "ehlawuden",
+      "subs": {
+        "g → h": 1,
+        "a → l": 1,
+        "u → a": 1,
+        "t → w": 1,
+        "e → u": 1,
+        "n → d": 1,
+        "g → e": 1
+      },
+      "morphological_errors": {
+        "misaligned": true,
+        "errors": [
+          [
+            "e",
+            "ehlawuden"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "mamthembu uyabona njengoba ngikutshela nje",
+      "hypothesis": "mamthembuyabona njenga ba ngithela nje",
+      "subs": {
+        "u → y": 1,
+        "y → a": 1,
+        "a → b": 1,
+        "b → o": 1,
+        "o → n": 1,
+        "n → a": 1,
+        "a → n": 2,
+        "n → j": 1,
+        "j → e": 1,
+        "e → n": 1,
+        "n → g": 2,
+        "g → a": 1,
+        "o → b": 1,
+        "b → a": 1,
+        "g → i": 1,
+        "i → t": 1,
+        "k → h": 1,
+        "u → e": 1,
+        "t → l": 1,
+        "s → a": 1,
+        "h → n": 1,
+        "e → j": 1,
+        "l → e": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "mamthembu",
+            "mamthembuyabona"
+          ],
+          [
+            "uyabona",
+            "njenga"
+          ],
+          [
+            "njengoba",
+            "ba"
+          ],
+          [
+            "ngikutshela",
+            "ngithela"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "sixteen ulwezi",
+      "hypothesis": "sixteene ulwes",
+      "subs": {
+        "u → e": 1,
+        "l → u": 1,
+        "w → l": 1,
+        "e → w": 1,
+        "z → e": 1,
+        "i → s": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "sixteen",
+            "sixteene"
+          ],
+          [
+            "ulwezi",
+            "ulwes"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "ubumnandi bokuba yinsizwa yebutho lamamasayi",
+      "hypothesis": "bumnantu bokuba insizwa ebutho lamamasayi",
+      "subs": {
+        "u → b": 2,
+        "b → u": 1,
+        "u → m": 1,
+        "m → n": 1,
+        "n → a": 1,
+        "a → n": 1,
+        "n → t": 1,
+        "d → u": 1,
+        "i → b": 1,
+        "b → o": 1,
+        "o → k": 1,
+        "k → u": 1,
+        "b → a": 1,
+        "a → i": 1,
+        "y → n": 1,
+        "i → s": 1,
+        "n → i": 1,
+        "s → z": 1,
+        "i → w": 1,
+        "z → a": 1,
+        "w → e": 1,
+        "a → b": 1,
+        "y → u": 1,
+        "e → t": 1,
+        "b → h": 1,
+        "u → o": 1,
+        "t → l": 1,
+        "h → a": 1,
+        "o → m": 1,
+        "l → a": 1,
+        "a → m": 1,
+        "m → a": 2,
+        "a → s": 1,
+        "a → y": 1,
+        "s → i": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "ubumnandi",
+            "bumnantu"
+          ],
+          [
+            "yinsizwa",
+            "insizwa"
+          ],
+          [
+            "yebutho",
+            "ebutho"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "yikota yehora emva kwehora lesithatu",
+      "hypothesis": "yikwata yehora emva kwehora lesithathwu",
+      "subs": {
+        "o → w": 1,
+        "t → a": 2,
+        "a → t": 1,
+        "y → a": 1,
+        "e → y": 1,
+        "h → e": 2,
+        "o → h": 2,
+        "r → o": 2,
+        "a → r": 2,
+        "e → a": 1,
+        "m → e": 1,
+        "v → m": 1,
+        "a → v": 1,
+        "k → a": 1,
+        "w → k": 1,
+        "e → w": 1,
+        "l → a": 1,
+        "e → l": 1,
+        "s → e": 1,
+        "i → s": 1,
+        "t → i": 1,
+        "h → t": 1,
+        "a → h": 1,
+        "u → t": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "yikota",
+            "yikwata"
+          ],
+          [
+            "lesithatu",
+            "lesithathwu"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "ngikhuluma kocingo olejwayelekile",
+      "hypothesis": "khuluma kukucingo lejwayelekile",
+      "subs": {
+        "n → k": 1,
+        "g → h": 1,
+        "i → u": 1,
+        "k → l": 2,
+        "h → u": 1,
+        "u → m": 1,
+        "l → a": 1,
+        "u → k": 1,
+        "m → u": 1,
+        "a → k": 1,
+        "k → u": 1,
+        "o → c": 1,
+        "c → i": 1,
+        "i → n": 1,
+        "n → g": 1,
+        "g → o": 1,
+        "o → l": 1,
+        "o → e": 1,
+        "l → j": 1,
+        "e → w": 1,
+        "j → a": 1,
+        "w → y": 1,
+        "a → e": 1,
+        "y → l": 1,
+        "l → k": 1,
+        "e → i": 1,
+        "i → e": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "ngikhuluma",
+            "khuluma"
+          ],
+          [
+            "kocingo",
+            "kukucingo"
+          ],
+          [
+            "olejwayelekile",
+            "lejwayelekile"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "under joburg",
+      "hypothesis": "antajoverk",
+      "subs": {
+        "u → a": 1,
+        "d → t": 1,
+        "e → a": 1,
+        "r → j": 1,
+        "j → o": 1,
+        "o → v": 1,
+        "b → e": 1,
+        "u → r": 1,
+        "r → k": 1
+      },
+      "morphological_errors": {
+        "misaligned": true,
+        "errors": [
+          [
+            "under",
+            "antajoverk"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "ucingo olujwayelekile",
+      "hypothesis": "cingo olujwayelekile",
+      "subs": {
+        "u → c": 1,
+        "c → i": 1,
+        "i → n": 1,
+        "n → g": 1,
+        "g → o": 1,
+        "o → l": 1,
+        "l → u": 1,
+        "u → j": 1,
+        "j → w": 1,
+        "w → a": 1,
+        "a → y": 1,
+        "y → e": 1,
+        "e → l": 1,
+        "l → e": 2,
+        "e → k": 1,
+        "k → i": 1,
+        "i → l": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "ucingo",
+            "cingo"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "ihora lokuqala eyimpondweni",
+      "hypothesis": "yihora lokuqala eyimpondweni",
+      "subs": {
+        "i → y": 2,
+        "h → i": 1,
+        "o → h": 1,
+        "r → o": 1,
+        "a → r": 1,
+        "l → a": 2,
+        "o → l": 1,
+        "k → o": 1,
+        "u → k": 1,
+        "q → u": 1,
+        "a → q": 1,
+        "a → l": 1,
+        "e → a": 1,
+        "y → e": 1,
+        "m → i": 1,
+        "p → m": 1,
+        "o → p": 1,
+        "n → o": 1,
+        "d → n": 1,
+        "w → d": 1,
+        "e → w": 1,
+        "n → e": 1,
+        "i → n": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "ihora",
+            "yihora"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "e johannesburg",
+      "hypothesis": "jahanyesbirk",
+      "subs": {
+        "e → j": 1,
+        "j → a": 1,
+        "o → h": 1,
+        "h → a": 1,
+        "a → n": 1,
+        "n → y": 1,
+        "n → e": 1,
+        "e → s": 1,
+        "s → b": 1,
+        "b → i": 1,
+        "u → r": 1,
+        "r → k": 1
+      },
+      "morphological_errors": {
+        "misaligned": true,
+        "errors": [
+          [
+            "e",
+            "jahanyesbirk"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "fourty eigh",
+      "hypothesis": "forde a",
+      "subs": {
+        "u → r": 1,
+        "r → d": 1,
+        "t → e": 1,
+        "y → a": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "fourty",
+            "forde"
+          ],
+          [
+            "eigh",
+            "a"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "thirty seven",
+      "hypothesis": "thirty sazene",
+      "subs": {
+        "e → a": 1,
+        "v → z": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "seven",
+            "sazene"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "wesifazana",
+      "hypothesis": "etfazane",
+      "subs": {
+        "w → e": 1,
+        "e → t": 1,
+        "s → f": 1,
+        "i → a": 1,
+        "f → z": 1,
+        "z → n": 1,
+        "a → e": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "wesifazana",
+            "etfazane"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "kuma kumakhalekhukhini",
+      "hypothesis": "ngomakhi kumakhalekhukhwini",
+      "subs": {
+        "k → n": 1,
+        "u → g": 1,
+        "m → o": 1,
+        "a → m": 2,
+        "k → a": 1,
+        "u → k": 1,
+        "m → h": 1,
+        "a → i": 1,
+        "h → u": 1,
+        "l → a": 1,
+        "e → k": 1,
+        "k → h": 1,
+        "h → a": 1,
+        "u → l": 1,
+        "k → e": 1,
+        "h → k": 1,
+        "i → h": 1,
+        "n → u": 1,
+        "i → k": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "kuma",
+            "ngomakhi"
+          ],
+          [
+            "kumakhalekhukhini",
+            "kumakhalekhukhwini"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "ligamengxe elokuqala",
+      "hypothesis": "eligame ncwe elokuqala",
+      "subs": {
+        "l → e": 2,
+        "i → l": 1,
+        "g → i": 1,
+        "a → g": 1,
+        "m → a": 1,
+        "e → m": 1,
+        "n → e": 1,
+        "g → n": 1,
+        "x → c": 1,
+        "e → w": 1,
+        "o → l": 1,
+        "k → o": 1,
+        "u → k": 1,
+        "q → u": 1,
+        "a → q": 1,
+        "l → a": 1,
+        "a → l": 1
+      },
+      "morphological_errors": {
+        "misaligned": true,
+        "errors": [
+          [
+            "ligamengxe",
+            "eligame"
+          ],
+          [
+            "elokuqala",
+            "ncwe"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "e umnyango wezangaphandle",
+      "hypothesis": "umnyango wezangaphandle",
+      "subs": {
+        "e → u": 1,
+        "u → m": 1,
+        "m → n": 1,
+        "n → y": 1,
+        "y → a": 1,
+        "a → n": 3,
+        "n → g": 2,
+        "g → o": 1,
+        "o → w": 1,
+        "w → e": 1,
+        "e → z": 1,
+        "z → a": 1,
+        "g → a": 1,
+        "a → p": 1,
+        "p → h": 1,
+        "h → a": 1,
+        "n → d": 1,
+        "d → l": 1,
+        "l → e": 1
+      },
+      "morphological_errors": {
+        "misaligned": true,
+        "errors": [
+          [
+            "e",
+            "umnyango"
+          ],
+          [
+            "umnyango",
+            "wezangaphandle"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "a seven",
+      "hypothesis": "a sezane",
+      "subs": {
+        "v → z": 1,
+        "e → a": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "seven",
+            "sezane"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "inkundla yesithathu iveza inguquko ebingalindelwe",
+      "hypothesis": "inkundla yesithathu iveza inguquko ebingalindela",
+      "subs": {
+        "w → a": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "ebingalindelwe",
+            "ebingalindela"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "angshadil",
+      "hypothesis": "cha ngishadil",
+      "subs": {
+        "a → c": 1,
+        "n → h": 1,
+        "g → a": 1,
+        "s → n": 1,
+        "h → g": 1,
+        "a → i": 1,
+        "d → s": 1,
+        "i → h": 1,
+        "l → a": 1
+      },
+      "morphological_errors": {
+        "misaligned": true,
+        "errors": [
+          [
+            "angshadil",
+            "cha"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "yikwata yehora ngaphambi kwehora lomkhothi",
+      "hypothesis": "yikwata yehora nahambi kwehora kumkhoji",
+      "subs": {
+        "g → a": 1,
+        "a → h": 1,
+        "p → a": 1,
+        "h → m": 1,
+        "a → b": 1,
+        "m → i": 1,
+        "b → k": 1,
+        "i → w": 1,
+        "k → e": 1,
+        "w → h": 1,
+        "e → o": 1,
+        "h → r": 1,
+        "o → a": 1,
+        "r → k": 1,
+        "a → u": 1,
+        "l → m": 1,
+        "o → k": 1,
+        "m → h": 1,
+        "k → o": 1,
+        "h → j": 1,
+        "o → i": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "ngaphambi",
+            "nahambi"
+          ],
+          [
+            "lomkhothi",
+            "kumkhoji"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "ishumi nane kumandulo",
+      "hypothesis": "yishumi nane umandula",
+      "subs": {
+        "i → y": 1,
+        "s → i": 1,
+        "h → s": 1,
+        "u → h": 1,
+        "m → u": 1,
+        "i → m": 1,
+        "n → i": 1,
+        "a → n": 1,
+        "n → a": 1,
+        "e → n": 1,
+        "k → e": 1,
+        "o → a": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "ishumi",
+            "yishumi"
+          ],
+          [
+            "kumandulo",
+            "umandula"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "e ethekwini",
+      "hypothesis": "ethekweni",
+      "subs": {
+        "e → t": 1,
+        "t → h": 1,
+        "h → e": 1,
+        "e → k": 1,
+        "k → w": 1,
+        "w → e": 1,
+        "i → n": 1,
+        "n → i": 1
+      },
+      "morphological_errors": {
+        "misaligned": true,
+        "errors": [
+          [
+            "e",
+            "ethekweni"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "amatshe ezikhumbuzo egiligali nasejordani",
+      "hypothesis": "amantshe ezikhumbuzo egiligali nasejodani",
+      "subs": {
+        "t → n": 1,
+        "s → t": 1,
+        "h → s": 1,
+        "e → h": 1,
+        "z → e": 1,
+        "i → z": 1,
+        "k → i": 1,
+        "h → k": 1,
+        "u → h": 1,
+        "m → u": 1,
+        "b → m": 1,
+        "u → b": 1,
+        "z → u": 1,
+        "o → z": 1,
+        "e → o": 1,
+        "g → e": 1,
+        "i → g": 1,
+        "l → i": 1,
+        "i → l": 2,
+        "g → i": 1,
+        "a → g": 1,
+        "l → a": 1,
+        "n → i": 1,
+        "a → n": 1,
+        "s → a": 1,
+        "e → s": 1,
+        "j → e": 1,
+        "o → j": 1,
+        "r → o": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "amatshe",
+            "amantshe"
+          ],
+          [
+            "nasejordani",
+            "nasejodani"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "five may nineteen eighty five",
+      "hypothesis": "fi ma nineteen eighty f iv",
+      "subs": {
+        "v → m": 1,
+        "e → a": 1,
+        "m → n": 1,
+        "a → i": 1,
+        "y → n": 1,
+        "n → e": 2,
+        "i → t": 2,
+        "t → n": 1,
+        "e → i": 1,
+        "n → g": 1,
+        "e → h": 1,
+        "g → y": 1,
+        "h → f": 1,
+        "t → i": 1,
+        "y → v": 1
+      },
+      "morphological_errors": {
+        "misaligned": true,
+        "errors": [
+          [
+            "five",
+            "fi"
+          ],
+          [
+            "may",
+            "ma"
+          ],
+          [
+            "five",
+            "f"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "i",
+      "hypothesis": "yesi",
+      "subs": {
+        "i → y": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "i",
+            "yesi"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "oh yihora lesishiyagalolunye ezimpondwen",
+      "hypothesis": "oyihora lesifhiyagalolunye zimpondweni",
+      "subs": {
+        "h → y": 1,
+        "y → i": 1,
+        "i → h": 1,
+        "h → o": 1,
+        "o → r": 1,
+        "r → a": 1,
+        "a → l": 2,
+        "l → e": 1,
+        "e → s": 1,
+        "s → i": 1,
+        "i → f": 1,
+        "s → h": 1,
+        "h → i": 1,
+        "i → y": 1,
+        "y → a": 1,
+        "a → g": 1,
+        "g → a": 1,
+        "l → o": 1,
+        "o → l": 1,
+        "l → u": 1,
+        "u → n": 1,
+        "n → y": 1,
+        "y → e": 1,
+        "e → z": 1,
+        "e → i": 2,
+        "z → m": 1,
+        "i → p": 1,
+        "m → o": 1,
+        "p → n": 1,
+        "o → d": 1,
+        "n → w": 1,
+        "d → e": 1,
+        "w → n": 1
+      },
+      "morphological_errors": {
+        "misaligned": true,
+        "errors": [
+          [
+            "oh",
+            "oyihora"
+          ],
+          [
+            "yihora",
+            "lesifhiyagalolunye"
+          ],
+          [
+            "lesishiyagalolunye",
+            "zimpondweni"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "wayethi nje chokochoko abese eyeka",
+      "hypothesis": "wayethi nje choko choko abese eyeka",
+      "subs": {},
+      "morphological_errors": {
+        "misaligned": true,
+        "errors": [
+          [
+            "chokochoko",
+            "choko"
+          ],
+          [
+            "abese",
+            "choko"
+          ],
+          [
+            "eyeka",
+            "abese"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "seligamenxe elesishagalolunye",
+      "hypothesis": "seligamenxo elesishaga lolunye",
+      "subs": {
+        "e → o": 1
+      },
+      "morphological_errors": {
+        "misaligned": true,
+        "errors": [
+          [
+            "seligamenxe",
+            "seligamenxo"
+          ],
+          [
+            "elesishagalolunye",
+            "elesishaga"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "yikota yehora ngaphambi kwehora lesihlan",
+      "hypothesis": "yikwata yehora ngaphambike ehora lesihlanu",
+      "subs": {
+        "o → w": 1,
+        "t → a": 1,
+        "a → t": 1,
+        "y → a": 1,
+        "e → y": 1,
+        "h → e": 2,
+        "o → h": 2,
+        "r → o": 2,
+        "a → r": 2,
+        "n → a": 2,
+        "g → n": 1,
+        "a → g": 1,
+        "p → a": 1,
+        "h → p": 1,
+        "a → h": 1,
+        "m → a": 1,
+        "b → m": 1,
+        "i → b": 1,
+        "k → i": 1,
+        "w → k": 1,
+        "l → a": 1,
+        "e → l": 1,
+        "s → e": 1,
+        "i → s": 1,
+        "h → i": 1,
+        "l → h": 1,
+        "a → l": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "yikota",
+            "yikwata"
+          ],
+          [
+            "ngaphambi",
+            "ngaphambike"
+          ],
+          [
+            "kwehora",
+            "ehora"
+          ],
+          [
+            "lesihlan",
+            "lesihlanu"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "wesilisa",
+      "hypothesis": "gwesilisa",
+      "subs": {
+        "w → g": 1,
+        "e → w": 1,
+        "s → e": 1,
+        "i → s": 1,
+        "l → i": 1,
+        "i → l": 1,
+        "s → i": 1,
+        "a → s": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "wesilisa",
+            "gwesilisa"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "umgodi wogage lowo wahlala obala",
+      "hypothesis": "umgodi wogake lowo wahlala obala",
+      "subs": {
+        "g → k": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "wogage",
+            "wogake"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "kubili kubili kunye kuyisikhombis",
+      "hypothesis": "kubili kubili kunye kuyisikhombisa",
+      "subs": {},
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "kuyisikhombis",
+            "kuyisikhombisa"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "ngowamashumi amabili nanye",
+      "hypothesis": "mashumi angabili nanye",
+      "subs": {
+        "n → m": 1,
+        "g → a": 1,
+        "o → s": 1,
+        "w → h": 1,
+        "a → u": 1,
+        "a → i": 3,
+        "s → a": 1,
+        "h → n": 1,
+        "u → g": 1,
+        "m → a": 1,
+        "i → b": 1,
+        "m → l": 1,
+        "b → n": 1,
+        "i → a": 1,
+        "l → n": 1,
+        "i → y": 1,
+        "n → e": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "ngowamashumi",
+            "mashumi"
+          ],
+          [
+            "amabili",
+            "angabili"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "umhla ka two december",
+      "hypothesis": "gihlaka thothi semba",
+      "subs": {
+        "u → g": 1,
+        "m → i": 1,
+        "w → h": 1,
+        "d → t": 1,
+        "e → h": 1,
+        "c → i": 1,
+        "e → s": 1,
+        "m → e": 1,
+        "b → m": 1,
+        "e → b": 1,
+        "r → a": 1
+      },
+      "morphological_errors": {
+        "misaligned": true,
+        "errors": [
+          [
+            "umhla",
+            "gihlaka"
+          ],
+          [
+            "ka",
+            "thothi"
+          ],
+          [
+            "two",
+            "semba"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "yikwata yehora emva kwehora lesi",
+      "hypothesis": "yikwata yehora emva kwehora leseni",
+      "subs": {
+        "i → e": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "lesi",
+            "leseni"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "seligameng elesithathu",
+      "hypothesis": "seligamenge lesithathu",
+      "subs": {},
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "seligameng",
+            "seligamenge"
+          ],
+          [
+            "elesithathu",
+            "lesithathu"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "ngo nineteen eighty one",
+      "hypothesis": "nge nineten eighty one",
+      "subs": {
+        "o → e": 1,
+        "e → n": 1,
+        "n → e": 2,
+        "e → i": 1,
+        "i → g": 1,
+        "g → h": 1,
+        "h → t": 1,
+        "t → y": 1,
+        "y → o": 1,
+        "o → n": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "ngo",
+            "nge"
+          ],
+          [
+            "nineteen",
+            "nineten"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "ngo january nge eighteen",
+      "hypothesis": "ngosijhana amari nwo ighteen",
+      "subs": {
+        "j → s": 1,
+        "a → i": 1,
+        "n → j": 1,
+        "u → h": 1,
+        "r → n": 1,
+        "y → a": 1,
+        "n → a": 1,
+        "g → m": 1,
+        "e → a": 1,
+        "e → r": 1,
+        "g → n": 1,
+        "h → w": 1,
+        "t → o": 1,
+        "e → i": 1,
+        "e → g": 1,
+        "n → h": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "ngo",
+            "ngosijhana"
+          ],
+          [
+            "january",
+            "amari"
+          ],
+          [
+            "nge",
+            "nwo"
+          ],
+          [
+            "eighteen",
+            "ighteen"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "kunhlolanja kunhlolanja",
+      "hypothesis": "unhlolanja untholanda",
+      "subs": {
+        "k → u": 1,
+        "u → n": 1,
+        "n → h": 2,
+        "h → l": 1,
+        "l → o": 1,
+        "o → l": 1,
+        "l → a": 1,
+        "a → n": 1,
+        "n → j": 1,
+        "j → a": 1,
+        "a → u": 1,
+        "k → n": 1,
+        "u → t": 1,
+        "h → o": 1,
+        "o → a": 1,
+        "l → n": 1,
+        "a → d": 1,
+        "n → a": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "kunhlolanja",
+            "unhlolanja"
+          ],
+          [
+            "kunhlolanja",
+            "untholanda"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "fazane",
+      "hypothesis": "asane",
+      "subs": {
+        "f → a": 1,
+        "a → s": 1,
+        "z → a": 1,
+        "a → n": 1,
+        "n → e": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "fazane",
+            "asane"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "isizulu",
+      "hypothesis": "usisu",
+      "subs": {
+        "i → u": 1,
+        "z → s": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "isizulu",
+            "usisu"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "kodwa ukuhlehla kwayo kunokuxwaya okuthile",
+      "hypothesis": "kodwa ukuhlehla kwayo kunokuqwaya okuthile",
+      "subs": {
+        "x → q": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "kunokuxwaya",
+            "kunokuqwaya"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "e vereeniging",
+      "hypothesis": "eser nasi",
+      "subs": {
+        "v → s": 1,
+        "e → n": 1,
+        "e → a": 1,
+        "n → s": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "e",
+            "eser"
+          ],
+          [
+            "vereeniging",
+            "nasi"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "sifazane",
+      "hypothesis": "ajanu o",
+      "subs": {
+        "s → a": 1,
+        "i → j": 1,
+        "f → a": 1,
+        "a → n": 1,
+        "z → u": 1,
+        "a → o": 1
+      },
+      "morphological_errors": {
+        "misaligned": true,
+        "errors": [
+          [
+            "sifazane",
+            "ajanu"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "efilidi",
+      "hypothesis": "wesilidi",
+      "subs": {
+        "e → w": 1,
+        "f → e": 1,
+        "i → s": 1,
+        "l → i": 1,
+        "i → l": 1,
+        "d → i": 1,
+        "i → d": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "efilidi",
+            "wesilidi"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "ngina fifty",
+      "hypothesis": "mafixt",
+      "subs": {
+        "n → m": 1,
+        "g → a": 1,
+        "i → f": 1,
+        "n → i": 1,
+        "a → x": 1,
+        "f → t": 1
+      },
+      "morphological_errors": {
+        "misaligned": true,
+        "errors": [
+          [
+            "ngina",
+            "mafixt"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "fourty eight",
+      "hypothesis": "fory eight",
+      "subs": {
+        "u → r": 1,
+        "r → y": 1,
+        "t → e": 1,
+        "y → i": 1,
+        "e → g": 1,
+        "i → h": 1,
+        "g → t": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "fourty",
+            "fory"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "yishumil namathu anesikhombisa",
+      "hypothesis": "yishumi nomathatha nesikhombisi",
+      "subs": {
+        "l → n": 1,
+        "n → o": 1,
+        "a → m": 1,
+        "m → a": 1,
+        "a → t": 1,
+        "t → h": 1,
+        "h → a": 1,
+        "u → t": 1,
+        "a → h": 1,
+        "n → a": 1,
+        "e → n": 1,
+        "s → e": 1,
+        "i → s": 1,
+        "k → i": 1,
+        "h → k": 1,
+        "o → h": 1,
+        "m → o": 1,
+        "b → m": 1,
+        "i → b": 1,
+        "s → i": 1,
+        "a → s": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "yishumil",
+            "yishumi"
+          ],
+          [
+            "namathu",
+            "nomathatha"
+          ],
+          [
+            "anesikhombisa",
+            "nesikhombisi"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "shumi nane",
+      "hypothesis": "ishum nano",
+      "subs": {
+        "s → i": 1,
+        "h → s": 1,
+        "u → h": 1,
+        "m → u": 1,
+        "i → m": 1,
+        "e → o": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "shumi",
+            "ishum"
+          ],
+          [
+            "nane",
+            "nano"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "e pretoria",
+      "hypothesis": "epptre t ori",
+      "subs": {
+        "r → p": 1,
+        "e → t": 1,
+        "t → r": 1,
+        "o → e": 1,
+        "r → t": 1,
+        "i → o": 1,
+        "a → r": 1
+      },
+      "morphological_errors": {
+        "misaligned": true,
+        "errors": [
+          [
+            "e",
+            "epptre"
+          ],
+          [
+            "pretoria",
+            "t"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "umnyango wezamanzi namahlathi",
+      "hypothesis": "umnyango wezamanzi namalathi",
+      "subs": {
+        "h → l": 1,
+        "l → a": 1,
+        "a → t": 1,
+        "t → h": 1,
+        "h → i": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "namahlathi",
+            "namalathi"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "tajewo ukwanda kwaliwa ngumkhathi mpela",
+      "hypothesis": "taje wo kandakwani wangumkhathi impela",
+      "subs": {
+        "u → k": 2,
+        "k → a": 3,
+        "w → n": 3,
+        "a → d": 1,
+        "n → a": 1,
+        "d → k": 1,
+        "a → w": 1,
+        "a → i": 1,
+        "l → w": 1,
+        "i → a": 1,
+        "a → g": 1,
+        "n → u": 1,
+        "g → m": 1,
+        "m → h": 1,
+        "h → t": 1,
+        "a → h": 1,
+        "t → i": 1,
+        "h → i": 1,
+        "i → m": 1,
+        "m → p": 1,
+        "p → e": 1,
+        "e → l": 1,
+        "l → a": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "tajewo",
+            "taje"
+          ],
+          [
+            "ukwanda",
+            "wo"
+          ],
+          [
+            "kwaliwa",
+            "kandakwani"
+          ],
+          [
+            "ngumkhathi",
+            "wangumkhathi"
+          ],
+          [
+            "mpela",
+            "impela"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "cha angishadile",
+      "hypothesis": "cha ngishadana",
+      "subs": {
+        "a → n": 1,
+        "n → g": 1,
+        "g → i": 1,
+        "i → s": 1,
+        "s → h": 1,
+        "h → a": 1,
+        "a → d": 1,
+        "d → a": 1,
+        "i → n": 1,
+        "l → a": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "angishadile",
+            "ngishadana"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "ngo november nge three",
+      "hypothesis": "ngo novembe nge thre",
+      "subs": {
+        "r → n": 1,
+        "n → g": 1,
+        "g → e": 1,
+        "e → t": 1,
+        "t → h": 1,
+        "h → r": 1,
+        "r → e": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "november",
+            "novembe"
+          ],
+          [
+            "three",
+            "thre"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "gubhubhu abafana bethukile futhi benokwesaba",
+      "hypothesis": "kubhubhu abafana bethukile futhi benokwesaba",
+      "subs": {
+        "g → k": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "gubhubhu",
+            "kubhubhu"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "ngo december nineteen seventy six",
+      "hypothesis": "cudisemba erndys erfetit six",
+      "subs": {
+        "n → c": 1,
+        "g → u": 1,
+        "o → d": 1,
+        "d → i": 1,
+        "e → s": 3,
+        "c → e": 1,
+        "e → m": 1,
+        "m → b": 1,
+        "b → a": 1,
+        "i → d": 1,
+        "n → y": 1,
+        "t → e": 1,
+        "e → r": 1,
+        "e → f": 1,
+        "n → e": 1,
+        "s → t": 1,
+        "e → i": 1,
+        "v → t": 1,
+        "n → i": 1,
+        "t → x": 1
+      },
+      "morphological_errors": {
+        "misaligned": true,
+        "errors": [
+          [
+            "ngo",
+            "cudisemba"
+          ],
+          [
+            "december",
+            "erndys"
+          ],
+          [
+            "nineteen",
+            "erfetit"
+          ],
+          [
+            "seventy",
+            "six"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "four march",
+      "hypothesis": "po marg",
+      "subs": {
+        "f → p": 1,
+        "u → m": 1,
+        "r → a": 1,
+        "m → r": 1,
+        "a → g": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "four",
+            "po"
+          ],
+          [
+            "march",
+            "marg"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "amashum amahlanu nesithathu",
+      "hypothesis": "mashumi amahlanu nesithathu",
+      "subs": {
+        "a → m": 1,
+        "m → a": 1,
+        "a → s": 1,
+        "s → h": 1,
+        "h → u": 1,
+        "u → m": 1,
+        "m → i": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "amashum",
+            "mashumi"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "eceleni kwechibi bayibona ikileku oyilepu",
+      "hypothesis": "eceleni kwichibi bayibona ikile ku oyilepu",
+      "subs": {
+        "e → i": 1
+      },
+      "morphological_errors": {
+        "misaligned": true,
+        "errors": [
+          [
+            "kwechibi",
+            "kwichibi"
+          ],
+          [
+            "ikileku",
+            "ikile"
+          ],
+          [
+            "oyilepu",
+            "ku"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "ngocingo olujwayelikile",
+      "hypothesis": "ngocingo olujwayelekile",
+      "subs": {
+        "i → e": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "olujwayelikile",
+            "olujwayelekile"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "e vanderbijl",
+      "hypothesis": "e fanderbel",
+      "subs": {
+        "v → f": 1,
+        "i → e": 1,
+        "j → l": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "vanderbijl",
+            "fanderbel"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "hora lesihlanu ezimpondweni",
+      "hypothesis": "balesihlanu ezimpondweni",
+      "subs": {
+        "h → b": 1,
+        "o → a": 1,
+        "r → l": 1,
+        "a → e": 1,
+        "l → s": 1,
+        "e → i": 3,
+        "s → h": 1,
+        "i → l": 1,
+        "h → a": 1,
+        "l → n": 1,
+        "a → u": 1,
+        "n → e": 1,
+        "u → z": 1,
+        "z → m": 1,
+        "i → p": 1,
+        "m → o": 1,
+        "p → n": 1,
+        "o → d": 1,
+        "n → w": 1,
+        "d → e": 1,
+        "w → n": 1
+      },
+      "morphological_errors": {
+        "misaligned": true,
+        "errors": [
+          [
+            "hora",
+            "balesihlanu"
+          ],
+          [
+            "lesihlanu",
+            "ezimpondweni"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "cha",
+      "hypothesis": "tha",
       "subs": {
         "c → t": 1
       },
@@ -454,197 +2307,568 @@
         "errors": [
           [
             "cha",
-            "t"
+            "tha"
           ]
         ]
       }
     },
     {
-      "reference": " isizulu",
-      "hypothesis": "t t l",
-      "subs": {
-        "i → t": 1,
-        "s → t": 1,
-        "i → l": 1
-      },
+      "reference": "ngomakhalekhukhwi",
+      "hypothesis": "ngomakhal ekhukhwi",
+      "subs": {},
       "morphological_errors": {
         "misaligned": true,
         "errors": [
           [
-            "isizulu",
-            "t"
+            "ngomakhalekhukhwi",
+            "ngomakhal"
           ]
         ]
       }
     },
     {
-      "reference": " engamashumi amabili nesishagalombili ",
-      "hypothesis": "na ma sh ma ma b l na s sh a ka l o m b l",
+      "reference": "kumakhalekhikhini",
+      "hypothesis": "kumakhalekhikhili",
       "subs": {
-        "e → n": 1,
-        "n → a": 1,
-        "g → m": 1,
-        "m → s": 1,
-        "a → h": 1,
-        "s → m": 2,
-        "h → a": 1,
-        "u → m": 1,
-        "m → a": 1,
-        "i → b": 1,
-        "a → l": 2,
-        "m → n": 1,
-        "b → s": 1,
-        "i → s": 1,
-        "l → h": 1,
-        "i → a": 1,
-        "n → k": 1,
-        "e → a": 1,
-        "s → l": 1,
-        "i → o": 1,
-        "h → b": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "engamashumi",
-            "na"
-          ],
-          [
-            "amabili",
-            "ma"
-          ],
-          [
-            "nesishagalombili",
-            "sh"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": "amashumi  ayisihlanu  nantathu",
-      "hypothesis": "ma sh u ma l a n a n t t",
-      "subs": {
-        "a → m": 1,
-        "m → a": 2,
-        "a → s": 1,
-        "s → h": 1,
-        "h → u": 1,
-        "u → m": 1,
-        "i → l": 1,
-        "y → n": 1,
-        "i → a": 1,
-        "s → n": 1,
-        "i → t": 1,
-        "h → t": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "amashumi",
-            "ma"
-          ],
-          [
-            "ayisihlanu",
-            "sh"
-          ],
-          [
-            "nantathu",
-            "u"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": " yebo",
-      "hypothesis": "b",
-      "subs": {
-        "y → b": 1
+        "n → l": 1
       },
       "morphological_errors": {
         "misaligned": false,
         "errors": [
           [
-            "yebo",
-            "b"
+            "kumakhalekhikhini",
+            "kumakhalekhikhili"
           ]
         ]
       }
     },
     {
-      "reference": "isizu ",
-      "hypothesis": "a sh h l t",
+      "reference": "ishumi nesithupa kulwez",
+      "hypothesis": "yishumi nesituxkuliis",
       "subs": {
-        "i → a": 1,
-        "i → h": 1,
-        "z → h": 1,
-        "u → l": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "isizu",
-            "a"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": " fazan",
-      "hypothesis": "s t",
-      "subs": {
-        "f → s": 1,
-        "a → t": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "fazan",
-            "s"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": "amashum' amathathu  uzibandlela",
-      "hypothesis": "a ma l sh ma ma th th s b a nt l n e",
-      "subs": {
-        "s → l": 1,
+        "i → y": 1,
+        "s → i": 1,
         "h → s": 1,
         "u → h": 1,
-        "' → a": 1,
-        "a → m": 1,
-        "m → a": 1,
-        "a → t": 1,
-        "t → h": 1,
+        "m → u": 1,
+        "i → m": 1,
+        "n → i": 1,
+        "e → n": 1,
+        "s → e": 1,
+        "i → s": 1,
+        "t → i": 1,
         "h → t": 1,
+        "p → x": 1,
+        "a → k": 1,
+        "k → u": 1,
+        "u → l": 1,
+        "l → i": 1,
+        "w → i": 1,
+        "e → s": 1
+      },
+      "morphological_errors": {
+        "misaligned": true,
+        "errors": [
+          [
+            "ishumi",
+            "yishumi"
+          ],
+          [
+            "nesithupa",
+            "nesituxkuliis"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "sewakhetha amaphuzu asemqoka shi imniningwane",
+      "hypothesis": "khetha amaphuzu semqoka shem nini ngwana",
+      "subs": {
+        "s → k": 2,
+        "e → h": 1,
+        "w → e": 1,
+        "a → t": 1,
+        "k → h": 1,
+        "h → a": 2,
+        "e → a": 2,
+        "t → m": 1,
+        "a → p": 1,
         "a → h": 1,
-        "t → s": 1,
-        "h → b": 1,
-        "u → a": 1,
-        "u → n": 1,
-        "z → t": 1,
+        "m → u": 1,
+        "a → z": 1,
+        "p → u": 1,
+        "h → s": 1,
+        "u → e": 1,
+        "z → m": 1,
+        "u → q": 1,
+        "a → o": 1,
+        "m → s": 1,
+        "q → h": 1,
+        "o → e": 1,
+        "k → m": 1,
+        "a → n": 1,
+        "s → i": 1,
+        "h → n": 1,
+        "i → n": 1,
+        "m → g": 1,
+        "n → w": 1,
+        "i → a": 2
+      },
+      "morphological_errors": {
+        "misaligned": true,
+        "errors": [
+          [
+            "sewakhetha",
+            "khetha"
+          ],
+          [
+            "asemqoka",
+            "semqoka"
+          ],
+          [
+            "shi",
+            "shem"
+          ],
+          [
+            "imniningwane",
+            "nini"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "inkundla yesithathu iveza inguquko ebingalindelwe",
+      "hypothesis": "inkundla yesithathu ivenza inguxuko ebingalindelwe",
+      "subs": {
+        "z → n": 1,
+        "a → z": 1,
+        "i → a": 1,
+        "n → i": 3,
+        "g → n": 2,
+        "u → g": 1,
+        "q → u": 1,
+        "u → x": 1,
+        "k → u": 1,
+        "o → k": 1,
+        "e → o": 1,
+        "b → e": 1,
+        "i → b": 1,
+        "a → g": 1,
+        "l → a": 1,
         "i → l": 1,
-        "b → n": 1,
+        "d → n": 1,
+        "e → d": 1,
+        "l → e": 1,
+        "w → l": 1,
+        "e → w": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "iveza",
+            "ivenza"
+          ],
+          [
+            "inguquko",
+            "inguxuko"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "dolly mmm nakhu ngizophambana bo",
+      "hypothesis": "doly ni nathi n gizophambala bo",
+      "subs": {
+        "l → y": 1,
+        "y → n": 1,
+        "m → i": 1,
+        "m → n": 1,
+        "m → a": 2,
+        "n → t": 1,
+        "a → h": 1,
+        "k → i": 1,
+        "h → n": 1,
+        "u → g": 1,
+        "n → i": 1,
+        "g → z": 1,
+        "i → o": 1,
+        "z → p": 1,
+        "o → h": 1,
+        "p → a": 1,
+        "h → m": 1,
+        "a → b": 1,
+        "b → l": 1,
+        "n → b": 1,
+        "a → o": 1
+      },
+      "morphological_errors": {
+        "misaligned": true,
+        "errors": [
+          [
+            "dolly",
+            "doly"
+          ],
+          [
+            "mmm",
+            "ni"
+          ],
+          [
+            "nakhu",
+            "nathi"
+          ],
+          [
+            "ngizophambana",
+            "n"
+          ],
+          [
+            "bo",
+            "gizophambala"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "unhlang unhlangulana",
+      "hypothesis": "unhlangu hlanngulana",
+      "subs": {
+        "n → h": 1,
+        "h → l": 1,
+        "l → a": 1,
+        "a → n": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "unhlang",
+            "unhlangu"
+          ],
+          [
+            "unhlangulana",
+            "hlanngulana"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "isizulu",
+      "hypothesis": "nezulu",
+      "subs": {
+        "i → n": 1,
+        "s → e": 1,
+        "i → z": 1,
+        "z → u": 1,
+        "u → l": 1,
+        "l → u": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "isizulu",
+            "nezulu"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "eighty six january",
+      "hypothesis": "egi sixjanaon",
+      "subs": {
+        "i → g": 1,
+        "g → i": 1,
+        "h → s": 1,
+        "t → i": 1,
+        "y → x": 1,
+        "s → j": 1,
+        "i → a": 1,
+        "x → n": 1,
+        "j → a": 1,
+        "a → o": 1
+      },
+      "morphological_errors": {
+        "misaligned": true,
+        "errors": [
+          [
+            "eighty",
+            "egi"
+          ],
+          [
+            "six",
+            "sixjanaon"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "cha",
+      "hypothesis": "chra",
+      "subs": {
+        "a → r": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "cha",
+            "chra"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "ngikhuluma ngocingo olujwayelekile",
+      "hypothesis": "ngikhuluma udingo olujwayelekile",
+      "subs": {
+        "n → u": 1,
+        "g → d": 1,
+        "o → i": 1,
+        "c → n": 1,
+        "i → g": 1,
+        "n → o": 1,
+        "g → o": 1,
+        "o → l": 1,
+        "o → u": 1,
+        "l → j": 1,
+        "u → w": 1,
+        "j → a": 1,
+        "w → y": 1,
+        "a → e": 1,
+        "y → l": 1,
+        "l → k": 1,
+        "e → i": 1,
+        "k → l": 1,
+        "i → e": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "ngocingo",
+            "udingo"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "amashumi amabili nesishagalolunye umfumf",
+      "hypothesis": "kamashumi amabili nashagalolunye umfumvu",
+      "subs": {
+        "a → k": 1,
+        "m → a": 2,
+        "a → m": 2,
+        "s → a": 2,
+        "h → s": 1,
+        "u → h": 1,
+        "m → u": 1,
+        "i → m": 1,
+        "a → i": 1,
+        "b → a": 1,
+        "i → b": 1,
+        "l → i": 1,
+        "i → l": 1,
+        "n → i": 1,
+        "e → n": 1,
+        "i → s": 1,
+        "s → h": 1,
+        "h → a": 1,
+        "a → g": 1,
+        "g → a": 1,
+        "a → l": 1,
+        "l → o": 1,
+        "o → l": 1,
+        "l → u": 1,
+        "u → n": 1,
+        "n → y": 1,
+        "y → e": 1,
+        "e → u": 1,
+        "u → m": 2,
+        "m → f": 1,
+        "f → u": 2,
+        "m → v": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "amashumi",
+            "kamashumi"
+          ],
+          [
+            "nesishagalolunye",
+            "nashagalolunye"
+          ],
+          [
+            "umfumf",
+            "umfumvu"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "ngihlal e pietermaritzburg",
+      "hypothesis": "ngihlaly ephitirmeridburkr",
+      "subs": {
+        "e → y": 1,
+        "p → e": 1,
+        "i → p": 1,
+        "e → h": 1,
+        "t → i": 2,
+        "e → t": 1,
+        "r → i": 1,
+        "m → r": 1,
+        "a → m": 1,
+        "r → e": 1,
+        "i → r": 1,
+        "z → d": 1,
+        "g → k": 1
+      },
+      "morphological_errors": {
+        "misaligned": true,
+        "errors": [
+          [
+            "ngihlal",
+            "ngihlaly"
+          ],
+          [
+            "e",
+            "ephitirmeridburkr"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "engamashumi amane nantath",
+      "hypothesis": "engamashumi amane nantat",
+      "subs": {},
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "nantath",
+            "nantat"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "ikwata yehora ngaphambi kwehora lokuqala",
+      "hypothesis": "ikwata yehora ngaphami we hora lokuqala",
+      "subs": {
+        "b → i": 1,
+        "i → w": 1,
+        "k → e": 1,
+        "w → h": 1,
+        "e → o": 1,
+        "h → r": 1,
+        "o → a": 1,
+        "r → l": 1,
+        "a → o": 1,
+        "l → k": 1,
+        "o → u": 1,
+        "k → q": 1,
+        "u → a": 1,
+        "q → l": 1
+      },
+      "morphological_errors": {
+        "misaligned": true,
+        "errors": [
+          [
+            "ngaphambi",
+            "ngaphami"
+          ],
+          [
+            "kwehora",
+            "we"
+          ],
+          [
+            "lokuqala",
+            "hora"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "ngowesifazan",
+      "hypothesis": "oowesisfazane",
+      "subs": {
+        "n → o": 1,
+        "g → o": 1,
+        "o → w": 1,
+        "w → e": 1,
+        "e → s": 1,
+        "s → i": 1,
+        "i → s": 1
+      },
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "ngowesifazan",
+            "oowesisfazane"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "uphiko lwezokuphepha nokuvikelek",
+      "hypothesis": "uphiko lwezokuphepha nokuvikeleka",
+      "subs": {},
+      "morphological_errors": {
+        "misaligned": false,
+        "errors": [
+          [
+            "nokuvikelek",
+            "nokuvikeleka"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "e ngo ngowesilisa",
+      "hypothesis": "engu ngowesilisa",
+      "subs": {
+        "o → u": 1
+      },
+      "morphological_errors": {
+        "misaligned": true,
+        "errors": [
+          [
+            "e",
+            "engu"
+          ],
+          [
+            "ngo",
+            "ngowesilisa"
+          ]
+        ]
+      }
+    },
+    {
+      "reference": "ngingowesifazane",
+      "hypothesis": "gingowesifaz ae",
+      "subs": {
+        "n → g": 2,
+        "g → i": 1,
+        "i → n": 1,
+        "g → o": 1,
+        "o → w": 1,
+        "w → e": 1,
+        "e → s": 1,
+        "s → i": 1,
+        "i → f": 1,
+        "f → a": 1,
+        "a → z": 1,
+        "z → a": 1,
         "a → e": 1
       },
       "morphological_errors": {
         "misaligned": true,
         "errors": [
           [
-            "amashum'",
-            "a"
-          ],
-          [
-            "amathathu",
-            "ma"
-          ],
-          [
-            "uzibandlela",
-            "l"
+            "ngingowesifazane",
+            "gingowesifaz"
           ]
         ]
       }

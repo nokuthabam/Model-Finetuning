@@ -1,0 +1,11 @@
+2025-11-12 23:06:41,637 - INFO - Starting inference for xhosa at 2025-11-12 23:06:41
+2025-11-12 23:06:41,637 - INFO - Loading model from D:\Model-Finetuning\wav2vec2\model\xh_wav2vec2
+2025-11-12 23:06:45,275 - INFO - Model loaded successfully for xh
+2025-11-12 23:06:45,275 - INFO - Alphabet determined to be of regular style.
+2025-11-12 23:06:45,277 - INFO - Found '|' in vocabulary but not ' ', doing substitution.
+2025-11-12 23:06:45,277 - INFO - Found [PAD] in vocabulary, interpreted as a CTC blank token, substituting with .
+2025-11-12 23:06:45,281 - WARNING - Found entries of length > 1 in alphabet. This is unusual unless style is BPE, but the alphabet was not recognized as BPE type. Is this correct?
+2025-11-12 23:06:45,281 - INFO - Running inference for xhosa
+2025-11-12 23:06:45,692 - INFO - Loaded 5140 entries from D:\Model-Finetuning\wav2vec2\data\xhosa_unseen.json
+2025-11-12 23:09:34,981 - INFO - Inference results saved to D:\Model-Finetuning\wav2vec2\error_analysis\xhosa_inference_results.json
+2025-11-12 23:09:34,983 - INFO - Inference completed for xhosa. Results saved to D:\Model-Finetuning\wav2vec2\error_analysis\xh_inference_results.json.

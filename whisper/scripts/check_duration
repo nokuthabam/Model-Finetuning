@@ -1,0 +1,24 @@
+import os
+import librosa
+import numpy as np
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+DATA_DIR = BASE_DIR / "data"
+
+durations = []
+
+for root, _, files in os.walk(DATA_DIR):
+    for f in files:
+        if f.endswith(".wav"):
+            path = os.path.join(root, f)
+            try:
+                y, sr = librosa.load(path, sr=None)
+                durations.append(len(y) / sr)
+            except Exception as e:
+                print(f"Error with {path}: {e}")
+
+print(f"Total clips: {len(durations)}")
+print(f"Shortest: {np.min(durations):.2f}s")
+print(f"Longest: {np.max(durations):.2f}s")
+print(f"Mean: {np.mean(durations):.2f}s | Median: {np.median(durations):.2f}s")

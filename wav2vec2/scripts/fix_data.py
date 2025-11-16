@@ -20,8 +20,8 @@ def fix_age_field_in_place(file_path: Path):
 
 # 🗂 Update these as needed
 json_files = [
-    Path("D:/Model-Finetuning/wav2vec2/data/ndebele_train.json"),
-    Path("D:/Model-Finetuning/wav2vec2/data/ndebele_test.json"),
+    # Path("D:/Model-Finetuning/wav2vec2/data/ndebele_train.json"),
+    # Path("D:/Model-Finetuning/wav2vec2/data/ndebele_test.json"),
     Path("D:/Model-Finetuning/wav2vec2/data/xhosa_train.json"),
     Path("D:/Model-Finetuning/wav2vec2/data/xhosa_test.json"),
     Path("D:/Model-Finetuning/wav2vec2/data/siswati_train.json"),

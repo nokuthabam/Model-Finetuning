@@ -1,0 +1,4 @@
+2025-11-14 12:19:46,553 - INFO - Loading inference results for ndebele from D:\Model-Finetuning\whisper\error_analysis\ndebele_inference_results.json
+2025-11-14 12:19:46,559 - INFO - Error analysis report saved to D:\Model-Finetuning\whisper\results\error_analysis\ndebele_error_analysis_report.json
+2025-11-14 12:19:46,559 - INFO - Top 10 phoneme substitutions: [(('n', 'a'), 9), (('a', 'n'), 8), (('h', 'a'), 6), (('h', 'u'), 6), (('t', 'h'), 5), (('w', 'a'), 5), (('a', 'u'), 5), (('u', 'n'), 5), (('i', 'n'), 5), (('a', 'w'), 5)]
+2025-11-14 12:19:46,559 - INFO - WER: 0.9053833605220228, CER: 0.9073298429319372

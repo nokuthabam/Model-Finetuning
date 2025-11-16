@@ -1,0 +1,17 @@
+2025-10-09 10:39:07,672 - INFO - Starting training for language: zu
+2025-10-09 10:39:07,672 - INFO - Loading processor and model for zu...
+2025-10-09 10:39:10,864 - INFO - Using GPU: NVIDIA GeForce RTX 3050 6GB Laptop GPU
+2025-10-09 10:39:10,880 - INFO - Loading Lwazi dataset for zulu from D:\Model-Finetuning\whisper\data\zulu_train.json and D:\Model-Finetuning\whisper\data\zulu_test.json
+2025-10-09 10:39:12,548 - INFO - Loading Common Voice dataset for zulu from D:\Model-Finetuning\whisper\data\commonvoice_zu_train.json
+2025-10-09 10:39:13,361 - INFO - Combined dataset size: 5240 training examples
+2025-10-09 10:39:13,361 - INFO - Casting audio column and preparing dataset...
+2025-10-09 10:40:35,763 - INFO - Dataset loaded and prepared.
+2025-10-09 10:40:35,766 - INFO - Output directory set to D:\Model-Finetuning\whisper\model\zu_whisper
+2025-10-09 10:40:38,197 - INFO - Resuming from checkpoint: D:\Model-Finetuning\whisper\model\zu_whisper\checkpoint-250
+2025-10-09 10:40:38,197 - INFO - Starting training...
+2025-10-09 10:40:49,885 - ERROR - An error occurred during training: Weights only load failed. This file can still be loaded, to do so you have two options, [1mdo those steps only if you trust the source of the checkpoint[0m. 
+	(1) In PyTorch 2.6, we changed the default value of the `weights_only` argument in `torch.load` from `False` to `True`. Re-running `torch.load` with `weights_only` set to `False` will likely succeed, but it can result in arbitrary code execution. Do it only if you got the file from a trusted source.
+	(2) Alternatively, to load with `weights_only=True` please check the recommended steps in the following error message.
+	WeightsUnpickler error: Unsupported global: GLOBAL numpy._core.multiarray._reconstruct was not an allowed global by default. Please use `torch.serialization.add_safe_globals([numpy._core.multiarray._reconstruct])` or the `torch.serialization.safe_globals([numpy._core.multiarray._reconstruct])` context manager to allowlist this global if you trust this class/function.
+
+Check the documentation of torch.load to learn more about types accepted by default with weights_only https://pytorch.org/docs/stable/generated/torch.load.html.

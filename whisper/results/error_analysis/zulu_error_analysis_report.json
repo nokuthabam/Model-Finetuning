@@ -1,715 +1,245 @@
 {
   "language": "zulu",
   "metrics": {
-    "wer": 0.9960970722216397,
-    "cer": 0.97208431197478
+    "wer": 0.9362549800796812,
+    "cer": 0.9139501438159157
   },
   "phoneme_substitutions": [
     {
-      "substitution": "a → e",
-      "count": 267
-    },
-    {
       "substitution": "a → n",
-      "count": 251
+      "count": 6
     },
     {
-      "substitution": "n → e",
-      "count": 235
+      "substitution": "i → l",
+      "count": 6
     },
     {
-      "substitution": "i → e",
-      "count": 224
+      "substitution": "u → s",
+      "count": 5
+    },
+    {
+      "substitution": "l → i",
+      "count": 5
+    },
+    {
+      "substitution": "s → a",
+      "count": 5
     },
     {
       "substitution": "i → n",
-      "count": 212
-    },
-    {
-      "substitution": "a → i",
-      "count": 211
-    },
-    {
-      "substitution": "e → n",
-      "count": 191
-    },
-    {
-      "substitution": "n → a",
-      "count": 188
-    },
-    {
-      "substitution": "l → e",
-      "count": 150
+      "count": 5
     },
     {
       "substitution": "n → i",
-      "count": 144
+      "count": 5
+    },
+    {
+      "substitution": "a → i",
+      "count": 5
+    },
+    {
+      "substitution": "i → u",
+      "count": 5
+    },
+    {
+      "substitution": "a → h",
+      "count": 4
     }
   ],
   "examples": [
     {
-      "reference": "ngikhuluma  isizu",
-      "hypothesis": "yukuluma isihiyo",
+      "reference": "ngikhuluma isizu",
+      "hypothesis": "luma isigilwa nesibili nesimisiwe isibili isigibili nesiwa isilisa isileka isisibili kwezima isigileka isisipula isiwezimu isisekuyona isisa isisiwezi isisha isisuwezi kwezweni isiliwezi isisu isiso kwazweni isisiwa isisili isiselwa isisuwi isipula isisile isidi kwezuqa isisivile kubili isisu kwezemu isivile isiso kwezilwa isise isithi isiquwini isibule isibula isibulo isibuli is [n is is li is isib li isibi [isib",
       "subs": {
-        "n → y": 1,
+        "n → l": 1,
         "g → u": 1,
-        "i → k": 1,
-        "k → u": 1,
-        "h → l": 1,
-        "l → m": 1,
-        "u → a": 1,
+        "i → m": 1,
+        "k → a": 1,
+        "h → i": 1,
+        "u → s": 2,
+        "l → i": 1,
+        "u → g": 1,
         "m → i": 1,
-        "a → s": 1,
-        "s → h": 1,
-        "z → y": 1,
-        "u → o": 1
+        "a → l": 1,
+        "i → w": 1,
+        "s → a": 1,
+        "i → n": 1,
+        "z → e": 1
       },
       "morphological_errors": {
-        "misaligned": false,
+        "misaligned": true,
         "errors": [
           [
             "ngikhuluma",
-            "yukuluma"
+            "luma"
           ],
           [
             "isizu",
-            "isihiyo"
+            "isigilwa"
           ]
         ]
       }
     },
     {
-      "reference": " isizulu",
-      "hypothesis": "zulu seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven",
-      "subs": {
-        "i → z": 1,
-        "s → u": 1,
-        "i → l": 1,
-        "z → u": 1,
-        "u → s": 1,
-        "l → e": 1,
-        "u → v": 1
-      },
+      "reference": "isizulu",
+      "hypothesis": "isizulu nesibili nesimili isibili isizulula isizula nesiwezulu isizuleza isizunyeza isivileza isisibili isidilisa isibileza isilipisa isidili isidileziya isidilo isidila isidipili isidi nesihlupisa isidi isidiyo isidiya isidini isidisha isidisa isidinga isididi isidingi isidigi isidihileziyi isidivileziyisidi isidi iqwini isidi kwezileziye isidibili kwezweni isidigileziwe isidiga isidige isidise isidikilezi isidiki isidike isidifiqweni isidi isidi yisidigi kwezu isidiji isiditi isidici isidijilezi isidingini isidingilezi yisidingi kwecweni isidingili isidingigi isidingisi isidingo isidingeli isidingici isidinge isidingina isidingisida isidingumi isidingani isidingidi kwecingi isidingise isidingizidingi esidingisi isingi kwa isidingwendi kwecisidingi",
+      "subs": {},
       "morphological_errors": {
         "misaligned": true,
-        "errors": [
-          [
-            "isizulu",
-            "zulu"
-          ]
-        ]
+        "errors": []
       }
     },
     {
-      "reference": "y i  z w a ",
-      "hypothesis": "y i z eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight eight",
-      "subs": {
-        "w → e": 1,
-        "a → i": 1
-      },
+      "reference": "y i z w a",
+      "hypothesis": "y i z w a ngezwa kwa kwa kwenye ngeziwa kwenyi kwezimu y i d w a kweziwe ngingeni kweza kwezo kwebo kweba kwebisa kwebeni kwebabisa kwa kwaba kwebala kwebu kwebi kwebinye kwebeli kwa lwane kwebusile kwebasile kwa kulwa kwebulu kwebayo ngesetana kwebudi lwezima kweboni kwenyu kwebesile kwinye nesetani kwebsile kubili kwebandi ngeni kwasibili lwenyi kwebumili lwano lwi kwecina ngakwebi lwandani londela nje lwa lndela lwendelwanda lodela lwandelo lind y il [nkeliwecwanda",
+      "subs": {},
       "morphological_errors": {
         "misaligned": true,
-        "errors": [
-          [
-            "w",
-            "eight"
-          ],
-          [
-            "a",
-            "eight"
-          ]
-        ]
+        "errors": []
       }
     },
     {
       "reference": "hhawu uqinisile nyoni yobusuku mexwayisi",
-      "hypothesis": "'hawu ukinsisilenyo neyisuku makwayisi",
+      "hypothesis": "uqinisile nyoni yokusuku magcwayisi",
       "subs": {
-        "h → '": 1,
-        "q → k": 1,
-        "i → s": 3,
-        "s → i": 2,
-        "l → i": 1,
-        "e → l": 1,
-        "n → e": 1,
-        "y → n": 1,
-        "o → y": 2,
-        "n → o": 1,
-        "i → n": 1,
-        "y → e": 1,
-        "b → i": 1,
+        "h → u": 1,
+        "h → q": 1,
+        "a → i": 2,
+        "w → n": 1,
+        "u → i": 1,
         "u → s": 1,
-        "s → u": 1,
-        "u → k": 1,
-        "k → u": 1,
+        "q → i": 1,
+        "i → l": 1,
+        "n → e": 1,
+        "i → n": 1,
+        "s → y": 1,
+        "i → o": 1,
+        "l → n": 1,
+        "e → i": 1,
+        "n → y": 1,
+        "y → o": 1,
+        "o → k": 2,
+        "n → u": 1,
+        "i → s": 1,
+        "y → u": 1,
+        "b → u": 1,
         "u → m": 1,
+        "s → a": 1,
+        "u → g": 1,
+        "k → c": 1,
+        "u → w": 1,
         "m → a": 1,
-        "e → k": 1,
-        "x → w": 1,
-        "w → a": 1,
-        "a → y": 1,
-        "y → i": 1
+        "e → y": 1,
+        "x → i": 1,
+        "w → s": 1
       },
       "morphological_errors": {
         "misaligned": true,
         "errors": [
           [
             "hhawu",
-            "'hawu"
+            "uqinisile"
           ],
           [
             "uqinisile",
-            "ukinsisilenyo"
+            "nyoni"
           ],
           [
             "nyoni",
-            "neyisuku"
+            "yokusuku"
           ],
           [
             "yobusuku",
-            "makwayisi"
+            "magcwayisi"
           ]
         ]
       }
     },
     {
-      "reference": "ngihlala lapha e rustenburg ",
-      "hypothesis": "seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven",
+      "reference": "ngihlala lapha e rustenburg",
+      "hypothesis": "uhlala lapha eirastinbeke",
       "subs": {
-        "n → s": 1,
-        "g → e": 2,
-        "i → v": 1,
-        "h → e": 2,
-        "l → n": 1,
-        "a → s": 1,
-        "l → e": 2,
-        "a → v": 2,
-        "a → n": 1,
-        "p → s": 1,
-        "r → n": 1,
+        "n → u": 1,
+        "g → h": 1,
+        "i → l": 1,
+        "h → a": 1,
+        "l → p": 1,
+        "a → h": 1,
+        "p → a": 1,
+        "h → e": 1,
+        "a → i": 1,
+        "e → r": 1,
+        "r → a": 1,
         "u → s": 1,
-        "s → e": 1,
-        "t → v": 1,
-        "b → s": 1,
-        "u → e": 1,
-        "r → v": 1
+        "s → t": 1,
+        "t → i": 1,
+        "e → n": 1,
+        "n → b": 1,
+        "b → e": 1,
+        "u → k": 1,
+        "r → e": 1
       },
       "morphological_errors": {
         "misaligned": true,
         "errors": [
           [
             "ngihlala",
-            "seven"
-          ],
-          [
-            "lapha",
-            "seven"
+            "uhlala"
           ],
           [
             "e",
-            "seven"
-          ],
-          [
-            "rustenburg",
-            "seven"
+            "eirastinbeke"
           ]
         ]
       }
     },
     {
-      "reference": "baneqiniso lokuthi umumathe  wonke aphezulu",
-      "hypothesis": "' nekwenisolokuthi umamuthe uonke aphezulu",
+      "reference": "baneqiniso lokuthi umumathe wonke aphezulu",
+      "hypothesis": "iniso lokuthi umamuthe wonke aphezulu",
       "subs": {
-        "b → '": 1,
+        "b → i": 1,
         "a → n": 1,
-        "n → e": 1,
-        "e → k": 1,
-        "q → w": 1,
-        "i → e": 1,
-        "u → a": 1,
+        "n → i": 1,
+        "e → s": 1,
+        "q → o": 1,
+        "i → l": 1,
+        "n → o": 1,
+        "i → k": 1,
+        "s → u": 1,
+        "o → t": 1,
+        "l → h": 1,
+        "o → i": 1,
+        "k → u": 1,
+        "u → m": 1,
+        "t → a": 1,
+        "h → m": 1,
+        "i → u": 1,
+        "u → t": 1,
+        "m → h": 1,
+        "u → e": 1,
+        "m → w": 1,
+        "a → o": 1,
+        "t → n": 1,
+        "h → k": 1,
+        "w → a": 1,
+        "o → p": 1,
+        "n → h": 1,
+        "k → e": 1,
+        "e → z": 1,
         "a → u": 1,
-        "w → u": 1
+        "p → l": 1,
+        "h → u": 1
       },
       "morphological_errors": {
         "misaligned": false,
         "errors": [
           [
             "baneqiniso",
-            "'"
-          ],
-          [
-            "lokuthi",
-            "nekwenisolokuthi"
+            "iniso"
           ],
           [
             "umumathe",
             "umamuthe"
-          ],
-          [
-            "wonke",
-            "uonke"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": " cha",
-      "hypothesis": "yumqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuq",
-      "subs": {
-        "c → y": 1,
-        "h → u": 1,
-        "a → m": 1
-      },
-      "morphological_errors": {
-        "misaligned": false,
-        "errors": [
-          [
-            "cha",
-            "yumqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuqabuq"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": " kuthiwa nguwe kanye  mfundisi ofunekayo",
-      "hypothesis": "' kuquthiwa ngwe kanye umfundisizwa ofundekayo",
-      "subs": {
-        "k → '": 1,
-        "u → k": 1,
-        "t → u": 1,
-        "h → q": 1,
-        "i → u": 2,
-        "w → t": 1,
-        "a → h": 1,
-        "n → i": 1,
-        "g → w": 1,
-        "u → a": 1,
-        "w → n": 1,
-        "e → g": 1,
-        "k → w": 1,
-        "a → e": 1,
-        "n → k": 1,
-        "y → a": 1,
-        "e → n": 1,
-        "m → y": 1,
-        "f → e": 1,
-        "n → m": 1,
-        "d → f": 1,
-        "s → n": 1,
-        "i → d": 1,
-        "o → i": 1,
-        "f → s": 1,
-        "u → i": 1,
-        "n → z": 1,
-        "e → w": 1,
-        "k → a": 1,
-        "a → o": 1,
-        "y → f": 1,
-        "o → u": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "kuthiwa",
-            "'"
-          ],
-          [
-            "nguwe",
-            "kuquthiwa"
-          ],
-          [
-            "kanye",
-            "ngwe"
-          ],
-          [
-            "mfundisi",
-            "kanye"
-          ],
-          [
-            "ofunekayo",
-            "umfundisizwa"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": "wayethi nje chokochoko abese eyeka",
-      "hypothesis": "seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven",
-      "subs": {
-        "w → s": 1,
-        "a → e": 1,
-        "y → v": 1,
-        "t → n": 1,
-        "h → s": 1,
-        "i → e": 1,
-        "n → v": 1,
-        "j → e": 1,
-        "e → n": 2,
-        "c → s": 2,
-        "h → e": 2,
-        "o → v": 2,
-        "k → e": 3,
-        "o → n": 2,
-        "a → s": 1,
-        "b → e": 1,
-        "e → v": 2,
-        "s → e": 1,
-        "e → s": 1,
-        "y → e": 1,
-        "a → n": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "wayethi",
-            "seven"
-          ],
-          [
-            "nje",
-            "seven"
-          ],
-          [
-            "chokochoko",
-            "seven"
-          ],
-          [
-            "abese",
-            "seven"
-          ],
-          [
-            "eyeka",
-            "seven"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": "amashumi amathathu umasingane",
-      "hypothesis": "'ngomashumiqathu kumasingaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaq",
-      "subs": {
-        "a → '": 1,
-        "m → n": 1,
-        "a → g": 1,
-        "s → o": 1,
-        "h → m": 1,
-        "u → a": 1,
-        "m → s": 1,
-        "i → h": 1,
-        "a → u": 1,
-        "a → i": 1,
-        "t → q": 1,
-        "h → a": 1,
-        "a → t": 1,
-        "t → h": 1,
-        "h → u": 1,
-        "u → k": 1,
-        "n → q": 1,
-        "e → a": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "amashumi",
-            "'ngomashumiqathu"
-          ],
-          [
-            "amathathu",
-            "kumasingaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaqaq"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": "ucingo  olujwayelekile",
-      "hypothesis": "yukweno twenty one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one eight one",
-      "subs": {
-        "u → y": 1,
-        "c → u": 1,
-        "i → k": 1,
-        "n → w": 1,
-        "g → e": 1,
-        "o → n": 1,
-        "l → t": 1,
-        "u → w": 1,
-        "j → e": 1,
-        "w → n": 1,
-        "a → t": 1,
-        "e → o": 1,
-        "l → n": 1,
-        "k → e": 1,
-        "l → g": 1,
-        "e → h": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "ucingo",
-            "yukweno"
-          ],
-          [
-            "olujwayelekile",
-            "twenty"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": "yishumi nesithupha umandulo",
-      "hypothesis": "neisihlpha umandlllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll",
-      "subs": {
-        "y → n": 1,
-        "i → e": 1,
-        "s → i": 1,
-        "h → s": 1,
-        "u → i": 1,
-        "m → h": 1,
-        "i → l": 1,
-        "n → p": 1,
-        "e → h": 1,
-        "s → a": 1,
-        "i → u": 1,
-        "t → m": 1,
-        "h → a": 1,
-        "u → n": 1,
-        "p → d": 1,
-        "h → l": 1,
-        "a → l": 2,
-        "u → l": 2,
-        "m → l": 1,
-        "n → l": 1,
-        "d → l": 1,
-        "o → l": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "yishumi",
-            "neisihlpha"
-          ],
-          [
-            "nesithupha",
-            "umandlllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": " cha",
-      "hypothesis": "yisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakis",
-      "subs": {
-        "c → y": 1,
-        "h → i": 1,
-        "a → s": 1
-      },
-      "morphological_errors": {
-        "misaligned": false,
-        "errors": [
-          [
-            "cha",
-            "yisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakisakis"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": " isizulu",
-      "hypothesis": "seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven",
-      "subs": {
-        "i → s": 1,
-        "s → e": 1,
-        "i → v": 1,
-        "z → e": 1,
-        "u → n": 1,
-        "l → s": 1,
-        "u → e": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "isizulu",
-            "seven"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": " engamashumi amabili nesishagalombili ",
-      "hypothesis": "ingamashumi amabili ngesihiyagalombili",
-      "subs": {
-        "e → i": 1,
-        "e → g": 1,
-        "s → e": 1,
-        "i → s": 1,
-        "s → i": 1,
-        "a → i": 1,
-        "g → y": 1,
-        "l → g": 1,
-        "o → a": 1,
-        "m → l": 1,
-        "b → o": 1,
-        "i → m": 1,
-        "l → b": 1
-      },
-      "morphological_errors": {
-        "misaligned": false,
-        "errors": [
-          [
-            "engamashumi",
-            "ingamashumi"
-          ],
-          [
-            "nesishagalombili",
-            "ngesihiyagalombili"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": "amashumi  ayisihlanu  nantathu",
-      "hypothesis": "yamashumiqlanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadlisiblanu entadl",
-      "subs": {
-        "a → y": 1,
-        "m → a": 1,
-        "a → m": 1,
-        "s → a": 2,
-        "h → s": 1,
-        "u → h": 1,
-        "m → u": 1,
-        "i → m": 1,
-        "a → i": 2,
-        "y → q": 1,
-        "i → l": 1,
-        "i → n": 1,
-        "h → u": 1,
-        "l → e": 1,
-        "a → n": 1,
-        "n → t": 1,
-        "u → a": 2,
-        "n → d": 1,
-        "a → l": 1,
-        "n → i": 1,
-        "t → s": 1,
-        "t → b": 1,
-        "h → l": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "amashumi",
-            "yamashumiqlanu"
-          ],
-          [
-            "ayisihlanu",
-            "entadlisiblanu"
-          ],
-          [
-            "nantathu",
-            "entadlisiblanu"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": " yebo",
-      "hypothesis": "four seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven seven",
-      "subs": {
-        "y → f": 1,
-        "e → o": 1,
-        "b → u": 1,
-        "o → r": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "yebo",
-            "four"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": "isizu ",
-      "hypothesis": "yusifizuluqo ngelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelelele",
-      "subs": {
-        "i → y": 1,
-        "s → u": 1,
-        "i → s": 1,
-        "z → i": 1,
-        "u → f": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "isizu",
-            "yusifizuluqo"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": " fazan",
-      "hypothesis": "y'feza five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five five",
-      "subs": {
-        "f → y": 1,
-        "a → '": 1,
-        "z → f": 1,
-        "a → e": 1,
-        "n → z": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "fazan",
-            "y'feza"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": "amashum' amathathu  uzibandlela",
-      "hypothesis": "' amashumi omathathu zibant lenyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy",
-      "subs": {
-        "a → '": 1,
-        "m → a": 1,
-        "a → m": 2,
-        "s → a": 1,
-        "h → s": 1,
-        "u → h": 2,
-        "m → u": 1,
-        "' → m": 1,
-        "a → i": 1,
-        "m → o": 1,
-        "t → a": 2,
-        "h → t": 2,
-        "a → h": 1,
-        "d → t": 1,
-        "l → n": 1,
-        "a → y": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "amashum'",
-            "'"
-          ],
-          [
-            "amathathu",
-            "amashumi"
-          ],
-          [
-            "uzibandlela",
-            "omathathu"
           ]
         ]
       }

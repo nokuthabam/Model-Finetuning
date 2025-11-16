@@ -1,55 +1,55 @@
 {
   "language": "ndebele",
   "metrics": {
-    "wer": 0.96264012616683,
-    "cer": 0.926729349140218
+    "wer": 0.9053833605220228,
+    "cer": 0.9073298429319372
   },
   "phoneme_substitutions": [
     {
-      "substitution": "a → n",
-      "count": 299
-    },
-    {
       "substitution": "n → a",
-      "count": 293
+      "count": 9
     },
     {
-      "substitution": "l → a",
-      "count": 168
+      "substitution": "a → n",
+      "count": 8
+    },
+    {
+      "substitution": "h → a",
+      "count": 6
+    },
+    {
+      "substitution": "h → u",
+      "count": 6
+    },
+    {
+      "substitution": "t → h",
+      "count": 5
+    },
+    {
+      "substitution": "w → a",
+      "count": 5
+    },
+    {
+      "substitution": "a → u",
+      "count": 5
+    },
+    {
+      "substitution": "u → n",
+      "count": 5
     },
     {
       "substitution": "i → n",
-      "count": 165
+      "count": 5
     },
     {
-      "substitution": "n → e",
-      "count": 161
-    },
-    {
-      "substitution": "n → i",
-      "count": 151
-    },
-    {
-      "substitution": "a → i",
-      "count": 145
-    },
-    {
-      "substitution": "e → a",
-      "count": 142
-    },
-    {
-      "substitution": "a → l",
-      "count": 141
-    },
-    {
-      "substitution": "a → k",
-      "count": 140
+      "substitution": "a → w",
+      "count": 5
     }
   ],
   "examples": [
     {
       "reference": "liiri lesihlanu",
-      "hypothesis": "liiri lesihlanu wathu kubili lesihlanu wathu kubili lesihlanu wathu kubili lesihlanu wathu kubili lesihlanu wathu kubili lesihlanu wathu kubili lesihlanu wathu kubili lesihlanu wathu kubili lesihlanu wathu kubili lesihlanu wathu kubili lesihlanu wathu kubili lesihlanu wathu kubili lesihlanu wathu kubili lesihlanu wathu kubili lesihlanu wathu kubili lesihlanu wathu kubili lesihlanu wathu kubili lesihlanu wathu kubili lesihlanu wathu kubili lesihlanu wathu kubili lesihlanu wathu kubili lesihlanu wathu kubili lesihlanu wathu kubili lesihlanu wathu kubili lesihlanu wathu kubili lesihlanu wathu kubili lesihlanu wathu kubili lesihlanu wathu kubili lesihlanu wathu kubili wathu kubili wathu kubili wathu kubili wathu kubili wathu kubili wathu kubili wathu kubili wathu kubili wathu kubili wathu kubili wathu kubili wathu kubili wathu kubili wathu kubili wathu kubili wathu kubili wathu kubili wathu kubili wathu kubili wathu kubili wathu kubili wathu kubili wathu kubili wathu kubili wathu kubili wath",
+      "hypothesis": "liiri lesihlanu ukuyokufiwa kufuwa sisa liyelelwe sisekiha kuya ukawekana ukewelelwa sezileko sesiga segweni usemuba wesi weswigiri weswig weswigdlelele seswigwekwa segwelewe weswigwa [wewewo segwewelibwewesewewele weswigwo weswigwegwewe sikweuguwegwejwe",
       "subs": {},
       "morphological_errors": {
         "misaligned": true,
@@ -57,409 +57,37 @@
       }
     },
     {
-      "reference": " esiyabuswa",
-      "hypothesis": "esiyabuswa ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngu",
-      "subs": {},
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": []
-      }
-    },
-    {
-      "reference": "amapholisa  wekhethu la adlange khulu ",
-      "hypothesis": "amapholisa wekhethu la adlange khulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu la adlange khulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqhulu ngiqulu ngiqhulu ngiqulu ngiqulu ngiqulu ngiqulu ngiqulu ngiqulu ngiqulu ngiqulu ngiq",
-      "subs": {},
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": []
-      }
-    },
-    {
-      "reference": "ngumuntu wembaji",
-      "hypothesis": "ngimumuntu wembaji.ngineminyaka wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wemb",
+      "reference": "esiyabuswa",
+      "hypothesis": "kiyabuswa ukuyabusa kuwakweni yafisa kweniwako yabusiwa kuweniwa wengabuswa mungu mingubuso wa uyangiyo ngi wengi nginginiwasa mgingi w engi wongi seginiwasi segi w segi ngerwesi wesi wesi ngeragiwa wesi engi wesi [swe ngeriwaso [ng wedi wesi negwesi nger wesi wegeriwe swerg wesi dregiwesiwe dreg ngerg degiweg w",
       "subs": {
-        "u → i": 1,
-        "n → m": 1,
-        "t → u": 1,
-        "u → n": 1,
-        "w → t": 1,
-        "e → u": 1,
-        "m → w": 1,
-        "b → e": 1,
-        "a → m": 1,
-        "j → b": 1,
-        "i → a": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "ngumuntu",
-            "ngimumuntu"
-          ],
-          [
-            "wembaji",
-            "wembaji.ngineminyaka"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": "limhlana amalanga alitjhumi nantathu kuvelabahlinze",
-      "hypothesis": "ngimhlana amalanga litjhumi nantathu kuvela bahlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinze ebhlinzebhlinze ebhlinze ebhlinzebhlinze ebhlinze ebhlinzebhlinze ebhlinzebhlinze ebhlinzebhlinze ebhlinzebhlinze eblinzeblinze eb",
-      "subs": {
-        "l → n": 1,
-        "i → g": 1,
-        "m → i": 1,
-        "h → m": 1,
-        "l → h": 1,
-        "a → l": 2,
-        "n → a": 2,
-        "a → n": 1,
-        "m → a": 1,
-        "a → m": 1,
-        "l → a": 1,
-        "g → n": 1,
-        "a → g": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "limhlana",
-            "ngimhlana"
-          ],
-          [
-            "alitjhumi",
-            "litjhumi"
-          ],
-          [
-            "kuvelabahlinze",
-            "kuvela"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": "e midran",
-      "hypothesis": "emitweni wengubo yi ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngui ngu",
-      "subs": {
-        "d → t": 1,
-        "r → w": 1,
-        "a → e": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "e",
-            "emitweni"
-          ],
-          [
-            "midran",
-            "wengubo"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": " nginamasumi amathathu nathoba ",
-      "hypothesis": "ngiobunamasumi wathathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu nathu n",
-      "subs": {
-        "n → o": 1,
+        "e → k": 1,
+        "s → i": 1,
+        "i → y": 1,
+        "y → a": 1,
         "a → b": 1,
-        "m → u": 1,
-        "a → n": 1,
-        "s → a": 1,
-        "u → m": 1,
-        "m → a": 1,
-        "i → s": 1,
-        "a → u": 3,
-        "a → i": 1,
-        "t → w": 1,
-        "h → a": 3,
-        "a → t": 1,
-        "t → h": 1,
-        "u → t": 1,
-        "n → h": 1,
-        "t → n": 1,
-        "o → t": 1,
-        "b → h": 1
+        "b → u": 1,
+        "u → s": 1,
+        "s → w": 1,
+        "w → a": 1,
+        "a → u": 1
       },
       "morphological_errors": {
         "misaligned": true,
         "errors": [
           [
-            "nginamasumi",
-            "ngiobunamasumi"
-          ],
-          [
-            "amathathu",
-            "wathathu"
-          ],
-          [
-            "nathoba",
-            "nathu"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": " awa",
-      "hypothesis": "awa wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wath",
-      "subs": {},
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": []
-      }
-    },
-    {
-      "reference": "udade wakhambela futhi ekwendeni",
-      "hypothesis": "udade wakhambela futhi ekwenveni.ngini kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili yi kubili",
-      "subs": {
-        "d → v": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "ekwendeni",
-            "ekwenveni.ngini"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": "angatjhadi ",
-      "hypothesis": "angatjhadi ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye nge ngeye ngeye ngeye ngeye ngeye nge ngeye ngeye nge ngeye ngeye nge ngeye ngeye nge ngeye nge ngeye nge ngeye nge ngeye nge ngeye nge ngeye nge ngeye nge ngeye nge nge ngeye nge ngeye nge nge ngeye nge ngeye nge nge ngeye nge nge ngeye nge nge ngeye nge nge ngeye nge nge nge ngeye nge nge nge nge ngeye nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge",
-      "subs": {},
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": []
-      }
-    },
-    {
-      "reference": "wembaji",
-      "hypothesis": "wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji wembaji",
-      "subs": {},
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": []
-      }
-    },
-    {
-      "reference": "indebele",
-      "hypothesis": "emtatweni wangephi ngiziyabeni wangephi ngiziyabeni wangephi ngiziyabeni wangephi ngiziyabeni wangephi ngiziyabeni wangephi ngiziyabeni wangephi ngiziyabeni wangephi ngiziyabeni wangephi ngiziyabeni wangephi ngiziyabeni wangephi ngiziyabeni wangephi ngiziyabeni wangephi ngiziyabeni wangephi ngiziyabeni wangephi ngiziyabeni wangephi ngiziyabeni wangephi ngiziyabeni wangephi ngiziyabeni wangephi ngiziyabeni wangephi ngiziyabeni wangephi ngiziyabeni wangephi ngiziyabeni wangephi ngiziyabeni wangephi ngiziyabeni wangephi ngiziyabeni wangephi ngiziyabeni wangephi ngiziyabeni wangephi ngiziyabeni wangei ngiziyabeni wangei ngiziyabeni wangei ngiziyabeni wangei ngiziyabeni wangei ngiziyabeni wangei ngiziyabeni wangei ngiziyabeni wangei ngiziyabeni wangei ngiziyabeni wangei ngiziyabeni wangei ngiziyabeni wangei ngiziyabeni wangei ngiziyabeni wangei ngiziyabeni wangei ngiziyabeni wangei ngiziyabeni wangei ngiziyabeni wangei ngiziyabeni wangei ngiziyabeni wangei ngiziyabeni wangei ngiziyabeni wangei ngiziyabeni wangei ngiziyabeni wangei ng",
-      "subs": {
-        "i → e": 1,
-        "n → m": 1,
-        "d → t": 1,
-        "e → a": 1,
-        "b → t": 1,
-        "e → w": 1,
-        "l → e": 1,
-        "e → n": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "indebele",
-            "emtatweni"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": "zitjho iinlori ngaphandle kube  buvuruvuru",
-      "hypothesis": "zitjho iinlori ngaphandle kube buvuvuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro wavuro",
-      "subs": {
-        "r → v": 1,
-        "v → r": 1,
-        "u → o": 1,
-        "r → w": 1,
-        "u → a": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "buvuruvuru",
-            "buvuvuro"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": "izokutholakala  ngokobana umntwana aye esikolweni",
-      "hypothesis": "izokuthulakala ngokobana umntwana aye esikolweni yizokuthulakala ngokobana umntwana aye esikolweni yizokuthulakala ngokobana umntwana aye esikolweni yizokuthulakala ngokobana umntwana aye esikolweni yizokuthulakala ngokuthulakala ngokuthulakala ngokuthulakala ngokuthulakala ngokuthulakala ngokuthulakala ngokuthulakala ngokuthulakuthulakala ngokuthulakuthulakala ngokuthulakuthulakala ngokuthulakuthulakuthulakala ngokuthulakuthulakuthulakala ngokuthulakuthulakuthulakala ngokuthulakuthulakuthulakuthulakala ngokuthulakuthulakuthulakuthulakala ngokuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakala ngokuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakuthulakala ngokuthulak",
-      "subs": {
-        "o → u": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "izokutholakala",
-            "izokuthulakala"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": "matjhumi  amabili nesithandathu",
-      "hypothesis": "matjhumi elimini kahlathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wathu wath",
-      "subs": {
-        "a → e": 1,
-        "m → l": 1,
-        "a → i": 1,
-        "b → m": 1,
-        "l → n": 1,
-        "n → k": 1,
-        "e → a": 1,
-        "s → h": 1,
-        "i → l": 1,
-        "t → a": 1,
-        "h → t": 1,
-        "a → h": 1,
-        "n → u": 1,
-        "d → w": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "amabili",
-            "elimini"
-          ],
-          [
-            "nesithandathu",
-            "kahlathu"
+            "esiyabuswa",
+            "kiyabuswa"
           ]
         ]
       }
     },
     {
       "reference": "amapholisa wekhethu la adlange khulu",
-      "hypothesis": "amapholisa wekhethu la ajangekhulu.ngekhulu ngokuthu la ajangekhulu ngekhulu ngekhulu ngekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangekhulu la ajangu la ajangu awekhulu la ajangu awekhulu la ajangu la ajangu kuhulu la ajangu la ajangu kuhulu la ajangu kuhulu la ajangu la ajangu kuhulu la ajangu kuhulu la ajangu kuhulu la ajangu kuhulu la ajangu kuhulu la ajangu kuhulu la ajangu kuhulu la ajangu kuhulu la ajangu kuhulu la ajangu kuhulu la ajangu kuhulu la ajangu kuhulu la ajangu kuhulu la",
-      "subs": {
-        "d → j": 1,
-        "l → a": 1,
-        "a → n": 1,
-        "n → g": 1,
-        "g → e": 1,
-        "e → k": 1,
-        "k → h": 1,
-        "h → u": 1,
-        "u → l": 1,
-        "l → u": 1,
-        "u → .": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "adlange",
-            "ajangekhulu.ngekhulu"
-          ],
-          [
-            "khulu",
-            "ngokuthu"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": " sigagawuroba sosuthu sineka sinekani ebhudwini",
-      "hypothesis": "sigagawuroba sosuthi sineka sinekani ebhudlini yiqakatlini ebhudlini yiqakatlini ebhudlini yiqakatlini ebhudlini yiqakatlini ebhudlini yiqakatlini ebhudlini yiqakatlini ebhudlini yiqakatlini ebhudlini yiqakatlini ebhudlini yiqakatlini ebhudlini yiqakatlini ebhudlini yiqakatlini ebhudlini yiqakatlini ebhudlini yiqakatlini yiqakatlini ebhudlini yiqakatlini yiqakatlini ebhudlini yiqakatlini yiqakatlini yiqakatlini yiqakatlini yi yiqakatlini yiqakatlini yi yiqakatlini yi yiqakatlini yiqakatlini yi yiqakatlini yi yiqakatlini yi yiqakatlini yi yiqakatlini yi yiqakatlini yi yiqakatlini yi yiqakatlini yi yiqakatlini yi yiqakatlini yi yiqakatlini yi yiqakatlini yi yiqakatlini yi yiqakatlini yi yiqakatlini yi yiqakatlini yi yiqakatlini yi yiqakatlini yi yiqakatlini yi yiqakatlini yi yiqakatlini yi yiqakatlini yi yiqakatlini yi yiqakatlini",
-      "subs": {
-        "u → i": 1,
-        "w → l": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "sosuthu",
-            "sosuthi"
-          ],
-          [
-            "ebhudwini",
-            "ebhudlini"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": "lilanga letjhumi nathathu kukhukhulamungu",
-      "hypothesis": "lilanga letjhumi nathathu kukhukhulamungu.ngineminyaka letjhumi nathathu kukhukhulamungu.ngineminyaka letjhumi nathathu kukhukhulamungu.ngineminyaka letjhumi nathathu kukhukhulamungu.ngineminyaka letjhumi nathu kukhukhulamungu kukhulamungu kukhulamungu kukhulamungu kukhulamungu kukhulamungu kukhulamungu kukhulamungu kukhulamungu kukhulamungu kukhulamungu kukhulamungu kukhulamungu kukhulamungu kukhulamungu kukhulamungu kukhulamungu kukhulamungu kuhulamungu kuhulamungu kuhulamungu kuhulamungu kuhulamungu kuhulamungu kuhulamungu kuhulamungu kuhulamungu kuhulamungu kuhulamungu kuhulamungu kuhulamungu kuhulamungu kuhulamungu kuhulamungu kuhulamungu kuhulamungu kuhulamungu kuhulamungu kuhulamungu kuhulamungu kuhulamungu kuhulamungu kuhulamungu kuhulamungu kuhulamungu kuhulamungu kuhulamungu kuhulamungu kuhulamungu kuhulamungu kuhulamungu kuhulamungu kuhulamungu kuhulam",
+      "hypothesis": "amapholisa wekhethu la adlange khulu ukuyokufiwa kufuwa ukiyoka sithiweko kuwakufani kuwa kuweni kuwaito kweniwako wakuthi la adla ngekhulu kuwiweko wakufana kuwekufa uqiwa sitswako uqiwaka kuwasithi sisa kufa uqiwo kuza sisekusuwa sasisekiwakusekusiwo sikusuwekusuwasiwekusekuso usiwassisa ukuwaka usasikusiwe kusiwa wakuswek ussikusiswekwek sik",
       "subs": {},
       "morphological_errors": {
         "misaligned": true,
-        "errors": [
-          [
-            "kukhukhulamungu",
-            "kukhukhulamungu.ngineminyaka"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": "  isindebele",
-      "hypothesis": "isindebelelwa ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye ngeye nge ngeye ngeye nge ngeye ngeye nge ngeye ngeye ngeye nge ngeye nge ngeye nge ngeye nge ngeye nge ngeye nge ngeye nge ngeye nge ngeye nge ngeye nge ngeye nge ngeye nge ngeye nge ngeye nge nge ngeye nge ngeye nge nge ngeye nge ngeye nge nge ngeye nge ngeye nge nge nge ngeye nge nge ngeye nge nge ngeye nge nge ngeye nge nge nge ngeye nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge nge",
-      "subs": {},
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "isindebele",
-            "isindebelelwa"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": "lilanga lesumi nane kumhlolonja",
-      "hypothesis": "ilanga lesumi nane kumhlolanja.ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha ngeha",
-      "subs": {
-        "l → i": 1,
-        "i → l": 1,
-        "l → a": 2,
-        "a → n": 2,
-        "n → g": 1,
-        "g → a": 1,
-        "a → l": 1,
-        "l → e": 1,
-        "e → s": 1,
-        "s → u": 1,
-        "u → m": 2,
-        "m → i": 1,
-        "i → n": 1,
-        "n → a": 1,
-        "n → e": 1,
-        "e → k": 1,
-        "k → u": 1,
-        "m → h": 1,
-        "h → l": 1,
-        "l → o": 1,
-        "o → l": 1,
-        "o → n": 1,
-        "n → j": 1,
-        "j → a": 1,
-        "a → .": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "lilanga",
-            "ilanga"
-          ],
-          [
-            "kumhlolonja",
-            "kumhlolanja.ngeha"
-          ]
-        ]
+        "errors": []
       }
     }
   ],

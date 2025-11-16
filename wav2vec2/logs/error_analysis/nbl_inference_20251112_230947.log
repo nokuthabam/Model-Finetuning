@@ -1,0 +1,11 @@
+2025-11-12 23:09:47,624 - INFO - Starting inference for ndebele at 2025-11-12 23:09:47
+2025-11-12 23:09:47,626 - INFO - Loading model from D:\Model-Finetuning\wav2vec2\model\nbl_wav2vec2
+2025-11-12 23:09:51,286 - INFO - Model loaded successfully for nbl
+2025-11-12 23:09:51,288 - INFO - Alphabet determined to be of regular style.
+2025-11-12 23:09:51,288 - INFO - Found '|' in vocabulary but not ' ', doing substitution.
+2025-11-12 23:09:51,288 - INFO - Found [PAD] in vocabulary, interpreted as a CTC blank token, substituting with .
+2025-11-12 23:09:51,290 - WARNING - Found entries of length > 1 in alphabet. This is unusual unless style is BPE, but the alphabet was not recognized as BPE type. Is this correct?
+2025-11-12 23:09:51,290 - INFO - Running inference for ndebele
+2025-11-12 23:09:51,777 - INFO - Loaded 4911 entries from D:\Model-Finetuning\wav2vec2\data\ndebele_unseen.json
+2025-11-12 23:12:54,557 - INFO - Inference results saved to D:\Model-Finetuning\wav2vec2\error_analysis\ndebele_inference_results.json
+2025-11-12 23:12:54,558 - INFO - Inference completed for ndebele. Results saved to D:\Model-Finetuning\wav2vec2\error_analysis\nbl_inference_results.json.

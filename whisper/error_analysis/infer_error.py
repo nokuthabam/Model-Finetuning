@@ -7,7 +7,9 @@ from transformers import WhisperProcessor, WhisperForConditionalGeneration
 import torchaudio
 import logging
 from datetime import datetime
-
+import torchaudio.functional as F
+import torchaudio.transforms as T
+import re
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
@@ -27,6 +29,7 @@ LANGUAGE_MODEL_MAP = {
     "ss": MODEL_DIR / "ss_whisper",
     "nr": MODEL_DIR / "nr_whisper"
 }
+CHARS_TO_REMOVE_REGEX = r'[\,\?\.\!\-\;\:\"\“\%\‘\”\'\…\•\°\(\)\=\*\/\`\ː\’]'
 
 
 def setup_logging(language_code):
@@ -57,8 +60,55 @@ def load_model(lang_code, logger):
     model = WhisperForConditionalGeneration.from_pretrained(model_path)
     model.config.forced_decoder_ids = processor.get_decoder_prompt_ids(language="swahili", task="transcribe")
     model.eval()
-    logger.info(f"Model loaded successfully for {lang_code}")
+    logger.info(f"Model loaded successfully for {lang_code} from {model_path}")
     return model, processor
+
+
+def trim_silence_from_waveform(waveform: torch.Tensor, sample_rate: int) -> torch.Tensor:
+    # Convert to mono if needed
+    if waveform.shape[0] > 1:
+        waveform = torch.mean(waveform, dim=0, keepdim=True)
+
+    # Normalize to avoid issues
+    waveform = waveform / waveform.abs().max()
+
+    # Apply VAD
+    trimmed_waveform = F.vad(waveform, sample_rate=sample_rate)
+    return trimmed_waveform
+
+
+def clean_text(text: str) -> str:
+    """
+    Cleans and normalizes transcript text for ASR.
+    - Lowercases text
+    - Removes noise markers (e.g., [n], [s], [um], [uh], [sos], [silence])
+    - Removes any remaining bracketed tokens like [laughs], [noise]
+    - Removes unwanted punctuation and special symbols
+    - Normalizes spaces and trims ends
+    """
+
+    if not isinstance(text, str):
+        return ""
+
+    # Lowercase and strip whitespace
+    text = text.lower().strip()
+
+    # Remove known noise/filler markers explicitly
+    text = re.sub(
+        r"\[(n|s|um|uh|sos|silence)\]", " ",
+        text
+    )
+
+    # Remove any other bracketed annotations, e.g., [laughs], [noise], [inaudible]
+    text = re.sub(r"\[[^\]]*\]", " ", text)
+
+    # Remove unwanted punctuation but keep accents, apostrophes, and hyphens
+    text = re.sub(CHARS_TO_REMOVE_REGEX, " ", text)
+
+    # Normalize spaces
+    text = re.sub(r"\s+", " ", text).strip()
+
+    return text
 
 
 def transcribe_audio(model, processor, audio_path, device):
@@ -68,9 +118,31 @@ def transcribe_audio(model, processor, audio_path, device):
     waveform, sample_rate = torchaudio.load(audio_path)
     if sample_rate != 16000:
         waveform = torchaudio.transforms.Resample(orig_freq=sample_rate, new_freq=16000)(waveform)
-    inputs = processor(waveform.squeeze(0), return_tensors="pt", sampling_rate=16000).to(device)
+
+    # Trim any silence from the beginning and end
+    waveform = trim_silence_from_waveform(waveform, sample_rate=16000)
+
+    inputs = processor(waveform.squeeze(0),
+                       return_tensors="pt",
+                       sampling_rate=16000,
+                       return_attention_mask=True
+                       ).to(device)
     #forced_decoder_ids = processor.get_decoder_prompt_ids(language="sw", task="transcribe")
-    predicted_ids = model.generate(inputs["input_features"])
+    generation_config = model.generation_config
+    generation_config.language = "sw"
+    generation_config.task = "transcribe"
+    generation_config.no_repeat_ngram_size = 3
+    generation_config.length_penalty = 1.0
+    # generation_config.temperature = 0.0
+    generation_config.num_beams = 5
+    generation_config.suppress_tokens = []  # prevent forced token suppression
+
+    # Run generation with tuned decoding parameters
+    predicted_ids = model.generate(
+        inputs["input_features"],
+        attention_mask=inputs["attention_mask"],
+        generation_config=generation_config
+    )
     transcription = processor.batch_decode(predicted_ids, skip_special_tokens=True)[0]
     return transcription.lower()
 
@@ -86,18 +158,20 @@ def run_inference(language_code, logger):
     model, processor = load_model(language_code, logger)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(device)
-
+    # Print model summary
     with open(unseen_data, 'r') as f:
         lines = f.readlines()
 
-    lines = lines[:500]
+    lines = lines[:10]
     logger.info(f"Running inference for {language} on {len(lines)} audio files")
     results = []
     for line in tqdm(lines, desc=f"Processing {language} audio files"):
         data = json.loads(line)
         audio_path = data["audio"]
         reference = data["transcription"]
+        reference = clean_text(reference)
         hypothesis = transcribe_audio(model, processor, audio_path, device)
+        hypothesis = clean_text(hypothesis)
         results.append({
             "audio": audio_path,
             "reference": reference,

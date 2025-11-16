@@ -1,0 +1,4 @@
+2025-11-13 17:57:27,702 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nr_whisper
+2025-11-13 17:57:30,801 - INFO - Model loaded successfully for nr from D:\Model-Finetuning\whisper\model\nr_whisper
+2025-11-13 17:57:31,168 - INFO - Running inference for ndebele on 10 audio files
+2025-11-13 17:59:48,929 - INFO - Error analysis report saved to D:\Model-Finetuning\whisper\error_analysis\ndebele_inference_results.json

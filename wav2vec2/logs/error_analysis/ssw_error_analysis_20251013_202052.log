@@ -1,0 +1,4 @@
+2025-10-13 20:20:52,291 - INFO - Loading inference results for siswati from D:\Model-Finetuning\wav2vec2\error_analysis\siswati_inference_results.json
+2025-10-13 20:20:52,302 - INFO - Error analysis report saved to D:\Model-Finetuning\wav2vec2\results\error_analysis\siswati_error_analysis_report.json
+2025-10-13 20:20:52,304 - INFO - Top 10 phoneme substitutions: [(('e', 'l'), 10), (('a', 'l'), 8), (('a', 'n'), 8), (('i', 'e'), 7), (('a', 'e'), 7), (('n', 'i'), 7), (('i', 'a'), 7), (('i', 's'), 7), (('n', 't'), 7), (('s', 'e'), 6)]
+2025-10-13 20:20:52,304 - INFO - WER: 1.0, CER: 0.5047709923664122

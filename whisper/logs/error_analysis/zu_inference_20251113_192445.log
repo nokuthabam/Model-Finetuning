@@ -1,0 +1,2 @@
+2025-11-13 19:24:45,883 - INFO - Loading model from D:\Model-Finetuning\whisper\model\zu_whisper
+2025-11-13 19:24:46,102 - ERROR - An error occurred: D:\Model-Finetuning\whisper\model\zu_whisper does not appear to have a file named config.json. Checkout 'https://huggingface.co/D:\Model-Finetuning\whisper\model\zu_whisper/main' for available files.
