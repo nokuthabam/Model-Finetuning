@@ -59,8 +59,26 @@ def transcribe_audio(model, processor, audio_path, device):
     waveform, sample_rate = torchaudio.load(audio_path)
     if sample_rate != 16000:
         waveform = torchaudio.transforms.Resample(orig_freq=sample_rate, new_freq=16000)(waveform)
-    inputs = processor(waveform.squeeze(0), return_tensors="pt", sampling_rate=16000).to(device)
-    predicted_ids = model.generate(inputs["input_features"])
+    inputs = processor(waveform.squeeze(0), 
+                       return_tensors="pt",
+                       sampling_rate=16000,
+                       return_attention_mask=True
+                       ).to(device)
+    generation_config = model.generation_config
+    generation_config.language = "sw"
+    generation_config.task = "transcribe"
+    generation_config.num_beams = 5
+    generation_config.do_sample = False
+    generation_config.temperature = 0.0
+    generation_config.no_repeat_ngram_size = 3
+    generation_config.length_penalty = 1.0
+    generation_config.top_p = 1.0
+    generation_config.top_k = 0
+    generation_config.suppress_tokens = []  # prevent forced token suppression
+    predicted_ids = model.generate(
+        inputs["input_features"],
+        generation_config=generation_config
+    )
     transcription = processor.batch_decode(predicted_ids, skip_special_tokens=True)[0]
     return transcription.lower()
 

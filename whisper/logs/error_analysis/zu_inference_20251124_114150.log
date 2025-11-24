@@ -1,0 +1,4 @@
+2025-11-24 11:41:50,862 - INFO - Loading model from D:\Model-Finetuning\whisper\model\zu_whisper
+2025-11-24 11:41:53,948 - INFO - Model loaded successfully for zu from D:\Model-Finetuning\whisper\model\zu_whisper
+2025-11-24 11:41:54,260 - INFO - Running inference for zulu on 500 audio files
+2025-11-24 11:48:00,340 - INFO - Error analysis report saved to D:\Model-Finetuning\whisper\error_analysis\zulu_inference_results.json
