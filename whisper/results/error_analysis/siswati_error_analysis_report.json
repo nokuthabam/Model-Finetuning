@@ -1,608 +1,110 @@
 {
   "language": "siswati",
   "metrics": {
-    "wer": 0.9664163822525598,
-    "cer": 0.9522269034005417
+    "wer": 0.2696629213483146,
+    "cer": 0.06134094151212553
   },
   "phoneme_substitutions": [
     {
-      "substitution": "a → e",
-      "count": 28
+      "substitution": "i → n",
+      "count": 7
     },
     {
-      "substitution": "e → a",
-      "count": 28
+      "substitution": "a → l",
+      "count": 7
     },
     {
-      "substitution": "n → a",
-      "count": 24
+      "substitution": "l → a",
+      "count": 5
     },
     {
-      "substitution": "n → e",
-      "count": 18
+      "substitution": "i → s",
+      "count": 5
     },
     {
-      "substitution": "b → n",
-      "count": 17
-    },
-    {
-      "substitution": "i → a",
-      "count": 14
-    },
-    {
-      "substitution": "e → i",
-      "count": 14
-    },
-    {
-      "substitution": "k → n",
-      "count": 13
+      "substitution": "t → a",
+      "count": 5
     },
     {
       "substitution": "u → e",
-      "count": 13
+      "count": 5
     },
     {
-      "substitution": "i → e",
-      "count": 13
+      "substitution": "e → l",
+      "count": 4
+    },
+    {
+      "substitution": "k → i",
+      "count": 4
+    },
+    {
+      "substitution": "u → k",
+      "count": 4
+    },
+    {
+      "substitution": "e → t",
+      "count": 4
     }
   ],
   "examples": [
     {
-      "reference": "litiko letasekhaya iriphabliki yeningizimu afrika",
-      "hypothesis": "litiko letasekhaya iriphabliki yeningizimu afrika mweniwe nga kweniwa nga sani kwenisa kweniswa na kwenisiwa na kunisa na kuniswa nekuvisa na kanye nga kunisa] nga kwwenisa nga kuva nga kamwenisa na kweniwa na kanjiwe na kanjewe na kunisewa na kulisa na kulise na kanjwa na kwentiwa na kurva na kanjawe niyewe na kurwa na kamwenisewa nekwenisa niyana kuva kurva nekuveka ngekuva ngemiwa kurva niyebisa ngemba kuva na kwengiswa niyebeka njebisa niyeba kurva kuva nekwepha kunisa nekwengisa nibeka kurva kunisa niyanga kurva kanjiye ngebisa nekuva kweniwe ngebuveka nekuviswa ngebekuva nekova njebeka kunisa njwe nekuviweka nakela kunsewa nakeliwe nakelwa kunisa liyebha kurva nagelela kunasewa kunsiwa kweca kwecela ngewa kunsani kwekha kwekela kunsiwe nageliwa nagela kunasini kwekuva kunase liyeba kunasewe kweka kunaseca ngekha kunase langasiniwe nebha kunsewe nnjwe yakelwe neswe yasebhayiye nage liye liye nake liye lwa kunasejwe nwekheko leta sekaya neshiye naseko leasekheka kweasekelobheke liye kwebhayekaya sekayekayasekaya kweekayasikhekayakay",
-      "subs": {},
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": []
-      }
-    },
-    {
       "reference": "lwabiwomali lwelive lonkhe lwetifundza nelwabomasipala",
-      "hypothesis": "tiwomali lwelive lonkhe lwetifundza nelwabomasipala hwenya ngekutela kunye ngekuvisa ngekawelela kunye na kunye kwenya kunye ya kunye yamiya kwekela kwekha kunye kaweye yatiya kwenye yihhonti kaweya kwa kwa kunye yo yo yo yeyo yeyo yo yeyoye yo yeyeyo yeyoya yo yeyiyo yo yiyeyo yatiye yo yamiye yo yeyingoyo yeyoyo yeyo yamiyo yiniyo yiyingoyoye yiniyoyayi yo yiniye yoniyingoye yeywaya yiniyingoya yatiyingoyasita yiyo yaniyingoyalye yziyoyoya yo yatiyonye yisiye yiniyuni yiniyoni yiyoni yeyrayo yiniyanga yiyuni esinyayi yayoyayayi yeshonti yamiyoni yesayoye yesinyayye yasinyayonye yayraya ydiyonayyayon yayyon yinyayayrayi yesnyayyye y yirayonayayyny yaynyayrayayayyo ygiyonayayayoy yiyahnyayuyi ydiyunayayuyayay ydiye ydinyayyonayny yiyangonayyrayayy yikaya ygiyunay yiyasinyayraye yi yayonay waye ydirayayrayinyayayyunayyaya yi hoyinayayinyayy hoyinrayaynyrayay yasnyrayinyrayay hoyin yasrayiny wayrayiny hoyinyayinyrayiny yiinyrayyonay hoyinyrayrayayiny yasayraynyrayny y hoyrayrayiny",
+      "hypothesis": "lwabiwomali lwelive lonkhe wetifundza nelwabomasipala",
       "subs": {
-        "l → t": 2,
-        "w → i": 3,
-        "a → w": 1,
-        "b → o": 1,
-        "i → m": 1,
-        "w → a": 1,
-        "o → l": 1,
-        "m → i": 2,
-        "a → l": 2,
         "l → w": 2,
-        "i → e": 1,
-        "e → v": 1,
-        "l → e": 1,
-        "i → l": 2,
-        "v → o": 1,
-        "e → n": 1,
-        "l → k": 1,
-        "o → h": 1,
+        "w → e": 1,
+        "e → t": 1,
+        "t → i": 1,
+        "i → f": 1,
+        "f → u": 1,
+        "u → n": 1,
+        "n → d": 1,
+        "d → z": 1,
+        "z → a": 1,
+        "a → n": 1,
         "n → e": 1,
-        "k → l": 1,
-        "h → w": 1,
-        "e → f": 1,
-        "t → u": 1,
-        "i → n": 1,
-        "f → d": 1,
-        "u → z": 1,
-        "n → a": 1,
-        "d → n": 1,
-        "z → e": 1,
-        "n → w": 1,
-        "e → a": 1,
-        "l → b": 1,
-        "w → o": 1,
-        "a → m": 1,
-        "b → a": 1,
-        "o → s": 1,
-        "a → p": 1,
-        "s → a": 1,
+        "e → l": 1,
+        "w → a": 1,
+        "a → b": 1,
+        "b → o": 1,
+        "o → m": 1,
+        "m → a": 1,
+        "a → s": 1,
+        "s → i": 1,
+        "i → p": 1,
         "p → a": 1,
-        "a → h": 1,
-        "a → e": 1
+        "a → l": 1,
+        "l → a": 1
       },
       "morphological_errors": {
-        "misaligned": true,
+        "misaligned": false,
         "errors": [
           [
-            "lwabiwomali",
-            "tiwomali"
+            "lwetifundza",
+            "wetifundza"
           ]
         ]
       }
     },
     {
       "reference": "thirty seven",
-      "hypothesis": "tiseveni mweniwa ngekuvisa kusimela nga kuva kwa kwa kuva kuva kuva ka kwa kwaba kwaba kuva kwaba nga kwaba mwenisa kusebenta kwaba kambeniwa na kwaba kuncika kwaba kanye kuva kanye ka kwaba kwa kunciya kwaba ka kambenisa kuso kuva kambenisisa kuva kurva kunsiya kuva kulako kuva bunsiya kulako kurva kulaka kurva bunisiya kulaka kuva kova bunisa kulako kulako kambenisiya kurva kwabu kuva kalisa kulakwa bunisisa kobe kuva kababa kunsiye kube kobe kwaba kurva kobe kulaka kobe kurva ka bunisita kube kuwa kurva kube bunisa kube kulako kobe kunisisa ka kube kwabuba kuva kunasiya kube kunsi ka kulako bunsi ka kunsi kusita kurva kurwa kunsika kube kusila kube kurwa bunisiwa kunasi kusina kulako kunasi ka kunasi kobe bunisi ka bunasi kunasi kunsi kube ka kulaka kunasi kube kalabu kunasi bunasi ku bekuza kobe kwa bunasi bunsi kuseba bunasi kwa kobe ka bunsi bunsi kunsi kunse kube kambena kube kanji kunsi buna kusaba bunsi kobe bekwaba kunasi munse kwepha kunse kwena kwenasisa kwe bunse bunsaba kunsaba kwe bekwabu bunasi feku bunse kwaba bunas kwe kobe tonsiye kwebaba bunse kobe koomba bunsi tonsi kweaba bunsabu kweni kwecwa bunswa buni buns toni kw bunsas kobe",
+      "hypothesis": "tetiseveno",
       "subs": {
-        "h → i": 1,
-        "i → s": 1,
-        "r → e": 1,
-        "t → v": 1,
+        "h → e": 1,
+        "i → t": 1,
+        "r → i": 1,
+        "t → s": 1,
         "y → e": 1,
-        "s → n": 1,
-        "e → i": 1,
-        "v → m": 1,
-        "e → w": 1,
-        "n → e": 1
+        "s → v": 1,
+        "v → n": 1,
+        "e → o": 1
       },
       "morphological_errors": {
         "misaligned": true,
         "errors": [
           [
             "thirty",
-            "tiseveni"
-          ],
-          [
-            "seven",
-            "mweniwa"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": "umabasa",
-      "hypothesis": "mabasa mweniwa ngekuya kwa kwa kuya ngeka kuya kuya kwenetisa kuya na kuya niyama kuya kunetisa ngekwa kunetiswa na kunemani kuya kanye njani kunetisiwa na kanye kunetiso kuya ka kunetisewa na kwenguye na kune ka kune na kungeka kune kwa kunemanti kuya kurva kunemati kuya kabo koya kunye ka kunemata kuya bunetisa kune kanye kwekela kune kune koya bune kuni kwekha kune kabo kune kwenga kune kuya kwengwengiwa kune ngeki kweka kunetse kwenta kwengwa kunekuya kune kambo kunekaswa kuneki kwekekwa kuneka kuneka kuneki kwengatse kwela kuneksi kwemati kwengami kuneka kwengani kwengati kunekwa kuneti kwengta kunekwengati kwa kwengcabu kuneki kunekati kwentisa kwengi kwengako kunekwasa kunetini kwengswe kwa koca kunettingwengwati kuneka kwa bunekwabi kunekha kunekwiye nge koca kungakwa kuneswa kunela kuneki kanye kwenguma kuneki kwaomba kunekuswa kunati kuneki kuca kunek liye kwemstswe kunekwe kwekoca kune tonkhe kunekstwa kunkhe kwaomo kwa khwa kunke kune liye kunye kunstswa kunstwe kwasnke kwecabubi kunstwa kwasi kune khwabasa kuneksa kuneksanke kwasb [ncb kunikwa kunye kwaso kwa",
-      "subs": {
-        "u → m": 1,
-        "m → a": 1,
-        "a → b": 1,
-        "b → a": 1,
-        "a → s": 1,
-        "s → a": 1,
-        "a → m": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "umabasa",
-            "mabasa"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": "cela bafundzi badvwebe mkhulu lontweza",
-      "hypothesis": "ela bafundzi badvwebe mkhulu lontweza bhajini kwengeta ngekuya kwa kwa kwengisa kwa kunye kwa kuya kunye kunye ya ya ya ka kunye maha kunye ka kwa kabela kunye ba kwenye ba dwebe kwenkhulu kwenwenta wenta ya yaa ya ya kwenya kwenyata kunye na kunye niyana kunye ngeka kunye yo yo yo yeye kwekela kwafunzisi badvwena kwekhuya kweka kwa khulu lo ntweza ha ha ha hhohha hhheza hheza kwa bunye niye kwenca kunye nekuya njani kunye nobe kwa kurva nje niye nye nje kunye bha kwa sinye niyo yo yo yiye nyiye nji kweko kwekinye yiwe nje nje kwekiyata kwekuya yiwela yiwa nje nekuyana kurva kwekusho kwekaya kwee kwese kweye kye kwase kwease kwa nye yo nje nobe yihe njiyana njiye nsi kweyatiye ngiye niwe yiwo njiweka sekuyatiwe njiyo yi nje sekuswe nyi yi yi yeye njwe seku saswe nye seku seku yi seku kwecwe kweike yiase nje yi waye nsi seku tsi yiwaye nji yi tende nje tende yi wase yi hsaswe saswati yi tsweye hsase ni yaswase njame yi yo yaswa nji tende tenda yaswe",
-      "subs": {
-        "c → e": 1,
-        "e → l": 1,
-        "l → a": 1,
-        "a → b": 2,
-        "b → a": 2,
-        "a → f": 1,
-        "f → u": 1,
-        "u → n": 1,
-        "n → d": 1,
-        "d → z": 1,
-        "z → i": 1,
-        "i → b": 1,
-        "a → d": 1,
-        "d → v": 1,
-        "v → w": 1,
-        "w → e": 2,
-        "e → b": 1,
-        "b → e": 1,
-        "e → m": 1,
-        "m → k": 1,
-        "k → h": 1,
-        "h → u": 1,
-        "u → l": 2,
-        "l → u": 1,
-        "l → o": 1,
-        "o → n": 1,
-        "n → t": 1,
-        "t → w": 1,
-        "e → z": 1,
-        "z → a": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "cela",
-            "ela"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": "insimbi yesine enhloko",
-      "hypothesis": "sinti yesine enhloko kufaka kwa kuwana kwenya kwa kwengako kwa kunye kuwako kunye kwa kwenyako kunyi kunyi kuwena kunye kunyi kwa kurwa kunyinga kunci kunyi kurwa kulwa kuntinga kunji kunye nga kunye ka kunye na kunye mawenya kunci kuwenta kunye ya kunji ka kunyi ka kunci na kunci ya kunci sekuca kunci kweka kunci ka kwenye na kanji kunci yo kunji yo kunci ye kunci ko kwekwa kunci sa kunciyo yo kuncita kunci niye niye siye na yenhloko kunci siye ngeko kunciye na kwenyo kunci ngeku kwa ko kwa bunciyo nge kweku kwekela kunciya nge ko kwenyi kweko kuncinti yo kunca kuncitasana kunci miye na nge siye niyase nge ku kwekiwekha kunci ta kuncana kuncata kunci nge miye nje niye kuncwasa kunsata kuncabu ka kuncaba kuncaca kuncasa kuncasati kuncaya kuncja kuncasi kuncase kuncayi kuncashisa kuncacha kuncai kuncha kuncabanca kunca kwencasata kunsati kun cwasca kunaca kunca kungcasite kuncda kuncada kuncani kuncsasite niye kwecwasaswasasite nge kuncuba kuncabi kunc wetta kuncsa kunc kunc biswa kunc asasite kwenca kunstsatsi kwecwasaca kuncalina kuncami kuncwesina nesite kunca",
-      "subs": {
-        "i → s": 1,
-        "n → i": 1,
-        "s → n": 2,
-        "i → t": 1,
-        "m → i": 1,
-        "b → y": 1,
-        "i → e": 2,
-        "y → s": 1,
-        "e → i": 1,
-        "n → e": 1,
-        "e → n": 1,
-        "e → h": 1,
-        "n → l": 1,
-        "h → o": 1,
-        "l → k": 1,
-        "o → u": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "insimbi",
-            "sinti"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": "ngihlala enaspoti",
-      "hypothesis": "naspoti bhajini kwenaspoti hwa hwa kwenasipoti hwa nesimbi kwenasiwa na kwa kweni ngekuvisa] nesihloko nesisa nesisemblaza na sasihliwa na kwenti ngesihlanuza na kwekembisa na kanye ngesisimbi hwa khwenisa na khweti kwenasa nesisima kwenasha nekuvisebenti kuva kwenti kweka kwenti kunasipati kunasiwa kwekutsi nasebati kurva kurva kwenasisita kuva kulasebha kulasita kurva kulasi uta kurva kunasa kunasihlokwa kulasikhi kurva kalisa kulasimbi kurva kwenta kwenti bunasiwa kalasikha kulase kulasitako kwenasebenta kulasintasi kunasita kalati kulase nasisima kulasito kulasima kulase koci kulase kunasisita kulase kwenakwa kulastisitako kulase ka kulasebasisa kulase bekwenta kwenta kulaseba kulase kalase kulase sasitakhe kulase bunase kulastashe kulastase kulse kulkhanasitse kulastse kul kwena kulaseasikhanasikhodi kulase tona kulasipotse kulaske kulasike kulasiko kulas itse koca kulase bulasikhala kalase tonasipatse kulwenta kulayi kulasice kulasiu koca kalasitasiko koci kulasasikhe kulas ko kwenastasikhamasik",
-      "subs": {
-        "g → a": 1,
-        "i → s": 1,
-        "h → p": 1,
-        "l → o": 1,
-        "a → t": 1,
-        "l → i": 1,
-        "a → b": 1,
-        "e → h": 1,
-        "n → a": 1,
-        "a → j": 1,
-        "s → i": 1,
-        "p → n": 1,
-        "o → i": 1,
-        "t → k": 1,
-        "i → w": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "ngihlala",
-            "naspoti"
-          ],
-          [
-            "enaspoti",
-            "bhajini"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": "inkhwekhweti",
-      "hypothesis": "makweti kwa kweniwa na kwa kweniwa nga kwentiwa na nga kuweniwa na kuwentawe kuwentiwa ka kwenisiwa na kunciwa ka kunciya kwa kunciyanga kuweka kunciyama kuwetiweka kuwa kwentiweka kwenisawe kuwa kunsiya kweniswa na kanye wa kunciye kwa kurva kunciyo na kunsiye kwekela kunciyi na kunstaha kunstafa kunstaba kunstabu kunstabe kunstabanu na kanjiye kuwekwa kunstabi kunstami kunstani kunstanti kunstati kunstasi kunstaze kunstazi kunstaji kunstane kunstase kunstano kunstali kunstana kunstadi kunstari kunstansati kunste kobeka kunstsi kunstay kunstwati kanstane kungakweti kuweta kunstaca kunstuba kunstama kunstaciye kubeka kweka kurwentawenta wa kunstsabu kurva kurva kulwentawa kulenta wa kwenta kwentawenstsastu kobekuwenta wentaweka kwenta wa kwena kunstaswa kwe bekwentawena kwenaswa kurwa kwenta kweneswenta kwentaswa kube kunstata kunstatsi kunstha kunsthaniwa kwa kulastaswenta kweentaweentawa kwentawasnastaswe kwe tenta kwentawasntswa kwentwaswaswa kwasntaswe tentwenta satwenta na kwentawa satwa satwasntwa sataswa satweenta satwe tentsenta satwasenta satwa kwendaswa tentwasenta kwendwa kwandentawaspwaswaswanisa kunstwa kwonwasheka kwentwa kw",
-      "subs": {
-        "i → m": 1,
-        "n → a": 1,
-        "h → w": 1,
-        "w → e": 1,
-        "e → t": 1,
-        "k → i": 1,
-        "h → k": 1,
-        "e → a": 1,
-        "t → k": 1,
-        "i → w": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "inkhwekhweti",
-            "makweti"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": "ebabtini",
-      "hypothesis": "bhabtini kwa kwa mweniwa nga kuwa kwato niye nga kwato nekuwako kwato na kuwato kuwata kuwati nekuyako] nga kunye kwato kuwo kwato sekuya kwato kamto niye na kwato kwato ka kwato ko kwato kunye kweka kwato nga kamto kwato nakubana kwato kwa kwata kwato senjani kwato kanye kamto kamto kunye kunye kanji kwato kabteniwe ko kwekha kwato kurwa kwati niye nekwekho kwati kunye kabto kamtini wekha kunye kuwatalwa kwatini kwato kaduwe kwati nga kurwato kwati kwato lamela kwato kulati kwati kulati lamela kunye lamato kunhe kamto kulati kunhe lamato ko kamto kwa kulatina kwato noma kwato nemuweko kamto lamato kamtani lamato lamato nomuko kamtati noma kamto noma lamato namuze ko kamtaswe kamtako kamtata noma nomwako kamto ka kamtoto kamto namuza kamtano kamtansi lamabha kamto batini kamto na kamtase kamtatsi lamu kamtami kamtane lamabho batini lamati kamtasi lamabhoda kamtina kamtse lamabhati lamabhatini kamte lamabhe lamabhali kamtja kamtastani lamabhedaswa kamha kamt kamtaskamati kamlatini lamabhunayi kamastase lamabheske kamlatina kamlataswati kamhatina kambatini kamlatase kambatina kamastani kambatine kambatase kamutaswa kwenca kamhastini kamhati kambatiny wataswa batina kamhatsi kam",
-      "subs": {
-        "e → b": 1,
-        "b → h": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "ebabtini",
-            "bhabtini"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": "galini",
-      "hypothesis": "chalini echa lini bhajini kha kwa kwa bhaja kwenya njani kusita kwa kwela na kuwenya na kuwela na kwengwa na kuwa kwengwaneza na kuwo kwengwenya kuwenta na kwemma na kwena na kwenta na kunya na kwenga na kunye ka kweni ka kwema na kwenti ka kwenta ka kwenga ka kwembhaja na kwemitika linisa kuweni ka kwelela ngeka kwenta ngekuwenta wa kwenta kwamiwa kwenta kabela ngekalini kwekha kwenta kalini ka kwenti kalini kwenta kurwa kwema kwenta kwa bekwenta kwente kaleni kalina nge kalina kalina kwenti kurwa kurwenta kalina kwa kalenta kwenti kwent na kweka kwenti kwa tenta kwenta kameni kwaenta kwenta kadali nge kwengalina kwenta kayakwa tentwa tenti kwenta lokha kwenti kabela kalini kalini kwa caleni kalati kalini kurwa kalwenta calina kalini kamali kalati kwa neta kwenti kamali kwenta calini kalati kwati kalina kamali kamali kwaenta kalili kwa kamalenta kwent kalwa kalini calini kamal tenta kalini tati kalwenka kwentka kwalini kurwente calini ka kalini dwekwenta kamalini kalili kwent calwente kalini satweka kaleni calwenta ka kalina kurwent calini calati kalili satwa kwent ka kalili netwente kwent kalili kamali netwa kweti calina kwent calini kwcalini kusito [nagalina kha calini kwenta khali calina khalini kwalini khalina k",
-      "subs": {
-        "g → c": 1,
-        "a → h": 1,
-        "l → a": 1,
-        "i → l": 1,
-        "n → i": 1,
-        "i → n": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "galini",
-            "chalini"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": "bekangetfuswa lutfo lapha atibhalele khona",
-      "hypothesis": "lekaketfuswa lutfo lapha etibhalele khona kufa kwa kwa kuwana kwenya kwa kunya kwenyama kunya kunye kunye kwekwa kunyi kwekuya kunyi kuwo kunyi ka kunye kuwa kunye ka kwenye kunyi ya kunye ya kunyinwa kunyaka kunye yamiya kweka kunye na kunye yo yo yo yeyo yeyo yo yo yamiyo yo yeyoye yamiye yo yeyeyo yo yatiye yo yiyeyo yeyoya yo yiniyo yatiyo yiyo yamiyoyo yatiya yo yoniyo yiniyoyoya yatiyonye yatiyoyoye yo yaliyo yasiyo yaliyeyo yetiyo yaniyo yantiye yaliyonye yo yayoyayi yayayi yo yayayayi yamiyonayi wayayi hayayiraya yatiyalayiyingye yayayrayi yayrayayraya yo yasiyonayoyayyayayayyo yayayye yorayayayyrayayyo yayaye kweko yi yatirayayaya yatiyingye yo ayayayye yirayaywaya yoayay wayayayuyayye wayayye yayayraye hayayayaya yo yaywayayay hoya yayayingrayayye hayayrayana yoayrayrayayayingayayaye yay hoyayray hoyayye kuyayrayinyayrayatfuyay wayraya hayrayayyayrayina kwekeka kye kwayraya kwayatfuzwa yayywaya yatrayay hoye yata yatiwayayray hoayrayaya yay hoayayayingyayayinge yay yayagayrayati yaydayay",
-      "subs": {
-        "b → l": 1,
-        "n → k": 1,
-        "g → e": 1,
-        "e → t": 1,
-        "t → f": 2,
-        "f → u": 1,
-        "u → s": 1,
-        "s → w": 1,
-        "w → a": 1,
-        "a → l": 2,
-        "l → u": 1,
-        "u → t": 1,
-        "f → o": 1,
-        "o → l": 1,
-        "l → a": 1,
-        "a → p": 1,
-        "p → h": 1,
-        "h → a": 2,
-        "a → e": 1,
-        "a → t": 1,
-        "t → i": 1,
-        "i → b": 1,
-        "b → h": 1,
-        "l → e": 2,
-        "e → l": 1,
-        "e → k": 1,
-        "k → h": 1,
-        "h → o": 1,
-        "o → n": 1,
-        "n → a": 1,
-        "a → k": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "bekangetfuswa",
-            "lekaketfuswa"
-          ],
-          [
-            "atibhalele",
-            "etibhalele"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": "ecingweni",
-      "hypothesis": "cingweni kwa kwa kwengweniwa nga kwengwengiwa na kunye nga kuwena kunye kwa kuwenta kunye kunye ka kunye kuwela kunye] nga kwa kunye mawenya kunye ya kunye ba kunye yami kunye yo kunye sekuya yami kanye yazi kanye yo kanye ya kanye kwenye yati kunye ta kunye tekuya kwekela kunye yeko yeko yami kweka kunye siye kwekha kunye tiye kwengweni yati kanye siyama kunye niyana kunye liye kwaya kunye tati kweko kwa kurva kwa kulase kwa sinye yini kweku kwa bunye yi kweki kwekinye yasi kanye ngeko kwekunye yali yati kurva kurva kulase yami kurva kunye na kunhe yati kulwa kunhe niyata kunhe nge kwekingweni yasi kwekungweka kwaye kwekilwa klinye yani kwekaya kunhe yo klinhe yazi kwekalwa kwasa klinze kwashe kwasi kwasnye yasaya kwasayi kwa ko klinwa kwinye kwasaya klinwenta yi yati kwenta kwas klinngweni kbona klinisa klinweni wena kwashingweni yo kwasasa klin kwe klinawena klinowenye yata kwas wnangama klin wa klinva klinona",
-      "subs": {
-        "e → c": 1,
-        "c → i": 1,
-        "i → n": 1,
-        "n → g": 1,
-        "g → w": 1,
-        "w → e": 1,
-        "e → n": 1,
-        "n → i": 1,
-        "i → k": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "ecingweni",
-            "cingweni"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": "lenhle uyatsandza kugijima",
-      "hypothesis": "lenhle uyatsandza kugijima kufa kwa kwa kwengisa kutela kunye kwa kunye kunye ka kunye kuwena kunye na kunye niyama kunye siyama kuwenta kunye njani kunye tiwako nyiweka kunye sani kwenye nyiwako kunye nekuwana kunye nanye niye niyinga kunye netifuza kunye sinye niyo nyiweni kunye yo nyiwo kunye yiweka nyiwa nyiwalokuniweka kanye yiniweka kwekela kunye sekuya nyiwonchana yiniwako nanye yoniweka nanye yo yiwako kanye yo niyamiweka nekuweka niyaminye yatiweka sani yiwinye yaniweka sinye yamiye njiweka yiwa njiwako kweka sekuyama kwekwa yiwasnye yantiweka yo njiwa yiniwa nsiweka nelisa yiye nje niyatiwa nye yotiweka netiwa yaniwa nje netiwo njiwo sekuyanga njiwinye nwiye nsi yatiwa yatiwaca njiyama yatiwo nwiwaca yatiye nciwase nje yatiwiwase yatiwaya nje yo nsiwase yo ngiwase niyase nyiye ngi yatiwinca nsiwa nwiyasa njiye ni yo njatiwe yatiya nsiwo nsiye nniyasa yatiwasa nwi nwi yo nwi yatiwandiwasa nsi nsi yo yatiyo ngiye n yo yasipa ngi nwi neti nwi sekuva nwi tenda",
-      "subs": {},
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": []
-      }
-    },
-    {
-      "reference": "ngatalelwa espiki",
-      "hypothesis": "ngatalwa e sibhiki ezi bhaja na la ezi bhiki ezi bhajini kwengeta kwa kwa kwwa kwengishini kwengsi kuwela kunye kwela kwengshini kwekuya kwengsisa kwamiwa kwakhelela esibhiki wewewewewa kwakuya kwatiweka kwatiwa kwako kwakhiwa kwato kuwako kwato kwatiwo kwatiwati kwato kwekha kwatiwuakhela layespikiwe kuwaco kwatiwalako kwatiwasa kwatiwanela kwatiwatela kwato kunye kuwaca kwatiwiwa kwatiwinja kwato kurva kwato kulawatiwekuwa kwatsiweza kunye kunye kwenca kwatiwonatiweko kuwatsiwa kunye lamabili kuwastiweko kwa kowatsiswa kunstatiweza kuwasiweko kunye kulawasiwa kunsiwa kunjiwa kunciwa kuncwasa kunsisa kuwatiwe koca kunciwatiwa kunsise kweka kuncwa kunasita kunse wa kunciwasita kunstas kunsewa kunca kunstase wa kunstsisa kunstani kunstasi kunstansi kunstana kunstami kunstane kunstanti kunstancas kunsita kuncwati kunstandi kunstanjwe kwa kuwasasasitse kunstanoza kuncwe kobekuwastaswe kunstai kunstaca kunstanga kunstancawasasitase kunstwanji kunstastas kunstaze kunstari kunstaba kunsthanstaswasaswassts kunstabi kunst biswanjaya kunstafa kunstjanwasstas kobe kobeka kunstwa kunastaswasnastas kwenasstwanstas kwe",
-      "subs": {
-        "e → w": 1,
-        "l → a": 1,
-        "w → e": 1,
-        "a → s": 1,
-        "e → i": 1,
-        "s → b": 1,
-        "p → h": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "ngatalelwa",
-            "ngatalwa"
-          ],
-          [
-            "espiki",
-            "e"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": "ang asemane ngitfole emanti ngiyogeza",
-      "hypothesis": "asemane ngitfole emanti ngiyogeza kufa kuweza kufaka kuwa kuwa kaweka kaweba kawebeza kawebana kawebu kawebo kawebusa kawebahla kawebi kawebakha kawebatwa kawaweba kuwa kufakuma kawebabu kawebaseka kuwa kanye kuwa kurwa kuwana kuwa kunye kuwo kunye kwebakuma kuwabana kuwaba kuwa bunye kuwaseza kuwo bunye kaweobeza kuwane kuwa kwaseza kunye ngekuwa kuweba kunye kunye bunye kwawebabana kunye kanji kuwo kwebebakeza kuwebane kuwabeza kuwa kobe bekwaweobeka kunye kobebaseza kweobebase kaweomba kuwabi kunye yogeza kobe kobebebeceza kubekaweobeceza kubeceka kubecina kubececesha kunye tatiwebukwa kwa kweasecaweobecina kobecina kunyeyo kwecina yobeca kwececeza yobeceaza yobekuwa yobe kwecawabane kwecomecinayo kwaasecawabi kweuceca yobecesa yobe bekwabase yoceaca yobecinti yobeciye yobeka kweaca kobececina yobeca wabaseca youceca tatibekuwabayi youcease youceka yobeuceca kobeca yoasebase yoye youcecina tatiyebucina kwe dorma yoase yoasebake yocease yoase tatiwabye yoase kwease mase mani wase mane nesimane",
-      "subs": {
-        "n → s": 1,
-        "g → e": 1,
-        "a → m": 1,
-        "s → a": 1,
-        "e → n": 2,
-        "m → e": 1,
-        "a → n": 1,
-        "n → g": 1,
-        "e → i": 1,
-        "n → t": 1,
-        "g → f": 1,
-        "i → o": 1,
-        "t → l": 1,
-        "f → e": 1,
-        "o → e": 1,
-        "l → m": 1,
-        "e → a": 1,
-        "m → t": 1,
-        "a → i": 1,
-        "t → g": 1,
-        "n → y": 1,
-        "g → o": 1,
-        "i → g": 1,
-        "y → e": 1,
-        "o → z": 1,
-        "g → a": 1,
-        "e → k": 1,
-        "z → u": 1,
-        "a → f": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "ang",
-            "asemane"
-          ],
-          [
-            "asemane",
-            "ngitfole"
-          ],
-          [
-            "ngitfole",
-            "emanti"
-          ],
-          [
-            "emanti",
-            "ngiyogeza"
-          ],
-          [
-            "ngiyogeza",
-            "kufa"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": "siswati",
-      "hypothesis": "siswakha ekuwala kwa kuwala kuwa kuwa kuwenya kwa kunye kwa kwengisawe kha kunye kunye kuwana kunye ka kunye mawenya kunye na kunye niyama kunye siyaka kunye tiye niye niyingisawe kuwane kunye nani kunye nekuwana kuwo kunye netiwa kuwo kwengiswa kwakhe niye nali kunye sani kwa kanye niyanga kunye nanayi kuwo kuwa kwakela kunye kanye netiyama kunhe niyingiselwa kwakeni kunye yami kunye nyata kunye nayo kunye tiniwekuweka kanye nanti kunye tsulela kuwa kwa kabela kunye yo niye yo nali kanye yo yo nalisaweka kunyeyo nalwako kunye sekuwati yo niyingiswati yami kobe kobe kwa kobe nye yo neti yo netinyo yo netini yo netayo netiyo netayati yo nanti yoayatiyo neti neta yo netiyati yo netita yo niyo niy yo niyaya yo neta netiyatsi yo nati yonyaya netiyako netayata yo nane yonyata yonyasti yonyako netiyaca yonyasita yonyayo netinyako netinyayo netayato netiyase yonyasa yonyasta yonyatsi yami yonyase nayasita yami netayagama netiyayato niyayayase neta nanyi netayatsi tinyaywaya yonyi netiyasita wo netiyagama yonyayasa netayatay yonya netinyayati yiye netayaya netayayata nanyayata yi tenda netayada yony waye yonyaca yi netraya net",
-      "subs": {
-        "t → k": 1,
-        "i → h": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "siswati",
-            "siswakha"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": "ngihlala e johannesburg",
-      "hypothesis": "ngihlala echihane e kweniweka kwa kwa kwengishini kwa ngekuyawekha kwa kuyaweka kwengisha kwenisa kweniswa kwenisiwa kwekuya kwengisa kwwenisa kwengisiwa kanye kwa kuniswa kweniwa kwamiwa kwabiwa kwabiliwa kwatiwa kwakwa kwako kwakha kwakhekela kanye kwako kamhla la echibhane kwekela kwekuhlana kwasekela kamhlanuwa kwato kwenisekha kwato kwamiwako kwato kamhlani kwato kuya kweniselwa kwatsiwa kwaco kwatiwasa kwatiweko kuya kwatiwalako kamhiweko kwatiwo kwatiwati kwati kwamiweko kwa kabochekela kwati wa kwatiwinisa kwati kwekhwana kwati wataseko kwato watasekewalako kwati kuwati kwenesita kwati kunstani kwami kwati tsita kwami kwenesiwa kwata kwatiwaya kwato njani kwati wako kwaniweka waniweko wataseka kwatiwenasisa kwato kunstati kwani kwatalana kwatalako kwenasita kwatalwenasito kwenasiweko waniwati waniwa kwatase kwami watasekwatiwa kwatiwata kwenaseka kwenasa kwatiwanasito wani kwena kwatsito kwati nanjani kweka nanasito nanjati kwatalwati nanayati wanoza kwati biswati watseka kwato nanjami nanjatalayati nanastati kwano nanj nanjano watseko kwenseka nanjaya nanjazeka nanayatsi nanjnanjani nanj",
-      "subs": {
-        "j → c": 1,
-        "o → h": 1,
-        "h → i": 1,
-        "a → h": 1,
-        "n → a": 1,
-        "s → e": 1,
-        "b → k": 1,
-        "u → w": 1,
-        "r → e": 1,
-        "g → n": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "e",
-            "echihane"
-          ],
-          [
-            "johannesburg",
-            "e"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": "makhalekhikhini",
-      "hypothesis": "ka kiki khini kwa kiki kweniwa nako nako kwenisa kwa kwamiwa kwatiwa kwato nako kwato na kwato kuwatiwa kwenise kwato kwato kwenisi kwato kamto kwato kunisa kwato kulako kamto kunisa nako kulako kwati kwato kanakhekhini kwato ko kwatiwako kunisa kwekha kwatiwekinisa nko kwatiwasa kwato kabatiwa kunisa kuwato kunisita kwato kurwa kunisito kwato bunisito kuwata kunisiti kwato kadwenisa kunisitwe kwato kalakikhin khini kwenisito kamto kulati kwatiwo kwato khatiwekhani kwato kungasiko kwato ka kwatiwalako kwekhina kwekunisito kweka kwato kayakwe kwekonisito kungasikha kwato konkwenisa kayakhekhin kweko kayakwa katiwatiwe kayakwati kwekinisito kayakha kwata kwati kayakhi niye kwekuweko kwa ko katiwasiwekhodiwe kwasiwa kwa kalatiwe katiweka kwa kayakitwe kwendasiko kwendwa kwendisito kabatiwe ka kwekusita kwasasiko kamto kwasa kwendwatiwasisito ka kwaso kwaspwendisa kwasnusita kwati kwasito kwasisita kwenduwa kwas bisita kwonwasiwassita kwe kwonkha kwendwasiwo kwascana kwasisa kwendashumi kwasita kha kwaswasi kwasaba kwasasa kwasitse kwasati kwendase kwasabiwekhe kwasatse kusita klinse kwendza kwasse k",
-      "subs": {
-        "m → k": 1,
-        "h → i": 2,
-        "a → k": 1,
-        "l → i": 1,
-        "e → k": 1,
-        "k → h": 1,
-        "i → n": 1,
-        "k → i": 1,
-        "h → k": 1,
-        "i → w": 1,
-        "n → a": 1,
-        "i → k": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "makhalekhikhini",
-            "ka"
-          ]
-        ]
-      }
-    },
-    {
-      "reference": "ngihlala e hazyview",
-      "hypothesis": "ngihlala e hazyview mhla hweniwa njwengiwa na njwa nje kuwana na nyiwa na na nsiwa na nekuwana nekuyana na na kunyewa na kunhewa na kuwane na kungepha kunye wa kunyefa kunyefutu kunyefu kunyepha kunhefa kunhefutsa kunyefebha kunhefu ka kunhepha kunhesiwa kunhefeba kunhefatela kunhefanisa kunyefatela kanyefuza kungefa kungefatela ka kunyefanisewa kungefutusa kungefanisa kwenyefupha kungefuza kanyefuta kunhefo kwa kunhesisa kungefo kungefisha kungefactela kungefortwa kunyefo kunyefishita kungefunyefuka kunhefishita kulhefutasa kungeifa kungefiwa kunjefutasela kunzefutfu kungeafa kungefebatela kunyefiwaba kungeffa kunhefiwabha kunye liyebha kwekoca kunyeoya kungeoya kwepha kobekuya kunyeafa kunyebatela kweka kunyeflikha kunge fa kunyeba kunye batali yiwa kweca kungebatalisa kwefutsi kwecina kwekha kunke liyebatse liye yiwswe liye batfwe yiwe batse batfutswe batu batf batwa ngefatse batse yatse yo batse yobatse yatiwebatse batsi batse biswati yatiye batse watse yoayatse yatsi yati tendebatse sati batse weta yati watse satse yo satse wetterayati yoayatsi yo sate batse diswati yoatse wetse yoat",
-      "subs": {},
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": []
-      }
-    },
-    {
-      "reference": "nineteen",
-      "hypothesis": "ene nineteen kuweni kuwena ngingeni kuwa kuwenta kuwengi kuwo kuwenti kuwensi kuya kuweni kuwo kwengiswa kuwa kwengisi kuya kwenisa kuya kwengisa kunye kuwa kunye na kunye ka kunye ni kuya kunye siye kuya kanye ni kunye tiye ni kufa kunye kufaka kunye ngingenti kuya kurwa kuwo kunye nekuya kuwa kurwa kwekela kunye kunye kanji kuya kulako kunye liku kuya kuntifuza kunye lamela kunye netiyo kuwa kulako kulako kanye netinyo kuya koca kunye sekuva kunye sitiko kuya sitiko kweka kunye sitsiko kunye satiko kwa koca kulako sitiko kulako netinyu kuya netinye netinyi netinya netinyina netinyenti kunye tekuya kunsthi kuya ka kunsthishe kobeka kunsthes kobeku kwekha kunye kobe kobe kwa kwa kunsthe kweko kobe kunye tsita kunye nanayi kuca kunste kobe kuwabi kunsthaba kunsthani kwe kobe sekuca kunsthati kunstha kunsthasu ka kwasa kunste kwasnye kwasasita kunsthala kwasintas kunsthaya kunstsha kwasita kwassthisita kunwabi kwasseku kwasntas kobe kurwabi kobe kulase kwasaba kunsthoda kunasts kobe kansthes kwas biswati kunsthwa kwasp kwaswasita kunntas kusita kunmesita kunste kuwa kwasenta kwasinyaswasita kobe nesita kurwati kwasitas kobe khwa kunwasita",
-      "subs": {
-        "n → e": 2,
-        "i → n": 1,
-        "e → n": 2,
-        "t → i": 1,
-        "n → t": 1
-      },
-      "morphological_errors": {
-        "misaligned": true,
-        "errors": [
-          [
-            "nineteen",
-            "ene"
+            "tetiseveno"
           ]
         ]
       }

@@ -1,0 +1,13 @@
+2025-11-22 22:22:04,399 - INFO - Starting inference for zulu at 2025-11-22 22:22:04
+2025-11-22 22:22:04,399 - INFO - Found 7 multilingual models for zu: ['nguni_multilingual_zu_xh_wav2vec2', 'nguni_multilingual_zu_xh_nbl_ssw_wav2vec2', 'nguni_multilingual_zu_xh_nbl_wav2vec2', 'nguni_multilingual_zu_nbl_wav2vec2', 'nguni_multilingual_zu_ssw_wav2vec2', 'nguni_multilingual_zu_xh_ssw_wav2vec2', 'nguni_multilingual_zu_nbl_ssw_wav2vec2']
+2025-11-22 22:22:04,410 - INFO - Loaded 4683 entries from D:\Model-Finetuning\wav2vec2\data\zulu_unseen.json
+2025-11-22 22:22:04,410 - INFO - Loading model from D:\Model-Finetuning\wav2vec2\model\nguni_multilingual_zu_xh_wav2vec2
+2025-11-22 22:22:08,220 - INFO - Model loaded successfully for nguni_multilingual_zu_xh_wav2vec2
+2025-11-22 22:22:51,611 - INFO - Saved results to D:\Model-Finetuning\wav2vec2\error_analysis\zulu_nguni_multilingual_zu_xh_wav2vec2_inference.json
+2025-11-22 22:22:51,614 - INFO - Loading model from D:\Model-Finetuning\wav2vec2\model\nguni_multilingual_zu_xh_nbl_ssw_wav2vec2
+2025-11-22 22:22:55,406 - INFO - Model loaded successfully for nguni_multilingual_zu_xh_nbl_ssw_wav2vec2
+2025-11-22 22:23:34,711 - INFO - Saved results to D:\Model-Finetuning\wav2vec2\error_analysis\zulu_nguni_multilingual_zu_xh_nbl_ssw_wav2vec2_inference.json
+2025-11-22 22:23:34,711 - INFO - Loading model from D:\Model-Finetuning\wav2vec2\model\nguni_multilingual_zu_xh_nbl_wav2vec2
+2025-11-22 22:23:38,972 - INFO - Model loaded successfully for nguni_multilingual_zu_xh_nbl_wav2vec2
+2025-11-22 22:24:18,425 - INFO - Saved results to D:\Model-Finetuning\wav2vec2\error_analysis\zulu_nguni_multilingual_zu_xh_nbl_wav2vec2_inference.json
+2025-11-22 22:24:18,425 - INFO - Loading model from D:\Model-Finetuning\wav2vec2\model\nguni_multilingual_zu_nbl_wav2vec2

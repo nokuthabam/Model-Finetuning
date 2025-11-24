@@ -1,0 +1,74 @@
+{
+  "zulu_18 below": {
+    "wer": 1.0424242424242425,
+    "cer": 0.9219440353460973
+  },
+  "zulu_19_29": {
+    "wer": 1.0067567567567568,
+    "cer": 0.800807537012113
+  },
+  "zulu_30_39": {
+    "wer": 1.0072202166064983,
+    "cer": 0.819371727748691
+  },
+  "zulu_40_49": {
+    "wer": 1.0084033613445378,
+    "cer": 0.7757133377571334
+  },
+  "zulu_50plus": {
+    "wer": 1.001996007984032,
+    "cer": 0.8538461538461538
+  },
+  "zulu_female": {
+    "wer": 1.0054320987654322,
+    "cer": 0.8107980108927303
+  },
+  "zulu_results": {
+    "wer": 0.4924726277372263,
+    "cer": 0.11175036422561176
+  },
+  "zulu_landline": {
+    "wer": 1.0,
+    "cer": 0.7899159663865546
+  },
+  "zulu_male": {
+    "wer": 1.0119250425894377,
+    "cer": 0.8161389172625128
+  },
+  "zulu_nguni_multilingual_zu_nbl_ssw_wav2vec2": {
+    "wer": 0.9943549726050142,
+    "cer": 0.5709620960789948
+  },
+  "zulu_nguni_multilingual_zu_nbl_wav2vec2": {
+    "wer": 1.8948640483383685,
+    "cer": 7.352732434350603
+  },
+  "zulu_nguni_multilingual_zu_ssw_wav2vec2": {
+    "wer": 1.2486640541503384,
+    "cer": 3.761328125
+  },
+  "zulu_nguni_multilingual_zu_xh_nbl_ssw_wav2vec2": {
+    "wer": 1.0004006945371977,
+    "cer": 0.593285323731413
+  },
+  "zulu_nguni_multilingual_zu_xh_nbl_wav2vec2": {
+    "wer": 0.9927567106945037,
+    "cer": 0.596388296251143
+  },
+  "zulu_nguni_multilingual_zu_xh_ssw_wav2vec2": {
+    "wer": 1.0097222222222222,
+    "cer": 1.0295328786513962
+  },
+  "zulu_nguni_multilingual_zu_xh_wav2vec2": {
+    "wer": 0.5220488466757124,
+    "cer": 0.1326762699014405
+  },
+  "zulu_not_available": {
+    "wer": 0.9921875,
+    "cer": 0.8856088560885609
+  },
+  "zulu_unknown": {
+    "wer": 0.9770992366412213,
+    "cer": 0.7890909090909091
+  }
+}

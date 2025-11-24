@@ -1,0 +1,4 @@
+2025-11-24 11:33:13,304 - INFO - Loading model from D:\Model-Finetuning\whisper\model\ss_whisper
+2025-11-24 11:33:16,511 - INFO - Model loaded successfully for ss from D:\Model-Finetuning\whisper\model\ss_whisper
+2025-11-24 11:33:16,866 - INFO - Running inference for siswati on 10 audio files
+2025-11-24 11:33:26,989 - INFO - Error analysis report saved to D:\Model-Finetuning\whisper\error_analysis\siswati_inference_results.json

@@ -120,7 +120,7 @@ def transcribe_audio(model, processor, audio_path, device):
         waveform = torchaudio.transforms.Resample(orig_freq=sample_rate, new_freq=16000)(waveform)
 
     # Trim any silence from the beginning and end
-    waveform = trim_silence_from_waveform(waveform, sample_rate=16000)
+    # waveform = trim_silence_from_waveform(waveform, sample_rate=16000)
 
     inputs = processor(waveform.squeeze(0),
                        return_tensors="pt",
@@ -131,16 +131,18 @@ def transcribe_audio(model, processor, audio_path, device):
     generation_config = model.generation_config
     generation_config.language = "sw"
     generation_config.task = "transcribe"
+    generation_config.num_beams = 5
+    generation_config.do_sample = False
+    generation_config.temperature = 0.0
     generation_config.no_repeat_ngram_size = 3
     generation_config.length_penalty = 1.0
-    # generation_config.temperature = 0.0
-    generation_config.num_beams = 5
+    generation_config.top_p = 1.0
+    generation_config.top_k = 0
     generation_config.suppress_tokens = []  # prevent forced token suppression
 
     # Run generation with tuned decoding parameters
     predicted_ids = model.generate(
         inputs["input_features"],
-        attention_mask=inputs["attention_mask"],
         generation_config=generation_config
     )
     transcription = processor.batch_decode(predicted_ids, skip_special_tokens=True)[0]
@@ -162,7 +164,7 @@ def run_inference(language_code, logger):
     with open(unseen_data, 'r') as f:
         lines = f.readlines()
 
-    lines = lines[:10]
+    lines = lines[:500]
     logger.info(f"Running inference for {language} on {len(lines)} audio files")
     results = []
     for line in tqdm(lines, desc=f"Processing {language} audio files"):

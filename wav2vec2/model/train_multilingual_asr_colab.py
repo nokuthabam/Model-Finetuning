@@ -250,7 +250,7 @@ def train_multilingual_model(languages, logger):
 
     dataset = load_and_merge_multilingual(logger, languages)
 
-    dataset = dataset.map(speech_file_to_array_fn, num_proc=8)
+    dataset = dataset.map(speech_file_to_array_fn, num_proc=32)
     dataset = dataset.map(prepare_dataset)
 
     model_id = "_".join(languages)
