@@ -169,7 +169,7 @@ def train_model(args, logger):
         per_device_eval_batch_size=1,
         learning_rate=3e-5,
         warmup_steps=300,
-        max_steps=1200,
+        max_steps=1500,
         evaluation_strategy="steps",
         eval_steps=100,
         save_steps=100,
@@ -211,9 +211,40 @@ def train_model(args, logger):
         data_collator=collator,
         compute_metrics=compute_metrics,
     )
+    # ---------------------------------------
+    # 6. SAFE CHECKPOINT RESUME FIX
+    # ---------------------------------------
+    latest_checkpoint = None
+    output_path = Path(output_dir)
+
+    if output_path.exists():
+        candidate_ckpts = list(output_path.glob("checkpoint-*"))
+
+        if candidate_ckpts:
+            latest_checkpoint = str(
+                sorted(candidate_ckpts, key=lambda x: int(x.name.split("-")[1]))[-1]
+            )
+            logger.info(f"Resuming from checkpoint: {latest_checkpoint}")
+
+            # DELETE RNG STATE FILES BEFORE TRAINER TOUCHES THEM
+            rng_files = list(Path(latest_checkpoint).glob("rng_state*.pth")) + \
+                        list(Path(latest_checkpoint).glob("pytorch_model.bin-rng_state*"))
+
+            for f in rng_files:
+                try:
+                    logger.info(f"Deleting RNG state file: {f}")
+                    f.unlink()
+                except Exception as e:
+                    logger.warning(f"Failed to delete {f}: {e}")
+
+        else:
+            logger.info("No checkpoints found. Training from scratch.")
+    else:
+        logger.info("Output directory does not exist yet. Training from scratch.")
+
 
     logger.info("Training started...")
-    trainer.train()
+    trainer.train(resume_from_checkpoint=str(latest_checkpoint) if latest_checkpoint else None)
     logger.info("Training complete!")
 
     trainer.model.save_pretrained(output_dir)

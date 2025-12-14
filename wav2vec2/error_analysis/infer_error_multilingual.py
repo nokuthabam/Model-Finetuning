@@ -1,13 +1,14 @@
 import argparse
 from pathlib import Path
 import json
-from xml.parsers.expat import model
 from tqdm import tqdm
 import torch
 from transformers import Wav2Vec2ForCTC, Wav2Vec2Processor
 import torchaudio
 import logging
 from datetime import datetime
+from pyctcdecode import build_ctcdecoder
+import re
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
@@ -20,6 +21,9 @@ LANGUAGE_MAP = {
     "ssw": "siswati",
     "nbl": "ndebele"
 }
+
+KENLM_PATH = BASE_DIR / "nguni_3gram.arpa"
+CHARS_TO_REMOVE_REGEX = r'[\,\?\.\!\-\;\:\"\“\%\‘\”\'\…\•\°\(\)\=\*\/\`\ː\’]'
 
 
 def get_multilingual_model_paths(lang_code):
@@ -43,45 +47,95 @@ def setup_logging(language_code):
     logging.basicConfig(
         level=logging.INFO,
         format='%(asctime)s - %(levelname)s - %(message)s',
-        handlers= [
+        handlers=[
             logging.FileHandler(log_file),
             logging.StreamHandler()
         ]
     )
     logger = logging.getLogger(__name__)
     return logger
-    
+
+
+def normalize_pred(pred):
+    """
+    Normalize the predicted transcription by removing unwanted characters.
+    """
+    return pred.replace(" ", "")
+
+
+def clean_text(text):
+    """
+    Cleans transcript text for ASR training.
+    - Lowercases
+    - Removes noise tags ([n], [s], [um], etc.)
+    - Strips punctuation and special characters
+    - Removes stray brackets
+    """
+
+    # Lowercase and trim whitespace
+    text = text.lower().strip()
+
+    # Remove noise markers or filler tags
+    text = text.replace("[n]", "").replace("[s]", "").replace("[um]", "")
+
+    # Remove stray brackets
+    text = text.replace("[", "").replace("]", "")
+
+    # Remove unwanted punctuation and special chars
+    text = re.sub(CHARS_TO_REMOVE_REGEX, "", text)
+
+    # Normalize spaces (in case multiple spaces remain)
+    text = re.sub(r"\s+", " ", text)
+
+    return text
 
 
 def load_model(model_path, logger):
     """
     Load the finetuned Wav2Vec2 model and processor for the specified language code.
     """
-    logger.info(f"Loading model from {model_path}")
+    logger.info(f"Loading Acoustic model from {model_path}")
+    logger.info(f"Loading Language Model from {KENLM_PATH}")
     processor = Wav2Vec2Processor.from_pretrained(model_path)
     model = Wav2Vec2ForCTC.from_pretrained(model_path)
     model.eval()
     logger.info(f"Model loaded successfully for {model_path.name}")
-    return model, processor
+    
+    vocab = list(processor.tokenizer.get_vocab().keys())
+    vocab = sorted(vocab, key=lambda x: processor.tokenizer.get_vocab()[x])
+    decode = build_ctcdecoder(
+        labels=vocab,
+        kenlm_model_path=str(KENLM_PATH),
+        alpha=0.7,
+        beta=2.4
+    )
+    
+    return model, processor, decode
 
 
-def transcribe_audio(model, processor, audio_path, logger):
+def transcribe_audio(model, processor, decoder, audio_path, logger):
     """
     Transcribe audio using the Wav2Vec2 model.
     """
+    if "D:\\" in audio_path:
+        audio_path = audio_path.replace("D:\\", "/mnt/d/")
+        audio_path = audio_path.replace("\\", "/")
     waveform, sample_rate = torchaudio.load(audio_path)
     if sample_rate != 16000:
-        
         resampler = torchaudio.transforms.Resample(orig_freq=sample_rate, new_freq=16000)
         waveform = resampler(waveform)
+
     inputs = processor(waveform.squeeze(), return_tensors="pt", sampling_rate=16000)
+    device = next(model.parameters()).device
+    inputs = {key: value.to(device) for key, value in inputs.items()}
+
     with torch.no_grad():
-        input_values = inputs.input_values.to(model.device)
-        logits = model(input_values).logits
-    predicted_ids = torch.argmax(logits, dim=-1)
-    transcription = processor.decode(predicted_ids[0])
-    
+        logits = model(inputs["input_values"]).logits
+    logits = logits.cpu().numpy()[0]
+
+    transcription = decoder.decode(logits)
     return transcription.lower()
+
 
 def run_inference(lang_code, logger):
     language = LANGUAGE_MAP.get(lang_code)
@@ -93,13 +147,13 @@ def run_inference(lang_code, logger):
     with open(unseen_data_path, 'r') as f:
         lines = f.readlines()
     logger.info(f"Loaded {len(lines)} entries from {unseen_data_path}")
-    lines = lines[:500]  # For quick testing
+    lines = lines[:1000]  # For quick testing
 
     for model_path in model_paths:
         output_path = OUTPUT_DIR / f"{language}_{model_path.name}_inference.json"
         output_path.parent.mkdir(parents=True, exist_ok=True)
 
-        model, processor = load_model(model_path, logger)
+        model, processor, decoder = load_model(model_path, logger)
         device = "cuda" if torch.cuda.is_available() else "cpu"
         model.to(device)
 
@@ -108,7 +162,9 @@ def run_inference(lang_code, logger):
             entry = json.loads(line)
             audio_path = entry["audio_path"]
             reference = entry["transcript"]
-            hypothesis = transcribe_audio(model, processor, audio_path, logger)
+            reference = clean_text(reference)
+            hypothesis = transcribe_audio(model, processor, decoder, audio_path, logger)
+            
             results.append({
                 "audio_path": audio_path,
                 "reference": reference,

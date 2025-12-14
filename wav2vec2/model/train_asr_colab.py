@@ -21,7 +21,7 @@ from dataclasses import dataclass
 from typing import Dict, List, Union
 
 # MODEL_NAME = "jonatasgrosman/wav2vec2-large-xlsr-53-english"
-MODEL_NAME = "facebook/wav2vec2-xls-r-300m"
+MODEL_NAME = "nmoyo45/zu_wav2vec2"
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
 MODEL_DIR = BASE_DIR / "model"
@@ -55,7 +55,6 @@ model = Wav2Vec2ForCTC.from_pretrained(MODEL_NAME,
                                        feat_proj_dropout=0.0,
                                        mask_time_prob=0.05,
                                        layerdrop=0.1,
-                                       gradient_checkpointing=True,
                                        ctc_loss_reduction="mean",
                                        ctc_zero_infinity=True,
                                        pad_token_id=processor.tokenizer.pad_token_id
@@ -274,7 +273,7 @@ def train_model(language_code, logger):
 
     dataset = load_and_merge(logger, language_code)
     dataset["train"] = dataset["train"].shuffle(seed=42)
-    dataset["train"] = dataset["train"].select(range(15000))  # Limit to 1000 samples for quick training
+    dataset["train"] = dataset["train"].select(range(25000))  # Limit to 1000 samples for quick training
     dataset["test"] = dataset["test"].select(range(3000))  # Limit to 100 samples for quick evaluation
     dataset = dataset.map(speech_file_to_array_fn, num_proc=16)
     dataset = dataset.map(prepare_dataset)
@@ -283,6 +282,7 @@ def train_model(language_code, logger):
     output_dir.mkdir(parents=True, exist_ok=True)
     training_args = TrainingArguments(
         output_dir=output_dir,
+        overwrite_output_dir=True,
         group_by_length=True,
         per_device_train_batch_size=8,
         gradient_accumulation_steps=2,
@@ -291,16 +291,18 @@ def train_model(language_code, logger):
         metric_for_best_model="wer",
         greater_is_better=False,
         load_best_model_at_end=True,
-        num_train_epochs=10,
+        num_train_epochs=3,
         fp16=torch.cuda.is_available(),
         save_steps=500,
         eval_steps=500,
         logging_steps=500,
-        learning_rate=3e-4,
+        learning_rate=5e-5,
         save_total_limit=2,
-        warmup_steps=500,
-        push_to_hub=False,
+        warmup_steps=1000,
+        push_to_hub=True,
+        hub_model_id="nmoyo45/zu_wav2vec2",
         report_to="none",
+        gradient_checkpointing=True,
     )
 
     trainer = Trainer(

@@ -32,6 +32,7 @@ COMBOS = {
     "nguni_multilingual_xh_nr_whisper": ["xh", "nr"],
     "nguni_multilingual_xh_ss_whisper": ["xh", "ss"],
     "nguni_multilingual_nr_ss_whisper": ["nr", "ss"],
+    
 
     # 3-language
     "nguni_multilingual_zu_xh_nr_whisper": ["zu", "xh", "nr"],

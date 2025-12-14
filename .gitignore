@@ -40,3 +40,4 @@ nguni_multilingual_zu_ss_whisper/
 
 processed_arrow/
 merged_audio/
+kenlm/

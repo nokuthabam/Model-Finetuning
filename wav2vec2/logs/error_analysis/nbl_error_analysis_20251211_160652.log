@@ -1,0 +1,4 @@
+2025-12-11 16:06:52,983 - INFO - Loading inference results for ndebele from /mnt/d/Model-Finetuning/wav2vec2/error_analysis/ndebele_inference_results.json
+2025-12-11 16:06:53,072 - INFO - Error analysis report saved to /mnt/d/Model-Finetuning/wav2vec2/results/error_analysis/ndebele_error_analysis_report.json
+2025-12-11 16:06:53,073 - INFO - Top 10 phoneme substitutions: [(('a', 'n'), 355), (('n', 'a'), 344), (('e', 'n'), 236), (('n', 'e'), 211), (('i', 'n'), 184), (('n', 'i'), 171), (('i', 'a'), 171), (('a', 'm'), 170), (('m', 'a'), 167), (('l', 'a'), 163)]
+2025-12-11 16:06:53,074 - INFO - WER: 0.16182572614107885, CER: 0.03956966611181827

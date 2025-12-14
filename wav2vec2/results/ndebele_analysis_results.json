@@ -1,34 +1,34 @@
 {
   "ndebele_results": {
-    "wer": 0.9961881271371714,
-    "cer": 0.5538006983615364
+    "wer": 0.15098078066177928,
+    "cer": 0.03761275871776355
   },
   "ndebele_nguni_multilingual_nbl_ssw_wav2vec2": {
-    "wer": 0.9990648379052369,
-    "cer": 0.5433442892358258
+    "wer": 0.1509771743995226,
+    "cer": 0.036650369444546554
   },
   "ndebele_nguni_multilingual_xh_nbl_ssw_wav2vec2": {
-    "wer": 1.0012634618855665,
-    "cer": 0.6269130724094126
+    "wer": 0.17729231683756874,
+    "cer": 0.04256610157025705
   },
   "ndebele_nguni_multilingual_xh_nbl_wav2vec2": {
-    "wer": 0.9999453880181312,
-    "cer": 0.571062774588286
+    "wer": 0.19444444444444445,
+    "cer": 0.048108507104631854
   },
   "ndebele_nguni_multilingual_zu_nbl_ssw_wav2vec2": {
-    "wer": 0.9972324304704868,
-    "cer": 0.564252709579882
+    "wer": 0.17978533094812166,
+    "cer": 0.044990979713559885
   },
   "ndebele_nguni_multilingual_zu_nbl_wav2vec2": {
-    "wer": 1.8638799571275455,
-    "cer": 7.862047633776678
+    "wer": 0.19368358030234994,
+    "cer": 0.049925084626625475
   },
   "ndebele_nguni_multilingual_zu_xh_nbl_ssw_wav2vec2": {
-    "wer": 0.9987229967010748,
-    "cer": 0.5772006154825702
+    "wer": 0.18926553672316385,
+    "cer": 0.04779465997934799
   },
   "ndebele_nguni_multilingual_zu_xh_nbl_wav2vec2": {
-    "wer": 0.996980059510592,
-    "cer": 0.5878491059931181
+    "wer": 0.17016213000148744,
+    "cer": 0.04223719081272085
   }
 }

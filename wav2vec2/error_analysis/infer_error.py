@@ -27,8 +27,15 @@ LANGUAGE_MODEL_MAP = {
     "ssw": MODEL_DIR / "ssw_wav2vec2",
     "nbl": MODEL_DIR / "nbl_wav2vec2"
 }
-CHARS_TO_REMOVE_REGEX = r'[\,\?\.\!\-\;\:\"\“\%\‘\”\'\…\•\°\(\)\=\*\/\`\ː\’]'
 
+KENLM_FILE_MAP = {
+    "zu": BASE_DIR / "zulu_5gram.arpa",
+    "xh": BASE_DIR / "xhosa_3gram.arpa",
+    "ssw": BASE_DIR / "siswati_3gram.arpa",
+    "nbl": BASE_DIR / "ndebele_3gram.arpa"
+}
+CHARS_TO_REMOVE_REGEX = r'[\,\?\.\!\-\;\:\"\“\%\‘\”\'\…\•\°\(\)\=\*\/\`\ː\’]'
+NGUNI_KENLPATH = BASE_DIR / "nguni_3gram.arpa"
 def setup_logging(language_code):
     """
     Set up logging configuration.
@@ -53,7 +60,10 @@ def load_model(lang_code, logger):
     Integrates optional pyctcdecode for LM-based beam search decoding.
     """
     model_path = LANGUAGE_MODEL_MAP.get(lang_code)
-    logger.info(f"Loading model from {model_path}")
+    logger.info(f"Loading Acoustic model from {model_path}")
+    kenlm_path = KENLM_FILE_MAP.get(lang_code)
+    logger.info(f"Loading Language Model from {kenlm_path}")
+
     processor = Wav2Vec2Processor.from_pretrained(model_path)
     model = Wav2Vec2ForCTC.from_pretrained(model_path)
     model.eval()
@@ -62,7 +72,12 @@ def load_model(lang_code, logger):
     vocab = list(processor.tokenizer.get_vocab().keys())
     vocab = sorted(vocab, key=lambda x: processor.tokenizer.get_vocab()[x])
 
-    decode = build_ctcdecoder(vocab)
+    decode = build_ctcdecoder(
+        labels=vocab,
+        kenlm_model_path=str(kenlm_path),
+        alpha=0.7,
+        beta=3.0
+    )
     return model, processor, decode
 
 
@@ -104,6 +119,10 @@ def transcribe_audio(model, processor, decoder, audio_path, logger):
     """
     Transcribe audio using the Wav2Vec2 model + pyctcdecode beam search.
     """
+
+    if "D:\\" in audio_path:
+        audio_path = audio_path.replace("D:\\", "/mnt/d/")
+        audio_path = audio_path.replace("\\", "/")
     waveform, sample_rate = torchaudio.load(audio_path)
     if sample_rate != 16000:
         resampler = torchaudio.transforms.Resample(orig_freq=sample_rate, new_freq=16000)

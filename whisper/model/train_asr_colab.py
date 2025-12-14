@@ -160,7 +160,7 @@ def train_model(args, logger):
         gradient_accumulation_steps=4,
         per_device_eval_batch_size=1,
         learning_rate=3e-5,
-        max_steps=1200,
+        max_steps=1500,
         warmup_steps=300,
         weight_decay=0.0,
         fp16=True,

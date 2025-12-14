@@ -1,0 +1,14 @@
+2025-12-13 23:21:53,352 - INFO - Starting inference for xhosa at 2025-12-13 23:21:53
+2025-12-13 23:21:53,354 - INFO - Loading Acoustic model from /mnt/d/Model-Finetuning/wav2vec2/model/xh_wav2vec2
+2025-12-13 23:21:53,355 - INFO - Loading Language Model from /mnt/d/Model-Finetuning/wav2vec2/xhosa_3gram.arpa
+2025-12-13 23:21:54,101 - INFO - Model loaded successfully for xh
+2025-12-13 23:21:54,243 - INFO - Using arpa instead of binary LM file, decoder instantiation might be slow.
+2025-12-13 23:21:54,296 - INFO - Alphabet determined to be of regular style.
+2025-12-13 23:21:54,296 - INFO - Found '|' in vocabulary but not ' ', doing substitution.
+2025-12-13 23:21:54,297 - INFO - Found [PAD] in vocabulary, interpreted as a CTC blank token, substituting with .
+2025-12-13 23:21:54,297 - INFO - Found [UNK] in vocabulary, interpreting as unknown token, substituting with ⁇.
+2025-12-13 23:21:54,297 - WARNING - Found entries of length > 1 in alphabet. This is unusual unless style is BPE, but the alphabet was not recognized as BPE type. Is this correct?
+2025-12-13 23:21:54,654 - INFO - Running inference for xhosa
+2025-12-13 23:22:06,455 - INFO - Loaded 5140 entries from /mnt/d/Model-Finetuning/wav2vec2/data/xhosa_unseen.json
+2025-12-13 23:24:46,274 - INFO - Inference results saved to /mnt/d/Model-Finetuning/wav2vec2/error_analysis/xhosa_inference_results.json
+2025-12-13 23:24:46,276 - INFO - Inference completed for xhosa. Results saved to /mnt/d/Model-Finetuning/wav2vec2/error_analysis/xh_inference_results.json.

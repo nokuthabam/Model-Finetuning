@@ -29,8 +29,8 @@ SAVE_DIR = BASE_DIR / "model" / "processed_arrow"
 MODEL_NAME = "openai/whisper-small"
 
 LANGS = {
-    # "ndebele": {"json_files": [BASE_DIR / "merged_nr.json"]},
-    # "siswati": {"json_files": [BASE_DIR / "merged_ss.json"]},
+    "ndebele": {"json_files": [BASE_DIR / "merged_nr.json"]},
+    "siswati": {"json_files": [BASE_DIR / "merged_ss.json"]},
     "zulu": {"json_files": [BASE_DIR / "merged_zu.json"]},
     "xhosa": {"json_files": [BASE_DIR / "merged_xh.json"]},
 }

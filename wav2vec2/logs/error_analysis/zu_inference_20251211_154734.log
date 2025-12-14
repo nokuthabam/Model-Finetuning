@@ -1,0 +1,12 @@
+2025-12-11 15:47:34,126 - INFO - Starting inference for zulu at 2025-12-11 15:47:34
+2025-12-11 15:47:34,127 - INFO - Loading Acoustic model from /mnt/d/Model-Finetuning/wav2vec2/model/zu_wav2vec2
+2025-12-11 15:47:34,128 - INFO - Loading Language Model from /mnt/d/Model-Finetuning/wav2vec2/nguni_3gram.binary
+2025-12-11 15:47:34,842 - INFO - Model loaded successfully for zu
+2025-12-11 15:47:34,999 - WARNING - Unigrams not provided and cannot be automatically determined from LM file (only arpa format). Decoding accuracy might be reduced.
+2025-12-11 15:47:35,000 - INFO - Alphabet determined to be of regular style.
+2025-12-11 15:47:35,000 - INFO - Found '|' in vocabulary but not ' ', doing substitution.
+2025-12-11 15:47:35,001 - INFO - Found [PAD] in vocabulary, interpreted as a CTC blank token, substituting with .
+2025-12-11 15:47:35,001 - INFO - Found [UNK] in vocabulary, interpreting as unknown token, substituting with ⁇.
+2025-12-11 15:47:35,002 - WARNING - Found entries of length > 1 in alphabet. This is unusual unless style is BPE, but the alphabet was not recognized as BPE type. Is this correct?
+2025-12-11 15:47:35,002 - WARNING - No known unigrams provided, decoding results might be a lot worse.
+2025-12-11 15:47:35,003 - INFO - Running inference for zulu

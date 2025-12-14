@@ -187,11 +187,11 @@ def load_and_merge_multilingual(logger, language_codes):
     if N == 1:
         k = 15000
     elif N == 2:
-        k = 10000
+        k = 12500
     elif N == 3:
-        k = 3333
+        k = 10000
     else:
-        k = 5000
+        k = 7500
 
     logger.info(f"Sampling {k} samples per language across {N} languages.")
 
@@ -256,7 +256,8 @@ def train_multilingual_model(languages, logger):
     model_id = "_".join(languages)
     output_dir = MODEL_DIR / f"{model_id}_wav2vec2"
     output_dir.mkdir(parents=True, exist_ok=True)
-
+    # limit test set for faster eval
+    dataset["test"] = dataset["test"].select(range(min(400, len(dataset["test"]))))
     model = Wav2Vec2ForCTC.from_pretrained(
         MODEL_NAME,
         vocab_size=len(processor.tokenizer),
@@ -277,12 +278,12 @@ def train_multilingual_model(languages, logger):
         group_by_length=True,
         per_device_train_batch_size=8,
         per_device_eval_batch_size=8,
-        gradient_accumulation_steps=2,
+        gradient_accumulation_steps=4,
         eval_strategy="steps",
-        logging_steps=500,
-        save_steps=500,
-        eval_steps=500,
-        num_train_epochs=10,
+        logging_steps=1000,
+        save_steps=1000,
+        eval_steps=1000,
+        num_train_epochs=12,
         fp16=torch.cuda.is_available(),
         learning_rate=3e-4,
         metric_for_best_model="wer",
@@ -302,7 +303,16 @@ def train_multilingual_model(languages, logger):
         eval_dataset=dataset["test"],
         tokenizer=processor.feature_extractor,
     )
-
+    # latest_checkpoint = None
+    # output_path = Path(output_dir)
+    # if os.path.isdir(output_dir):
+    #     checkpoints = [
+    #         str(output_path / d)
+    #         for d in os.listdir(output_dir)
+    #         if re.match(r"^checkpoint-\d+$", d)
+    #     ]
+    #     if len(checkpoints) > 0:
+    #         latest_checkpoint = max(checkpoints, key=os.path.getctime)
     logger.info("Beginning training...")
     trainer.train()
 

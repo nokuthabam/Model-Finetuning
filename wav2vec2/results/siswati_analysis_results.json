@@ -1,34 +1,34 @@
 {
   "siswati_results": {
-    "wer": 0.9957399222535811,
-    "cer": 0.51358251127745
+    "wer": 0.1738562091503268,
+    "cer": 0.043228838965172656
   },
   "siswati_nguni_multilingual_nbl_ssw_wav2vec2": {
-    "wer": 0.9988406757204372,
-    "cer": 0.5672907488986784
+    "wer": 0.1597812879708384,
+    "cer": 0.03827627093523047
   },
   "siswati_nguni_multilingual_xh_nbl_ssw_wav2vec2": {
-    "wer": 1.0012669453946534,
-    "cer": 0.6310015033745962
+    "wer": 0.18595480054603367,
+    "cer": 0.042805742052746766
   },
   "siswati_nguni_multilingual_xh_ssw_wav2vec2": {
-    "wer": 1.0313378867014866,
-    "cer": 2.140099166578753
+    "wer": 0.16684314022084404,
+    "cer": 0.038529188498639164
   },
   "siswati_nguni_multilingual_zu_nbl_ssw_wav2vec2": {
-    "wer": 0.9971574484486414,
-    "cer": 0.5697890678158313
+    "wer": 0.1821488104258221,
+    "cer": 0.044608836266983885
   },
   "siswati_nguni_multilingual_zu_ssw_wav2vec2": {
-    "wer": 1.1986051145798737,
-    "cer": 4.072681251129994
+    "wer": 0.1988098870918523,
+    "cer": 0.04805883995903547
   },
   "siswati_nguni_multilingual_zu_xh_nbl_ssw_wav2vec2": {
-    "wer": 0.9989122344993416,
-    "cer": 0.5917824669754674
+    "wer": 0.1957018747142204,
+    "cer": 0.04753138075313808
   },
   "siswati_nguni_multilingual_zu_xh_ssw_wav2vec2": {
-    "wer": 1.0056895766954939,
-    "cer": 1.0906400510648175
+    "wer": 0.17934371692121578,
+    "cer": 0.04179652715939448
   }
 }

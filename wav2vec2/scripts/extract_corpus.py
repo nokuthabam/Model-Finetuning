@@ -3,22 +3,15 @@ from pathlib import Path
 
 dataset_files = [
     "commonvoice_xh_train.json",
-    "commonvoice_zu_train.json",
-    "nchlt_nbl.json",
-    "nchlt_ssw.json",
     "nchlt_xho.json",
-    "nchlt_zul.json",
-    "ndebele_dataset.json",
-    "siswati_dataset.json",
     "xhosa_dataset.json",
-    "zulu_dataset.json",
 ]
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
 OUTPUT_DIR = BASE_DIR / "data"
 count = 0
-with open(OUTPUT_DIR / "combined_corpus.txt", "w", encoding="utf-8") as outfile:
+with open(OUTPUT_DIR / "xhosa_corpus.txt", "w", encoding="utf-8") as outfile:
     for file_name in dataset_files:
         file_path = DATA_DIR / file_name
         with open(file_path, "r", encoding="utf-8") as infile:
