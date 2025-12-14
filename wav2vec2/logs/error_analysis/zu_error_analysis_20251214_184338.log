@@ -1,0 +1,4 @@
+2025-12-14 18:43:38,595 - INFO - Loading inference results for zulu from /mnt/d/Model-Finetuning/wav2vec2/error_analysis/zulu_inference_results.json
+2025-12-14 18:43:38,736 - INFO - Error analysis report saved to /mnt/d/Model-Finetuning/wav2vec2/results/error_analysis/zulu_error_analysis_report.json
+2025-12-14 18:43:38,737 - INFO - Top 10 phoneme substitutions: [(('n', 'a'), 156), (('a', 'n'), 149), (('i', 'n'), 131), (('e', 'a'), 119), (('a', 'i'), 114), (('a', 'l'), 110), (('i', 'a'), 106), (('n', 'i'), 105), (('s', 'i'), 105), (('u', 'a'), 103)]
+2025-12-14 18:43:38,738 - INFO - WER: 0.19067055393586005, CER: 0.05152841600523094

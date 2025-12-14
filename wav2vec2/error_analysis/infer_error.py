@@ -142,7 +142,8 @@ def transcribe_audio(model, processor, decoder, audio_path, logger):
 
 def run_inference(language_code, logger):
     language = LANGUAGE_MAP.get(language_code)
-    unseen_data_path = DATA_DIR / f"{language}_unseen.json"
+    lwazi_unseen_data_path = DATA_DIR / f"{language}_unseen.json"
+    nchlt_unseen_data_path = DATA_DIR / f"nchlt_{language}_test.json"
     output_path = OUTPUT_DIR / f"{language}_inference_results.json"
     output_path.parent.mkdir(parents=True, exist_ok=True)
 
@@ -152,9 +153,21 @@ def run_inference(language_code, logger):
     devices = "cuda" if torch.cuda.is_available() else "cpu"
     model.to(devices)
 
-    with open(unseen_data_path, 'r') as f:
+    with open(lwazi_unseen_data_path, 'r') as f:
         lines = f.readlines()
-    logger.info(f"Loaded {len(lines)} entries from {unseen_data_path}")
+    logger.info(f"Loaded {len(lines)} entries from {lwazi_unseen_data_path}")
+
+    # Also include NCHLT test data
+    with open(nchlt_unseen_data_path, 'r') as f:
+        nchlt_lines = f.readlines()
+    
+    logger.info(f"Loaded {len(nchlt_lines)} entries from {nchlt_unseen_data_path}")
+    lines.extend(nchlt_lines)
+    logger.info(f"Total entries for inference: {len(lines)}")
+
+    # Shuffle lines to mix datasets
+    import random
+    random.shuffle(lines)
     # Limit the number of lines for quick testing
     lines = lines[:1500]  
     results = []

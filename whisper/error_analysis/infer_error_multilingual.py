@@ -7,6 +7,7 @@ from transformers import WhisperProcessor, WhisperForConditionalGeneration
 import torchaudio
 import logging
 from datetime import datetime
+import random
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
@@ -69,11 +70,11 @@ def transcribe_audio(model, processor, audio_path, device):
     generation_config.task = "transcribe"
     generation_config.num_beams = 5
     generation_config.do_sample = False
-    generation_config.temperature = 0.0
+    # generation_config.temperature = 0.0
     generation_config.no_repeat_ngram_size = 3
     generation_config.length_penalty = 1.0
-    generation_config.top_p = 1.0
-    generation_config.top_k = 0
+    # generation_config.top_p = 1.0
+    # generation_config.top_k = 0
     generation_config.suppress_tokens = []  # prevent forced token suppression
     predicted_ids = model.generate(
         inputs["input_features"],
@@ -85,10 +86,19 @@ def transcribe_audio(model, processor, audio_path, device):
 
 def run_inference(language_code, logger):
     language = LANGUAGE_MAP.get(language_code, language_code)
-    data_file = DATA_DIR / f"{language}_unseen.json"
+    lwazi_data_file = DATA_DIR / f"{language}_unseen.json"
+    nchlt_data_file = DATA_DIR / f"nchlt_{language}_test.json"
 
-    with open(data_file, 'r') as f:
+    with open(lwazi_data_file, 'r') as f:
         lines = f.readlines()
+    logger.info(f"Loaded {len(lines)} entries from {lwazi_data_file}")
+    with open(nchlt_data_file, 'r') as f:
+        nchlt_lines = f.readlines()
+    logger.info(f"Loaded {len(nchlt_lines)} entries from {nchlt_data_file}")
+    lines.extend(nchlt_lines)
+
+    # Shuffle lines to mix datasets
+    random.shuffle(lines)
 
     lines = lines[:500]  # Limit to 500 for consistency
     logger.info(f"Loaded {len(lines)} samples for {language}")

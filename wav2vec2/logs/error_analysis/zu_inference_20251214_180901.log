@@ -1,0 +1,4 @@
+2025-12-14 18:09:01,658 - INFO - Starting inference for zulu at 2025-12-14 18:09:01
+2025-12-14 18:09:01,658 - INFO - Loading Acoustic model from D:\Model-Finetuning\wav2vec2\model\zu_wav2vec2
+2025-12-14 18:09:01,658 - INFO - Loading Language Model from D:\Model-Finetuning\wav2vec2\zulu_5gram.arpa
+2025-12-14 18:09:05,470 - INFO - Model loaded successfully for zu

@@ -5,10 +5,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
 # Point to your JSONs
 json_files = [
-    DATA_DIR / "nchlt_zu_whisper.json",
-    DATA_DIR / "nchlt_xh_whisper.json",
-    DATA_DIR / "nchlt_nr_whisper.json",
-    DATA_DIR / "nchlt_ss_whisper.json",
+    DATA_DIR / "nchlt_zulu_test.json",
+    DATA_DIR / "nchlt_xhosa_test.json",
+    DATA_DIR / "nchlt_ndebele_test.json",
+    DATA_DIR / "nchlt_siswati_test.json",
 ]
 
 

@@ -1,0 +1,4 @@
+2025-12-14 17:32:37,611 - INFO - Loading model from D:\Model-Finetuning\whisper\model\zu_whisper
+2025-12-14 17:32:40,745 - INFO - Model loaded successfully for zu from D:\Model-Finetuning\whisper\model\zu_whisper
+2025-12-14 17:32:41,062 - INFO - Running inference for zulu on 500 audio files
+2025-12-14 17:32:41,066 - ERROR - An error occurred: Error opening 'D:/Model-Finetuning/whisper/nchlt_zul/audio/201/nchlt_zul_201f_0087.wav': System error.

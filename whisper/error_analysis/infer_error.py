@@ -133,11 +133,11 @@ def transcribe_audio(model, processor, audio_path, device):
     generation_config.task = "transcribe"
     generation_config.num_beams = 5
     generation_config.do_sample = False
-    generation_config.temperature = 0.0
+    # generation_config.temperature = 0.0
     generation_config.no_repeat_ngram_size = 3
     generation_config.length_penalty = 1.0
-    generation_config.top_p = 1.0
-    generation_config.top_k = 0
+    # generation_config.top_p = 1.0
+    # generation_config.top_k = 0
     generation_config.suppress_tokens = []  # prevent forced token suppression
 
     # Run generation with tuned decoding parameters
@@ -154,17 +154,25 @@ def run_inference(language_code, logger):
     Run inference on all audio files in the specified language directory.
     """
     language = LANGUAGE_MAP.get(language_code, language_code)
-    unseen_data = DATA_DIR / f"{language}_unseen.json"
+    nchlt_unseen_data = DATA_DIR / f"nchlt_{language}_test.json"
+    lwazi_unseen_data = DATA_DIR / f"{language}_unseen.json"
     output_path = OUTPUT_DIR / f"{language}_inference_results.json"
 
     model, processor = load_model(language_code, logger)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(device)
     # Print model summary
-    with open(unseen_data, 'r') as f:
+    with open(nchlt_unseen_data, 'r') as f:
         lines = f.readlines()
+    
+    with open(lwazi_unseen_data, 'r') as f:
+        lines += f.readlines()
 
-    lines = lines[:500]
+    # Jumble the lines to ensure a mix of datasets
+    import random
+    random.shuffle(lines)
+    # Limit to first 500 lines for quicker inference during testing
+    lines = lines[:1500]
     logger.info(f"Running inference for {language} on {len(lines)} audio files")
     results = []
     for line in tqdm(lines, desc=f"Processing {language} audio files"):

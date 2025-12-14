@@ -1,0 +1,4 @@
+2025-12-14 17:43:13,179 - INFO - Loading model from D:\Model-Finetuning\whisper\model\xh_whisper
+2025-12-14 17:43:16,208 - INFO - Model loaded successfully for xh from D:\Model-Finetuning\whisper\model\xh_whisper
+2025-12-14 17:43:16,526 - INFO - Running inference for xhosa on 500 audio files
+2025-12-14 17:47:36,259 - INFO - Error analysis report saved to D:\Model-Finetuning\whisper\error_analysis\xhosa_inference_results.json

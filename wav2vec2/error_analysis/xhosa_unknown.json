@@ -1,0 +1,3 @@
+{"audio_path": "D:\\Model-Finetuning\\wav2vec2\\data\\ASR.Lwazi.Xho.1.0\\audio\\isixhosa_133\\isixhosa_133_08.wav", "reference": " eqonco", "hypothesis": "eqonce"}
+{"audio_path": "D:\\Model-Finetuning\\wav2vec2\\data\\ASR.Lwazi.Xho.1.0\\audio\\isixhosa_133\\isixhosa_133_26.wav", "reference": "sifike sakhulula ngasebuhlant ", "hypothesis": "sifike sakhulula ngasebuhlanti"}
+{"audio_path": "D:\\Model-Finetuning\\wav2vec2\\data\\ASR.Lwazi.Xho.1.0\\audio\\isixhosa_133\\isixhosa_133_02.wav", "reference": "ingamashumi amabili a nesithandathu", "hypothesis": "ingamashumi ama zini anesithandathu"}

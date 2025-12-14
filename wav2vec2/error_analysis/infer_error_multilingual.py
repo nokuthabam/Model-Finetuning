@@ -9,6 +9,7 @@ import logging
 from datetime import datetime
 from pyctcdecode import build_ctcdecoder
 import re
+import random
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
@@ -139,14 +140,23 @@ def transcribe_audio(model, processor, decoder, audio_path, logger):
 
 def run_inference(lang_code, logger):
     language = LANGUAGE_MAP.get(lang_code)
-    unseen_data_path = DATA_DIR / f"{language}_unseen.json"
+    lwazi_unseen_data_path = DATA_DIR / f"{language}_unseen.json"
+    nchlt_unseen_data_path = DATA_DIR / f"nchlt_{language}_test.json"
     
     model_paths = get_multilingual_model_paths(lang_code)
     logger.info(f"Found {len(model_paths)} multilingual models for {lang_code}: {[p.name for p in model_paths]}")
 
-    with open(unseen_data_path, 'r') as f:
+    with open(lwazi_unseen_data_path, 'r') as f:
         lines = f.readlines()
-    logger.info(f"Loaded {len(lines)} entries from {unseen_data_path}")
+    logger.info(f"Loaded {len(lines)} entries from {lwazi_unseen_data_path}")
+
+    with open(nchlt_unseen_data_path, 'r') as f:
+        nchlt_lines = f.readlines()
+    logger.info(f"Loaded {len(nchlt_lines)} entries from {nchlt_unseen_data_path}")
+    lines.extend(nchlt_lines)
+
+    # Shuffle lines to mix datasets
+    random.shuffle(lines)
     lines = lines[:1000]  # For quick testing
 
     for model_path in model_paths:
