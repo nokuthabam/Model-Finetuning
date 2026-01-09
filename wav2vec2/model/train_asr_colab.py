@@ -21,7 +21,7 @@ from dataclasses import dataclass
 from typing import Dict, List, Union
 
 # MODEL_NAME = "jonatasgrosman/wav2vec2-large-xlsr-53-english"
-MODEL_NAME = "nmoyo45/zu_wav2vec2"
+MODEL_NAME = "facebook/wav2vec2-xls-r-300m"
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / "data"
 MODEL_DIR = BASE_DIR / "model"
@@ -273,8 +273,8 @@ def train_model(language_code, logger):
 
     dataset = load_and_merge(logger, language_code)
     dataset["train"] = dataset["train"].shuffle(seed=42)
-    dataset["train"] = dataset["train"].select(range(25000))  # Limit to 1000 samples for quick training
-    dataset["test"] = dataset["test"].select(range(3000))  # Limit to 100 samples for quick evaluation
+    dataset["train"] = dataset["train"].select(range(15000)) 
+    dataset["test"] = dataset["test"].select(range(3000))
     dataset = dataset.map(speech_file_to_array_fn, num_proc=16)
     dataset = dataset.map(prepare_dataset)
     logger.info("Model loaded.")
@@ -291,16 +291,15 @@ def train_model(language_code, logger):
         metric_for_best_model="wer",
         greater_is_better=False,
         load_best_model_at_end=True,
-        num_train_epochs=3,
+        num_train_epochs=10,
         fp16=torch.cuda.is_available(),
         save_steps=500,
         eval_steps=500,
         logging_steps=500,
-        learning_rate=5e-5,
+        learning_rate=3e-4,
         save_total_limit=2,
-        warmup_steps=1000,
-        push_to_hub=True,
-        hub_model_id="nmoyo45/zu_wav2vec2",
+        warmup_steps=500,
+        push_to_hub=False,
         report_to="none",
         gradient_checkpointing=True,
     )

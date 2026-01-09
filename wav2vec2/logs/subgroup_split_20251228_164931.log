@@ -1,0 +1,46 @@
+2025-12-28 16:49:31,959 - INFO - Logging setup complete.
+2025-12-28 16:49:31,961 - INFO - ==================================================
+2025-12-28 16:49:31,961 - INFO - Processing language: zulu
+2025-12-28 16:49:31,961 - INFO - ==================================================
+2025-12-28 16:49:31,970 - INFO - Loaded 2500 inference entries for language: zulu
+2025-12-28 16:49:31,971 - WARNING - Test data file D:\Model-Finetuning\wav2vec2\data\zu_test.json does not exist.
+2025-12-28 16:49:31,971 - WARNING - Test data file D:\Model-Finetuning\wav2vec2\data\nchlt_zu_test.json does not exist.
+2025-12-28 16:49:31,971 - INFO - Loaded 0 test entries for language: zulu
+2025-12-28 16:49:31,971 - INFO - Combined entries count: 2500
+2025-12-28 16:49:32,043 - INFO - Wrote 2500 entries to D:\Model-Finetuning\wav2vec2\error_analysis\zulu_unknown.json
+2025-12-28 16:49:32,127 - INFO - Wrote 2500 entries to D:\Model-Finetuning\wav2vec2\error_analysis\zulu_unknown.json
+2025-12-28 16:49:32,127 - INFO - Completed processing for language: zulu
+2025-12-28 16:49:32,127 - INFO - ==================================================
+2025-12-28 16:49:32,127 - INFO - Processing language: xhosa
+2025-12-28 16:49:32,127 - INFO - ==================================================
+2025-12-28 16:49:32,140 - INFO - Loaded 2500 inference entries for language: xhosa
+2025-12-28 16:49:32,140 - WARNING - Test data file D:\Model-Finetuning\wav2vec2\data\xh_test.json does not exist.
+2025-12-28 16:49:32,140 - WARNING - Test data file D:\Model-Finetuning\wav2vec2\data\nchlt_xh_test.json does not exist.
+2025-12-28 16:49:32,140 - INFO - Loaded 0 test entries for language: xhosa
+2025-12-28 16:49:32,141 - INFO - Combined entries count: 2500
+2025-12-28 16:49:32,221 - INFO - Wrote 2500 entries to D:\Model-Finetuning\wav2vec2\error_analysis\xhosa_unknown.json
+2025-12-28 16:49:32,304 - INFO - Wrote 2500 entries to D:\Model-Finetuning\wav2vec2\error_analysis\xhosa_unknown.json
+2025-12-28 16:49:32,305 - INFO - Completed processing for language: xhosa
+2025-12-28 16:49:32,305 - INFO - ==================================================
+2025-12-28 16:49:32,305 - INFO - Processing language: siswati
+2025-12-28 16:49:32,305 - INFO - ==================================================
+2025-12-28 16:49:32,317 - INFO - Loaded 2500 inference entries for language: siswati
+2025-12-28 16:49:32,317 - WARNING - Test data file D:\Model-Finetuning\wav2vec2\data\ssw_test.json does not exist.
+2025-12-28 16:49:32,317 - WARNING - Test data file D:\Model-Finetuning\wav2vec2\data\nchlt_ssw_test.json does not exist.
+2025-12-28 16:49:32,318 - INFO - Loaded 0 test entries for language: siswati
+2025-12-28 16:49:32,318 - INFO - Combined entries count: 2500
+2025-12-28 16:49:32,403 - INFO - Wrote 2500 entries to D:\Model-Finetuning\wav2vec2\error_analysis\siswati_unknown.json
+2025-12-28 16:49:32,485 - INFO - Wrote 2500 entries to D:\Model-Finetuning\wav2vec2\error_analysis\siswati_unknown.json
+2025-12-28 16:49:32,485 - INFO - Completed processing for language: siswati
+2025-12-28 16:49:32,485 - INFO - ==================================================
+2025-12-28 16:49:32,485 - INFO - Processing language: ndebele
+2025-12-28 16:49:32,485 - INFO - ==================================================
+2025-12-28 16:49:32,495 - INFO - Loaded 2500 inference entries for language: ndebele
+2025-12-28 16:49:32,495 - WARNING - Test data file D:\Model-Finetuning\wav2vec2\data\nbl_test.json does not exist.
+2025-12-28 16:49:32,495 - WARNING - Test data file D:\Model-Finetuning\wav2vec2\data\nchlt_nbl_test.json does not exist.
+2025-12-28 16:49:32,495 - INFO - Loaded 0 test entries for language: ndebele
+2025-12-28 16:49:32,495 - INFO - Combined entries count: 2500
+2025-12-28 16:49:32,576 - INFO - Wrote 2500 entries to D:\Model-Finetuning\wav2vec2\error_analysis\ndebele_unknown.json
+2025-12-28 16:49:32,657 - INFO - Wrote 2500 entries to D:\Model-Finetuning\wav2vec2\error_analysis\ndebele_unknown.json
+2025-12-28 16:49:32,657 - INFO - Completed processing for language: ndebele
+2025-12-28 16:49:32,658 - INFO - All processing complete.

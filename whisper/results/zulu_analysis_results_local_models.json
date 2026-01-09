@@ -1,0 +1,34 @@
+{
+  "zulu_results": {
+    "wer": 0.9960970722216397,
+    "cer": 0.97208431197478
+  },
+  "zulu_nguni_multilingual_zu_nr_ss_whisper_results": {
+    "wer": 0.9672435842782846,
+    "cer": 0.9393947426551801
+  },
+  "zulu_nguni_multilingual_zu_nr_whisper_results": {
+    "wer": 0.9668060870339058,
+    "cer": 0.927910438342842
+  },
+  "zulu_nguni_multilingual_zu_ss_whisper_results": {
+    "wer": 0.9997466831322631,
+    "cer": 0.9739631083718991
+  },
+  "zulu_nguni_multilingual_zu_xh_nr_ss_whisper_results": {
+    "wer": 0.9683283930656607,
+    "cer": 0.9442215707452554
+  },
+  "zulu_nguni_multilingual_zu_xh_nr_whisper_results": {
+    "wer": 0.9701287250925763,
+    "cer": 0.9416773443365075
+  },
+  "zulu_nguni_multilingual_zu_xh_ss_whisper_results": {
+    "wer": 0.9752622204630912,
+    "cer": 0.9536693480017704
+  },
+  "zulu_nguni_multilingual_zu_xh_whisper_results": {
+    "wer": 0.9498010644344546,
+    "cer": 0.9117089357667694
+  }
+}

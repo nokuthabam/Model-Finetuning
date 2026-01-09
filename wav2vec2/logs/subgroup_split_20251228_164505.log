@@ -1,0 +1,46 @@
+2025-12-28 16:45:05,651 - INFO - Logging setup complete.
+2025-12-28 16:45:05,651 - INFO - ==================================================
+2025-12-28 16:45:05,651 - INFO - Processing language: zulu
+2025-12-28 16:45:05,651 - INFO - ==================================================
+2025-12-28 16:45:05,655 - INFO - Loaded 2500 inference entries for language: zulu
+2025-12-28 16:45:05,656 - WARNING - Test data file D:\Model-Finetuning\wav2vec2\data\zu_test.json does not exist.
+2025-12-28 16:45:05,656 - WARNING - Test data file D:\Model-Finetuning\wav2vec2\data\nchlt_zu_test.json does not exist.
+2025-12-28 16:45:05,656 - INFO - Loaded 0 test entries for language: zulu
+2025-12-28 16:45:05,656 - INFO - Combined entries count: 2500
+2025-12-28 16:45:05,729 - INFO - Wrote 2500 entries to D:\Model-Finetuning\wav2vec2\error_analysis\zulu_unknown.json
+2025-12-28 16:45:05,802 - INFO - Wrote 2500 entries to D:\Model-Finetuning\wav2vec2\error_analysis\zulu_none.json
+2025-12-28 16:45:05,802 - INFO - Completed processing for language: zulu
+2025-12-28 16:45:05,802 - INFO - ==================================================
+2025-12-28 16:45:05,802 - INFO - Processing language: xhosa
+2025-12-28 16:45:05,802 - INFO - ==================================================
+2025-12-28 16:45:05,806 - INFO - Loaded 2500 inference entries for language: xhosa
+2025-12-28 16:45:05,807 - WARNING - Test data file D:\Model-Finetuning\wav2vec2\data\xh_test.json does not exist.
+2025-12-28 16:45:05,807 - WARNING - Test data file D:\Model-Finetuning\wav2vec2\data\nchlt_xh_test.json does not exist.
+2025-12-28 16:45:05,807 - INFO - Loaded 0 test entries for language: xhosa
+2025-12-28 16:45:05,807 - INFO - Combined entries count: 2500
+2025-12-28 16:45:05,887 - INFO - Wrote 2500 entries to D:\Model-Finetuning\wav2vec2\error_analysis\xhosa_unknown.json
+2025-12-28 16:45:05,964 - INFO - Wrote 2500 entries to D:\Model-Finetuning\wav2vec2\error_analysis\xhosa_none.json
+2025-12-28 16:45:05,964 - INFO - Completed processing for language: xhosa
+2025-12-28 16:45:05,964 - INFO - ==================================================
+2025-12-28 16:45:05,964 - INFO - Processing language: siswati
+2025-12-28 16:45:05,964 - INFO - ==================================================
+2025-12-28 16:45:05,973 - INFO - Loaded 2500 inference entries for language: siswati
+2025-12-28 16:45:05,973 - WARNING - Test data file D:\Model-Finetuning\wav2vec2\data\ssw_test.json does not exist.
+2025-12-28 16:45:05,973 - WARNING - Test data file D:\Model-Finetuning\wav2vec2\data\nchlt_ssw_test.json does not exist.
+2025-12-28 16:45:05,974 - INFO - Loaded 0 test entries for language: siswati
+2025-12-28 16:45:05,975 - INFO - Combined entries count: 2500
+2025-12-28 16:45:06,056 - INFO - Wrote 2500 entries to D:\Model-Finetuning\wav2vec2\error_analysis\siswati_unknown.json
+2025-12-28 16:45:06,127 - INFO - Wrote 2500 entries to D:\Model-Finetuning\wav2vec2\error_analysis\siswati_none.json
+2025-12-28 16:45:06,127 - INFO - Completed processing for language: siswati
+2025-12-28 16:45:06,128 - INFO - ==================================================
+2025-12-28 16:45:06,128 - INFO - Processing language: ndebele
+2025-12-28 16:45:06,128 - INFO - ==================================================
+2025-12-28 16:45:06,133 - INFO - Loaded 2500 inference entries for language: ndebele
+2025-12-28 16:45:06,133 - WARNING - Test data file D:\Model-Finetuning\wav2vec2\data\nbl_test.json does not exist.
+2025-12-28 16:45:06,133 - WARNING - Test data file D:\Model-Finetuning\wav2vec2\data\nchlt_nbl_test.json does not exist.
+2025-12-28 16:45:06,133 - INFO - Loaded 0 test entries for language: ndebele
+2025-12-28 16:45:06,133 - INFO - Combined entries count: 2500
+2025-12-28 16:45:06,217 - INFO - Wrote 2500 entries to D:\Model-Finetuning\wav2vec2\error_analysis\ndebele_unknown.json
+2025-12-28 16:45:06,298 - INFO - Wrote 2500 entries to D:\Model-Finetuning\wav2vec2\error_analysis\ndebele_none.json
+2025-12-28 16:45:06,298 - INFO - Completed processing for language: ndebele
+2025-12-28 16:45:06,298 - INFO - All processing complete.

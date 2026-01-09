@@ -1,34 +1,34 @@
 {
   "siswati_results": {
-    "wer": 0.3066453162530024,
-    "cer": 0.07736754124573007
+    "wer": 0.18680582152432018,
+    "cer": 0.040127514514083605
   },
   "siswati_nguni_multilingual_nr_ss_whisper_results": {
-    "wer": 0.3302727518228463,
-    "cer": 0.08088879159369528
+    "wer": 0.2085453672587614,
+    "cer": 0.041708413915231723
   },
   "siswati_nguni_multilingual_xh_nr_ss_whisper_results": {
-    "wer": 0.35138850701127305,
-    "cer": 0.08553330160008787
+    "wer": 0.2328118964851294,
+    "cer": 0.04711974713957476
   },
   "siswati_nguni_multilingual_xh_ss_whisper_results": {
-    "wer": 0.3342406096897115,
-    "cer": 0.0821197853936275
+    "wer": 0.2150599520383693,
+    "cer": 0.0431241406632332
   },
   "siswati_nguni_multilingual_zu_nr_ss_whisper_results": {
-    "wer": 0.35522305347741756,
-    "cer": 0.08927783497573173
+    "wer": 0.23276364342590794,
+    "cer": 0.04758234057463209
   },
   "siswati_nguni_multilingual_zu_ss_whisper_results": {
-    "wer": 0.31561733442354867,
-    "cer": 0.07707199474011031
+    "wer": 0.2057660784880918,
+    "cer": 0.04148191365227538
   },
   "siswati_nguni_multilingual_zu_xh_nr_ss_whisper_results": {
-    "wer": 0.39424657534246577,
-    "cer": 0.09804711830872385
+    "wer": 0.260411633974297,
+    "cer": 0.05215787446155283
   },
   "siswati_nguni_multilingual_zu_xh_ss_whisper_results": {
-    "wer": 0.3546717515663307,
-    "cer": 0.08639261376126621
+    "wer": 0.23767334360554698,
+    "cer": 0.04853530105430303
   }
 }

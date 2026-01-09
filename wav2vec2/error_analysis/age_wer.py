@@ -8,7 +8,7 @@ JSON_DIR = BASE_DIR / "error_analysis"
 OUTPUT_DIR = BASE_DIR / "results" / "error_analysis"
 LANGUAGES = ["zulu", "xhosa", "siswati", "ndebele"]
 
-age_groups = ["18 below", "19_29", "30_39", "40_49", "50plus"]
+age_groups = ["18_below", "19_29", "30_39", "40_49", "50_plus"]
 
 wer_results = {age: [] for age in age_groups}
 cer_results = {age: [] for age in age_groups}
@@ -27,7 +27,8 @@ for age in age_groups:
                     hypotheses.append(hyp)
                 wer_results[age].append(wer(references, hypotheses))
                 cer_results[age].append(cer(references, hypotheses))
-
+print(f"wer_results: {wer_results}")
+print(f"cer_results: {cer_results}")
 # use a consistent color palette for the languages
 colors = ["#1f76b48b", "#ffe70eb7", "#2ca02c94", "#d6272794"]  # blue, orange, green, red
 
@@ -67,3 +68,5 @@ plt.grid(axis='y', linestyle='--', alpha=0.6)
 plt.tight_layout()
 plt.savefig(OUTPUT_DIR / "age_cer.png")
 plt.show()
+
+

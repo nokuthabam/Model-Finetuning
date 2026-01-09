@@ -1,0 +1,16 @@
+2025-12-16 14:02:08,799 - INFO - Starting inference for siswati at 2025-12-16 14:02:08
+2025-12-16 14:02:08,801 - INFO - Loading Acoustic model from /mnt/d/Model-Finetuning/wav2vec2/model/ssw_wav2vec2
+2025-12-16 14:02:08,802 - INFO - Loading Language Model from /mnt/d/Model-Finetuning/wav2vec2/siswati_3gram.arpa
+2025-12-16 14:02:09,624 - INFO - Model loaded successfully for ssw
+2025-12-16 14:02:09,731 - INFO - Using arpa instead of binary LM file, decoder instantiation might be slow.
+2025-12-16 14:02:09,761 - INFO - Alphabet determined to be of regular style.
+2025-12-16 14:02:09,761 - INFO - Found '|' in vocabulary but not ' ', doing substitution.
+2025-12-16 14:02:09,762 - INFO - Found [PAD] in vocabulary, interpreted as a CTC blank token, substituting with .
+2025-12-16 14:02:09,763 - INFO - Found [UNK] in vocabulary, interpreting as unknown token, substituting with ⁇.
+2025-12-16 14:02:09,763 - WARNING - Found entries of length > 1 in alphabet. This is unusual unless style is BPE, but the alphabet was not recognized as BPE type. Is this correct?
+2025-12-16 14:02:09,985 - INFO - Running inference for siswati
+2025-12-16 14:02:27,948 - INFO - Loaded 584 entries from /mnt/d/Model-Finetuning/wav2vec2/data/siswati_test.json
+2025-12-16 14:02:28,010 - INFO - Loaded 4351 entries from /mnt/d/Model-Finetuning/wav2vec2/data/nchlt_siswati_test.json
+2025-12-16 14:02:28,011 - INFO - Total entries for inference: 4935
+2025-12-16 14:07:05,309 - INFO - Inference results saved to /mnt/d/Model-Finetuning/wav2vec2/error_analysis/siswati_inference_results.json
+2025-12-16 14:07:05,367 - INFO - Inference completed for siswati. Results saved to /mnt/d/Model-Finetuning/wav2vec2/error_analysis/ssw_inference_results.json.

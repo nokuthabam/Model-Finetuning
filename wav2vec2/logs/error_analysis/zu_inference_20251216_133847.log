@@ -1,0 +1,14 @@
+2025-12-16 13:38:47,854 - INFO - Starting inference for zulu at 2025-12-16 13:38:47
+2025-12-16 13:38:47,859 - INFO - Loading Acoustic model from /mnt/d/Model-Finetuning/wav2vec2/model/zu_wav2vec2
+2025-12-16 13:38:47,860 - INFO - Loading Language Model from /mnt/d/Model-Finetuning/wav2vec2/zulu_3gram.arpa
+2025-12-16 13:38:49,268 - INFO - Model loaded successfully for zu
+2025-12-16 13:38:49,451 - INFO - Using arpa instead of binary LM file, decoder instantiation might be slow.
+2025-12-16 13:38:49,509 - INFO - Alphabet determined to be of regular style.
+2025-12-16 13:38:49,510 - INFO - Found '|' in vocabulary but not ' ', doing substitution.
+2025-12-16 13:38:49,511 - INFO - Found [PAD] in vocabulary, interpreted as a CTC blank token, substituting with .
+2025-12-16 13:38:49,512 - INFO - Found [UNK] in vocabulary, interpreting as unknown token, substituting with ⁇.
+2025-12-16 13:38:49,513 - WARNING - Found entries of length > 1 in alphabet. This is unusual unless style is BPE, but the alphabet was not recognized as BPE type. Is this correct?
+2025-12-16 13:38:49,847 - INFO - Running inference for zulu
+2025-12-16 13:39:15,147 - INFO - Loaded 579 entries from /mnt/d/Model-Finetuning/wav2vec2/data/zulu_test.json
+2025-12-16 13:39:15,238 - INFO - Loaded 4468 entries from /mnt/d/Model-Finetuning/wav2vec2/data/nchlt_zulu_test.json
+2025-12-16 13:39:15,239 - INFO - Total entries for inference: 5047

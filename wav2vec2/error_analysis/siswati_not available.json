@@ -1,0 +1,2 @@
+{"audio_path": "D:\\Model-Finetuning\\wav2vec2\\data\\ASR.Lwazi.Ssw.1.0\\audio\\siswati_057\\siswati_057_25.wav", "reference": "sengivile ngemzala logwaja kutsi umsila wami uta nawe ", "hypothesis": "sengivile ngemzala lougcwajwa kutsi umsila wami uta nawo", "age": "25", "gender": "not available"}
+{"audio_path": "D:\\Model-Finetuning\\wav2vec2\\data\\ASR.Lwazi.Ssw.1.0\\audio\\siswati_057\\siswati_057_24.wav", "reference": "ukhona yini umlamuli nobe umcabanisi kulomdlalo", "hypothesis": "ukhona yini umlamuli nobe umcabanisi kulomdlalo", "age": "25", "gender": "not available"}

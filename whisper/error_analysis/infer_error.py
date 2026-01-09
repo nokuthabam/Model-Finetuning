@@ -155,24 +155,27 @@ def run_inference(language_code, logger):
     """
     language = LANGUAGE_MAP.get(language_code, language_code)
     nchlt_unseen_data = DATA_DIR / f"nchlt_{language}_test.json"
-    lwazi_unseen_data = DATA_DIR / f"{language}_unseen.json"
+    lwazi_unseen_data = DATA_DIR / f"{language}_test.json"
     output_path = OUTPUT_DIR / f"{language}_inference_results.json"
 
     model, processor = load_model(language_code, logger)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(device)
     # Print model summary
-    with open(nchlt_unseen_data, 'r') as f:
-        lines = f.readlines()
-    
     with open(lwazi_unseen_data, 'r') as f:
-        lines += f.readlines()
+        lines = f.readlines()
+
+    with open(nchlt_unseen_data, 'r') as f:
+        nchlt_lines = f.readlines()
+    
+    lines.extend(nchlt_lines)
+    logger.info(f"Total entries for inference: {len(lines)}")
 
     # Jumble the lines to ensure a mix of datasets
-    import random
-    random.shuffle(lines)
+    # import random
+    # random.shuffle(lines)
     # Limit to first 500 lines for quicker inference during testing
-    lines = lines[:1500]
+    lines = lines[:2500]
     logger.info(f"Running inference for {language} on {len(lines)} audio files")
     results = []
     for line in tqdm(lines, desc=f"Processing {language} audio files"):

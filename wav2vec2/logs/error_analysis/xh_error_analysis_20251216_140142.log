@@ -1,0 +1,4 @@
+2025-12-16 14:01:42,210 - INFO - Loading inference results for xhosa from /mnt/d/Model-Finetuning/wav2vec2/error_analysis/xhosa_inference_results.json
+2025-12-16 14:01:42,334 - INFO - Error analysis report saved to /mnt/d/Model-Finetuning/wav2vec2/results/error_analysis/xhosa_error_analysis_report.json
+2025-12-16 14:01:42,335 - INFO - Top 10 phoneme substitutions: [(('n', 'a'), 164), (('i', 'n'), 164), (('e', 'n'), 151), (('a', 'n'), 144), (('a', 'e'), 131), (('l', 'e'), 127), (('n', 'e'), 120), (('l', 'a'), 118), (('e', 'l'), 118), (('i', 'a'), 117)]
+2025-12-16 14:01:42,335 - INFO - WER: 0.16990554771468896, CER: 0.04087297267878524

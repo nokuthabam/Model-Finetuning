@@ -86,7 +86,7 @@ def transcribe_audio(model, processor, audio_path, device):
 
 def run_inference(language_code, logger):
     language = LANGUAGE_MAP.get(language_code, language_code)
-    lwazi_data_file = DATA_DIR / f"{language}_unseen.json"
+    lwazi_data_file = DATA_DIR / f"{language}_test.json"
     nchlt_data_file = DATA_DIR / f"nchlt_{language}_test.json"
 
     with open(lwazi_data_file, 'r') as f:
@@ -98,9 +98,9 @@ def run_inference(language_code, logger):
     lines.extend(nchlt_lines)
 
     # Shuffle lines to mix datasets
-    random.shuffle(lines)
+    # random.shuffle(lines)
 
-    lines = lines[:500]  # Limit to 500 for consistency
+    lines = lines[:2500]  # Limit to 1000 for consistency
     logger.info(f"Loaded {len(lines)} samples for {language}")
 
     model_dirs = get_matching_model_dirs(language_code)

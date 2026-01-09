@@ -1,0 +1,76 @@
+2025-12-16 14:58:32,574 - INFO - Starting inference for xhosa at 2025-12-16 14:58:32
+2025-12-16 14:58:32,580 - INFO - Using KenLM path: /mnt/d/Model-Finetuning/wav2vec2/xhosa_3gram.arpa
+2025-12-16 14:58:32,709 - INFO - Found 7 multilingual models for xh: ['nguni_multilingual_zu_xh_wav2vec2', 'nguni_multilingual_zu_xh_nbl_ssw_wav2vec2', 'nguni_multilingual_zu_xh_nbl_wav2vec2', 'nguni_multilingual_xh_ssw_wav2vec2', 'nguni_multilingual_zu_xh_ssw_wav2vec2', 'nguni_multilingual_xh_nbl_wav2vec2', 'nguni_multilingual_xh_nbl_ssw_wav2vec2']
+2025-12-16 14:58:32,845 - INFO - Loaded 625 entries from /mnt/d/Model-Finetuning/wav2vec2/data/xhosa_test.json
+2025-12-16 14:58:33,020 - INFO - Loaded 4666 entries from /mnt/d/Model-Finetuning/wav2vec2/data/nchlt_xhosa_test.json
+2025-12-16 14:58:33,028 - INFO - Loading Acoustic model from /mnt/d/Model-Finetuning/wav2vec2/model/nguni_multilingual_zu_xh_wav2vec2
+2025-12-16 14:58:33,038 - INFO - Loading Language Model from /mnt/d/Model-Finetuning/wav2vec2/xhosa_3gram.arpa
+2025-12-16 14:58:34,376 - INFO - Model loaded successfully for nguni_multilingual_zu_xh_wav2vec2
+2025-12-16 14:58:34,486 - INFO - Using arpa instead of binary LM file, decoder instantiation might be slow.
+2025-12-16 14:58:34,534 - INFO - Alphabet determined to be of regular style.
+2025-12-16 14:58:34,534 - INFO - Found '|' in vocabulary but not ' ', doing substitution.
+2025-12-16 14:58:34,534 - INFO - Found [PAD] in vocabulary, interpreted as a CTC blank token, substituting with .
+2025-12-16 14:58:34,535 - INFO - Found [UNK] in vocabulary, interpreting as unknown token, substituting with ⁇.
+2025-12-16 14:58:34,535 - WARNING - Found entries of length > 1 in alphabet. This is unusual unless style is BPE, but the alphabet was not recognized as BPE type. Is this correct?
+2025-12-16 15:02:55,173 - INFO - Saved results to /mnt/d/Model-Finetuning/wav2vec2/error_analysis/xhosa_nguni_multilingual_zu_xh_wav2vec2_inference.json
+2025-12-16 15:02:55,174 - INFO - Loading Acoustic model from /mnt/d/Model-Finetuning/wav2vec2/model/nguni_multilingual_zu_xh_nbl_ssw_wav2vec2
+2025-12-16 15:02:55,175 - INFO - Loading Language Model from /mnt/d/Model-Finetuning/wav2vec2/xhosa_3gram.arpa
+2025-12-16 15:02:55,931 - INFO - Model loaded successfully for nguni_multilingual_zu_xh_nbl_ssw_wav2vec2
+2025-12-16 15:02:56,055 - INFO - Using arpa instead of binary LM file, decoder instantiation might be slow.
+2025-12-16 15:02:56,104 - INFO - Alphabet determined to be of regular style.
+2025-12-16 15:02:56,104 - INFO - Found '|' in vocabulary but not ' ', doing substitution.
+2025-12-16 15:02:56,105 - INFO - Found [PAD] in vocabulary, interpreted as a CTC blank token, substituting with .
+2025-12-16 15:02:56,106 - INFO - Found [UNK] in vocabulary, interpreting as unknown token, substituting with ⁇.
+2025-12-16 15:02:56,107 - WARNING - Found entries of length > 1 in alphabet. This is unusual unless style is BPE, but the alphabet was not recognized as BPE type. Is this correct?
+2025-12-16 15:07:06,416 - INFO - Saved results to /mnt/d/Model-Finetuning/wav2vec2/error_analysis/xhosa_nguni_multilingual_zu_xh_nbl_ssw_wav2vec2_inference.json
+2025-12-16 15:07:06,417 - INFO - Loading Acoustic model from /mnt/d/Model-Finetuning/wav2vec2/model/nguni_multilingual_zu_xh_nbl_wav2vec2
+2025-12-16 15:07:06,418 - INFO - Loading Language Model from /mnt/d/Model-Finetuning/wav2vec2/xhosa_3gram.arpa
+2025-12-16 15:07:07,150 - INFO - Model loaded successfully for nguni_multilingual_zu_xh_nbl_wav2vec2
+2025-12-16 15:07:07,340 - INFO - Using arpa instead of binary LM file, decoder instantiation might be slow.
+2025-12-16 15:07:07,384 - INFO - Alphabet determined to be of regular style.
+2025-12-16 15:07:07,385 - INFO - Found '|' in vocabulary but not ' ', doing substitution.
+2025-12-16 15:07:07,385 - INFO - Found [PAD] in vocabulary, interpreted as a CTC blank token, substituting with .
+2025-12-16 15:07:07,385 - INFO - Found [UNK] in vocabulary, interpreting as unknown token, substituting with ⁇.
+2025-12-16 15:07:07,386 - WARNING - Found entries of length > 1 in alphabet. This is unusual unless style is BPE, but the alphabet was not recognized as BPE type. Is this correct?
+2025-12-16 15:11:22,034 - INFO - Saved results to /mnt/d/Model-Finetuning/wav2vec2/error_analysis/xhosa_nguni_multilingual_zu_xh_nbl_wav2vec2_inference.json
+2025-12-16 15:11:22,036 - INFO - Loading Acoustic model from /mnt/d/Model-Finetuning/wav2vec2/model/nguni_multilingual_xh_ssw_wav2vec2
+2025-12-16 15:11:22,036 - INFO - Loading Language Model from /mnt/d/Model-Finetuning/wav2vec2/xhosa_3gram.arpa
+2025-12-16 15:11:22,860 - INFO - Model loaded successfully for nguni_multilingual_xh_ssw_wav2vec2
+2025-12-16 15:11:23,001 - INFO - Using arpa instead of binary LM file, decoder instantiation might be slow.
+2025-12-16 15:11:23,052 - INFO - Alphabet determined to be of regular style.
+2025-12-16 15:11:23,052 - INFO - Found '|' in vocabulary but not ' ', doing substitution.
+2025-12-16 15:11:23,053 - INFO - Found [PAD] in vocabulary, interpreted as a CTC blank token, substituting with .
+2025-12-16 15:11:23,053 - INFO - Found [UNK] in vocabulary, interpreting as unknown token, substituting with ⁇.
+2025-12-16 15:11:23,053 - WARNING - Found entries of length > 1 in alphabet. This is unusual unless style is BPE, but the alphabet was not recognized as BPE type. Is this correct?
+2025-12-16 15:15:12,915 - INFO - Saved results to /mnt/d/Model-Finetuning/wav2vec2/error_analysis/xhosa_nguni_multilingual_xh_ssw_wav2vec2_inference.json
+2025-12-16 15:15:12,918 - INFO - Loading Acoustic model from /mnt/d/Model-Finetuning/wav2vec2/model/nguni_multilingual_zu_xh_ssw_wav2vec2
+2025-12-16 15:15:12,919 - INFO - Loading Language Model from /mnt/d/Model-Finetuning/wav2vec2/xhosa_3gram.arpa
+2025-12-16 15:15:13,704 - INFO - Model loaded successfully for nguni_multilingual_zu_xh_ssw_wav2vec2
+2025-12-16 15:15:13,874 - INFO - Using arpa instead of binary LM file, decoder instantiation might be slow.
+2025-12-16 15:15:13,904 - INFO - Alphabet determined to be of regular style.
+2025-12-16 15:15:13,905 - INFO - Found '|' in vocabulary but not ' ', doing substitution.
+2025-12-16 15:15:13,905 - INFO - Found [PAD] in vocabulary, interpreted as a CTC blank token, substituting with .
+2025-12-16 15:15:13,905 - INFO - Found [UNK] in vocabulary, interpreting as unknown token, substituting with ⁇.
+2025-12-16 15:15:13,905 - WARNING - Found entries of length > 1 in alphabet. This is unusual unless style is BPE, but the alphabet was not recognized as BPE type. Is this correct?
+2025-12-16 15:19:33,342 - INFO - Saved results to /mnt/d/Model-Finetuning/wav2vec2/error_analysis/xhosa_nguni_multilingual_zu_xh_ssw_wav2vec2_inference.json
+2025-12-16 15:19:33,345 - INFO - Loading Acoustic model from /mnt/d/Model-Finetuning/wav2vec2/model/nguni_multilingual_xh_nbl_wav2vec2
+2025-12-16 15:19:33,346 - INFO - Loading Language Model from /mnt/d/Model-Finetuning/wav2vec2/xhosa_3gram.arpa
+2025-12-16 15:19:34,173 - INFO - Model loaded successfully for nguni_multilingual_xh_nbl_wav2vec2
+2025-12-16 15:19:34,301 - INFO - Using arpa instead of binary LM file, decoder instantiation might be slow.
+2025-12-16 15:19:34,360 - INFO - Alphabet determined to be of regular style.
+2025-12-16 15:19:34,360 - INFO - Found '|' in vocabulary but not ' ', doing substitution.
+2025-12-16 15:19:34,360 - INFO - Found [PAD] in vocabulary, interpreted as a CTC blank token, substituting with .
+2025-12-16 15:19:34,361 - INFO - Found [UNK] in vocabulary, interpreting as unknown token, substituting with ⁇.
+2025-12-16 15:19:34,361 - WARNING - Found entries of length > 1 in alphabet. This is unusual unless style is BPE, but the alphabet was not recognized as BPE type. Is this correct?
+2025-12-16 15:24:15,974 - INFO - Saved results to /mnt/d/Model-Finetuning/wav2vec2/error_analysis/xhosa_nguni_multilingual_xh_nbl_wav2vec2_inference.json
+2025-12-16 15:24:15,980 - INFO - Loading Acoustic model from /mnt/d/Model-Finetuning/wav2vec2/model/nguni_multilingual_xh_nbl_ssw_wav2vec2
+2025-12-16 15:24:15,981 - INFO - Loading Language Model from /mnt/d/Model-Finetuning/wav2vec2/xhosa_3gram.arpa
+2025-12-16 15:24:16,845 - INFO - Model loaded successfully for nguni_multilingual_xh_nbl_ssw_wav2vec2
+2025-12-16 15:24:17,045 - INFO - Using arpa instead of binary LM file, decoder instantiation might be slow.
+2025-12-16 15:24:17,077 - INFO - Alphabet determined to be of regular style.
+2025-12-16 15:24:17,077 - INFO - Found '|' in vocabulary but not ' ', doing substitution.
+2025-12-16 15:24:17,078 - INFO - Found [PAD] in vocabulary, interpreted as a CTC blank token, substituting with .
+2025-12-16 15:24:17,078 - INFO - Found [UNK] in vocabulary, interpreting as unknown token, substituting with ⁇.
+2025-12-16 15:24:17,078 - WARNING - Found entries of length > 1 in alphabet. This is unusual unless style is BPE, but the alphabet was not recognized as BPE type. Is this correct?
+2025-12-16 15:28:25,057 - INFO - Saved results to /mnt/d/Model-Finetuning/wav2vec2/error_analysis/xhosa_nguni_multilingual_xh_nbl_ssw_wav2vec2_inference.json
+2025-12-16 15:28:25,067 - INFO - Inference completed for xhosa. Results saved to /mnt/d/Model-Finetuning/wav2vec2/error_analysis/xh_inference_results.json.

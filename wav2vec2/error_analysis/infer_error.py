@@ -29,7 +29,7 @@ LANGUAGE_MODEL_MAP = {
 }
 
 KENLM_FILE_MAP = {
-    "zu": BASE_DIR / "zulu_5gram.arpa",
+    "zu": BASE_DIR / "zulu_3gram.arpa",
     "xh": BASE_DIR / "xhosa_3gram.arpa",
     "ssw": BASE_DIR / "siswati_3gram.arpa",
     "nbl": BASE_DIR / "ndebele_3gram.arpa"
@@ -142,7 +142,7 @@ def transcribe_audio(model, processor, decoder, audio_path, logger):
 
 def run_inference(language_code, logger):
     language = LANGUAGE_MAP.get(language_code)
-    lwazi_unseen_data_path = DATA_DIR / f"{language}_unseen.json"
+    lwazi_unseen_data_path = DATA_DIR / f"{language}_test.json"
     nchlt_unseen_data_path = DATA_DIR / f"nchlt_{language}_test.json"
     output_path = OUTPUT_DIR / f"{language}_inference_results.json"
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -166,10 +166,10 @@ def run_inference(language_code, logger):
     logger.info(f"Total entries for inference: {len(lines)}")
 
     # Shuffle lines to mix datasets
-    import random
-    random.shuffle(lines)
+    # import random
+    # random.shuffle(lines)
     # Limit the number of lines for quick testing
-    lines = lines[:1500]  
+    lines = lines[:2500]  
     results = []
 
     for line in tqdm(lines, desc=f"Running inference for {language}"):

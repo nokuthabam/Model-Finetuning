@@ -4,13 +4,13 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 DATA = BASE_DIR / "data"
 # ======= CONFIG =======
-LANG_CODE   = "ssw"   # e.g. 'nbl', 'zul', 'xho', 'ssw'
-LANG_SHORT  = "ss"   # short language code used in the JSON: 'nr', 'ss', 'xh', 'zu'
+LANG_CODE   = "nbl"   # e.g. 'nbl', 'zul', 'xho', 'ssw'
+LANG_SHORT  = "nr"   # short language code used in the JSON: 'nr', 'ss', 'xh', 'zu'
 XML_TRAIN   = DATA / "nchlt_{}".format(LANG_CODE) / "transcriptions" / "nchlt_{}.trn.xml".format(LANG_CODE)  # or your local path
 XML_TEST    = DATA / "nchlt_{}".format(LANG_CODE) / "transcriptions" / "nchlt_{}.tst.xml".format(LANG_CODE)  # or your local path
 
 
-AUDIO_PREFIX = r"D:/Model-Finetuning/whisper"
+AUDIO_PREFIX = r"D:/Model-Finetuning/whisper/data"
 
 OUT_JSONL = DATA / f"nchlt_{LANG_CODE}.jsonl"
 OUT_JSON  = DATA / f"nchlt_{LANG_CODE}.json"
@@ -23,6 +23,7 @@ def parse_whisper(xml_path: str, audio_prefix: str, lang_short: str):
     for spk in root.findall("speaker"):
         spk_id = spk.attrib.get("id")
         age = spk.attrib.get("age")
+        gender = spk.attrib.get("gender")
         for rec in spk.findall("recording"):
             rel_audio = rec.attrib.get("audio").replace("\\", "/")
             audio_path = f"{audio_prefix}/{rel_audio}"
@@ -32,7 +33,8 @@ def parse_whisper(xml_path: str, audio_prefix: str, lang_short: str):
                 "language": lang_short,
                 "transcription": transcription,
                 "speaker_id": spk_id,
-                "age": age
+                "age": age,
+                "gender": gender
             }
 
 # Combine both train and test XMLs

@@ -1,0 +1,71 @@
+2025-12-28 17:58:59,902 - INFO - Logging setup complete.
+2025-12-28 17:58:59,902 - INFO - ==================================================
+2025-12-28 17:58:59,902 - INFO - Processing language: zulu
+2025-12-28 17:58:59,902 - INFO - ==================================================
+2025-12-28 17:58:59,910 - INFO - Loaded 2500 inference entries for language: zulu
+2025-12-28 17:58:59,911 - INFO - Loading test data from D:\Model-Finetuning\whisper\data\zulu_dataset.json
+2025-12-28 17:58:59,928 - INFO - Loading test data from D:\Model-Finetuning\whisper\data\nchlt_zu_whisper.json
+2025-12-28 17:59:00,030 - INFO - Loaded 50458 test entries for language: zulu
+2025-12-28 17:59:00,055 - INFO - Combined entries count: 2500
+2025-12-28 17:59:00,078 - INFO - Wrote 579 entries to D:\Model-Finetuning\whisper\error_analysis\zulu_unknown.json
+2025-12-28 17:59:00,131 - INFO - Wrote 1488 entries to D:\Model-Finetuning\whisper\error_analysis\zulu_19_29.json
+2025-12-28 17:59:00,144 - INFO - Wrote 179 entries to D:\Model-Finetuning\whisper\error_analysis\zulu_30_39.json
+2025-12-28 17:59:00,151 - INFO - Wrote 60 entries to D:\Model-Finetuning\whisper\error_analysis\zulu_40_49.json
+2025-12-28 17:59:00,159 - INFO - Wrote 179 entries to D:\Model-Finetuning\whisper\error_analysis\zulu_18_below.json
+2025-12-28 17:59:00,164 - INFO - Wrote 15 entries to D:\Model-Finetuning\whisper\error_analysis\zulu_50_plus.json
+2025-12-28 17:59:00,187 - INFO - Wrote 579 entries to D:\Model-Finetuning\whisper\error_analysis\zulu_unknown.json
+2025-12-28 17:59:00,212 - INFO - Wrote 908 entries to D:\Model-Finetuning\whisper\error_analysis\zulu_female.json
+2025-12-28 17:59:00,240 - INFO - Wrote 1013 entries to D:\Model-Finetuning\whisper\error_analysis\zulu_male.json
+2025-12-28 17:59:00,240 - INFO - Completed processing for language: zulu
+2025-12-28 17:59:00,241 - INFO - ==================================================
+2025-12-28 17:59:00,241 - INFO - Processing language: xhosa
+2025-12-28 17:59:00,241 - INFO - ==================================================
+2025-12-28 17:59:00,246 - INFO - Loaded 2500 inference entries for language: xhosa
+2025-12-28 17:59:00,248 - INFO - Loading test data from D:\Model-Finetuning\whisper\data\xhosa_dataset.json
+2025-12-28 17:59:00,266 - INFO - Loading test data from D:\Model-Finetuning\whisper\data\nchlt_xh_whisper.json
+2025-12-28 17:59:00,381 - INFO - Loaded 52893 test entries for language: xhosa
+2025-12-28 17:59:00,398 - INFO - Combined entries count: 2500
+2025-12-28 17:59:00,424 - INFO - Wrote 625 entries to D:\Model-Finetuning\whisper\error_analysis\xhosa_unknown.json
+2025-12-28 17:59:00,460 - INFO - Wrote 1514 entries to D:\Model-Finetuning\whisper\error_analysis\xhosa_19_29.json
+2025-12-28 17:59:00,465 - INFO - Wrote 72 entries to D:\Model-Finetuning\whisper\error_analysis\xhosa_50_plus.json
+2025-12-28 17:59:00,472 - INFO - Wrote 218 entries to D:\Model-Finetuning\whisper\error_analysis\xhosa_30_39.json
+2025-12-28 17:59:00,475 - INFO - Wrote 45 entries to D:\Model-Finetuning\whisper\error_analysis\xhosa_40_49.json
+2025-12-28 17:59:00,478 - INFO - Wrote 26 entries to D:\Model-Finetuning\whisper\error_analysis\xhosa_18_below.json
+2025-12-28 17:59:00,501 - INFO - Wrote 625 entries to D:\Model-Finetuning\whisper\error_analysis\xhosa_unknown.json
+2025-12-28 17:59:00,531 - INFO - Wrote 1043 entries to D:\Model-Finetuning\whisper\error_analysis\xhosa_female.json
+2025-12-28 17:59:00,555 - INFO - Wrote 832 entries to D:\Model-Finetuning\whisper\error_analysis\xhosa_male.json
+2025-12-28 17:59:00,555 - INFO - Completed processing for language: xhosa
+2025-12-28 17:59:00,555 - INFO - ==================================================
+2025-12-28 17:59:00,555 - INFO - Processing language: siswati
+2025-12-28 17:59:00,555 - INFO - ==================================================
+2025-12-28 17:59:00,563 - INFO - Loaded 2500 inference entries for language: siswati
+2025-12-28 17:59:00,564 - INFO - Loading test data from D:\Model-Finetuning\whisper\data\siswati_dataset.json
+2025-12-28 17:59:00,579 - INFO - Loading test data from D:\Model-Finetuning\whisper\data\nchlt_ss_whisper.json
+2025-12-28 17:59:00,690 - INFO - Loaded 49340 test entries for language: siswati
+2025-12-28 17:59:00,711 - INFO - Combined entries count: 2500
+2025-12-28 17:59:00,740 - INFO - Wrote 584 entries to D:\Model-Finetuning\whisper\error_analysis\siswati_unknown.json
+2025-12-28 17:59:00,781 - INFO - Wrote 1719 entries to D:\Model-Finetuning\whisper\error_analysis\siswati_19_29.json
+2025-12-28 17:59:00,789 - INFO - Wrote 168 entries to D:\Model-Finetuning\whisper\error_analysis\siswati_18_below.json
+2025-12-28 17:59:00,791 - INFO - Wrote 29 entries to D:\Model-Finetuning\whisper\error_analysis\siswati_30_39.json
+2025-12-28 17:59:00,813 - INFO - Wrote 584 entries to D:\Model-Finetuning\whisper\error_analysis\siswati_unknown.json
+2025-12-28 17:59:00,842 - INFO - Wrote 1059 entries to D:\Model-Finetuning\whisper\error_analysis\siswati_female.json
+2025-12-28 17:59:00,866 - INFO - Wrote 857 entries to D:\Model-Finetuning\whisper\error_analysis\siswati_male.json
+2025-12-28 17:59:00,866 - INFO - Completed processing for language: siswati
+2025-12-28 17:59:00,866 - INFO - ==================================================
+2025-12-28 17:59:00,866 - INFO - Processing language: ndebele
+2025-12-28 17:59:00,866 - INFO - ==================================================
+2025-12-28 17:59:00,872 - INFO - Loaded 2500 inference entries for language: ndebele
+2025-12-28 17:59:00,875 - INFO - Loading test data from D:\Model-Finetuning\whisper\data\ndebele_dataset.json
+2025-12-28 17:59:00,888 - INFO - Loading test data from D:\Model-Finetuning\whisper\data\nchlt_nr_whisper.json
+2025-12-28 17:59:00,993 - INFO - Loaded 48536 test entries for language: ndebele
+2025-12-28 17:59:01,007 - INFO - Combined entries count: 2500
+2025-12-28 17:59:01,035 - INFO - Wrote 602 entries to D:\Model-Finetuning\whisper\error_analysis\ndebele_unknown.json
+2025-12-28 17:59:01,042 - INFO - Wrote 181 entries to D:\Model-Finetuning\whisper\error_analysis\ndebele_18_below.json
+2025-12-28 17:59:01,047 - INFO - Wrote 100 entries to D:\Model-Finetuning\whisper\error_analysis\ndebele_30_39.json
+2025-12-28 17:59:01,086 - INFO - Wrote 1570 entries to D:\Model-Finetuning\whisper\error_analysis\ndebele_19_29.json
+2025-12-28 17:59:01,091 - INFO - Wrote 47 entries to D:\Model-Finetuning\whisper\error_analysis\ndebele_40_49.json
+2025-12-28 17:59:01,115 - INFO - Wrote 602 entries to D:\Model-Finetuning\whisper\error_analysis\ndebele_unknown.json
+2025-12-28 17:59:01,140 - INFO - Wrote 851 entries to D:\Model-Finetuning\whisper\error_analysis\ndebele_male.json
+2025-12-28 17:59:01,172 - INFO - Wrote 1047 entries to D:\Model-Finetuning\whisper\error_analysis\ndebele_female.json
+2025-12-28 17:59:01,172 - INFO - Completed processing for language: ndebele
+2025-12-28 17:59:01,172 - INFO - All processing complete.

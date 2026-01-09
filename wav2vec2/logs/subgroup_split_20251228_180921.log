@@ -1,0 +1,75 @@
+2025-12-28 18:09:22,001 - INFO - Logging setup complete.
+2025-12-28 18:09:22,002 - INFO - ==================================================
+2025-12-28 18:09:22,002 - INFO - Processing language: zulu
+2025-12-28 18:09:22,002 - INFO - ==================================================
+2025-12-28 18:09:22,011 - INFO - Loaded 2500 inference entries for language: zulu
+2025-12-28 18:09:22,013 - INFO - Loading test data from D:\Model-Finetuning\wav2vec2\data\zulu_dataset.json
+2025-12-28 18:09:22,031 - INFO - Loading test data from D:\Model-Finetuning\wav2vec2\data\nchlt_zul.json
+2025-12-28 18:09:22,145 - INFO - Loaded 50458 test entries for language: zulu
+2025-12-28 18:09:22,162 - INFO - Combined entries count: 2500
+2025-12-28 18:09:22,177 - INFO - Wrote 298 entries to D:\Model-Finetuning\wav2vec2\error_analysis\zulu_30_39.json
+2025-12-28 18:09:22,184 - INFO - Wrote 95 entries to D:\Model-Finetuning\wav2vec2\error_analysis\zulu_50_plus.json
+2025-12-28 18:09:22,192 - INFO - Wrote 191 entries to D:\Model-Finetuning\wav2vec2\error_analysis\zulu_40_49.json
+2025-12-28 18:09:22,228 - INFO - Wrote 1173 entries to D:\Model-Finetuning\wav2vec2\error_analysis\zulu_19_29.json
+2025-12-28 18:09:22,251 - INFO - Wrote 523 entries to D:\Model-Finetuning\wav2vec2\error_analysis\zulu_unknown.json
+2025-12-28 18:09:22,265 - INFO - Wrote 220 entries to D:\Model-Finetuning\wav2vec2\error_analysis\zulu_18_below.json
+2025-12-28 18:09:22,305 - INFO - Wrote 1292 entries to D:\Model-Finetuning\wav2vec2\error_analysis\zulu_male.json
+2025-12-28 18:09:22,346 - INFO - Wrote 1196 entries to D:\Model-Finetuning\wav2vec2\error_analysis\zulu_female.json
+2025-12-28 18:09:22,351 - INFO - Wrote 9 entries to D:\Model-Finetuning\wav2vec2\error_analysis\zulu_not available.json
+2025-12-28 18:09:22,357 - INFO - Wrote 3 entries to D:\Model-Finetuning\wav2vec2\error_analysis\zulu_landline.json
+2025-12-28 18:09:22,357 - INFO - Completed processing for language: zulu
+2025-12-28 18:09:22,357 - INFO - ==================================================
+2025-12-28 18:09:22,357 - INFO - Processing language: xhosa
+2025-12-28 18:09:22,357 - INFO - ==================================================
+2025-12-28 18:09:22,365 - INFO - Loaded 2500 inference entries for language: xhosa
+2025-12-28 18:09:22,368 - INFO - Loading test data from D:\Model-Finetuning\wav2vec2\data\xhosa_dataset.json
+2025-12-28 18:09:22,394 - INFO - Loading test data from D:\Model-Finetuning\wav2vec2\data\nchlt_xho.json
+2025-12-28 18:09:22,517 - INFO - Loaded 52893 test entries for language: xhosa
+2025-12-28 18:09:22,535 - INFO - Combined entries count: 2500
+2025-12-28 18:09:22,559 - INFO - Wrote 451 entries to D:\Model-Finetuning\wav2vec2\error_analysis\xhosa_30_39.json
+2025-12-28 18:09:22,589 - INFO - Wrote 874 entries to D:\Model-Finetuning\wav2vec2\error_analysis\xhosa_19_29.json
+2025-12-28 18:09:22,599 - INFO - Wrote 185 entries to D:\Model-Finetuning\wav2vec2\error_analysis\xhosa_40_49.json
+2025-12-28 18:09:22,629 - INFO - Wrote 830 entries to D:\Model-Finetuning\wav2vec2\error_analysis\xhosa_unknown.json
+2025-12-28 18:09:22,636 - INFO - Wrote 126 entries to D:\Model-Finetuning\wav2vec2\error_analysis\xhosa_50_plus.json
+2025-12-28 18:09:22,640 - INFO - Wrote 34 entries to D:\Model-Finetuning\wav2vec2\error_analysis\xhosa_18_below.json
+2025-12-28 18:09:22,685 - INFO - Wrote 1353 entries to D:\Model-Finetuning\wav2vec2\error_analysis\xhosa_female.json
+2025-12-28 18:09:22,736 - INFO - Wrote 1140 entries to D:\Model-Finetuning\wav2vec2\error_analysis\xhosa_male.json
+2025-12-28 18:09:22,740 - INFO - Wrote 7 entries to D:\Model-Finetuning\wav2vec2\error_analysis\xhosa_not available.json
+2025-12-28 18:09:22,740 - INFO - Completed processing for language: xhosa
+2025-12-28 18:09:22,741 - INFO - ==================================================
+2025-12-28 18:09:22,741 - INFO - Processing language: siswati
+2025-12-28 18:09:22,741 - INFO - ==================================================
+2025-12-28 18:09:22,751 - INFO - Loaded 2500 inference entries for language: siswati
+2025-12-28 18:09:22,754 - INFO - Loading test data from D:\Model-Finetuning\wav2vec2\data\siswati_dataset.json
+2025-12-28 18:09:22,772 - INFO - Loading test data from D:\Model-Finetuning\wav2vec2\data\nchlt_ssw.json
+2025-12-28 18:09:22,881 - INFO - Loaded 49340 test entries for language: siswati
+2025-12-28 18:09:22,897 - INFO - Combined entries count: 2500
+2025-12-28 18:09:22,911 - INFO - Wrote 152 entries to D:\Model-Finetuning\wav2vec2\error_analysis\siswati_40_49.json
+2025-12-28 18:09:22,920 - INFO - Wrote 167 entries to D:\Model-Finetuning\wav2vec2\error_analysis\siswati_30_39.json
+2025-12-28 18:09:22,978 - INFO - Wrote 1609 entries to D:\Model-Finetuning\wav2vec2\error_analysis\siswati_19_29.json
+2025-12-28 18:09:22,996 - INFO - Wrote 358 entries to D:\Model-Finetuning\wav2vec2\error_analysis\siswati_unknown.json
+2025-12-28 18:09:23,003 - INFO - Wrote 31 entries to D:\Model-Finetuning\wav2vec2\error_analysis\siswati_50_plus.json
+2025-12-28 18:09:23,016 - INFO - Wrote 183 entries to D:\Model-Finetuning\wav2vec2\error_analysis\siswati_18_below.json
+2025-12-28 18:09:23,061 - INFO - Wrote 1129 entries to D:\Model-Finetuning\wav2vec2\error_analysis\siswati_male.json
+2025-12-28 18:09:23,116 - INFO - Wrote 1367 entries to D:\Model-Finetuning\wav2vec2\error_analysis\siswati_female.json
+2025-12-28 18:09:23,123 - INFO - Wrote 2 entries to D:\Model-Finetuning\wav2vec2\error_analysis\siswati_not available.json
+2025-12-28 18:09:23,127 - INFO - Wrote 2 entries to D:\Model-Finetuning\wav2vec2\error_analysis\siswati_cellphone.json
+2025-12-28 18:09:23,127 - INFO - Completed processing for language: siswati
+2025-12-28 18:09:23,127 - INFO - ==================================================
+2025-12-28 18:09:23,127 - INFO - Processing language: ndebele
+2025-12-28 18:09:23,127 - INFO - ==================================================
+2025-12-28 18:09:23,136 - INFO - Loaded 2500 inference entries for language: ndebele
+2025-12-28 18:09:23,137 - INFO - Loading test data from D:\Model-Finetuning\wav2vec2\data\ndebele_dataset.json
+2025-12-28 18:09:23,157 - INFO - Loading test data from D:\Model-Finetuning\wav2vec2\data\nchlt_nbl.json
+2025-12-28 18:09:23,261 - INFO - Loaded 48536 test entries for language: ndebele
+2025-12-28 18:09:23,274 - INFO - Combined entries count: 2500
+2025-12-28 18:09:23,321 - INFO - Wrote 1351 entries to D:\Model-Finetuning\wav2vec2\error_analysis\ndebele_19_29.json
+2025-12-28 18:09:23,331 - INFO - Wrote 191 entries to D:\Model-Finetuning\wav2vec2\error_analysis\ndebele_40_49.json
+2025-12-28 18:09:23,345 - INFO - Wrote 259 entries to D:\Model-Finetuning\wav2vec2\error_analysis\ndebele_30_39.json
+2025-12-28 18:09:23,359 - INFO - Wrote 233 entries to D:\Model-Finetuning\wav2vec2\error_analysis\ndebele_18_below.json
+2025-12-28 18:09:23,363 - INFO - Wrote 8 entries to D:\Model-Finetuning\wav2vec2\error_analysis\ndebele_50_plus.json
+2025-12-28 18:09:23,382 - INFO - Wrote 458 entries to D:\Model-Finetuning\wav2vec2\error_analysis\ndebele_unknown.json
+2025-12-28 18:09:23,432 - INFO - Wrote 1335 entries to D:\Model-Finetuning\wav2vec2\error_analysis\ndebele_female.json
+2025-12-28 18:09:23,477 - INFO - Wrote 1165 entries to D:\Model-Finetuning\wav2vec2\error_analysis\ndebele_male.json
+2025-12-28 18:09:23,477 - INFO - Completed processing for language: ndebele
+2025-12-28 18:09:23,477 - INFO - All processing complete.

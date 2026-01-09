@@ -23,7 +23,12 @@ LANGUAGE_MAP = {
     "nbl": "ndebele"
 }
 
-KENLM_PATH = BASE_DIR / "nguni_3gram.arpa"
+KENLM_FILE_MAP = {
+    "zu": BASE_DIR / "zulu_3gram.arpa",
+    "xh": BASE_DIR / "xhosa_3gram.arpa",
+    "ssw": BASE_DIR / "siswati_3gram.arpa",
+    "nbl": BASE_DIR / "ndebele_3gram.arpa"
+}
 CHARS_TO_REMOVE_REGEX = r'[\,\?\.\!\-\;\:\"\“\%\‘\”\'\…\•\°\(\)\=\*\/\`\ː\’]'
 
 
@@ -91,12 +96,25 @@ def clean_text(text):
     return text
 
 
-def load_model(model_path, logger):
+def get_kenlm_path(lang_code: str) -> Path:
+    """
+    Get the KenLM path for the specified language code.
+    """
+    if lang_code not in KENLM_FILE_MAP:
+        raise ValueError(f"No KenLM path found for language code: {lang_code}")
+    
+    kenlm_path = KENLM_FILE_MAP[lang_code]
+    if not kenlm_path.exists():
+        raise FileNotFoundError(f"KenLM file not found at path: {kenln_path}")
+    return kenlm_path
+
+
+def load_model(model_path, kenlm_path: Path, logger):
     """
     Load the finetuned Wav2Vec2 model and processor for the specified language code.
     """
     logger.info(f"Loading Acoustic model from {model_path}")
-    logger.info(f"Loading Language Model from {KENLM_PATH}")
+    logger.info(f"Loading Language Model from {kenlm_path}")
     processor = Wav2Vec2Processor.from_pretrained(model_path)
     model = Wav2Vec2ForCTC.from_pretrained(model_path)
     model.eval()
@@ -106,7 +124,7 @@ def load_model(model_path, logger):
     vocab = sorted(vocab, key=lambda x: processor.tokenizer.get_vocab()[x])
     decode = build_ctcdecoder(
         labels=vocab,
-        kenlm_model_path=str(KENLM_PATH),
+        kenlm_model_path=str(kenlm_path),
         alpha=0.7,
         beta=2.4
     )
@@ -140,9 +158,10 @@ def transcribe_audio(model, processor, decoder, audio_path, logger):
 
 def run_inference(lang_code, logger):
     language = LANGUAGE_MAP.get(lang_code)
-    lwazi_unseen_data_path = DATA_DIR / f"{language}_unseen.json"
+    lwazi_unseen_data_path = DATA_DIR / f"{language}_test.json"
     nchlt_unseen_data_path = DATA_DIR / f"nchlt_{language}_test.json"
-    
+    kenlm_path = get_kenlm_path(lang_code)
+    logger.info(f"Using KenLM path: {kenlm_path}")
     model_paths = get_multilingual_model_paths(lang_code)
     logger.info(f"Found {len(model_paths)} multilingual models for {lang_code}: {[p.name for p in model_paths]}")
 
@@ -156,14 +175,17 @@ def run_inference(lang_code, logger):
     lines.extend(nchlt_lines)
 
     # Shuffle lines to mix datasets
-    random.shuffle(lines)
-    lines = lines[:1000]  # For quick testing
+    # sssrandom.shuffle(lines)
+    lines = lines[:2500]  # For quick testing
 
     for model_path in model_paths:
         output_path = OUTPUT_DIR / f"{language}_{model_path.name}_inference.json"
         output_path.parent.mkdir(parents=True, exist_ok=True)
 
-        model, processor, decoder = load_model(model_path, logger)
+        model, processor, decoder = load_model(
+            model_path,
+            kenlm_path,
+            logger)
         device = "cuda" if torch.cuda.is_available() else "cpu"
         model.to(device)
 
@@ -173,7 +195,11 @@ def run_inference(lang_code, logger):
             audio_path = entry["audio_path"]
             reference = entry["transcript"]
             reference = clean_text(reference)
-            hypothesis = transcribe_audio(model, processor, decoder, audio_path, logger)
+            hypothesis = transcribe_audio(model,
+                                          processor,
+                                          decoder,
+                                          audio_path,
+                                          logger)
             
             results.append({
                 "audio_path": audio_path,

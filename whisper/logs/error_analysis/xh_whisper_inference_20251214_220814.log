@@ -1,0 +1,36 @@
+2025-12-14 22:08:14,423 - INFO - Loaded 5140 entries from D:\Model-Finetuning\whisper\data\xhosa_unseen.json
+2025-12-14 22:08:14,438 - INFO - Loaded 4666 entries from D:\Model-Finetuning\whisper\data\nchlt_xhosa_test.json
+2025-12-14 22:08:14,447 - INFO - Loaded 500 samples for xhosa
+2025-12-14 22:08:14,534 - INFO - Found 8 Whisper models for xh: ['nguni_multilingual_xh_nr_ss_whisper', 'nguni_multilingual_xh_nr_whisper', 'nguni_multilingual_xh_ss_whisper', 'nguni_multilingual_zu_xh_nr_ss_whisper', 'nguni_multilingual_zu_xh_nr_whisper', 'nguni_multilingual_zu_xh_ss_whisper', 'nguni_multilingual_zu_xh_whisper', 'xh_whisper']
+2025-12-14 22:08:14,535 - INFO - Processing with model: nguni_multilingual_xh_nr_ss_whisper
+2025-12-14 22:08:14,535 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_xh_nr_ss_whisper
+2025-12-14 22:08:17,638 - INFO - Model loaded successfully from nguni_multilingual_xh_nr_ss_whisper
+2025-12-14 22:13:21,260 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\xhosa_nguni_multilingual_xh_nr_ss_whisper_results.json
+2025-12-14 22:13:21,260 - INFO - Processing with model: nguni_multilingual_xh_nr_whisper
+2025-12-14 22:13:21,260 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_xh_nr_whisper
+2025-12-14 22:13:24,431 - INFO - Model loaded successfully from nguni_multilingual_xh_nr_whisper
+2025-12-14 22:18:26,185 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\xhosa_nguni_multilingual_xh_nr_whisper_results.json
+2025-12-14 22:18:26,185 - INFO - Processing with model: nguni_multilingual_xh_ss_whisper
+2025-12-14 22:18:26,185 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_xh_ss_whisper
+2025-12-14 22:18:29,238 - INFO - Model loaded successfully from nguni_multilingual_xh_ss_whisper
+2025-12-14 22:23:35,905 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\xhosa_nguni_multilingual_xh_ss_whisper_results.json
+2025-12-14 22:23:35,905 - INFO - Processing with model: nguni_multilingual_zu_xh_nr_ss_whisper
+2025-12-14 22:23:35,905 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_zu_xh_nr_ss_whisper
+2025-12-14 22:23:39,029 - INFO - Model loaded successfully from nguni_multilingual_zu_xh_nr_ss_whisper
+2025-12-14 22:28:41,440 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\xhosa_nguni_multilingual_zu_xh_nr_ss_whisper_results.json
+2025-12-14 22:28:41,441 - INFO - Processing with model: nguni_multilingual_zu_xh_nr_whisper
+2025-12-14 22:28:41,441 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_zu_xh_nr_whisper
+2025-12-14 22:28:44,556 - INFO - Model loaded successfully from nguni_multilingual_zu_xh_nr_whisper
+2025-12-14 22:33:46,563 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\xhosa_nguni_multilingual_zu_xh_nr_whisper_results.json
+2025-12-14 22:33:46,563 - INFO - Processing with model: nguni_multilingual_zu_xh_ss_whisper
+2025-12-14 22:33:46,563 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_zu_xh_ss_whisper
+2025-12-14 22:33:49,686 - INFO - Model loaded successfully from nguni_multilingual_zu_xh_ss_whisper
+2025-12-14 22:38:52,702 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\xhosa_nguni_multilingual_zu_xh_ss_whisper_results.json
+2025-12-14 22:38:52,702 - INFO - Processing with model: nguni_multilingual_zu_xh_whisper
+2025-12-14 22:38:52,703 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_zu_xh_whisper
+2025-12-14 22:38:55,918 - INFO - Model loaded successfully from nguni_multilingual_zu_xh_whisper
+2025-12-14 22:43:59,315 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\xhosa_nguni_multilingual_zu_xh_whisper_results.json
+2025-12-14 22:43:59,315 - INFO - Processing with model: xh_whisper
+2025-12-14 22:43:59,315 - INFO - Loading model from D:\Model-Finetuning\whisper\model\xh_whisper
+2025-12-14 22:44:02,424 - INFO - Model loaded successfully from xh_whisper
+2025-12-14 22:49:07,641 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\xhosa_xh_whisper_results.json

@@ -144,7 +144,7 @@ def analyze_file(language_code, logger):
         "language": language,
         "metrics": metrics,
         "phoneme_substitutions": substitution_list,
-        "examples": problematic_texts[:100],
+        "examples": problematic_texts,
         "notes": {
             "Substitution note": "These are character level substitutions which are used to approximate phoneme confusion.",
             "Morphological analysis note": "Morphological errors include stem mismatches and prefix/suffix mismatches."

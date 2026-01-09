@@ -1,0 +1,36 @@
+2025-12-16 23:18:04,521 - INFO - Loaded 579 entries from D:\Model-Finetuning\whisper\data\zulu_test.json
+2025-12-16 23:18:04,538 - INFO - Loaded 4468 entries from D:\Model-Finetuning\whisper\data\nchlt_zulu_test.json
+2025-12-16 23:18:04,538 - INFO - Loaded 2500 samples for zulu
+2025-12-16 23:18:04,603 - INFO - Found 8 Whisper models for zu: ['nguni_multilingual_zu_nr_ss_whisper', 'nguni_multilingual_zu_nr_whisper', 'nguni_multilingual_zu_ss_whisper', 'nguni_multilingual_zu_xh_nr_ss_whisper', 'nguni_multilingual_zu_xh_nr_whisper', 'nguni_multilingual_zu_xh_ss_whisper', 'nguni_multilingual_zu_xh_whisper', 'zu_whisper']
+2025-12-16 23:18:04,603 - INFO - Processing with model: nguni_multilingual_zu_nr_ss_whisper
+2025-12-16 23:18:04,603 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_zu_nr_ss_whisper
+2025-12-16 23:18:08,005 - INFO - Model loaded successfully from nguni_multilingual_zu_nr_ss_whisper
+2025-12-16 23:42:12,007 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\zulu_nguni_multilingual_zu_nr_ss_whisper_results.json
+2025-12-16 23:42:12,007 - INFO - Processing with model: nguni_multilingual_zu_nr_whisper
+2025-12-16 23:42:12,007 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_zu_nr_whisper
+2025-12-16 23:42:15,610 - INFO - Model loaded successfully from nguni_multilingual_zu_nr_whisper
+2025-12-17 00:06:29,390 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\zulu_nguni_multilingual_zu_nr_whisper_results.json
+2025-12-17 00:06:29,390 - INFO - Processing with model: nguni_multilingual_zu_ss_whisper
+2025-12-17 00:06:29,391 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_zu_ss_whisper
+2025-12-17 00:06:32,616 - INFO - Model loaded successfully from nguni_multilingual_zu_ss_whisper
+2025-12-17 00:30:46,093 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\zulu_nguni_multilingual_zu_ss_whisper_results.json
+2025-12-17 00:30:46,093 - INFO - Processing with model: nguni_multilingual_zu_xh_nr_ss_whisper
+2025-12-17 00:30:46,093 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_zu_xh_nr_ss_whisper
+2025-12-17 00:30:49,223 - INFO - Model loaded successfully from nguni_multilingual_zu_xh_nr_ss_whisper
+2025-12-17 00:55:04,881 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\zulu_nguni_multilingual_zu_xh_nr_ss_whisper_results.json
+2025-12-17 00:55:04,881 - INFO - Processing with model: nguni_multilingual_zu_xh_nr_whisper
+2025-12-17 00:55:04,881 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_zu_xh_nr_whisper
+2025-12-17 00:55:07,987 - INFO - Model loaded successfully from nguni_multilingual_zu_xh_nr_whisper
+2025-12-17 01:19:26,362 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\zulu_nguni_multilingual_zu_xh_nr_whisper_results.json
+2025-12-17 01:19:26,362 - INFO - Processing with model: nguni_multilingual_zu_xh_ss_whisper
+2025-12-17 01:19:26,362 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_zu_xh_ss_whisper
+2025-12-17 01:19:29,560 - INFO - Model loaded successfully from nguni_multilingual_zu_xh_ss_whisper
+2025-12-17 01:43:40,487 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\zulu_nguni_multilingual_zu_xh_ss_whisper_results.json
+2025-12-17 01:43:40,488 - INFO - Processing with model: nguni_multilingual_zu_xh_whisper
+2025-12-17 01:43:40,488 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_zu_xh_whisper
+2025-12-17 01:43:44,332 - INFO - Model loaded successfully from nguni_multilingual_zu_xh_whisper
+2025-12-17 02:08:00,997 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\zulu_nguni_multilingual_zu_xh_whisper_results.json
+2025-12-17 02:08:00,997 - INFO - Processing with model: zu_whisper
+2025-12-17 02:08:00,998 - INFO - Loading model from D:\Model-Finetuning\whisper\model\zu_whisper
+2025-12-17 02:08:04,104 - INFO - Model loaded successfully from zu_whisper
+2025-12-17 02:32:21,060 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\zulu_zu_whisper_results.json

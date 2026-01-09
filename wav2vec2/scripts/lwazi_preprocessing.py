@@ -26,10 +26,15 @@ def load_speaker_metadata(metadata_path, language):
     """
     metadata = pd.read_csv(metadata_path, skiprows=1)
     metadata.columns = ["Speaker", "Gender", "LineType", "Age"]
-    return {
-        f"{language}_{int(row['Speaker']):03d}": row["Age"]
-        for _, row in metadata.iterrows()
-    }
+    speaker_meta = {}
+
+    for _, row in metadata.iterrows():
+        speaker_id = f"{language}_{int(row['Speaker']):03d}"
+        speaker_meta[speaker_id] = {
+            "age": row["Age"],
+            "gender": str(row["Gender"]).strip().lower() if pd.notna(row["Gender"]) else "unknown"
+        }
+    return speaker_meta
 
 
 def clean_transcript(transcript):
@@ -42,7 +47,7 @@ def clean_transcript(transcript):
     return transcript
 
 
-def build_unified_dataset(transcript_path, speaker_age_map, audio_base_dir):
+def build_unified_dataset(transcript_path, meta, audio_base_dir):
     """
     Build a unified dataset from the transcript and metadata files.
     """
@@ -52,13 +57,15 @@ def build_unified_dataset(transcript_path, speaker_age_map, audio_base_dir):
         subfolder = row["Subfolder"]
         file_id = row["File ID"]
         audio_path = audio_base_dir / subfolder / f"{file_id}.wav"
-        age = speaker_age_map.get(subfolder, "Unkown")
+        age = meta.get(subfolder, {}).get("age", "Unknown")
+        gender = meta.get(subfolder, {}).get("gender", "unknown")
         transcript = clean_transcript(row["Transcription"])
         unified_dataset.append({
             "audio_path": str(audio_path),
             "transcript": transcript,
             "speaker_id": subfolder,
-            "age": age
+            "age": age,
+            "gender": gender
         })
     return unified_dataset
     
@@ -66,32 +73,32 @@ def build_unified_dataset(transcript_path, speaker_age_map, audio_base_dir):
 def main():
     
     # Zulu Logic
-    speaker_age_map_zulu = load_speaker_metadata(ZULU_METADATA_PATH, "isizulu")
-    zulu_dataset = build_unified_dataset(ZULU_TRANSCRIPT_PATH, speaker_age_map_zulu, ZULU_AUDIO_BASE_DIR)
+    zulu_age_gender = load_speaker_metadata(ZULU_METADATA_PATH, "isizulu")
+    zulu_dataset = build_unified_dataset(ZULU_TRANSCRIPT_PATH, zulu_age_gender, ZULU_AUDIO_BASE_DIR)
     with open(BASE_DIR / "data/zulu_dataset.json", "w") as f:
         for item in zulu_dataset:
             f.write(json.dumps(item) + "\n")
     print(f"Zulu dataset created with {len(zulu_dataset)} entries.")
 
     # Xhosa Logic
-    speaker_age_map_xhosa = load_speaker_metadata(XHOSA_METADATA_PATH, "isixhosa")
-    xhosa_dataset = build_unified_dataset(XHOSA_TRANSCRIPT_PATH, speaker_age_map_xhosa, XHOSA_AUDIO_BASE_DIR)
+    xhosa_age_gender = load_speaker_metadata(XHOSA_METADATA_PATH, "isixhosa")
+    xhosa_dataset = build_unified_dataset(XHOSA_TRANSCRIPT_PATH, xhosa_age_gender, XHOSA_AUDIO_BASE_DIR)
     with open(BASE_DIR / "data/xhosa_dataset.json", "w") as f:
         for item in xhosa_dataset:
             f.write(json.dumps(item) + "\n")
     print(f"Xhosa dataset created with {len(xhosa_dataset)} entries.")
 
     # Ndebele Logic
-    speaker_age_map_ndebele = load_speaker_metadata(NDEBELE_METADATA_PATH , "isindebele")
-    ndebele_dataset = build_unified_dataset(NDEBELE_TRANSCRIPT_PATH, speaker_age_map_ndebele, NDEBELE_AUDIO_BASE_DIR)
+    ndebele_age_gender = load_speaker_metadata(NDEBELE_METADATA_PATH , "isindebele")
+    ndebele_dataset = build_unified_dataset(NDEBELE_TRANSCRIPT_PATH, ndebele_age_gender, NDEBELE_AUDIO_BASE_DIR)
     with open(BASE_DIR / "data/ndebele_dataset.json", "w") as f:
         for item in ndebele_dataset:
             f.write(json.dumps(item) + "\n")
     print(f"Ndebele dataset created with {len(ndebele_dataset)} entries.")
 
     # Siswati Logic
-    speaker_age_map_siswati = load_speaker_metadata(SISWATI_METADATA_PATH, "siswati")
-    siswati_dataset = build_unified_dataset(SISWATI_TRANSCRIPT_PATH, speaker_age_map_siswati, SISWATI_AUDIO_BASE_DIR)
+    siswati_age_gender = load_speaker_metadata(SISWATI_METADATA_PATH, "siswati")
+    siswati_dataset = build_unified_dataset(SISWATI_TRANSCRIPT_PATH, siswati_age_gender, SISWATI_AUDIO_BASE_DIR)
     with open(BASE_DIR / "data/siswati_dataset.json", "w") as f:
         for item in siswati_dataset:
             f.write(json.dumps(item) + "\n")

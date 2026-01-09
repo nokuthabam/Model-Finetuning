@@ -8,10 +8,10 @@ from datetime import datetime
 
 
 LANGUAGES = {
-    "zulu": "isizulu",
-    "xhosa": "isixhosa",
-    "siswati": "siswati",
-    "ndebele": "isindebele"
+    "zulu": "zul",
+    "xhosa": "xho",
+    "siswati": "ssw",
+    "ndebele": "nbl"
 }
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -35,92 +35,147 @@ def setup_logging():
     logging.info("Logging setup complete.")
 
 
+
 def age_group_def(age):
     """
-    Classify age into groups
+    Classify age into groups.
     """
-    try:
-        age = int(age)
-        if age <= 18:
-            return "18 below"
-        elif age < 30:
-            return "19-29"
-        elif age < 40:
-            return "30-39"
-        elif age < 50:
-            return "40-49"
-        else:
-            return "50+"
-    except ValueError:
-        return "Unknown"
+    if age is None:
+        return "unknown"
+
+    age = str(age).strip().lower()
+
+    # Handle common non-numeric cases
+    if age in {"nan", "not available", "unknown", "", "-1"}:
+        return "unknown"
+
+    # Handle decades like "70s"
+    if age.endswith("s") and age[:-1].isdigit():
+        age = int(age[:-1])
+    else:
+        try:
+            age = int(age)
+        except ValueError:
+            return "unknown"
+    if age <= 0:
+        return "unknown"
+    elif age <= 18:
+        return "18_below"
+    elif age < 30:
+        return "19_29"
+    elif age < 40:
+        return "30_39"
+    elif age < 50:
+        return "40_49"
+    else:
+        return "50_plus"
+
+
+def load_inference_results(json_path):
+    """
+    Load inference results from a JSON file.
+    """
+    with open(json_path, 'r') as f:
+        data = [json.loads(line) for line in f]
+    return data
+
+
+def split_by_age_and_gender(entries):
+    age_groups = {}
+    gender_groups = {}
+    for entry in entries:
+        age = entry.get("age")
+        gender = str(entry.get("gender", "unknown")).lower()
+        age_group = age_group_def(age)
+
+        age_groups.setdefault(age_group, []).append(entry)
+        gender_groups.setdefault(gender, []).append(entry)
+    
+    return age_groups, gender_groups
+
+
+def write_outputs(base_name, output_dir, grouped_data):
+    for group, entries in grouped_data.items():
+        output_path = output_dir / f"{base_name}_{group}.json"
+        with open(output_path, 'w') as f:
+            for entry in entries:
+                f.write(json.dumps(entry) + "\n")
+        logging.info(f"Wrote {len(entries)} entries to {output_path}")
+
+
+def load_test_data(language, language_code):
+    # Lwazi
+    files = [
+        DATA_DIR / f"{language}_dataset.json",
+        DATA_DIR / f"nchlt_{language_code}.json"
+    ]
+
+    data = []
+    for filepath in files:
+        if not filepath.exists():
+            logging.warning(f"Test data file {filepath} does not exist.")
+            continue
+        logging.info(f"Loading test data from {filepath}")
+        with open(filepath, 'r', encoding='utf-8') as f:
+            for line in f:
+                entry = json.loads(line)
+                entry["dataset"] = "nchlt" if "nchlt" in filepath.name else "lwazi"
+                data.append(entry)
+    return data
+
+
+def add_metadata(inference_entries, test_entries):
+    meta_data = {}
+    for entry in test_entries:
+        meta_data[entry['audio_path']] = {
+            "age": entry.get("age"),
+            "gender": entry.get("gender") or entry.get("sex"),
+        }
+
+    final = []
+    for entry in inference_entries:
+        meta = meta_data.get(entry['audio_path'], {})
+        entry["age"] = meta.get("age")
+        entry["gender"] = meta.get("gender", "unknown")
+        final.append(entry)
+    return final
 
 
 def main():
     logger = logging.getLogger(__name__)
     setup_logging()
-    # iterate through each language
     for lang, lang_code in LANGUAGES.items():
-        metadata_file = DATA_DIR / f"Lwazi_metadata_{lang_code}.csv"
-        if not metadata_file.exists():
-            logger.warning(f"Metadata file for {lang} not found.")
-            continue
+        logger.info("=" * 50)
+        logger.info(f"Processing language: {lang}")
+        logger.info("=" * 50)
 
-        metadata = pd.read_csv(metadata_file)
-        metadata.columns = metadata.iloc[0]  # Set the first row as header
-        metadata = metadata[1:] # Remove the first row
-        metadata = metadata.rename(columns={"Speaker": "speaker_id", "Gender": "gender", "Age": "age"})
-        metadata["speaker_id"] = metadata["speaker_id"].astype(int).apply(lambda x: f"{lang_code}_{x}".lower())
-        metadata["age"] = pd.to_numeric(metadata["age"], errors='coerce')
-        metadata["age_group"] = metadata["age"].apply(age_group_def)
-
-        speaker_info = metadata.set_index("speaker_id")[["gender", "age_group"]].to_dict(orient="index")
-
-        # load the inference results
-        json_path = OUTPUT_DIR / f"{lang}_inference_results.json"
-        logger.info(f"Loading inference results from {json_path}")
-        if not json_path.exists():
-            logger.warning(f"Inference results for {lang} not found.")
+        # Load inference results
+        inference_path = OUTPUT_DIR / f"{lang}_inference_results.json"
+        if not inference_path.exists():
+            logger.error(f"Inference results file {inference_path} does not exist. Skipping.")
             continue
         
-        with open(json_path, 'r') as f:
-            data = [json.loads(line) for line in f]
+        inference_entries = load_inference_results(inference_path)
+        logger.info(f"Loaded {len(inference_entries)} inference entries for language: {lang}")
+        print(f"Loaded {len(inference_entries)} inference entries for language: {lang}")
 
-        # Organise data into gender and age groups
-        gender_groups = {}
-        age_groups = {}
+        test_entries = load_test_data(lang, lang_code)
+        logger.info(f"Loaded {len(test_entries)} test entries for language: {lang}")
+        print(f"Loaded {len(test_entries)} test entries for language: {lang}")
 
-        for entry in data:
-            speaker_id = Path(entry["audio_path"]).parts[-2].lower()
-            speaker_meta = speaker_info.get(speaker_id)
+        combined_entries = add_metadata(inference_entries, test_entries)
+        logger.info(f"Combined entries count: {len(combined_entries)}")
+        print(f"Combined entries count: {len(combined_entries)}")
 
-            if not speaker_meta:
-                logger.warning(f"Speaker metadata not found for {speaker_id}. Skipping entry.")
-                continue
+        age_groups, gender_groups = split_by_age_and_gender(combined_entries)
 
-            gender = str(speaker_meta.get("gender", "unknown")).lower().replace(" ", "_")
-            age_group = speaker_meta["age_group"]
+        write_outputs(lang, OUTPUT_DIR, age_groups)
+        write_outputs(lang, OUTPUT_DIR, gender_groups)
 
-            gender_groups.setdefault(gender, []).append(entry)
-            age_groups.setdefault(age_group, []).append(entry)
-
-        # Write JSON files by age group
-        for gender, entries in gender_groups.items():
-            output_path = OUTPUT_DIR / f"{lang}_{gender}.json"
-            with open(output_path, 'w') as f:
-                for e in entries:
-                    f.write(json.dumps(e) + "\n")
-
-
-        for age_group, entries in age_groups.items():
-            age_slug = age_group.replace("+", "plus").replace("-", "_").lower()
-            output_path = OUTPUT_DIR / f"{lang}_{age_slug}.json"
-            with open(output_path, 'w') as f:
-                for e in entries:
-                    f.write(json.dumps(e) + "\n")
-
-        print(f"Processed {lang} data: {len(data)} entries")
+        logger.info(f"Completed processing for language: {lang}")
+        print(f"Completed processing for language: {lang}")
+    logger.info("All processing complete.")
 
 
 if __name__ == "__main__":
     main()
-

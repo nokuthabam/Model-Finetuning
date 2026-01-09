@@ -1,34 +1,34 @@
 {
   "ndebele_results": {
-    "wer": 0.26632762312633834,
-    "cer": 0.0658578251926228
+    "wer": 0.18390905886499823,
+    "cer": 0.03903240607360457
   },
   "ndebele_nguni_multilingual_nr_ss_whisper_results": {
-    "wer": 0.30746898917920296,
-    "cer": 0.07382363192750087
+    "wer": 0.2062263653152757,
+    "cer": 0.04206549924768704
   },
   "ndebele_nguni_multilingual_xh_nr_ss_whisper_results": {
-    "wer": 0.33134003805381895,
-    "cer": 0.07942402690677224
+    "wer": 0.23395958879829848,
+    "cer": 0.048022417591820146
   },
   "ndebele_nguni_multilingual_xh_nr_whisper_results": {
-    "wer": 0.2893387314439946,
-    "cer": 0.06909714926104923
+    "wer": 0.2079251610625717,
+    "cer": 0.04301914218227291
   },
   "ndebele_nguni_multilingual_zu_nr_ss_whisper_results": {
-    "wer": 0.3291036717062635,
-    "cer": 0.07785145423288777
+    "wer": 0.2319084781837531,
+    "cer": 0.04828603810705045
   },
   "ndebele_nguni_multilingual_zu_nr_whisper_results": {
-    "wer": 0.29627616200054363,
-    "cer": 0.06949617033237299
+    "wer": 0.21021314387211368,
+    "cer": 0.04380202426550831
   },
   "ndebele_nguni_multilingual_zu_xh_nr_ss_whisper_results": {
-    "wer": 0.36923076923076925,
-    "cer": 0.0889762121956354
+    "wer": 0.26412092283214,
+    "cer": 0.05439267922430566
   },
   "ndebele_nguni_multilingual_zu_xh_nr_whisper_results": {
-    "wer": 0.33297062023939067,
-    "cer": 0.078177727784027
+    "wer": 0.23106262196203656,
+    "cer": 0.047446740177711166
   }
 }

@@ -1,0 +1,34 @@
+{
+  "xhosa_results": {
+    "wer": 0.9998643331976665,
+    "cer": 0.9813350120281481
+  },
+  "xhosa_nguni_multilingual_xh_nr_ss_whisper_results": {
+    "wer": 0.971703531455307,
+    "cer": 0.9511234198418725
+  },
+  "xhosa_nguni_multilingual_xh_nr_whisper_results": {
+    "wer": 0.972029054690423,
+    "cer": 0.9484547581974304
+  },
+  "xhosa_nguni_multilingual_xh_ss_whisper_results": {
+    "wer": 0.9728597974299249,
+    "cer": 0.9537260032517999
+  },
+  "xhosa_nguni_multilingual_zu_xh_nr_ss_whisper_results": {
+    "wer": 0.9879072251468681,
+    "cer": 0.943505696139316
+  },
+  "xhosa_nguni_multilingual_zu_xh_nr_whisper_results": {
+    "wer": 0.9878541762805723,
+    "cer": 0.9427477401205467
+  },
+  "xhosa_nguni_multilingual_zu_xh_ss_whisper_results": {
+    "wer": 0.9894279137181345,
+    "cer": 0.9535750167448092
+  },
+  "xhosa_nguni_multilingual_zu_xh_whisper_results": {
+    "wer": 0.9805805862894947,
+    "cer": 0.914134377974261
+  }
+}

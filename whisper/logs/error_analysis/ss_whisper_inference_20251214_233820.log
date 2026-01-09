@@ -1,0 +1,36 @@
+2025-12-14 23:38:20,784 - INFO - Loaded 4736 entries from D:\Model-Finetuning\whisper\data\siswati_unseen.json
+2025-12-14 23:38:20,798 - INFO - Loaded 4351 entries from D:\Model-Finetuning\whisper\data\nchlt_siswati_test.json
+2025-12-14 23:38:20,801 - INFO - Loaded 500 samples for siswati
+2025-12-14 23:38:20,908 - INFO - Found 8 Whisper models for ss: ['nguni_multilingual_nr_ss_whisper', 'nguni_multilingual_xh_nr_ss_whisper', 'nguni_multilingual_xh_ss_whisper', 'nguni_multilingual_zu_nr_ss_whisper', 'nguni_multilingual_zu_ss_whisper', 'nguni_multilingual_zu_xh_nr_ss_whisper', 'nguni_multilingual_zu_xh_ss_whisper', 'ss_whisper']
+2025-12-14 23:38:20,908 - INFO - Processing with model: nguni_multilingual_nr_ss_whisper
+2025-12-14 23:38:20,908 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_nr_ss_whisper
+2025-12-14 23:38:23,995 - INFO - Model loaded successfully from nguni_multilingual_nr_ss_whisper
+2025-12-14 23:44:03,676 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\siswati_nguni_multilingual_nr_ss_whisper_results.json
+2025-12-14 23:44:03,677 - INFO - Processing with model: nguni_multilingual_xh_nr_ss_whisper
+2025-12-14 23:44:03,677 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_xh_nr_ss_whisper
+2025-12-14 23:44:06,809 - INFO - Model loaded successfully from nguni_multilingual_xh_nr_ss_whisper
+2025-12-14 23:49:42,979 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\siswati_nguni_multilingual_xh_nr_ss_whisper_results.json
+2025-12-14 23:49:42,979 - INFO - Processing with model: nguni_multilingual_xh_ss_whisper
+2025-12-14 23:49:42,980 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_xh_ss_whisper
+2025-12-14 23:49:46,092 - INFO - Model loaded successfully from nguni_multilingual_xh_ss_whisper
+2025-12-14 23:55:24,654 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\siswati_nguni_multilingual_xh_ss_whisper_results.json
+2025-12-14 23:55:24,654 - INFO - Processing with model: nguni_multilingual_zu_nr_ss_whisper
+2025-12-14 23:55:24,654 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_zu_nr_ss_whisper
+2025-12-14 23:55:27,760 - INFO - Model loaded successfully from nguni_multilingual_zu_nr_ss_whisper
+2025-12-15 00:01:05,231 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\siswati_nguni_multilingual_zu_nr_ss_whisper_results.json
+2025-12-15 00:01:05,232 - INFO - Processing with model: nguni_multilingual_zu_ss_whisper
+2025-12-15 00:01:05,232 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_zu_ss_whisper
+2025-12-15 00:01:08,313 - INFO - Model loaded successfully from nguni_multilingual_zu_ss_whisper
+2025-12-15 00:06:47,036 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\siswati_nguni_multilingual_zu_ss_whisper_results.json
+2025-12-15 00:06:47,036 - INFO - Processing with model: nguni_multilingual_zu_xh_nr_ss_whisper
+2025-12-15 00:06:47,037 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_zu_xh_nr_ss_whisper
+2025-12-15 00:06:50,142 - INFO - Model loaded successfully from nguni_multilingual_zu_xh_nr_ss_whisper
+2025-12-15 00:12:28,089 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\siswati_nguni_multilingual_zu_xh_nr_ss_whisper_results.json
+2025-12-15 00:12:28,089 - INFO - Processing with model: nguni_multilingual_zu_xh_ss_whisper
+2025-12-15 00:12:28,089 - INFO - Loading model from D:\Model-Finetuning\whisper\model\nguni_multilingual_zu_xh_ss_whisper
+2025-12-15 00:12:31,346 - INFO - Model loaded successfully from nguni_multilingual_zu_xh_ss_whisper
+2025-12-15 00:18:09,215 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\siswati_nguni_multilingual_zu_xh_ss_whisper_results.json
+2025-12-15 00:18:09,217 - INFO - Processing with model: ss_whisper
+2025-12-15 00:18:09,217 - INFO - Loading model from D:\Model-Finetuning\whisper\model\ss_whisper
+2025-12-15 00:18:12,329 - INFO - Model loaded successfully from ss_whisper
+2025-12-15 00:23:52,004 - INFO - Saved results to D:\Model-Finetuning\whisper\error_analysis\siswati_ss_whisper_results.json

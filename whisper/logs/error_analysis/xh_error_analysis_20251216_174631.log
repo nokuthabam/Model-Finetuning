@@ -1,0 +1,4 @@
+2025-12-16 17:46:31,585 - INFO - Loading inference results for xhosa from D:\Model-Finetuning\whisper\error_analysis\xhosa_inference_results.json
+2025-12-16 17:46:31,651 - INFO - Error analysis report saved to D:\Model-Finetuning\whisper\results\error_analysis\xhosa_error_analysis_report.json
+2025-12-16 17:46:31,651 - INFO - Top 10 phoneme substitutions: [(('e', 'l'), 133), (('a', 'n'), 131), (('u', 'k'), 127), (('n', 'a'), 118), (('n', 'e'), 117), (('l', 'e'), 111), (('l', 'a'), 111), (('e', 'n'), 108), (('e', 'i'), 105), (('a', 'l'), 104)]
+2025-12-16 17:46:31,651 - INFO - WER: 0.1917808219178082, CER: 0.0345191169075543

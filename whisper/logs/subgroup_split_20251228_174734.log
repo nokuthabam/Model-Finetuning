@@ -1,0 +1,8 @@
+2025-12-28 17:47:34,475 - INFO - Logging setup complete.
+2025-12-28 17:47:34,475 - INFO - ==================================================
+2025-12-28 17:47:34,475 - INFO - Processing language: zulu
+2025-12-28 17:47:34,475 - INFO - ==================================================
+2025-12-28 17:47:34,482 - INFO - Loaded 2500 inference entries for language: zulu
+2025-12-28 17:47:34,485 - INFO - Loading test data from D:\Model-Finetuning\whisper\data\zulu_dataset.json
+2025-12-28 17:47:34,499 - INFO - Loading test data from D:\Model-Finetuning\whisper\data\nchlt_zu_whisper.json
+2025-12-28 17:47:34,601 - INFO - Loaded 50458 test entries for language: zulu
